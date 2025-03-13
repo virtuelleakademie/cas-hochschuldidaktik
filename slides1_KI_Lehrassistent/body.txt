@@ -1,0 +1,815 @@
+<div class="theme-font-montserrat theme-color-black-blue" style="width: 100%; height: 100%;">
+    <div class="reveal">
+        <div class="slides">
+            <section data-id="2b95a2d306deea34e7dfaccced3ddc9c">
+                <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 301px; height: auto;" data-block-id="b0bbf6204374ca4b749f26ea03b6591d">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+                        <h1>KI als Lehrassistent</h1>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="c1f8da1e923a2d83844d9de0f50ff469">
+                <div class="sl-block" data-block-type="text" style="width: 720.227px; left: 0px; top: 16px; height: auto;" data-name="text-13ab56" data-block-id="75d79b1e8bfef27f1bfde6964d60e9b5">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h2>KI als Superkraft</h2>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sl-block" data-block-type="image" style="width: 480px; height: 480px; left: 0px; top: 221px; min-width: 1px; min-height: 1px;" data-name="image-55ae06" data-block-id="d329acfe39c6a468dc380604c2bc9278">
+                    <div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1024" data-natural-height="1024" data-lazy-loaded="" data-src="https://media.slid.es/uploads/2458893/images/10854692/be1f2641-73aa-4ed2-bd98-6cbf7a2045e6.webp"></div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 480px; height: 480px; left: 480px; top: 107px; min-width: 1px; min-height: 1px;" data-name="image-9e220c" data-block-id="443ae9536cb87e39700178f05cc93782">
+                    <div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="1024" data-natural-height="1024" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/10854704/9b78ba43-406e-413b-b938-7f23b7c547e8.webp"></div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 80.2271px; height: 80px; left: 879.773px; top: 620px; min-width: 1px; min-height: 1px;" data-name="image-4fcd52" data-block-id="979bfd16f10f38b2f8229fc1f122f834">
+                    <div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="1316" data-natural-height="875" data-crop-x="0.531451" data-crop-y="0" data-crop-width="0.468549" data-crop-height="0.702703" style="left: -91px; top: 0px; width: 171px; height: 114px;" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11039983/navi__3_.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 480px; left: 0px; top: 107px;" data-name="text-a6e1d2" data-block-id="27e5ee96cc6c71477faf5dd3b2505b46">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+                        <p>Mehr Möglichkeiten &amp; Medien</p>
+
+                        <p>Mehr Individualität &amp; Flexibilität</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 399.773px; left: 480px; top: 610.5px;" data-name="text-aad2e5" data-block-id="cc1568024781a7d42be61ba6ad848657">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+                        <p>Mehr Praxisbezug&nbsp;</p>
+
+                        <p>Mehr Kompetenzorientiert</p>
+
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+
+                <div class="sl-block" data-block-type="image" style="width: 71.6419px; height: 39.88px; left: 0px; top: 660.12px; min-width: 1px; min-height: 1px;" data-name="image-91b03a" data-block-id="1c985285d1367c8482ffa0d4ea41a38d">
+                    <div class="sl-block-content" style="z-index: 17;"><img class="" data-natural-width="1412" data-natural-height="786" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11485715/pasted-from-clipboard.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 71.6419px; height: 39.88px; left: 480px; top: 547.12px; min-width: 1px; min-height: 1px;" data-name="image-68e3ce" data-block-id="e53c5babf8610033aa3154d9a64c02a5">
+                    <div class="sl-block-content" style="z-index: 18;"><img class="" data-natural-width="1412" data-natural-height="786" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11485715/pasted-from-clipboard.png"></div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="81de9b9c11e510d32ead550f9268a779">
+                <div class="sl-block" data-block-type="text" style="width: 904px; left: 0px; top: 21px; height: auto;" data-name="text-13ab56" data-block-id="72d572d156b5c977f9318c72c85544e7">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h2>KI verstehen um sie zu lehren</h2>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 898px; left: 31px; top: 132.5px;" data-name="text-e2db0b" data-block-id="ac27e400bedcfd603ddb8638d63381bc">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.235;" data-has-line-height="">
+                        <p style="text-align:left">KI bringt klaren Wettbewerbsvorteil, wenn richtig angewendet</p>
+
+                        <p style="text-align:left">&nbsp;</p>
+
+                        <p style="text-align:left"><a href="https://www.vodafone-stiftung.de/jugendstudie-kuenstliche-intelligenz/" target="_blank">Studys wollen KI lernen.</a><br>
+                            &nbsp;</p>
+
+                        <p style="text-align:left">richtige Anwendung lehren? erst selbst erlernen!<br>
+                            &nbsp;</p>
+
+                        <p style="text-align:left">Perfekte Gelegenheit:</p>
+
+                        <p style="text-align:left">Unterricht vorbereiten mit KI, um KI zu lernen</p>
+
+                        <p style="text-align:left">&nbsp;</p>
+
+                        <p style="text-align:left">Schwierigkeit: Anwendung &nbsp;&lt;&lt; nutzvoller Umgang</p>
+
+                        <p style="text-align:left">&nbsp;</p>
+
+                        <p style="text-align:left">Chatbot ist zentraler KI Skill - Schnittstelle zu anderen KI&nbsp;</p>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="28be0316491a895e08682303399fa47d">
+                <div class="sl-block" data-block-type="text" style="width: 576.227px; left: 0px; top: 23px; height: auto;" data-name="text-13ab56" data-block-id="1f091745b4342cb76bfca84312959136">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h2>KI Assistent</h2>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 938.5px; left: 10.75px; top: 466px;" data-name="text-e2db0b" data-block-id="3e058f5d45514cf099433586d947eaaf">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.56;" data-has-line-height="">
+                        <ul>
+                            <li style="text-align:left">Chatbot kann Kommunikation <span style="color:rgb(255, 255, 255); text-align:left">→</span>muss sprechen zum denken</li>
+                            <li style="text-align:left">Lehre ist Kommunikation → &nbsp;Chatbot ist idealer Lehrassistent</li>
+                            <li style="text-align:left">nimmt lästige Aufgaben ab - braucht klare Instruktionen</li>
+                            <li style="text-align:left">Konzentrieren auf meine Kompetenzen</li>
+                            <li style="text-align:left">Weniger Aufwand → Mehr Qualität</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 543.931px; height: 341.468px; left: 78.5875px; top: 111.266px; min-width: 1px; min-height: 1px;" data-name="image-2c60b6" data-block-id="212c0d3ebbbd482f6ef9d9304ea62371">
+                    <div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="540" data-natural-height="339" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11078489/g1an802ms7ya1.jpg"></div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 802.825px; height: 341.468px; left: 78.5875px; top: 111.266px; min-width: 1px; min-height: 1px;" data-name="image-2dd680" data-block-id="356a3b9a5b2924ebf200c9e11a92adba">
+                    <div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="960" data-natural-height="540" data-crop-x="0" data-crop-y="0.131148" data-crop-width="1" data-crop-height="0.756148" style="left: 0px; top: -59px; width: 803px; height: 452px;" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11078520/Template_FHNW__11_.png"></div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="d7a50d620382440d2685f8b256cb47d2">
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 437.127px; left: 24.373px; top: 146px;" data-name="text-88bc1e" data-block-id="caa35a60df93e5d2b11df36ccc9f9a46">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.95;" data-has-line-height="">
+                        <p style="text-align:left">Gute Musterlösung ist</p>
+
+                        <ul>
+                            <li>Klar verständlich</li>
+                            <li>Vollständig</li>
+                            <li>Schritt für Schritt</li>
+                            <li>Anschaulich <span style="font-size:0.7em">Beispiele &amp; Grafiken</span>
+                            </li>
+                            <li>viel Aufwand</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="width: 720px; left: 0px; top: 24.5px; height: auto;" data-name="text-c9648d" data-block-id="6812c9a444bd50de7c2b7300c015c3c7">
+                    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h2>Musterlösung schreiben</h2>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sl-block" data-block-type="image" style="width: 480px; height: 480px; left: 480px; top: 133px; min-width: 1px; min-height: 1px;" data-name="image-3264d1" data-block-id="fe45edc636ca799f688d2f25d59fbbc8">
+                    <div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="1024" data-natural-height="1024" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/10971203/pasted-from-clipboard.png"></div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="ebd123fa9e8c5321dc75dd3959cd111a">
+                <div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 0px; top: 560px; min-width: 1px; min-height: 1px;" data-name="image-3264d1" data-block-id="3dda0282f2fee20907cb9893a12137b6">
+                    <div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="1024" data-natural-height="1024" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/10971203/pasted-from-clipboard.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 437.127px; left: 24.373px; top: 146px;" data-name="text-88bc1e" data-block-id="2028848195ae32009f0fc213eb8f61da">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; line-height: 1.95;" data-has-line-height="">
+                        <p style="text-align:left">Gute Musterlösung ist</p>
+
+                        <ul>
+                            <li>Klar verständlich</li>
+                            <li>Vollständig</li>
+                            <li>Schritt für Schritt</li>
+                            <li>Anschaulich <span style="font-size:0.7em">Beispiele &amp; Grafiken</span>
+                            </li>
+                            <li>viel Aufwand</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="width: 720px; left: 0px; top: 24.5px; height: auto;" data-name="text-c9648d" data-block-id="b54a1f8392234ca51943738bf192da28">
+                    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+                        <h2>Musterlösung schreiben</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 661px;" data-name="text-d78b75" data-block-id="d0204f857e393e3a883fc0ee6c2b710e">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+                        <p>HowTo: <a href="https://docs.google.com/document/d/11-qqBWGMsILuD_9Lcc384e47KxTiqiqsKqEY5J6fFUA/edit?usp=sharing" target="_blank">Aufgaben &amp; Musterlösungen</a></p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 441px; height: 373.75px; left: 489.5px; top: 278.25px;" data-name="code-bbc73f" data-block-id="c0e385911383b54c0a683be2b4744566">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 13;">
+                        <pre class="autohotkey" style="font-size: 10px; line-height: 12px; tab-size: 4;"><code data-line-numbers="">Rolle: Du bist Dozent für Mathematik für Informatiker.
+Aufgabe: Ich gebe dir gleich eine Übungsaufgabe.
+Schreibe die Musterlösungen. Atme tief durch.
+Löse dann nacheinander je eine Teilaufgabe.
+Gehe dabei Schritt für Schritt vor.
+Dann überprüfe die Lösung. Wenn die Lösung richtig ist,
+dann schreibe die korrekte Lösung Schritt für Schritt
+in der Latex Umgebung. Löse so nacheinander alle Aufgaben.
+Format: Die Musterlösung sollte ausführlich sein,
+der Text jedoch kurz gehalten. Das Ausgabeformat sollte
+dem Format Beispiel entsprechen. Die Formulierungen sind
+klar verständlich und anschaulich.
+
+Format Beispiel:
+&gt;&gt;&gt;Aufgabentext&lt;&lt;&lt;
+\begin{itemize}
+   \item &gt;&gt;&gt;Aufgabe a)&lt;&lt;&lt;
+
+	\begin{loesung}
+		&gt;&gt;&gt;Solution to a)&lt;&lt;&lt;
+	\end{loesung}
+   \item &gt;&gt;&gt;Aufgabe b)&lt;&lt;&lt;
+
+	\begin{loesung}
+		&gt;&gt;&gt;Solution to b)&lt;&lt;&lt;
+	\end{loesung}
+\end{itemize}
+
+Übungsaufgabe:
+[Latex code einfügen]
+</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 360px; top: 180px;" data-name="text-c0a78e" data-block-id="49f61a28a4f68fc64f0ba6272bffb19f">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+                        <p>GPT reduziert Aufwand &amp; steigert Qualität</p>
+
+                        <p>kann mich auf Didaktik konzentrieren</p>
+                    </div>
+                </div>
+
+            </section>
+            <section data-auto-animate="" data-id="bcab0a53619f6f2c821ef83bbecac23d">
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 437.127px; left: 24.373px; top: 146px;" data-name="text-88bc1e" data-block-id="63ba46b08058ee7a7b93ea9f5084f66b">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; line-height: 1.95;" data-has-line-height="">
+                        <p style="text-align:left">Gute Musterlösung ist</p>
+
+                        <ul>
+                            <li>Klar verständlich</li>
+                            <li>Vollständig</li>
+                            <li>Schritt für Schritt</li>
+                            <li>Anschaulich <span style="font-size:0.7em">Beispiele &amp; Grafiken</span>
+                            </li>
+                            <li>viel Aufwand</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="width: 720px; left: 0px; top: 24.5px; height: auto;" data-name="text-c9648d" data-block-id="0dd08b52813b3807cc8790c77afd362a">
+                    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h2>Musterlösung schreiben</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 661px;" data-name="text-d78b75" data-block-id="4a6457ef201d52190650521dca21c4ab">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+                        <p>HowTo: <a href="https://docs.google.com/document/d/11-qqBWGMsILuD_9Lcc384e47KxTiqiqsKqEY5J6fFUA/edit?usp=sharing" target="_blank">Aufgaben &amp; Musterlösungen</a></p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 441px; height: 373.75px; left: 489.5px; top: 278.25px;" data-name="code-bbc73f" data-block-id="dab13cc6398afc111a86294b0a183c98">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;">
+                        <pre class="autohotkey" style="font-size: 10px; line-height: 12px; tab-size: 4;"><code data-line-numbers="">Rolle: Du bist Dozent für Mathematik für Informatiker.
+Aufgabe: Ich gebe dir gleich eine Übungsaufgabe.
+Schreibe die Musterlösungen. Atme tief durch.
+Löse dann nacheinander je eine Teilaufgabe.
+Gehe dabei Schritt für Schritt vor.
+Dann überprüfe die Lösung. Wenn die Lösung richtig ist,
+dann schreibe die korrekte Lösung Schritt für Schritt
+in der Latex Umgebung. Löse so nacheinander alle Aufgaben.
+Format: Die Musterlösung sollte ausführlich sein,
+der Text jedoch kurz gehalten. Das Ausgabeformat sollte
+dem Format Beispiel entsprechen. Die Formulierungen sind
+klar verständlich und anschaulich.
+
+Format Beispiel:
+&gt;&gt;&gt;Aufgabentext&lt;&lt;&lt;
+\begin{itemize}
+   \item &gt;&gt;&gt;Aufgabe a)&lt;&lt;&lt;
+
+	\begin{loesung}
+		&gt;&gt;&gt;Solution to a)&lt;&lt;&lt;
+	\end{loesung}
+   \item &gt;&gt;&gt;Aufgabe b)&lt;&lt;&lt;
+
+	\begin{loesung}
+		&gt;&gt;&gt;Solution to b)&lt;&lt;&lt;
+	\end{loesung}
+\end{itemize}
+
+Übungsaufgabe:
+[Latex code einfügen]
+</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 360px; top: 180px;" data-name="text-c0a78e" data-block-id="23b0865a01563d865da7e4f19f66cc59">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+                        <p>GPT reduziert Aufwand &amp; steigert Qualität</p>
+
+                        <p>kann mich auf Didaktik konzentrieren</p>
+                    </div>
+                </div>
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 101px; top: 278.25px;" data-name="text-8f741b" data-block-id="88379760bd57ce55e452c994d44fe465">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 130%; color: rgb(255, 0, 0); background-color: rgb(255, 255, 255); line-height: 1.95; border-style: solid; border-width: 7px;" data-has-line-height="">
+                        <p><span style="font-size:1.0em"><strong>!Lösung ist Falsch!</strong></span></p>
+
+                        <p><span style="font-size:1.0em"><strong>Verbleibender Aufwand: </strong></span></p>
+
+                        <ul>
+                            <li><span style="font-size:1.0em"><strong>Korrektur </strong></span></li>
+                            <li><span style="font-size:1.0em"><strong>Didaktische Verbesserung</strong></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 0px; top: 560px; min-width: 1px; min-height: 1px;" data-name="image-3264d1" data-block-id="75ee41a1f283301fa792401ee4b85672">
+                    <div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="1024" data-natural-height="1024" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/10971203/pasted-from-clipboard.png"></div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="a7c3352953fa06afaa9f2764c4017bb3">
+
+
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 32.5px;" data-name="text-97b718" data-block-id="16d2f97a5a7158895663546252b23f7a">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+                        <h2>Multiple Choice</h2>
+                    </div>
+                </div>
+
+                <div class="sl-block" data-block-type="code" style="width: 760px; height: 123.875px; left: 100px; top: 226.125px;" data-name="code-755ebb" data-block-id="b4c66dd1146ce51f5b48cc5cc024a733">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;">
+                        <pre class="autohotkey" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">Rolle: Dozent fuer Mathematik
+Aufgabe: Erstelle für diesen Inhalt ein Multiple Choice Quiz aus 10 Fragen
+mit je 1 falschen und 3 richtigen Antworten.
+Die Falsche Antwort soll gefunden werden.
+Folge dabei den unten stehenden Anweisungen.
+Inhalt: &gt;&gt;&gt;Inhalt -text, pdf, website, ...&lt;&lt;&lt;</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 51px; top: 490px;" data-name="text-5353cb" data-block-id="b7f7d27f96fa436a4113787c8ae6beeb">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+                        <p>Sehr oberflächliche Fragen...</p>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="adae5ca094cfe4ba439c37484e171985">
+
+
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 32.5px;" data-name="text-97b718" data-block-id="e1ea4db8374289fd7c5dcf8fd0253caf">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+                        <h2>Multiple Choice</h2>
+                    </div>
+                </div>
+
+                <div class="sl-block" data-block-type="code" style="width: 590px; height: 311px; left: -18px; top: 333px;" data-name="code-ab13e2" data-block-id="c382587dd7d62518bb11e88426319939">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;">
+                        <pre class="autohotkey" style="font-size: 10px; line-height: 12px;"><code data-line-numbers="">Anweisungen:
+Gute MC-Aufgaben sollen als fair erlebt werden und
+das bloße Erraten der richtigen Antwortmöglichkeiten erschweren.
+Sie sollten auch anspruchsvollere kognitive Prozesse überprüfen.
+Der Stamm der Frage sollte alle notwendigen,
+aber keine irrelevanten Informationen enthalten.
+Vermeiden Sie den Cue-Effekt, bei dem versteckte Lösungshinweise
+den Studierenden aufgrund formaler, logischer oder inhaltlicher
+Angaben die Antwort erleichtern.
+Die Antwortoptionen sollten inhaltlich homogen und möglichst kurz sein.
+
+Die Frage sollte klar und präzise formuliert sein.
+Wiederholungen von Wortelementen des Stamms in den Antwortoptionen sollten vermieden werden.
+Absolute Begriffe wie "ausschließlich", "nie" oder "immer" sollten vermieden werden.
+Die Antworten sollten sich auf der gleichen inhaltlichen Dimension befinden.
+Über die korrekten bzw. falschen Antworten sollte Einigkeit herrschen.
+
+Beispiel:
+Die Dreamland AG verkauft das Kissen «Soft» für CHF 20.–/Stück. Was ist der Gewinn?
+Ein Kissen benötigt zur Herstellung 1 Kilogramm Rohmaterial und eine Arbeitsstunde Zeit.
+Das Rohmaterial kostet CHF 6.–/kg, die Arbeitszeit kostet CHF 4.–/h.
+A. CHF 10.–
+B. CHF 11.–
+C. CHF 9.–
+D. CHF 8.–</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 590px; left: 0px; top: 248px;" data-name="text-fc4b58" data-block-id="af551374bd6302d49daa8eeab7e435db">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+                        <p>Braucht klare Anweisung für gute MC</p>
+
+                        <p><span style="font-size:0.7em">Prompt basiert auf <a href="https://digitalcollection.zhaw.ch/bitstream/11475/14508/1/2018_SML_MC%20Aufgaben.pdf" target="_blank">Anleitung für gute MC</a>&nbsp;der FHAW</span></p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 760px; height: 123.875px; left: 0px; top: 113.562px;" data-name="code-755ebb" data-block-id="7036e97e0b77618bbbf7484f653b070b">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;">
+                        <pre class="autohotkey" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">Rolle: Dozent fuer Mathematik
+Aufgabe: Erstelle für diesen Inhalt ein Multiple Choice Quiz aus 10 Fragen
+mit je 1 falschen und 3 richtigen Antworten.
+Die Falsche Antwort soll gefunden werden.
+Folge dabei den unten stehenden Anweisungen.
+Inhalt: &gt;&gt;&gt;Inhalt -text, pdf, website, ...&lt;&lt;&lt;</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 370px; left: 584px; top: 381.5px;" data-name="text-5353cb" data-block-id="16046bccef3337a64628e758f29e17c4">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+                        <p>Etwa 30 % der Fragen brauchbar</p>
+
+                        <p>&nbsp;</p>
+
+                        <p>mehrere Quizzes erstellen</p>
+
+                        <p>&nbsp;gute Fragen sammeln</p>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="8b0ac38842ba30cf28ac7b81a6415b80">
+
+
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 32.5px;" data-name="text-97b718" data-block-id="7b6efa213294e84fc460c3aacd95a707">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+                        <h2>Multiple Choice</h2>
+                    </div>
+                </div>
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 350px;" data-name="text-64062d" data-block-id="dbbf471111ca2dba0ce9b0aadec5addc">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+                        <p>Fragen noch zu leicht?</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 698px; height: 45px; left: 131px; top: 432.5px;" data-name="code-33b77f" data-block-id="de798d90bbeb573b634fba5c1c3011ad">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 13;">
+                        <pre class="markdown" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">Bitte erstelle ein neues Quiz mit schwierigeren Fragen.</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 160px; top: 521px;" data-block-id="09700dd7104575c6bc64f7385e29cee0" data-name="text-5b9ffa">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+                        <p>Fragen werden nicht besser...</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 760px; height: 123.875px; left: 0px; top: 113.562px;" data-name="code-755ebb" data-block-id="a6879237e9e87cdcebdf838f53213e9a">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 15;">
+                        <pre class="autohotkey" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">Rolle: Dozent fuer Mathematik
+Aufgabe: Erstelle für diesen Inhalt ein Multiple Choice Quiz aus 10 Fragen
+mit je 1 falschen und 3 richtigen Antworten.
+Die Falsche Antwort soll gefunden werden.
+Folge dabei den unten stehenden Anweisungen.
+Inhalt: &gt;&gt;&gt;Inhalt -text, pdf, website, ...&lt;&lt;&lt;</code></pre>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="8eb531c0b8d04735a09486a29322a8a6">
+
+
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 32.5px;" data-name="text-97b718" data-block-id="f6483126b5209570791031717a6e3d5b">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+                        <h2>Multiple Choice</h2>
+                    </div>
+                </div>
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-64062d" data-block-id="55a12994703d2d7d2dd8b567b426ab30">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+                        <p>Was bedeutet schwieriger?</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 820px; height: 40px; left: 70px; top: 414px;" data-name="code-8fd686" data-block-id="708047b9649f3b2214e3a6ad7c7c2bb6">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;">
+                        <pre class="markdown" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">Welche Eigenschaften haben in diesem Kontext schwierigere Fragen?</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 698px; height: 45px; left: 131px; top: 515px;" data-name="code-33b77f" data-block-id="1f7877a5652963c883f97d942f47f929">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 13;">
+                        <pre class="markdown" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">Bitte erstelle ein neues Quiz mit schwierigeren Fragen.</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 760px; height: 123.875px; left: 0px; top: 113.562px;" data-name="code-755ebb" data-block-id="7ceb3ef221a65d3ced38302c987d9ab9">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;">
+                        <pre class="autohotkey" style="font-size: 16px; line-height: 19px; tab-size: 4;"><code data-line-numbers="">Rolle: Dozent fuer Mathematik
+Aufgabe: Erstelle für diesen Inhalt ein Multiple Choice Quiz aus 10 Fragen
+mit je 1 falschen und 3 richtigen Antworten.
+Die Falsche Antwort soll gefunden werden.
+Folge dabei den unten stehenden Anweisungen.
+Inhalt: &gt;&gt;&gt;Inhalt -text, pdf, website, ...&lt;&lt;&lt;</code></pre>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="d18bc9611d128fb00127b8b2cd698a7f">
+                <div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 33px; height: auto;" data-name="text-c9648d" data-block-id="a40ca42810c67c4bac32abec66bf5047">
+                    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h2>Feedback mit KI</h2>
+                    </div>
+                </div>
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 873px; left: 40.5px; top: 171px;" data-name="text-5d74a2" data-block-id="20833c4d0f9a548830ad09bfd5a228fd">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;">
+                        <p>Kritik &amp; Grund für schlechte Note = ermutigendes Feedback?</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 700px; left: 130px; top: 261.5px;" data-name="text-193363" data-block-id="dd79b3f6c17d0fc4cc031cc9b5cdf97e">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56;" data-has-line-height="">
+                        <p>Gutes Feedback:</p>
+
+                        <ul>
+                            <li>beginnt positiv</li>
+                            <li>bietet konstruktive, erreichbare Vorschläge</li>
+                            <li>unterstützt</li>
+                            <li>ermutigt</li>
+                            <li>bezieht sich auf Interessen</li>
+                            <li>fördert Dialog</li>
+                            <li>endet ermutigend</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+            </section>
+            <section data-auto-animate="" data-id="6bbc8799a70c896ed82fd3e386a75f31">
+                <div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 33px; height: auto;" data-name="text-c9648d" data-block-id="245ab72466642d4d8629c7beb74c33bb">
+                    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h2>Feedback mit KI</h2>
+                    </div>
+                </div>
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 455px; left: 0px; top: 445.5px;" data-name="text-193363" data-block-id="fd39579a5a521b3d22020a58bc5a730b">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 70%;">
+                        <p>Gutes Feedback:</p>
+
+                        <ul>
+                            <li>beginnt positiv</li>
+                            <li>bietet konstruktive, erreichbare Vorschläge</li>
+                            <li>unterstützt</li>
+                            <li>ermutigt</li>
+                            <li>bezieht sich auf Interessen</li>
+                            <li>fördert Dialog</li>
+                            <li>endet ermutigend</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 960px; height: 158.25px; left: 0px; top: 191.75px;" data-name="code-fc948c" data-block-id="3fc73451c6042f9cc69c173195cfcd93">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;">
+                        <pre class="autohotkey" style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">Rolle: Dozent für Data Science
+Aufgabe: Schreibe für die folgende Kritik die Nachricht an den Studenten.
+Format: Antworte in freundlichem Ton und mit aufbauenden Worten.
+Details: alle Kritikpunkte sollen klar und unmissverständlich formuliert sein,
+allerdings als Verbesserungsvorschläge.
+Gutes Feedback an Studenten beginnt positiv, bietet konstruktive, erreichbare Vorschläge,
+unterstützt und ermutigt, bezieht sich auf Interessen, fördert Dialog und endet ermutigend.
+Kritik: [Einfach alles rauslassen!]</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 505px; left: 455px; top: 420px;" data-name="text-39d28c" data-block-id="d5009e8a282a164e3077ce7cdcc4e8c4">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; line-height: 1.95;" data-has-line-height="">
+                        <p>Achtung:</p>
+
+                        <ul>
+                            <li>baut falsches Lob ein</li>
+                            <li>generische Teile löschen</li>
+                            <li>umformulieren</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 419px; height: 38px; left: 541px; top: 662px;" data-name="code-5f4a06" data-block-id="76f29014bdf217604391538e013ad22a">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;">
+                        <pre class="autohotkey" style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">Als Sprachmodell kann ich nicht ...</code></pre>
+                    </div>
+                </div>
+
+
+            </section>
+            <section data-auto-animate="" data-id="a0f39515ec98331c00c40ac45ac71a35">
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 880px; left: 40px; top: 14px;" data-name="text-5e9e47" data-block-id="5b6e260cf4883b12ca3fa0ed762464c9">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; line-height: 1.95;" data-has-line-height="">
+                        <h3>KI kann Lehrer effektiver machen</h3>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 930px; left: 15px; top: 107px;" data-name="text-b05af9" data-block-id="2d35a95f0df96f9c363e8337304a8225">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+                        <p style="text-align:left">Chatbot hilft bei</p>
+
+                        <ul>
+                            <li style="text-align:left">Unterrichtsplan erstellen</li>
+                            <li style="text-align:left">Skript erstellen</li>
+                            <li style="text-align:left">Umfragen &amp; Quizze erstellen</li>
+                            <li style="text-align:left">Tipps für interessanten Unterricht - Verbindung zu Aktuellem</li>
+                            <li style="text-align:left">Recherche (relevante Artikel, realistische Beispiele)</li>
+                            <li style="text-align:left">Ideen für Projekte</li>
+                            <li style="text-align:left">Abgaben bewerten</li>
+                            <li style="text-align:left">...</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="d0433b8e0e10f859577a21bee4b71829">
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 880px; left: 40px; top: 14px;" data-name="text-5e9e47" data-block-id="d84a1dbf479bfa404fc8b4dcabf05e8a">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; line-height: 1.95;" data-has-line-height="">
+                        <h3>KI kann Lehrer effektiver machen</h3>
+                    </div>
+                </div>
+
+
+
+
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 665px; left: 15px; top: 107px;" data-name="text-b05af9" data-block-id="452d54c6d4f644b11805846cf73c8823">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 70%;">
+                        <p style="text-align:left">Chatbot hilft bei</p>
+
+                        <ul>
+                            <li style="text-align:left">Unterrichtsplan erstellen</li>
+                            <li style="text-align:left">Skript erstellen</li>
+                            <li style="text-align:left">Umfragen &amp; Quizze erstellen</li>
+                            <li style="text-align:left">Tipps für interessanten Unterricht - Verbindung zu Aktuellem</li>
+                            <li style="text-align:left">Recherche (relevante Artikel, realistische Beispiele)</li>
+                            <li style="text-align:left">Ideen für Projekte</li>
+                            <li style="text-align:left">Abgaben bewerten</li>
+                            <li style="text-align:left">...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 289px; left: 671px; top: 255px;" data-name="text-5ba5cd" data-block-id="4ae8baf493363a0b4d2a8419e77af55a">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+                        <p><a href="https://www.youtube.com/watch?v=DDCAYgsTD9A&amp;list=PLq2pRcHedvNjLL6Vuqn4H6hvOcQvQ_QoN&amp;pp=gAQB" target="_blank">Youtube Playlist</a></p>
+
+                        <p>&nbsp;Laufzeit 1 Stunde</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="iframe" style="width: 640px; height: 360px; left: 320px; top: 340px;" data-name="iframe-ef7798" data-block-id="827a534170ff1b094717b6a4b6231385">
+                    <div class="sl-block-content" style="z-index: 15;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/DDCAYgsTD9A?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div>
+                </div>
+            </section>
+            <section data-id="1bd811422980a4db34a94c8b0cf21c4a">
+                <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 21px; height: auto;" data-block-id="5154dec6e0af95b53af5cd78ccc7da06">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+                        <h1>Mit KI Lehre verbessern</h1>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="code" style="width: 953px; height: 126.5px; left: 3.5px; top: 280px;" data-name="code-a15f10" data-block-id="8e923c942776f4080e9b3c5fc7a2f0c3">
+                    <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;">
+                        <pre style="font-size: 16px; line-height: 19px; tab-size: 4;" class="autohotkey"><code data-line-numbers="">Rolle:    Didaktik Experte
+Aufgabe:  Wir brainstormen Ideen, die Studierenden zum Mitarbeiten anzuregen.
+Format:   Antworte zuerst mit einer analyse, dann mit einer Liste von 10 Vorschlaegen.
+Details:  Ich unterrichte Statistik für Mediziner, halte 90 min Frontunterricht,
+		  danach 90 min Uebungen. In der Uebung werden die Uebungsaufgaben der Woche besprochen
+		  und jeweils eine Person rechnet an der Tafel vor.
+</code></pre>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 765px; left: 96px; top: 470.5px;" data-name="text-a06b35" data-block-id="00ce4f70764f054b700730cb5ca314fb">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 2.21;" data-has-line-height="">
+                        <ul>
+                            <li>Schnell neue Ideen finden &amp; diskutieren</li>
+                            <li>Erweitert Sicht über den eigenen Horizont</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="b752e2868f9c79960b0fa78af3d1319d">
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="image" style="width: 960.169px; height: 204.708px; left: -0.169px; top: 140px; min-width: 1px; min-height: 1px;" data-name="image-a3fbd6" data-block-id="5eda40a94512819b14873dd9ebd343cc">
+                    <div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="2500" data-natural-height="533" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11711201/pasted-from-clipboard.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 160px; height: 39.2px; left: 792.169px; top: 290.8px; min-width: 1px; min-height: 1px;" data-name="image-6a99a5" data-block-id="dd7509712b5a33f291a2312e223bede3">
+                    <div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1200" data-natural-height="294" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11711202/Nature_journal_logo.svg.png"></div>
+                </div>
+
+                <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 21px; height: auto;" data-name="text-26ce36" data-block-id="b6c1cb02a0e3575bb39c8a96d1e1a693">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;">
+                        <h1>Neue Art des Denkens</h1>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 535px; left: 212.746px; top: 389px;" data-name="text-1b2dba" data-block-id="2ec5e3a8a24732b45f9431f106a3f6e4">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+                        <p style="text-align:left"><strong>Arten zu Denken</strong></p>
+
+                        <ul>
+                            <li style="text-align:left">System 2 - langsam, analytisch</li>
+                            <li style="text-align:left">System 1 - schnell, intuitiv</li>
+                            <li style="text-align:left"><strong>System 0 - Kognition ausgelagert</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="3f187f0e1d7d4162bcfd89dc728cb4d0">
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="image" style="width: 960.169px; height: 204.708px; left: -0.169px; top: 140px; min-width: 1px; min-height: 1px;" data-name="image-a3fbd6" data-block-id="697dcd47be0efd320a941c62c39bba41">
+                    <div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="2500" data-natural-height="533" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11711201/pasted-from-clipboard.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 160px; height: 39.2px; left: 792.169px; top: 290.8px; min-width: 1px; min-height: 1px;" data-name="image-6a99a5" data-block-id="53176178e1842e9929df82ced1d2e11f">
+                    <div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1200" data-natural-height="294" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11711202/Nature_journal_logo.svg.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 596px; left: 182.169px; top: 369px;" data-name="text-1b2dba" data-block-id="d824542f030739ec23b89742537b9a72">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+                        <p style="text-align:left"><strong>System 0 Denken - Kognition auslagern</strong></p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 454px; left: -0.169px; top: 428px;" data-name="text-5e0b94" data-block-id="6bad3fb1007a3103cde91f7bad40ee75">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+                        <p style="text-align:left"><strong>Potential:</strong></p>
+
+                        <ul>
+                            <li>Zugriff auf unbekannte Info</li>
+                            <li>Denkprozesse beschleunigen</li>
+                            <li>Fundiertere Entscheidung</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 21px; height: auto;" data-name="text-26ce36" data-block-id="0b759afb2f23bfaaa9f4c636f45f3a67">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 15;">
+                        <h1>Neue Art des Denkens</h1>
+                    </div>
+                </div>
+            </section>
+            <section data-auto-animate="" data-id="e671b27801e9482f74f847f9ad280ef8">
+
+
+
+
+
+
+
+
+                <div class="sl-block" data-block-type="image" style="width: 960.169px; height: 204.708px; left: -0.169px; top: 140px; min-width: 1px; min-height: 1px;" data-name="image-a3fbd6" data-block-id="204f32c743452957cd61582655d7a9d6">
+                    <div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="2500" data-natural-height="533" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11711201/pasted-from-clipboard.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="image" style="width: 160px; height: 39.2px; left: 792.169px; top: 290.8px; min-width: 1px; min-height: 1px;" data-name="image-6a99a5" data-block-id="1b9bc022fa2cb8f95f96690a75f56d37">
+                    <div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1200" data-natural-height="294" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/2458893/images/11711202/Nature_journal_logo.svg.png"></div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 596px; left: 182.169px; top: 369px;" data-name="text-1b2dba" data-block-id="aa4163073d7ea2a573f0b8854ed9b2a1">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+                        <p style="text-align:left"><strong>System 0 Denken - Kognition auslagern</strong></p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 454px; left: -0.169px; top: 428px;" data-name="text-5e0b94" data-block-id="fc7fe215c7b1704da434870dab992704">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+                        <p style="text-align:left"><strong>Potential:</strong></p>
+
+                        <ul>
+                            <li>Zugriff auf unbekannte Info</li>
+                            <li>Denkprozesse beschleunigen</li>
+                            <li>Fundiertere Entscheidung</li>
+                        </ul>
+
+                        <p style="text-align:left">&nbsp;</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 454px; left: 479.915px; top: 432px;" data-name="text-7fd7d3" data-block-id="de41fd6f8758e880ec4ed3ae67c2bf59">
+                    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+                        <p style="text-align:left"><strong>Gefahr:</strong></p>
+
+                        <ul>
+                            <li>Verstärkt Vorurteile</li>
+                            <li>Kompetenzverlust</li>
+                            <li>Blindes Vertrauen</li>
+                        </ul>
+
+                        <p style="text-align:left">&nbsp;</p>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 21px; height: auto;" data-name="text-26ce36" data-block-id="32173a78b5c3a2ce8160846f1941a860">
+                    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 15;">
+                        <h1>Neue Art des Denkens</h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
