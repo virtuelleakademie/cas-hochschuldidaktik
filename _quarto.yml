@@ -54,30 +54,18 @@ website:
             file: resources/resources.qmd
           - text: "Begleitdokument: Orientierungshilfe (PDF)"
             file: assets/pdfs/Orientierungshilfe.pdf
-          # - text: "Basic prompt engineering"
-          #   file: slides/prompt-engineering-basics/index.qmd
-          # - text: "Intermediate prompt engineering"
-          #   file: slides/prompt-engineering-intermediate/index.qmd
-
-      # - icon: wrench-adjustable #tools
-      #   text: "Resources"
-      #   menu:
-      #     - text: "Guides"
-      #       file: resources/resources.qmd
-      #     - text: "Tools"
-      #       file: resources/tools.qmd
 
     tools:
       - icon: lightbulb-fill
         text: Knowledge Base
         href: https://virtuelleakademie.ch/knowledge-base/
 
-      - icon: github
-        menu:
-          - text: Source code
-            url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/
-          - text: Report an issue
-            url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/issues
+      # - icon: github
+      #   menu:
+      #     - text: Source code
+      #       url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/
+      #     - text: Report an issue
+      #       url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/issues
             
   sidebar:
     - title: "Workshop"
