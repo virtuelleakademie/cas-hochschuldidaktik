@@ -15,4 +15,4 @@ title: "Künstliche Intelligenz in der Lehre: erste Schritte"
 
 <!-- {{< revealjs file="../../slides/input/index.html" height="500px" class="ratio ratio-16x9" >}} -->
 
-{{< html file="https://slides.com/stefanhackstein/ki-als-lehrassistent/embed" height="500px" class="ratio ratio-16x9" >}}
+{{< html file="https://slides.com/stefanhackstein/ki-im-unterricht/embed" height="500px" class="ratio ratio-16x9" >}}
