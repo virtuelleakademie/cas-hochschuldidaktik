@@ -15,8 +15,6 @@ title: "Auswertung der Umfrage"
 
 
 
-
-
 <!-- - [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd)
 
 - [Input: Studierende & KI](studis-und-ki/index.qmd)
