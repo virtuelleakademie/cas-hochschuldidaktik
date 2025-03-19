@@ -1,6 +1,5 @@
 ---
-# title: "AI-Enhanced Journal Club"
-# title: "Virtuelle Akademie"
+title: "KI in der Lehre"
 format:
   html:
     toc: false
@@ -10,7 +9,7 @@ about:
   links:
     - icon: inbox-fill
       text: Email
-      href: mailto:andrew.ellis@bfh.ch
+      href: mailto:virtuelle.akademie@bfh.ch
     - icon: magic
       text: Virtuelle Akademie
       href: https://virtuelleakademie.ch/
@@ -23,12 +22,19 @@ about:
 ---
 
 
-{{< bi calendar-event >}} 12.01.2025
+{{< bi calendar-event >}} 21.03.2025
 
-{{< bi clock >}} 10.00–15.00 Uhr
+{{< bi clock >}} 13.13–14.45 Uhr
 
-{{< bi map >}} HKB, Grosser Konzertsaal, Papiermühlestrasse 13d, 3014 Bern
+<!-- {{< bi map >}} H55, Grosser Konzertsaal, Papiermühlestrasse 13d, 3014 Bern -->
 
+## Dozenten
+
+<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
+
+[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
+[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
+Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
 
 ## Website
 
