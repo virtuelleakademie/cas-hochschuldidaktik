@@ -20,6 +20,7 @@ ipython_config.py
 # MacOS specific
 .DS_Store
 /env/
+*.code-workspace
 
 # Quarto
 /.quarto/
@@ -41,3 +42,4 @@ pages/config.yaml
 /assets/ppt/~*
 
 /.luarc.json
+
