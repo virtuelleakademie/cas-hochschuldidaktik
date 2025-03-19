@@ -3,7 +3,7 @@ project:
   resources:
     - assets/*
     - assets/images/*
-    - assets/audio/*
+    - assets/pdfs/*
   preview:
     port: 8800
     browser: false
@@ -12,12 +12,6 @@ project:
     - index.qmd
     - workshop/**/*.qmd
     - resources/**/*.qmd
-    # - projects/**/*.qmd
-    # - notebooks/*.ipynb
-    # - "!tutorials/tutorial-1/index.qmd"
-    # - slides/**/*.qmd
-    # - slides/input/index.qmd
-    # - slides/openai-platform/index.qmd
 
 website:
   title: "CAS Hochschuldidaktik"
@@ -50,10 +44,10 @@ website:
         menu:
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
-          - text: "Begleitdokument: Orientierungshilfe"
-            file: resources/resources.qmd
-          - text: "Begleitdokument: Orientierungshilfe (PDF)"
-            file: assets/pdfs/Orientierungshilfe.pdf
+          # - text: "Begleitdokument: Orientierungshilfe"
+          #   file: resources/resources.qmd
+          # - text: "Begleitdokument: Orientierungshilfe (PDF)"
+          #   file: assets/pdfs/Orientierungshilfe.pdf
 
     tools:
       - icon: lightbulb-fill
