@@ -1,5 +1,5 @@
 ---
-title: "Künstliche Intelligenz in der Lehre: erste Schritte"
+title: "Studierende & KI"
 ---
 
 {{< bi book >}} Inhalt:
@@ -12,7 +12,5 @@ title: "Künstliche Intelligenz in der Lehre: erste Schritte"
 <!-- - gibt Empfehlungen zur Deklaration von KI-generierten Inhalten. -->
 - adressiert Bedenken zur Plagiatserkennung.
 - Das Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser "Ankunftstechnologien" zu bieten.
-
-<!-- {{< revealjs file="../../slides/input/index.html" height="500px" class="ratio ratio-16x9" >}} -->
 
 {{< html file="https://slides.com/stefanhackstein/studys-und-ki/embed" height="500px" class="ratio ratio-16x9" >}}
