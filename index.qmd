@@ -1,5 +1,5 @@
 ---
-# title: "Modul 6: KI in der Lehre"
+title: "Modul 6: KI in der Lehre"
 format:
   html:
     toc: false
