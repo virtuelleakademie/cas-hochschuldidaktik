@@ -6,16 +6,18 @@ Diese Präsentation zeigt, wie Künstliche Intelligenz (KI), insbesondere Chatbo
 
 Wir lernen das Potenzial und die Herausforderungen bei der Integration von KI in Bildungssettings kennen.
 
-
 ## {{< bi file-slides >}} Präsentation
 
 {{< html file="https://slides.com/stefanhackstein/ki-als-lehrassistent/embed" height="500px" class="ratio ratio-16x9" >}}
 
 <br>
 
-## {{< bi book >}} Inhalt
+## {{< bi book >}} Zusammenfassung
 
-### KI als Superkraft
+::: {.callout-note collapse="true"}
+## {{< bi book >}} Inhalt der Präsentation
+
+### 1. KI als Superkraft
 
 #### Erweiterte Möglichkeiten:
 - Nutzung vielfältiger Medien
@@ -25,7 +27,7 @@ Wir lernen das Potenzial und die Herausforderungen bei der Integration von KI in
 #### Zentrale Botschaft:
 KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
 
-### KI verstehen, um sie zu lehren
+### 2. KI verstehen, um sie zu lehren
 
 #### Lernen als Voraussetzung:
 - Effektiver KI-Einsatz im Unterricht beginnt mit einem eigenen Verständnis der Technik.
@@ -34,7 +36,7 @@ KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
 #### Praktischer Einsatz:
 - KI zur Unterrichtsvorbereitung nutzen und dabei selbst deren Anwendung erlernen.
 
-### Der KI-Assistent---Chatbot im Klassenzimmer
+### 3. Der KI-Assistent---Chatbot im Klassenzimmer
 
 #### Hauptvorteile:
 - Reduziert den Arbeitsaufwand durch Übernahme repetitiver Aufgaben.
@@ -43,16 +45,16 @@ KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
 #### Wesentliche Voraussetzung:
 - Klare, strukturierte Anweisungen sind entscheidend für den erfolgreichen Einsatz.
 
-### Erstellung von Musterlösungen
+### 4. Erstellung von Musterlösungen
 
 #### Merkmale guter Musterlösungen:
 - Klarheit, Vollständigkeit und schrittweise Darstellung.
 - Einsatz von Beispielen und Grafiken zur Veranschaulichung.
 
-#### Workshop-Aktivität:
+#### Beispiel:
 - Detaillierte, strukturierte Lösungen im LaTeX-Format für Übungsaufgaben erstellen.
 
-### Gestaltung von Multiple-Choice-Quizzen
+### 5. Gestaltung von Multiple-Choice-Quizzen
 
 #### Quiz-Richtlinien:
 - 10 Fragen mit jeweils einer falschen und drei richtigen Antworten.
@@ -61,7 +63,7 @@ KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
 #### Zu beachten:
 - Fragen klar, präzise und kognitiv anspruchsvoll formulieren.
 
-### Verbesserung von Feedback mit KI
+### 6. Verbesserung von Feedback mit KI
 
 #### Effektives Feedback:
 - Beginnt positiv und enthält konstruktive, umsetzbare Vorschläge.
@@ -70,14 +72,14 @@ KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
 #### Praxisübung:
 - Erstellung von KI-gestütztem Feedback für verschiedene Lernsituationen.
 
-### KI macht Lehrkräfte effektiver
+### 7. KI macht Lehrkräfte effektiver
 
 #### Unterstützungsbereiche:
 - Planung von Unterricht und Skripterstellung.
 - Erstellung von Quizzen und Umfragen.
 - Einbindung aktueller Themen, Recherche, Projektideen und Bewertung von Abgaben.
 
-### Neue Denkweisen: System 0, 1 und 2
+### 8. Neue Denkweisen: System 0, 1 und 2
 
 #### Kognitive Ansätze:
 - **System 2:** Langsam und analytisch.
@@ -86,11 +88,7 @@ KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
 
 #### Chancen & Risiken:
 - **Chancen:** Schnelleres Denken, Zugriff auf neues Wissen, fundiertere Entscheidungen.
-- **Risiken:** Verstärkung von Vorurteilen, Kompetenzverlust und blindes Vertrauen in die Technik.
-
-### Fazit
-
-- Der Workshop befähigt Lehrkräfte, KI effektiv einzusetzen – von praktischen Anwendungen im Unterricht bis zu robusten Bewertungs- und Feedbacksystemen.
-- Teilnehmer erhalten wertvolle Einblicke in die Rolle der KI in der modernen Lehre und praxisnahe Ideen für den eigenen Unterricht.
+- **Risiken:** Verstärkung von Vorurteilen, Kompetenzverlust (Deskilling) und blindes Vertrauen in die Technik.
+:::
 
 
