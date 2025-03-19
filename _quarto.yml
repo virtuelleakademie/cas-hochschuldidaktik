@@ -11,11 +11,12 @@ project:
   render:
     - index.qmd
     - workshop/**/*.qmd
+    - resources/**/*.qmd
     # - projects/**/*.qmd
-    - notebooks/*.ipynb
+    # - notebooks/*.ipynb
     # - "!tutorials/tutorial-1/index.qmd"
-    - slides/**/*.qmd
-    - slides/input/index.qmd
+    # - slides/**/*.qmd
+    # - slides/input/index.qmd
     # - slides/openai-platform/index.qmd
 
 website:
@@ -47,12 +48,10 @@ website:
       - icon: file-slides
         text: "Dokumente" # {{< fa person-chalkboard >}}
         menu:
-          - text: "Input: KI erste Schritte"
-            file: slides/input/index.qmd
-          - text: "Input: Prompting"
-            file: slides/prompting/index.qmd
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
+          - text: "Begleitdokument: Orientierungshilfe"
+            file: resources/resources.qmd
           # - text: "Basic prompt engineering"
           #   file: slides/prompt-engineering-basics/index.qmd
           # - text: "Intermediate prompt engineering"
