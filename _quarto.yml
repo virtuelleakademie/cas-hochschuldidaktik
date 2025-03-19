@@ -1,0 +1,271 @@
+project:
+  type: website
+  resources:
+    - assets/*
+    - assets/images/*
+    - assets/audio/*
+  preview:
+    port: 8800
+    browser: false
+  output-dir: docs
+  render:
+    - index.qmd
+    - workshop/**/*.qmd
+    # - projects/**/*.qmd
+    - notebooks/*.ipynb
+    # - "!tutorials/tutorial-1/index.qmd"
+    - slides/**/*.qmd
+    - slides/input/index.qmd
+    # - slides/openai-platform/index.qmd
+
+website:
+  title: "HKB Horntage 2025"
+  site-url: https://virtuelleakademie.github.io/hkb-horntage-2025/
+  # repo-url: https://github.com/virtuelleakademie/hkb-horntage-2025/
+  # repo-actions: [edit, issue]
+  favicon: /assets/robot.png
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+
+  reader-mode: false
+  page-navigation: true
+  back-to-top-navigation: true
+
+  navbar:
+    background: light
+    left:
+      - icon: card-list
+        href: workshop/index.qmd
+        text: Workshop
+
+      # - icon: code-square
+      #   href: projects/anki/index.qmd
+      #   text: Projects
+
+      - icon: file-slides
+        text: "Dokumente" # {{< fa person-chalkboard >}}
+        menu:
+          - text: "Input: KI erste Schritte"
+            file: slides/input/index.qmd
+          - text: "Input: Prompting"
+            file: slides/prompting/index.qmd
+          - text: "Begleitdokument: KI Weiterbildung"
+            file: assets/pdfs/Begleitdokument.pdf
+          # - text: "Basic prompt engineering"
+          #   file: slides/prompt-engineering-basics/index.qmd
+          # - text: "Intermediate prompt engineering"
+          #   file: slides/prompt-engineering-intermediate/index.qmd
+
+      # - icon: wrench-adjustable #tools
+      #   text: "Resources"
+      #   menu:
+      #     - text: "Guides"
+      #       file: resources/resources.qmd
+      #     - text: "Tools"
+      #       file: resources/tools.qmd
+
+    tools:
+      - icon: lightbulb-fill
+        text: Knowledge Base
+        href: https://virtuelleakademie.ch/knowledge-base/
+
+      - icon: github
+        menu:
+          - text: Source code
+            url:  https://github.com/virtuelleakademie/hkb-horntage-2025/
+          - text: Report an issue
+            url:  https://github.com/virtuelleakademie/hkb-horntage-2025/issues
+            
+  sidebar:
+    - title: "Workshop"
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - workshop/index.qmd
+        - workshop/presentation/index.qmd
+        - workshop/prompting/index.qmd
+
+
+    - title: "Projects"
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - projects/anki/index.qmd
+        - projects/anki/example/index.qmd
+
+
+page-footer:
+    right:
+    - icon: github
+      href: https://github.com/virtuelleakademie/hkb-horntage-2025/
+
+format:
+  html:
+    theme:
+      light: simplex
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    smooth-scroll: true
+    linkcolor: rebeccapurple
+
+comments:
+  hypothesis: 
+    theme: clean
+  # utterances: 
+    # repo: virtuelleakademie/promptly-literate
+
+execute:
+  cache: true
+  freeze: auto
+  execute-dir: project
+
+editor:
+  render-on-save: true
+
+revealjs-plugins:
+  - attribution
+filters:
+  - timer
+  - custom-callout
+
+custom-callout:
+  # todo:
+  #   icon-symbol: "📝"
+  #   collapse: true
+  #   color: "pink"
+
+  # thumbs-up:
+  #   title: "Great job!"
+  #   icon-symbol: "👍🏼"
+  #   color: "steelblue"
+
+
+  # Activity Types
+  individual:
+    title: "Individual Work"
+    icon-symbol: "💻"
+    color: "steelblue"
+    collapse: false
+
+  pair:
+    title: "Pair Work"
+    icon-symbol: "👥"
+    color: "forestgreen"
+    collapse: false
+
+  group:
+    title: "Group Work"
+    icon-symbol: "👥"
+    color: "purple"
+    collapse: false
+
+  screens-down:
+    title: "Screens Down"
+    icon-symbol: "🔽"
+    color: "orange"
+    collapse: false
+
+  screens-up:
+    title: "Screens Up"
+    icon-symbol: "🔼"
+    color: "green"
+    collapse: false
+
+  # Learning Process
+  try:
+    title: "Try It"
+    icon-symbol: "🔄"
+    color: "blue"
+    collapse: false
+
+  reflect:
+    title: "Reflection"
+    icon-symbol: "💭"
+    color: "purple"
+    collapse: false
+
+  feedback:
+    title: "Feedback"
+    icon-symbol: "📝"
+    color: "teal"
+    collapse: true
+
+  caution:
+    title: "Watch Out"
+    icon-symbol: "⚠️"
+    color: "orange"
+    collapse: true
+
+  pro-tip:
+    title: "Pro Tip"
+    icon-symbol: "💡"
+    color: "gold"
+    collapse: true
+
+  # Technical Elements
+  prompt-example:
+    title: "Example Prompt"
+    icon-symbol: "👩🏼‍🔧"
+    color: "steelblue"
+    collapse: false
+
+  output-example:
+    title: "Output Example"
+    icon-symbol: "📄"
+    color: "purple"
+    collapse: true
+
+  prompt-template:
+    title: "Prompt Template"
+    icon-symbol: "📋"
+    color: "indigo"
+    collapse: true
+
+  testing:
+    title: "Test Your Prompt"
+    icon-symbol: "🧪"
+    color: "green"
+    collapse: false
+
+  export:
+    title: "Export"
+    icon-symbol: "📤"
+    color: "brown"
+    collapse: true
+
+  # Workshop Flow
+  setup:
+    title: "Setup"
+    icon-symbol: "⚙️"
+    color: "gray"
+    collapse: true
+
+  timing:
+    title: "Time Check"
+    icon-symbol: "⏱️"
+    color: "red"
+    collapse: false
+
+  break:
+    title: "Break Time"
+    icon-symbol: "☕"
+    color: "yellow"
+    collapse: false
+
+  checkpoint:
+    title: "Checkpoint"
+    icon-symbol: "🎯"
+    color: "purple"
+    collapse: false
+
+  schedule:
+    title: "Schedule"
+    icon-symbol: "⏰︎"
+    color: "steelblue"
+    collapse: false
