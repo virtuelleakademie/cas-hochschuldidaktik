@@ -19,9 +19,9 @@ project:
     # - slides/openai-platform/index.qmd
 
 website:
-  title: "HKB Horntage 2025"
-  site-url: https://virtuelleakademie.github.io/hkb-horntage-2025/
-  # repo-url: https://github.com/virtuelleakademie/hkb-horntage-2025/
+  title: "CAS Hochschuldidaktik"
+  site-url: https://virtuelleakademie.github.io/cas-hochschuldidaktik/
+  # repo-url: https://github.com/virtuelleakademie/cas-hochschuldidaktik/
   # repo-actions: [edit, issue]
   favicon: /assets/robot.png
   open-graph: true
@@ -74,9 +74,9 @@ website:
       - icon: github
         menu:
           - text: Source code
-            url:  https://github.com/virtuelleakademie/hkb-horntage-2025/
+            url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/
           - text: Report an issue
-            url:  https://github.com/virtuelleakademie/hkb-horntage-2025/issues
+            url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/issues
             
   sidebar:
     - title: "Workshop"
@@ -101,7 +101,7 @@ website:
 page-footer:
     right:
     - icon: github
-      href: https://github.com/virtuelleakademie/hkb-horntage-2025/
+      href: https://github.com/virtuelleakademie/cas-hochschuldidaktik/
 
 format:
   html:

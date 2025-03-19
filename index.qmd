@@ -32,11 +32,11 @@ about:
 
 ## Website
 
-{{< bi link >}} [virtuelleakademie.github.io/hkb-horntage-2025](https://virtuelleakademie.github.io/hkb-horntage-2025/)
+{{< bi link >}} [virtuelleakademie.github.io/cas-hochschuldidaktik](https://virtuelleakademie.github.io/cas-hochschuldidaktik)
 
 <br>
 <!-- ## QR Code -->
-{{< qrcode https://virtuelleakademie.github.io/hkb-horntage-2025/ width=400 height=400 colorDark='#000000' >}}
+{{< qrcode https://virtuelleakademie.github.io/cas-hochschuldidaktik width=400 height=400 colorDark='#000000' >}}
 
 
 
