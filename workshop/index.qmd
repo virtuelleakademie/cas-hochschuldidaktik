@@ -1,22 +1,27 @@
 ---
-title: "Auswertung der Umfrage"
+title: "Ablauf"
 ---
 
 
 
-## Erfahrung
+## Auswertung der Umfrage
+{{< bi clock >}} 10'
 
-## Erwartungen
+## KI als Lehrassistent
+{{< bi clock >}} 15' Input + Q&A 10'
 
-## Schlimmste Erfahrungen
-
-## Beste Erfahrungen
-
-
+- [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd)
 
 
-<!-- - [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd)
+## Studierende & KI
+{{< bi clock >}} 10' Input + Q&A 10'
 
 - [Input: Studierende & KI](studis-und-ki/index.qmd)
 
-- [Input: KI im Unterricht](ki-unterricht/index.qmd) -->
+
+
+## KI im Unterricht
+{{< bi clock >}} 5' Input + Q&A 10'
+
+- [Input: KI im Unterricht](ki-unterricht/index.qmd)
+
