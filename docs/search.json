@@ -1,804 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "KI in der Lehre",
-    "section": "",
-    "text": "21.03.2025\n13.13–14.45 Uhr"
-  },
-  {
-    "objectID": "index.html#website",
-    "href": "index.html#website",
-    "title": "KI in der Lehre",
-    "section": "Website",
-    "text": "Website\n virtuelleakademie.github.io/cas-hochschuldidaktik"
-  },
-  {
-    "objectID": "slides/template-slides.html#slide-2",
-    "href": "slides/template-slides.html#slide-2",
-    "title": "AI-Enhanced Journal Club",
-    "section": "Slide 2",
-    "text": "Slide 2"
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html",
-    "href": "slides/prompt-engineering-intermediate/index.html",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "",
-    "text": "Techniques: Encourage the model to proceed in a step-by-step manner. This has the effect of making the desired output more probable. The output looks like the LLM is showing its reasoning process1.\n\n\n\n\n\n\nExample Prompt\n\n\n\nThink through this step-by-step: 1) List the symptoms 2) Consider possible causes 3) Evaluate urgency 4) Recommend action\n\n\nOften it can be sufficient to just ask the model to think step-by-step.\n\n\n\n\n\n\nExample Prompt\n\n\n\nThink step-by-step."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#chain-of-thought-cot-prompting",
-    "href": "slides/prompt-engineering-intermediate/index.html#chain-of-thought-cot-prompting",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "",
-    "text": "Techniques: Encourage the model to proceed in a step-by-step manner. This has the effect of making the desired output more probable. The output looks like the LLM is showing its reasoning process1.\n\n\n\n\n\n\nExample Prompt\n\n\n\nThink through this step-by-step: 1) List the symptoms 2) Consider possible causes 3) Evaluate urgency 4) Recommend action\n\n\nOften it can be sufficient to just ask the model to think step-by-step.\n\n\n\n\n\n\nExample Prompt\n\n\n\nThink step-by-step."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#why-chain-of-thought",
-    "href": "slides/prompt-engineering-intermediate/index.html#why-chain-of-thought",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Why Chain of Thought?",
-    "text": "Why Chain of Thought?\n\nAmount of computation is constant per token.\nBy forcing the LLM to generate more (useful) tokens, it will therefore generate more (useful) content.\nThis in turn narrows the space of possible outputs, and steers the model towards regions of the output space that are more desirable."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#drawbacks-of-chain-of-thought",
-    "href": "slides/prompt-engineering-intermediate/index.html#drawbacks-of-chain-of-thought",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Drawbacks of Chain of Thought",
-    "text": "Drawbacks of Chain of Thought\n\nLLM performance on reasoning problems does not generalize well\nChain of thought prompting aims to mitigate this by demonstrating solution procedures\nStechly, Valmeekam, and Kambhampati (2024) found meaningful performance improvements only with highly problem-specific prompts."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#few-shot-learning",
-    "href": "slides/prompt-engineering-intermediate/index.html#few-shot-learning",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Few-Shot Learning",
-    "text": "Few-Shot Learning\nTechnique: Provide multiple examples before asking for a new output.\nThe way that we structure Few-Shot Prompts is very important. By this, we mean do we separate the inputs and outputs with a colon (:) or the words INPUT/OUTPUT. We have seen examples of both earlier in this article. How can you decide? We generally use the input: output format and occasionally use the QA format, which is commonly used in research papers.\nUse 2-5 examples for simple tasks. Use often ~10 examples for harder tasks\n\n\n\n\n\n\nExample Prompt\n\n\n\nInput: “Great product, 10/10”\nOuput: “Great product, 10/10”: {“label”: “positive”}\n Input: “Didn’t work very well”\nOutput: “Didn’t work very well”: {“label”: “negative”}\n Input: “Super helpful, worth it”\nOutput: “Super helpful, worth it”: {“label”: “positive”}\n Input: “I’m not sure I would buy this again”\nOutput:"
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#structured-output",
-    "href": "slides/prompt-engineering-intermediate/index.html#structured-output",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Structured Output",
-    "text": "Structured Output\nTechnique: Specify a structure for the model’s response.\n\n\n\n\n\n\nExample Prompt\n\n\n\nProvide your assessment in JSON format:\n{\n  \"severity\": \"[Emergency/Urgent/Non-urgent]\",\n  \"potential_causes\": \"[List top 3]\",\n  \"recommended_action\": \"[Specific next steps]\"\n}"
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#self-consistency",
-    "href": "slides/prompt-engineering-intermediate/index.html#self-consistency",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Self-Consistency",
-    "text": "Self-Consistency\nLLMs are prone to variability in their responses.\nTechnique: Generate multiple answers, aggregate the responses and select the majority result.\n\n\nDo this several times:\n\n\n\n\n\n\nExample Prompt\n\n\n\nProvide three independent assessments for these symptoms.\nThink step-by-step.\nSymptoms: [insert symptoms here]\n\n\n\nProvide the responses to an LLM in a new session:\n\n\n\n\n\n\nExample Prompt\n\n\n\nAnalyze whether the following assessments agree with each other. Give me your expert assessment based on the assessments you received."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#bonus-tip-keep-up-with-prompt-engineering-research",
-    "href": "slides/prompt-engineering-intermediate/index.html#bonus-tip-keep-up-with-prompt-engineering-research",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Bonus tip: keep up with prompt engineering research",
-    "text": "Bonus tip: keep up with prompt engineering research\nTechnique: Use LLMs to “read” new research papers.\n\n\n\n\n\n\nExample Prompt\n\n\n\nBased on the attached research paper on [prompt engineering technique], write a prompt that would cause an LLM to behave according to the techniques described in this paper. Use [topic] as an example."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#problems-with-prompt-engineering",
-    "href": "slides/prompt-engineering-intermediate/index.html#problems-with-prompt-engineering",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Problems with prompt engineering",
-    "text": "Problems with prompt engineering\n\n“Positive thinking” prompts have inconsistent effects across models.\nChain of Thought (CoT) prompting generally improves performance, but prompts are task-specific.\nNo universal “best prompt” — effectiveness varies by model and task.\nAutomatically optimized prompts often outperform manually crafted ones.\nOptimized prompts can be surprisingly unconventional or eccentric."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#prompt-optimization",
-    "href": "slides/prompt-engineering-intermediate/index.html#prompt-optimization",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Prompt optimization",
-    "text": "Prompt optimization\n\n\n\n\n\n\nPositive thinking\n\n\n\nYou are an experienced emergency room nurse. Take a deep breath and carefully assess the following patient’s symptoms.\n\n\n\n\n\n\n\n\nChain of Thought\n\n\n\nThink through this patient’s case step-by-step: 1) List the symptoms, 2) Consider possible causes, 3) Evaluate urgency, 4) Recommend action.\n\n\n\n\n\n\n\n\nOptimized prompt\n\n\n\nThe ER is in chaos, Doctor. We need your expertise to navigate this storm of patients and identify the most critical cases.\n\n\nsee Battle and Gollapudi (2024)"
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#references",
-    "href": "slides/prompt-engineering-intermediate/index.html#references",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "References",
-    "text": "References\n\n\nBattle, Rick, and Teja Gollapudi. 2024. “The Unreasonable Effectiveness of Eccentric Automatic Prompts.” February 20, 2024. https://doi.org/10.48550/arXiv.2402.10949.\n\n\nStechly, Kaya, Karthik Valmeekam, and Subbarao Kambhampati. 2024. “Chain of Thoughtlessness? An Analysis of CoT in Planning.” arXiv.org. May 8, 2024. https://arxiv.org/abs/2405.04776v2."
-  },
-  {
-    "objectID": "slides/prompt-engineering-intermediate/index.html#footnotes",
-    "href": "slides/prompt-engineering-intermediate/index.html#footnotes",
-    "title": "Prompt Engineering: Intermediate Techniques",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis behaviour has been trained into recent models.↩︎"
-  },
-  {
-    "objectID": "slides/openai-platform/index.html#openai-playground",
-    "href": "slides/openai-platform/index.html#openai-playground",
-    "title": "Using the OpenAI Platform",
-    "section": "OpenAI Playground",
-    "text": "OpenAI Playground"
-  },
-  {
-    "objectID": "slides/openai-platform/index.html#generate-prompt",
-    "href": "slides/openai-platform/index.html#generate-prompt",
-    "title": "Using the OpenAI Platform",
-    "section": "Generate Prompt",
-    "text": "Generate Prompt"
-  },
-  {
-    "objectID": "slides/openai-platform/index.html#system-prompt",
-    "href": "slides/openai-platform/index.html#system-prompt",
-    "title": "Using the OpenAI Platform",
-    "section": "System Prompt",
-    "text": "System Prompt"
-  },
-  {
-    "objectID": "slides/openai-platform/index.html#llm-parameters",
-    "href": "slides/openai-platform/index.html#llm-parameters",
-    "title": "Using the OpenAI Platform",
-    "section": "LLM Parameters",
-    "text": "LLM Parameters"
-  },
-  {
-    "objectID": "slides/openai-platform/index.html#generate-response",
-    "href": "slides/openai-platform/index.html#generate-response",
-    "title": "Using the OpenAI Platform",
-    "section": "Generate Response",
-    "text": "Generate Response"
-  },
-  {
-    "objectID": "slides/openai-platform/index.html#view-code",
-    "href": "slides/openai-platform/index.html#view-code",
-    "title": "Using the OpenAI Platform",
-    "section": "View Code",
-    "text": "View Code"
-  },
-  {
-    "objectID": "slides/input/index.html",
-    "href": "slides/input/index.html",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "",
-    "text": "Entwicklung von Computersystemen, welche Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern."
-  },
-  {
-    "objectID": "slides/input/index.html#künstliche-intelligenz",
-    "href": "slides/input/index.html#künstliche-intelligenz",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Künstliche Intelligenz",
-    "text": "Künstliche Intelligenz\n\n\n\n\n\nEntwicklung von Computersystemen, welche Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern."
-  },
-  {
-    "objectID": "slides/input/index.html#beispiel-alphafold",
-    "href": "slides/input/index.html#beispiel-alphafold",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Beispiel: AlphaFold",
-    "text": "Beispiel: AlphaFold\n\n\n\nAlphaFold ist ein von Google DeepMind entwickeltes KI-System, das die 3D-Struktur eines Proteins aus seiner Aminosäuresequenz vorhersagt.\n\n\n\n\nQuelle: AlphaFold"
-  },
-  {
-    "objectID": "slides/input/index.html#künstliche-intelligenz-1",
-    "href": "slides/input/index.html#künstliche-intelligenz-1",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Künstliche Intelligenz",
-    "text": "Künstliche Intelligenz"
-  },
-  {
-    "objectID": "slides/input/index.html#künstliche-intelligenz-2",
-    "href": "slides/input/index.html#künstliche-intelligenz-2",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Künstliche Intelligenz",
-    "text": "Künstliche Intelligenz"
-  },
-  {
-    "objectID": "slides/input/index.html#symbolische-ki-maschinelles-lernen",
-    "href": "slides/input/index.html#symbolische-ki-maschinelles-lernen",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Symbolische KI / Maschinelles Lernen",
-    "text": "Symbolische KI / Maschinelles Lernen\n\n\nSymbolische KI:\n\nVerwendet explizite Regeln und Logik, programmiert von Menschen\nBasiert auf Wenn-Dann-Anweisungen und vordefiniertem Wissen\nFolgt klaren, erklärbaren Schritten\nGut für Probleme mit eindeutigen Regeln\nWeniger anpassungsfähig an neue Situationen\n\n\nMachine Learning/Deep Learning:\n\nLernt automatisch statistische Muster und Beziehungen aus Daten\nFunktioniert wie eine “Black Box” - Entscheidungen schwerer zu erklären\nGut für komplexe Muster und unklare Regeln\nKann sich durch Training an neue Situationen anpassen"
-  },
-  {
-    "objectID": "slides/input/index.html#beispiel-klassifikation-von-katzen-und-hunden",
-    "href": "slides/input/index.html#beispiel-klassifikation-von-katzen-und-hunden",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Beispiel: Klassifikation von Katzen und Hunden",
-    "text": "Beispiel: Klassifikation von Katzen und Hunden\n\n\nAnhand welcher Merkmale kann man Katzen und Hunden unterscheiden?"
-  },
-  {
-    "objectID": "slides/input/index.html#mit-symbolischer-ki",
-    "href": "slides/input/index.html#mit-symbolischer-ki",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Mit Symbolischer KI",
-    "text": "Mit Symbolischer KI\n\n\n\n\n\n\n\nIF has_whiskers = true\nAND has_pointed_ears = true\nAND has_fur = true\nAND has_tail = true\nTHEN is_cat = true"
-  },
-  {
-    "objectID": "slides/input/index.html#mit-maschinellen-lernen",
-    "href": "slides/input/index.html#mit-maschinellen-lernen",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Mit Maschinellen Lernen",
-    "text": "Mit Maschinellen Lernen\n\n\n\nSystem lernt automatisch Muster (Formen, Farben, Texturen) aus tausenden Bildern.\nKann Katzen in neuen Bildern erkennen, auch in ungewöhnlichen Positionen oder Beleuchtungen.\nBraucht keine expliziten Regeln."
-  },
-  {
-    "objectID": "slides/input/index.html#sprache",
-    "href": "slides/input/index.html#sprache",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Sprache",
-    "text": "Sprache\n\nfruit flies like a banana\n\nIst flies ein\n\nVerb (bezieht sich auf Früchte, die durch die Luft fliegen)\n\noder ein\n\nNomen (bezieht sich auf Bananenliebende Insekten)?"
-  },
-  {
-    "objectID": "slides/input/index.html#was-sind-large-language-models-llms",
-    "href": "slides/input/index.html#was-sind-large-language-models-llms",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Was sind Large Language Models (LLMs)?",
-    "text": "Was sind Large Language Models (LLMs)?\nDas Wichtigste ist zu verstehen, dass ChatGPT grundsätzlich immer versucht, eine vernünftige Fortsetzung des bisherigen Textes zu produzieren.\nMit “vernünftig” meinen wir: “Was ist die wahrscheinlichste Fortsetzung eines Textanfangs, wenn man alle möglichen Texte berücksichtigt?”"
-  },
-  {
-    "objectID": "slides/input/index.html#was-sind-large-language-models-llms-1",
-    "href": "slides/input/index.html#was-sind-large-language-models-llms-1",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Was sind Large Language Models (LLMs)?",
-    "text": "Was sind Large Language Models (LLMs)?\n\n\n\nStatistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.\nDiese Vorhersage geschieht Wort für Wort.\nJede Vorhersage basiert auf\n\nder Eingabe (Prompt)\nden zuvor generierten Wörtern\nder internen Struktur des Modells\n\n\n\n\\[\n\\newcommand{\\purple}[1]{\\color{purple}{#1}}\n\\newcommand{\\red}[1]{\\color{red}{#1}}\n\\newcommand{\\blue}[1]{\\color{blue}{#1}}\n\\]\n\n\\[\\purple{P(\\text{Wort}_{i+1}} \\mid \\blue{\\text{Kontext}}, \\red{\\text{Modell}})\\]\n\nDas \\(\\purple{\\text{nächste Wort}}\\) wird vorhergesagt, in Abhängigkeit von \\(\\blue{\\text{Inputsequenz}}\\) und \\(\\red{\\text{Modell}}\\)."
-  },
-  {
-    "objectID": "slides/input/index.html#vorhersage",
-    "href": "slides/input/index.html#vorhersage",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Vorhersage",
-    "text": "Vorhersage\nNicht alle Teile des Kontexts sind gleich wichtig:\n \n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen _“\n\n\nNach Thomas Mann, Buddenbrooks\n\n \nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
-  },
-  {
-    "objectID": "slides/input/index.html#kontext-verstehen",
-    "href": "slides/input/index.html#kontext-verstehen",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Kontext verstehen",
-    "text": "Kontext verstehen\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\nSyntaktische Struktur (Grammatik und Struktur des Satzes):\n\nDas Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen—im Plural—beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).\nDer Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.\n\nSemantischer Kontext (Bedeutung):\nDie Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.\nLexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):\nNach “grosszügigen” folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. “Räume”, “Gärten”, “Fenster”."
-  },
-  {
-    "objectID": "slides/input/index.html#was-sind-llms",
-    "href": "slides/input/index.html#was-sind-llms",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Was sind LLMs?",
-    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
-  },
-  {
-    "objectID": "slides/input/index.html#wie-generieren-llms-text",
-    "href": "slides/input/index.html#wie-generieren-llms-text",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Wie generieren LLMs Text?",
-    "text": "Wie generieren LLMs Text?"
-  },
-  {
-    "objectID": "slides/input/index.html#wie-werden-llms-trainiert",
-    "href": "slides/input/index.html#wie-werden-llms-trainiert",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Wie werden LLMs trainiert?",
-    "text": "Wie werden LLMs trainiert?"
-  },
-  {
-    "objectID": "slides/input/index.html#gefahren-und-herausforderungen",
-    "href": "slides/input/index.html#gefahren-und-herausforderungen",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Gefahren und Herausforderungen",
-    "text": "Gefahren und Herausforderungen\n\n\n\nDie verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken verbunden:\n\nUrheberrecht: Die trainierten Modelle werden mit Texten trainiert, die möglicherweise Urheberrechtlich geschützt sind.\nBias: Die trainierten Modelle können bestehende Vorurteile aus den Trainingsdaten lernen.\nEnergieverbrauch: Das Training der Modelle verbraucht viel Energie und ist damit umweltbelastend."
-  },
-  {
-    "objectID": "slides/input/index.html#gefahren-und-herausforderungen-1",
-    "href": "slides/input/index.html#gefahren-und-herausforderungen-1",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Gefahren und Herausforderungen",
-    "text": "Gefahren und Herausforderungen\n\n\n\n\nObschon sich LLMs viel Wissen aneignen1, werden sie nicht trainiert, faktisch korrekte Aussagen zu machen.\nDies bedeutet, dass wir alle Aussagen, die LLMs uns präsentieren, immer kritisch hinterfragen müssen.\nLLMs sind keine Wissensdatenbanken. Informationen immer anhand externer Quellen überprüfen.\n\n\n\n\n\nDas ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen."
-  },
-  {
-    "objectID": "slides/input/index.html#wie-sieht-das-für-musik-aus",
-    "href": "slides/input/index.html#wie-sieht-das-für-musik-aus",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Wie sieht das für Musik aus?",
-    "text": "Wie sieht das für Musik aus?\n\nYour browser does not support the audio tag.WA Mozart: Horn Concerto KV 495, Romanza (Christian Holenstein)\n\nQuelle: www.christian-holenstein.ch/sounds"
-  },
-  {
-    "objectID": "slides/input/index.html#style-transfer",
-    "href": "slides/input/index.html#style-transfer",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Style transfer",
-    "text": "Style transfer\n\n\nVoicebox ist ein KI-System, das hochwertige Audioclips in verschiedenen Stilen erzeugen kann. Es beherrscht Sprachsynthese in sechs Sprachen und kann bestehende Aufnahmen bearbeiten oder neue erstellen."
-  },
-  {
-    "objectID": "slides/input/index.html#ki-verrichtet-geistige-arbeit",
-    "href": "slides/input/index.html#ki-verrichtet-geistige-arbeit",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "KI verrichtet geistige Arbeit",
-    "text": "KI verrichtet geistige Arbeit\n\nKognitive Arbeit und KI: KI hat das Potential zu verändern, wie geistige Arbeit verrichtet wird.\nWichtige Erkenntnisse aus der Forschung:\n\nDell’Acqua et al. (2023) erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.\nToner-Rodgers (n.d.) diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.\nCui et al. (2024) analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.\n\nErkenntnisse:\n\nAutomatisierung von routinemässigen kognitiven Aufgaben ist möglich\nUnterstützung kreativer Arbeit ist möglich\nDeskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren\nOhne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt"
-  },
-  {
-    "objectID": "slides/input/index.html#körperliche-arbeit",
-    "href": "slides/input/index.html#körperliche-arbeit",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Körperliche Arbeit",
-    "text": "Körperliche Arbeit\n\n\n19. Jahrhundert\n\n\n20. Jahrhundert\n\n\n\nBildquelle: Erstellt mit DALL-E 3"
-  },
-  {
-    "objectID": "slides/input/index.html#wie-sieht-das-für-die-kognitive-arbeit-aus",
-    "href": "slides/input/index.html#wie-sieht-das-für-die-kognitive-arbeit-aus",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Wie sieht das für die kognitive Arbeit aus?",
-    "text": "Wie sieht das für die kognitive Arbeit aus?\n\n\n1960\n\n\n2030 \n\n\n\nBildquelle: Erstellt mit DALL-E 3"
-  },
-  {
-    "objectID": "slides/input/index.html#ankunftstechnologien",
-    "href": "slides/input/index.html#ankunftstechnologien",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Ankunftstechnologien",
-    "text": "Ankunftstechnologien\n\n\nSchulen und Hochschulen stehen vor Herausforderungen mit Technologien wie ChatGPT, weil sie:\n\nTraditionelle Technologie-Evaluierungsprozesse umgehen\nDurch spontane Adoption eingeführt werden\nReaktive statt proaktive Richtlinien erfordern\n\n\n\n\n\nBildquelle: Erstellt mit DALL-E 3 (“ChatGPT arriving at a university in the style of a 14th century painting.”)"
-  },
-  {
-    "objectID": "slides/input/index.html#adoptions--vs.-ankunfts-technologien",
-    "href": "slides/input/index.html#adoptions--vs.-ankunfts-technologien",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Adoptions- vs. Ankunfts-Technologien",
-    "text": "Adoptions- vs. Ankunfts-Technologien\n(Reich and Dukes 2024)\n\n\nTraditionelle Einführung\n\nSorgfältige Bewertung\nPilotversuche\nMitarbeiterschulung\nKlare Zeitpläne\nEtablierte Richtlinien\n\n\n\n\nBeispiele: Adoptions-Technologien\n\n\nLearning Management Systems, Smart boards\n\n\n\n\nAnkunftstechnologien\n\nSpontane Nutzung\nUmgehung von Prozessen\nKeine Vorbereitung\nBenutzergeführte Einführung\nReaktive Richtlinien\n\n\n\n\nBeispiele: Ankunfts-Technologien\n\n\nSmartphone, Wikipedia, YouTube, TikTok"
-  },
-  {
-    "objectID": "slides/input/index.html#chatgpt",
-    "href": "slides/input/index.html#chatgpt",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "ChatGPT",
-    "text": "ChatGPT"
-  },
-  {
-    "objectID": "slides/input/index.html#fragen-beantworten",
-    "href": "slides/input/index.html#fragen-beantworten",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Fragen beantworten",
-    "text": "Fragen beantworten"
-  },
-  {
-    "objectID": "slides/input/index.html#bilder-analysieren",
-    "href": "slides/input/index.html#bilder-analysieren",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Bilder analysieren",
-    "text": "Bilder analysieren"
-  },
-  {
-    "objectID": "slides/input/index.html#dokumente-zusammenfassen",
-    "href": "slides/input/index.html#dokumente-zusammenfassen",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Dokumente zusammenfassen",
-    "text": "Dokumente zusammenfassen"
-  },
-  {
-    "objectID": "slides/input/index.html#output-strukturieren",
-    "href": "slides/input/index.html#output-strukturieren",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Output strukturieren",
-    "text": "Output strukturieren"
-  },
-  {
-    "objectID": "slides/input/index.html#websuche",
-    "href": "slides/input/index.html#websuche",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Websuche",
-    "text": "Websuche"
-  },
-  {
-    "objectID": "slides/input/index.html#datenanalyse",
-    "href": "slides/input/index.html#datenanalyse",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Datenanalyse",
-    "text": "Datenanalyse"
-  },
-  {
-    "objectID": "slides/input/index.html#custom-gpts",
-    "href": "slides/input/index.html#custom-gpts",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Custom GPTs",
-    "text": "Custom GPTs"
-  },
-  {
-    "objectID": "slides/input/index.html#rechtliche-aspekte",
-    "href": "slides/input/index.html#rechtliche-aspekte",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Rechtliche Aspekte",
-    "text": "Rechtliche Aspekte\nZwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:\n \n\n\nRechtliche Aspekte \n\nWer besitzt die Rechte an den von LLMs generierten Inhalten?\nRisiko von Plagiaten und Urheberrechtsverletzungen\nRichtlinien für den Umgang mit generierten Inhalten\n\n\nDatenschutz \n\nSchutz personenbezogener Daten\nEinhaltung von Datenschutzbestimmungen"
-  },
-  {
-    "objectID": "slides/input/index.html#rechtliche-aspekte-1",
-    "href": "slides/input/index.html#rechtliche-aspekte-1",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Rechtliche Aspekte",
-    "text": "Rechtliche Aspekte\n\nKI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben—dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.\nDer Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.\nDer von der KI generierte Output kann zufällig geschützte Inhalte Dritter enthalten."
-  },
-  {
-    "objectID": "slides/input/index.html#rechtliche-aspekte-2",
-    "href": "slides/input/index.html#rechtliche-aspekte-2",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Rechtliche Aspekte",
-    "text": "Rechtliche Aspekte\n\nAnbieter von KI-Plattformen können sich Rechte an generierten Inhalten vorbehalten, was ebenfalls rechtliche Herausforderungen mit sich bringen kann.\nOpenAI-Nutzungsbedingungen: die Rechte an generierten Inhalten abgetreten, OpenAI behält sich aber Nutzungsrechte vor.\nNutzende/r ist in der Verantwortung, die rechtlichen Anforderungen einzuhalten."
-  },
-  {
-    "objectID": "slides/input/index.html#empfehlung",
-    "href": "slides/input/index.html#empfehlung",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Empfehlung",
-    "text": "Empfehlung\nKI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann:\n\n\n\n\n\n\n\nDeklaration\n\n\nDer/die Autor*in hat diesen Text teilweise mit [[Modell]] erstellt. Nach der Erstellung des Entwurfs hat der/die Autor*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.\n\n\n\n\nZitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden."
-  },
-  {
-    "objectID": "slides/input/index.html#datenschutz",
-    "href": "slides/input/index.html#datenschutz",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Datenschutz",
-    "text": "Datenschutz\nDatenschutz allgemein bedeutet:\n\nsicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.\nTransparenz darüber, welche Daten erhoben und wie sie verwendet werden.\nsicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden\nRecht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch\nEinhaltung von Datenschutzgesetzen und -vorschriften\n\n\n\n\nLehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten."
-  },
-  {
-    "objectID": "slides/input/index.html#datensicherheit",
-    "href": "slides/input/index.html#datensicherheit",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Datensicherheit",
-    "text": "Datensicherheit\nDies bedeutet:\n\nDaten so zu speichern, dass sie nicht verloren gehen\nDaten nicht manipuliert werden können\nTechnische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten"
-  },
-  {
-    "objectID": "slides/input/index.html#schutzmassnahmen",
-    "href": "slides/input/index.html#schutzmassnahmen",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Schutzmassnahmen",
-    "text": "Schutzmassnahmen\n\n\n\nKeine persönlichen Daten in die Eingabe von ChatGPT einfliessen lassen (nur anonymisierte Informationen)\nKeine Eingabe von sensiblen oder vertraulichen Informationen (Informationen über gesundheitliche, finanzielle oder private Angelegenheiten)\n\n\nEinstellungen im Konto für Datenkontrolle:"
-  },
-  {
-    "objectID": "slides/input/index.html#copilot-verwenden",
-    "href": "slides/input/index.html#copilot-verwenden",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Copilot verwenden",
-    "text": "Copilot verwenden\n\n\nMicrosoft Copilot garantiert BFH-Mitarbeitenden, dass Benutzerdaten gesichert sind:\n Schutz von Unternehmensdaten\n\nBenutzerdaten sind durch Verschlüsselung, Sicherheitskontrollen und Datenisolation (gleich wie bei E-Mails in Exchange und Dateien in SharePoint) geschützt.\nMicrosoft verwendet Daten nicht ohne Anweisung des Benutzers."
-  },
-  {
-    "objectID": "slides/input/index.html#api-oder-lokale-ki-modelle-verwenden",
-    "href": "slides/input/index.html#api-oder-lokale-ki-modelle-verwenden",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "API oder lokale KI-Modelle verwenden",
-    "text": "API oder lokale KI-Modelle verwenden\n\n\njan.ai: Eine Open-Source ChatGPT-Alternative\n\n\n\n\nlmstudio.ai: Lokale LLMs installieren"
-  },
-  {
-    "objectID": "slides/input/index.html#detektion-von-ki-generiertem-inhalt",
-    "href": "slides/input/index.html#detektion-von-ki-generiertem-inhalt",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Detektion von KI-generiertem Inhalt",
-    "text": "Detektion von KI-generiertem Inhalt\n\n\nHeuristiken:\n\nDurch Verwendung spezifischer Vokabeln und Phrasen: “delve”, “vibrant”, “embark”, “it’s important to note”, “based on the data provided”.\nDurch Verwendung des in der Schweiz unüblichen scharfen S (ß).\n\n\nDetektion anhand vom Schreibstil und Inhalt:\n\nErkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.\nErkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten (Fleckenstein et al. 2024)."
-  },
-  {
-    "objectID": "slides/input/index.html#fragen",
-    "href": "slides/input/index.html#fragen",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Fragen",
-    "text": "Fragen\n\n?"
-  },
-  {
-    "objectID": "slides/input/index.html#references",
-    "href": "slides/input/index.html#references",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "References",
-    "text": "References\n\n\nCui, Zheyuan (Kevin), Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, and Tobias Salz. 2024. “The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers.” SSRN Scholarly Paper. Rochester, NY. September 3, 2024. https://doi.org/10.2139/ssrn.4945566.\n\n\nDell’Acqua, Fabrizio, Edward McFowland, Ethan R. Mollick, Hila Lifshitz-Assaf, Katherine Kellogg, Saran Rajendran, Lisa Krayer, François Candelon, and Karim R. Lakhani. 2023. “Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality.” SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4573321.\n\n\nFleckenstein, Johanna, Jennifer Meyer, Thorben Jansen, Stefan D. Keller, Olaf Köller, and Jens Möller. 2024. “Do Teachers Spot AI? Evaluating the Detectability of AI-generated Texts Among Student Essays.” Computers and Education: Artificial Intelligence 6 (June): 100209. https://doi.org/10.1016/j.caeai.2024.100209.\n\n\nReich, Justin, and Jesse Dukes. 2024. “Toward a New Theory of Arrival Technologies.” November 14, 2024. https://doi.org/10.35542/osf.io/x6vn7.\n\n\nToner-Rodgers, Aidan. n.d. “Artificial Intelligence, Scientific Discovery, and Product Innovation.”"
-  },
-  {
-    "objectID": "slides/input/index.html#footnotes",
-    "href": "slides/input/index.html#footnotes",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nDas ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen.↩︎"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html",
-    "href": "slides/prompt-engineering-basics/index.html",
-    "title": "Prompt Engineering: Basics",
-    "section": "",
-    "text": "Dedicate time to actively using large language models (LLMs).\nUtilize LLMs for tasks related to your work or personal interests.\nExplore their abilities by posing diverse and unique prompts.\nObserve where LLMs work well and where they don’t."
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#understand-llms-through-hands-on-experience",
-    "href": "slides/prompt-engineering-basics/index.html#understand-llms-through-hands-on-experience",
-    "title": "Prompt Engineering: Basics",
-    "section": "",
-    "text": "Dedicate time to actively using large language models (LLMs).\nUtilize LLMs for tasks related to your work or personal interests.\nExplore their abilities by posing diverse and unique prompts.\nObserve where LLMs work well and where they don’t."
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#a-useful-metaphor",
-    "href": "slides/prompt-engineering-basics/index.html#a-useful-metaphor",
-    "title": "Prompt Engineering: Basics",
-    "section": "A useful metaphor",
-    "text": "A useful metaphor\nImagine you are giving instructions to a junior intern or assistant."
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#zero-shot-prompting",
-    "href": "slides/prompt-engineering-basics/index.html#zero-shot-prompting",
-    "title": "Prompt Engineering: Basics",
-    "section": "Zero-Shot Prompting",
-    "text": "Zero-Shot Prompting\nDefinition: Asking the model to perform a task without providing examples.\n\n\n\n\n\n\nExample Prompt\n\n\n\nTranslate the following English text to French: ’Hello, how are you?"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#role-assignment",
-    "href": "slides/prompt-engineering-basics/index.html#role-assignment",
-    "title": "Prompt Engineering: Basics",
-    "section": "Role assignment",
-    "text": "Role assignment\nTechnique: Define a specific role for the AI to adopt.\n\n\n\n\n\n\nExample Prompt\n\n\n\nYou are an expert historian. Explain the causes of World War I.\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\n\nYou are an 8-year-old child. Explain the causes of World War I.\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\n\nYou are an experienced emergency room nurse with over 15 years of experience in patient triage. Your role is to perform initial assessments of patients based on their reported symptoms and medical history. You have a calm demeanor and the ability to quickly prioritize cases based on severity. In this role, you will categorize patients’ conditions and recommend appropriate next steps."
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#clear-communication",
-    "href": "slides/prompt-engineering-basics/index.html#clear-communication",
-    "title": "Prompt Engineering: Basics",
-    "section": "Clear communication",
-    "text": "Clear communication\nTechnique: Use precise language and specific instructions\n\n\n\n\n\n\nExample Prompt\n\n\n\nYou are an ER nurse with 15+ years of triage experience.\nYour tasks: - Assess patients quickly based on symptoms and medical - Categorize conditions by severity - Recommend next steps for treatment\nYou are calm under pressure and efficient in prioritizing cases.\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\n\nList five benefits of regular exercise, each in a separate bullet point."
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#emotion-prompting",
-    "href": "slides/prompt-engineering-basics/index.html#emotion-prompting",
-    "title": "Prompt Engineering: Basics",
-    "section": "Emotion prompting",
-    "text": "Emotion prompting\nTechnique: Incorporate emotional language to potentially improve accuracy and response quality1.\n\n\n\n\n\n\nExample Prompt\n\n\n\nI’m really excited to learn about this! Can you enthusiastically explain how photosynthesis works?\n\n\n\n\n\n\n\n\n\nExample Prompt\n\n\n\nRate this essay according to [these criteria]. You will receive a bonus if you do a good job."
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#provide-context",
-    "href": "slides/prompt-engineering-basics/index.html#provide-context",
-    "title": "Prompt Engineering: Basics",
-    "section": "Provide context",
-    "text": "Provide context\nTechnique: Give relevant background information\n\n\n\n\n\n\nExample Prompt\n\n\n\nContext: You are working in a busy urban hospital emergency room during flu season. It’s currently 2 AM on a Saturday, and the waiting room is full. The hospital has been dealing with a recent outbreak of a new strain of influenza in the community.\nPatient Information:\n\n45-year-old male\nNo known pre-existing conditions\nNot on any regular medications\nLast flu shot was 2 years ago\nGiven this context and patient information, assess the following reported symptoms: [Insert symptoms here]"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#use-examples",
-    "href": "slides/prompt-engineering-basics/index.html#use-examples",
-    "title": "Prompt Engineering: Basics",
-    "section": "Use examples",
-    "text": "Use examples\nThis is known as few-shot prompting.   Technique: Illustrate desired output with examples.\n\n\n\n\n\n\nExample Prompt\n\n\n\nPerform a triage assessment based on the patient’s symptoms. Format your response similar to the following examples:\nExample 1: Symptoms: Chest pain, shortness of breath, left arm numbness Assessment: Emergency Reason: Symptoms strongly indicate a possible heart attack Action: Immediate medical attention required. Call for a cardiac team.\nExample 2: Symptoms: Mild fever, sore throat, fatigue Assessment: Non-urgent Reason: Symptoms suggest a common cold or mild flu Action: Rest at home, monitor symptoms, seek medical attention if condition worsens.\nAssess the following patient:\nSymptoms: [Insert patient’s symptoms here]"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#specify-output-format",
-    "href": "slides/prompt-engineering-basics/index.html#specify-output-format",
-    "title": "Prompt Engineering: Basics",
-    "section": "Specify Output Format",
-    "text": "Specify Output Format\nFor example:\n\na Markdown table\nWord or Excel document\nCSV file\nStructured list\n\n\n\n\n\n\n\nExample Prompt\n\n\n\nBased on the patient’s symptoms, create a triage assessment. Present your findings in a Markdown table with the following columns:\n\nSeverity\nPrimary Concern\nSymptoms\nRecommended Action\n\nUse one of three severity levels: Emergency, Urgent, or Non-urgent.\nThe patient has the following symptoms: [Insert symptoms here]"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#structure-input-using-markdown",
-    "href": "slides/prompt-engineering-basics/index.html#structure-input-using-markdown",
-    "title": "Prompt Engineering: Basics",
-    "section": "Structure Input Using Markdown",
-    "text": "Structure Input Using Markdown\nTechnique: Organize input information in a structured format using Markdown.\n\n\n\n\n\n\nExample Prompt\n\n\n\nBased on the patient's symptoms, create a triage assessment.\n\n# Patient Triage Information\n\n## Patient Details\n\n- **Name**: John Doe\n- **Age**: 45\n- **Gender**: Male\n- **Medical History**: No known pre-existing conditions\n- \n## Current Symptoms\n1. Chest pain (severity: 8/10)\n2. Shortness of breath\n3. Left arm numbness"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#ask-an-llm",
-    "href": "slides/prompt-engineering-basics/index.html#ask-an-llm",
-    "title": "Prompt Engineering: Basics",
-    "section": "Ask an LLM",
-    "text": "Ask an LLM\nLLMs have been trained on a lot of data, including prompting techniques2.\n\n\n\n\n\n\nExample Prompt\n\n\n\nAs a language model, how would you proceed when given the following prompt: ““” You are an ER nurse with 15+ years of triage experience.\nYour tasks: 1. Assess patients quickly based on symptoms and medical history 2. Categorize conditions by severity 3. Recommend next steps for treatment 4. You are calm under pressure and efficient in prioritizing cases. ““”\n\n\n\n\n\n\n\n\nExample Prompt\n\n\n\nHow would you improve this prompt?"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#generate-python-code",
-    "href": "slides/prompt-engineering-basics/index.html#generate-python-code",
-    "title": "Prompt Engineering: Basics",
-    "section": "Generate Python code",
-    "text": "Generate Python code\nTechnique: ask an LLM to generate Python code, or in the case of ChatGPT to “use Python”\n\n\n\n\n\n\nExample Prompt\n\n\n\n[Insert query here…]\nUse Python."
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#references",
-    "href": "slides/prompt-engineering-basics/index.html#references",
-    "title": "Prompt Engineering: Basics",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "slides/prompt-engineering-basics/index.html#footnotes",
-    "href": "slides/prompt-engineering-basics/index.html#footnotes",
-    "title": "Prompt Engineering: Basics",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nEmotion prompting’s effectiveness in improving language model responses is debated. Some argue it could enhance naturalness, while others suggest minimal or inconsistent impact across tasks and models. More research is needed.↩︎\nIt is debated whether LLMs are particularly suited to writing prompting techniques.↩︎"
-  },
-  {
-    "objectID": "slides/prompting/index.html",
-    "href": "slides/prompting/index.html",
-    "title": "Prompting: Eine Einführung",
-    "section": "",
-    "text": "Ein Prompt ist ein Text (Anweisung), das einem generativen KI-Modell gegeben wird, um bestimmte Informationen zu generieren oder zu verstehen.\nPrompts dienen als Startpunkt beispielsweise für die Generierung von Ideen, Texten, Übersetzungen und Antworten auf Fragen."
-  },
-  {
-    "objectID": "slides/prompting/index.html#was-ist-ein-prompt",
-    "href": "slides/prompting/index.html#was-ist-ein-prompt",
-    "title": "Prompting: Eine Einführung",
-    "section": "",
-    "text": "Ein Prompt ist ein Text (Anweisung), das einem generativen KI-Modell gegeben wird, um bestimmte Informationen zu generieren oder zu verstehen.\nPrompts dienen als Startpunkt beispielsweise für die Generierung von Ideen, Texten, Übersetzungen und Antworten auf Fragen."
-  },
-  {
-    "objectID": "slides/prompting/index.html#wie-wird-text-output-erzeugt",
-    "href": "slides/prompting/index.html#wie-wird-text-output-erzeugt",
-    "title": "Prompting: Eine Einführung",
-    "section": "Wie wird Text (Output) erzeugt?",
-    "text": "Wie wird Text (Output) erzeugt?"
-  },
-  {
-    "objectID": "slides/prompting/index.html#wie-kann-ich-den-output-beeinflussen",
-    "href": "slides/prompting/index.html#wie-kann-ich-den-output-beeinflussen",
-    "title": "Prompting: Eine Einführung",
-    "section": "Wie kann ich den Output beeinflussen?\u000b",
-    "text": "Wie kann ich den Output beeinflussen?"
-  },
-  {
-    "objectID": "slides/prompting/index.html#prompting-grundlagen",
-    "href": "slides/prompting/index.html#prompting-grundlagen",
-    "title": "Prompting: Eine Einführung",
-    "section": "Prompting: Grundlagen",
-    "text": "Prompting: Grundlagen\n\n\nÜberblick:\n\nSei klar und präzise\nFange einfach an und verbessere\nVerwende Beispiele und Kontext\nLeite den Denkprozess\nNutze ChatGPT/Copilots “Wissen”\nVerwende Rollenspieltechniken"
-  },
-  {
-    "objectID": "slides/prompting/index.html#sei-klar-und-präzise",
-    "href": "slides/prompting/index.html#sei-klar-und-präzise",
-    "title": "Prompting: Eine Einführung",
-    "section": "1. Sei klar und präzise",
-    "text": "1. Sei klar und präzise\n\nFormuliere deine Aufgabe oder Frage präzise\nGib relevanten Kontext und Details an\nUnterteile komplexe Aufgaben in kleinere Schritte\n\n\n\n\n\n\n\n❌\n\n\n\nBeschreibe, wie KI in der Musikproduktion eingesetzt wird.\n\n\n\n\n\n\n\n\n✅\n\n\n\nBeschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum Arrangement von Jazz-Kompositionen verwendet werden kann. Gib konkrete Beispiele für Algorithmen oder Werkzeuge an, die in der Musikproduktion genutzt werden, um Muster zu erkennen und Vorschläge für Harmonievariationen zu generieren."
-  },
-  {
-    "objectID": "slides/prompting/index.html#fange-einfach-an-und-verbessere",
-    "href": "slides/prompting/index.html#fange-einfach-an-und-verbessere",
-    "title": "Prompting: Eine Einführung",
-    "section": "2. Fange einfach an und verbessere",
-    "text": "2. Fange einfach an und verbessere\nBeispiel 1:\n\n\n\n\n\n\n❌\n\n\n\nEntwickle ein vollständiges Regiekonzept für eine moderne Adaption von Shakespeares Hamlet, einschliesslich Bühnenbild, Kostümgestaltung, Lichtdesign und einer Analyse der Charaktere.\n\n\n\n\n\n\n\n\n✅\n\n\n\nErstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenbild und Kostüme visuell vermittelt werden könnte.\n\n\n\nWichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:\n\n“Kannst du ein Beispiel für ein spezifisches Kostümdetail geben, das moderne Elemente einbezieht?”\n“Wie könnte das Bühnenbild die Stimmung oder den inneren Konflikt der Charaktere widerspiegeln?”"
-  },
-  {
-    "objectID": "slides/prompting/index.html#fange-einfach-an-und-verbessere-1",
-    "href": "slides/prompting/index.html#fange-einfach-an-und-verbessere-1",
-    "title": "Prompting: Eine Einführung",
-    "section": "2. Fange einfach an und verbessere",
-    "text": "2. Fange einfach an und verbessere\nBeispiel 2:\n\n\n\n\n\n\n❌\n\n\n\nErstelle einen umfassenden, mehrstufigen Behandlungsplan für einen Patienten mit chronischer Hypertonie, einschließlich Medikamentenregime, Lebensstiländerungen, Nachsorgezeitplan und möglichen Komplikationen.\n\n\n\n\n\n\n\n\n✅\n\n\n\nSchlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem kürzlich eine leichte Hypertonie diagnostiziert wurde.\n\n\n\nWichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:\n\n“Kannst du mehr Details zu einer dieser Änderungen geben?”\n“Welche Auswirkungen hätte jede dieser Änderungen auf den Blutdruck?”\n“Gibt es mögliche Herausforderungen bei der Umsetzung dieser Änderungen?”"
-  },
-  {
-    "objectID": "slides/prompting/index.html#verwende-beispiele-und-kontext",
-    "href": "slides/prompting/index.html#verwende-beispiele-und-kontext",
-    "title": "Prompting: Eine Einführung",
-    "section": "3. Verwende Beispiele und Kontext",
-    "text": "3. Verwende Beispiele und Kontext\nBeschreibe, welche Art von Output du erwartest Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst\n\n\n\n\n\n\n❌\n\n\n\nErkläre, wie man eine Skulptur restauriert.\n\n\n\n\n\n\n\n\n✅\n\n\n\nErkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berücksichtige dabei Schritte wie:\n\nSichtung und Dokumentation des Schadens\nAuswahl und Testen geeigneter Materialien zur Rissfüllung\nAnwendung und Glättung des Füllmaterials\n\nGib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schritt notwendig sind."
-  },
-  {
-    "objectID": "slides/prompting/index.html#leite-den-denkprozess",
-    "href": "slides/prompting/index.html#leite-den-denkprozess",
-    "title": "Prompting: Eine Einführung",
-    "section": "4. Leite den Denkprozess",
-    "text": "4. Leite den Denkprozess\nBitte ChatGPT/Copilot, “Schritt für Schritt” zu denken oder seine Überlegungen zu erklären. Dies führt oft zu genaueren und detaillierteren Antworten.\n\n\n\n\n\n\n❌\n\n\n\nRestauriere ein beschädigtes Ölgemälde mit mehreren Rissen und Farbverlusten.\n\n\n\n\n\n\n\n\n✅\n\n\n\nLass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbverlust Schritt für Schritt angehen:\n\nZuerst beschreibe die Art und das Ausmass der Schäden.\nWelche Faktoren könnten für die Schäden verantwortlich sein (z.B. Alterung, Lagerungsbedingungen)?\nWelche Materialien und Techniken könnten zur Stabilisierung der Risse verwendet werden?\nWelche Farbpigmente und Fixiermittel könnten zur Ausbesserung des Farbverlustes geeignet sein?\nWelche Tests könnten vorher an kleinen Stellen des Gemäldes durchgeführt werden, um die Wirkung der Materialien zu prüfen?\n\nBeginne mit Schritt 1."
-  },
-  {
-    "objectID": "slides/prompting/index.html#nutze-chatgptcopilots-wissen",
-    "href": "slides/prompting/index.html#nutze-chatgptcopilots-wissen",
-    "title": "Prompting: Eine Einführung",
-    "section": "5. Nutze ChatGPT/Copilots “Wissen”",
-    "text": "5. Nutze ChatGPT/Copilots “Wissen”\n\nLLMs verfügen über breites Wissen\nFrage nach Erklärungen oder Hintergrundinformationen\nGib relevanten Kontext an, damit ChatGPT/Copilot gezielter antworten kann\n\n\n\n\n\n\n\n❌\n\n\n\nErkläre, wie ein Orchester funktioniert.\n\n\n\n\n\n\n\n\n✅\n\n\n\nErkläre, wie ein Sinfonieorchester funktioniert, als würdest du Musikstudierenden im ersten Semester eine Einführung geben.\nVergleiche dabei die Struktur eines Orchesters mit einem gut koordinierten Team, bei dem jede Gruppe eine spezifische Aufgabe übernimmt.\nErkläre die Rolle der verschiedenen Instrumentengruppen (Streicher, Bläser, Schlagwerk) und die des Dirigenten und zeige, wie sie zusammenarbeiten, um ein harmonisches Ganzes zu erzeugen."
-  },
-  {
-    "objectID": "slides/prompting/index.html#nutze-chatgptcopilots-wissen-1",
-    "href": "slides/prompting/index.html#nutze-chatgptcopilots-wissen-1",
-    "title": "Prompting: Eine Einführung",
-    "section": "5. Nutze ChatGPT/Copilots “Wissen”",
-    "text": "5. Nutze ChatGPT/Copilots “Wissen”\n \n\n\n\n\n\n\nAchtung\n\n\n\nImmer den Output eines LLM anhand externer Quellen überprüfen. Sprachmodelle sind keine Nachschlagewerke."
-  },
-  {
-    "objectID": "slides/prompting/index.html#verwende-rollenspieltechniken",
-    "href": "slides/prompting/index.html#verwende-rollenspieltechniken",
-    "title": "Prompting: Eine Einführung",
-    "section": "6. Verwende Rollenspieltechniken",
-    "text": "6. Verwende Rollenspieltechniken\n\nBitte ChatGPT/Copilot, eine bestimmte Rolle oder Perspektive einzunehmen\nDies kann zu spezifischeren und relevanteren Antworten führen\n\n\n\n\n\n\n\n❌\n\n\n\nGib Tipps zur Verbesserung der Bühnenpräsenz.\u000b\n\n\n\n\n\n\n\n\n✅\n\n\n\nDu bist eine erfahrene Theaterregisseurin, die seit über 15 Jahren mit Schauspielstudierenden arbeitet.\nWas sind deine drei wichtigsten Tipps für junge Schauspieler, um ihre Bühnenpräsenz zu stärken?\nBerücksichtige dabei Aspekte wie Körperhaltung, Stimme und Interaktion mit dem Publikum und gib konkrete Übungen oder Techniken an, die die Schauspieler ausprobieren können."
-  },
-  {
-    "objectID": "slides/prompting/index.html#bonustips",
-    "href": "slides/prompting/index.html#bonustips",
-    "title": "Prompting: Eine Einführung",
-    "section": "Bonustips",
-    "text": "Bonustips\n \n\n\n\n\n\n\n\nMentales Modell: Ein LLM wie einen “Junior Assistant” behandeln.\nStruktierten Output verlangen (Tabellen, Listen, etc.)\nInput strukturieren (LLMs können diesen besser “verstehen”)\nEin LLM (z.B. ChatGPT/Copilot) nach Prompting Tips fragen. LLMs sind nicht auf dem neuesten Stand, aber haben sehr wahrscheinlich die bis vor kurzem aktuelle Literatur “gelesen”.\nChatGPT Tip: Anweisen, Python zu benutzen. Pyhton ist eine Programmiersprache, die ChatGPT sehr gut beherrscht. Mit Python kann ChatGPT Daten analysieren, Grafiken erstellen, Word/Excel/Powerpoint Dateien erstellen."
-  },
-  {
-    "objectID": "slides/prompting/index.html#references",
-    "href": "slides/prompting/index.html#references",
-    "title": "Prompting: Eine Einführung",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "workshop/prompting/index.html",
-    "href": "workshop/prompting/index.html",
-    "title": "Anwendung: Prompting",
-    "section": "",
-    "text": "In der folgenden Präsentation diskutieren wir folgende Prompting-Regeln:\nView slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "Anwendung: Prompting"
-    ]
-  },
-  {
-    "objectID": "workshop/prompting/index.html#weiterführende-präsentationen",
-    "href": "workshop/prompting/index.html#weiterführende-präsentationen",
-    "title": "Anwendung: Prompting",
-    "section": "Weiterführende Präsentationen",
-    "text": "Weiterführende Präsentationen\nKI in der Lehre Workshops (auf Englisch):\n    View slides in full screen\n       \n      \n    \n  \n    View slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "Anwendung: Prompting"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html",
-    "href": "workshop/index.html",
-    "title": "Inhalt",
-    "section": "",
-    "text": "Input: KI als Lehrassistent\nInput: Studierende & KI\nInput: KI im Unterricht",
-    "crumbs": [
-      "Workshop",
-      "Inhalt"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#workshop-program",
-    "href": "workshop/index.html#workshop-program",
-    "title": "Inhalt",
-    "section": "",
-    "text": "Input: KI als Lehrassistent\nInput: Studierende & KI\nInput: KI im Unterricht",
-    "crumbs": [
-      "Workshop",
-      "Inhalt"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#dozent",
-    "href": "workshop/index.html#dozent",
-    "title": "Inhalt",
-    "section": "Dozent",
-    "text": "Dozent\nDr. Andrew Ellis ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule.\nDr. Stefan Hackstein, Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule.\nBeide arbeiten als Wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. Ihre Lehr- und Forschungsschwerpunkte liegen im Bereich der künstlichen Intelligenz in Bildungskontexten.",
-    "crumbs": [
-      "Workshop",
-      "Inhalt"
-    ]
-  },
-  {
-    "objectID": "workshop/presentation/index.html",
-    "href": "workshop/presentation/index.html",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "",
-    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
-    "crumbs": [
-      "Workshop",
-      "Künstliche Intelligenz in der Lehre: erste Schritte"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#dozenten",
-    "href": "workshop/index.html#dozenten",
-    "title": "Inhalt",
-    "section": "Dozenten",
-    "text": "Dozenten\n\nDr. Andrew Ellis und Dr. Stefan Hackstein sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig. Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.",
-    "crumbs": [
-      "Workshop",
-      "Inhalt"
-    ]
-  },
-  {
-    "objectID": "index.html#dozenten",
-    "href": "index.html#dozenten",
-    "title": "KI in der Lehre",
-    "section": "Dozenten",
-    "text": "Dozenten\n\nDr. Andrew Ellis und Dr. Stefan Hackstein sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig. Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann."
-  },
-  {
-    "objectID": "workshop/ki-lehrassistent/index.html",
-    "href": "workshop/ki-lehrassistent/index.html",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "",
-    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0"
-  },
-  {
-    "objectID": "workshop/studis-und-ki/index.html",
-    "href": "workshop/studis-und-ki/index.html",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "",
-    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
-    "crumbs": [
-      "Workshop",
-      "Künstliche Intelligenz in der Lehre: erste Schritte"
-    ]
-  },
-  {
-    "objectID": "workshop/ki-unterricht/index.html",
-    "href": "workshop/ki-unterricht/index.html",
-    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
-    "section": "",
-    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
-    "crumbs": [
-      "Workshop",
-      "Künstliche Intelligenz in der Lehre: erste Schritte"
-    ]
-  },
-  {
     "objectID": "resources/tools.html",
     "href": "resources/tools.html",
     "title": "CAS Hochschuldidaktik",
@@ -834,15 +35,102 @@
     "text": "Prompt Engineering\n👉🏼 Prompting Guide"
   },
   {
-    "objectID": "resources/resources.html#ki-orientierungshilfe-der-bfh",
-    "href": "resources/resources.html#ki-orientierungshilfe-der-bfh",
+    "objectID": "workshop/studis-und-ki/index.html",
+    "href": "workshop/studis-und-ki/index.html",
+    "title": "Studierende & KI",
+    "section": "",
+    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Studierende & KI"
+    ]
+  },
+  {
+    "objectID": "workshop/ki-lehrassistent/index.html",
+    "href": "workshop/ki-lehrassistent/index.html",
+    "title": "KI als Lehrassistent",
+    "section": "",
+    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "KI als Lehrassistent"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "KI in der Lehre",
+    "section": "",
+    "text": "21.03.2025\n13.13–14.45 Uhr"
+  },
+  {
+    "objectID": "index.html#dozenten",
+    "href": "index.html#dozenten",
+    "title": "KI in der Lehre",
+    "section": "Dozenten",
+    "text": "Dozenten\n\nDr. Andrew Ellis und Dr. Stefan Hackstein sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig. Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann."
+  },
+  {
+    "objectID": "index.html#website",
+    "href": "index.html#website",
+    "title": "KI in der Lehre",
+    "section": "Website",
+    "text": "Website\n virtuelleakademie.github.io/cas-hochschuldidaktik"
+  },
+  {
+    "objectID": "workshop/index.html#erwartungen",
+    "href": "workshop/index.html#erwartungen",
+    "title": "Auswertung der Umfrage",
+    "section": "Erwartungen",
+    "text": "Erwartungen",
+    "crumbs": [
+      "Workshop",
+      "Auswertung der Umfrage"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#schlimmste-erfahrungen",
+    "href": "workshop/index.html#schlimmste-erfahrungen",
+    "title": "Auswertung der Umfrage",
+    "section": "Schlimmste Erfahrungen",
+    "text": "Schlimmste Erfahrungen",
+    "crumbs": [
+      "Workshop",
+      "Auswertung der Umfrage"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#beste-erfahrungen",
+    "href": "workshop/index.html#beste-erfahrungen",
+    "title": "Auswertung der Umfrage",
+    "section": "Beste Erfahrungen",
+    "text": "Beste Erfahrungen",
+    "crumbs": [
+      "Workshop",
+      "Auswertung der Umfrage"
+    ]
+  },
+  {
+    "objectID": "workshop/ki-unterricht/index.html",
+    "href": "workshop/ki-unterricht/index.html",
+    "title": "KI im Unterricht",
+    "section": "",
+    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "KI im Unterricht"
+    ]
+  },
+  {
+    "objectID": "resources/resources.html",
+    "href": "resources/resources.html",
     "title": "CAS Hochschuldidaktik",
     "section": "",
     "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
   },
   {
-    "objectID": "resources/resources.html",
-    "href": "resources/resources.html",
+    "objectID": "resources/resources.html#ki-orientierungshilfe-der-bfh",
+    "href": "resources/resources.html#ki-orientierungshilfe-der-bfh",
     "title": "CAS Hochschuldidaktik",
     "section": "",
     "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
