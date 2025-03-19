@@ -2,14 +2,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CAS Hochschuldidaktik",
+    "title": "KI in der Lehre",
     "section": "",
-    "text": "12.01.2025\n10.00–15.00 Uhr\nHKB, Grosser Konzertsaal, Papiermühlestrasse 13d, 3014 Bern"
+    "text": "21.03.2025\n13.13–14.45 Uhr"
   },
   {
     "objectID": "index.html#website",
     "href": "index.html#website",
-    "title": "CAS Hochschuldidaktik",
+    "title": "KI in der Lehre",
     "section": "Website",
     "text": "Website\n virtuelleakademie.github.io/cas-hochschuldidaktik"
   },
@@ -712,7 +712,7 @@
     "href": "workshop/index.html",
     "title": "Inhalt",
     "section": "",
-    "text": "Input: KI als Lehrassistent\nInput: Künstliche Intelligenz in der Lehre: erste Schritte\nAnwendung: Prompting",
+    "text": "Input: KI als Lehrassistent\nInput: Studierende & KI\nInput: KI im Unterricht",
     "crumbs": [
       "Workshop",
       "Inhalt"
@@ -723,7 +723,7 @@
     "href": "workshop/index.html#workshop-program",
     "title": "Inhalt",
     "section": "",
-    "text": "Input: KI als Lehrassistent\nInput: Künstliche Intelligenz in der Lehre: erste Schritte\nAnwendung: Prompting",
+    "text": "Input: KI als Lehrassistent\nInput: Studierende & KI\nInput: KI im Unterricht",
     "crumbs": [
       "Workshop",
       "Inhalt"
@@ -761,5 +761,90 @@
       "Workshop",
       "Inhalt"
     ]
+  },
+  {
+    "objectID": "index.html#dozenten",
+    "href": "index.html#dozenten",
+    "title": "KI in der Lehre",
+    "section": "Dozenten",
+    "text": "Dozenten\n\nDr. Andrew Ellis und Dr. Stefan Hackstein sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig. Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann."
+  },
+  {
+    "objectID": "workshop/ki-lehrassistent/index.html",
+    "href": "workshop/ki-lehrassistent/index.html",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "",
+    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0"
+  },
+  {
+    "objectID": "workshop/studis-und-ki/index.html",
+    "href": "workshop/studis-und-ki/index.html",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "",
+    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Künstliche Intelligenz in der Lehre: erste Schritte"
+    ]
+  },
+  {
+    "objectID": "workshop/ki-unterricht/index.html",
+    "href": "workshop/ki-unterricht/index.html",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "",
+    "text": "Inhalt:\n\nDiese Präsentation beleuchtet die Auswirkungen von Large Language Models (LLMs) wie ChatGPT auf Hochschulen.\nerklärt, wie LLMs Wort für Wort Text basierend auf Trainingsdaten generieren.\nzeigt potenzielle Vorteile auf: erhöhte Produktivität, Unterstützung der Kreativität.\ndiskutiert Herausforderungen: Deskilling, Missbrauch.\nerörtert rechtliche Aspekte rund um Urheberrecht und Datenschutz. \nadressiert Bedenken zur Plagiatserkennung.\nDas Ziel ist, LLMs zu entmystifizieren und einen ausgewogenen Blick auf die spontane Übernahme dieser “Ankunftstechnologien” zu bieten.\n\n\n    View webpage in full screen\n       \n      \n    \n  \n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Künstliche Intelligenz in der Lehre: erste Schritte"
+    ]
+  },
+  {
+    "objectID": "resources/tools.html",
+    "href": "resources/tools.html",
+    "title": "CAS Hochschuldidaktik",
+    "section": "",
+    "text": "🤗 HuggingChat"
+  },
+  {
+    "objectID": "resources/tools.html#open-assistants",
+    "href": "resources/tools.html#open-assistants",
+    "title": "CAS Hochschuldidaktik",
+    "section": "",
+    "text": "🤗 HuggingChat"
+  },
+  {
+    "objectID": "resources/tools.html#ai-tools",
+    "href": "resources/tools.html#ai-tools",
+    "title": "CAS Hochschuldidaktik",
+    "section": "AI Tools",
+    "text": "AI Tools\n👉🏼 The largest AI tools directory (updated daily)"
+  },
+  {
+    "objectID": "resources/tools.html#literatursuche",
+    "href": "resources/tools.html#literatursuche",
+    "title": "CAS Hochschuldidaktik",
+    "section": "Literatursuche",
+    "text": "Literatursuche\n👉🏼 Elicit\n👉🏼 Consensus"
+  },
+  {
+    "objectID": "resources/tools.html#prompt-engineering",
+    "href": "resources/tools.html#prompt-engineering",
+    "title": "CAS Hochschuldidaktik",
+    "section": "Prompt Engineering",
+    "text": "Prompt Engineering\n👉🏼 Prompting Guide"
+  },
+  {
+    "objectID": "resources/resources.html#ki-orientierungshilfe-der-bfh",
+    "href": "resources/resources.html#ki-orientierungshilfe-der-bfh",
+    "title": "CAS Hochschuldidaktik",
+    "section": "",
+    "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
+  },
+  {
+    "objectID": "resources/resources.html",
+    "href": "resources/resources.html",
+    "title": "CAS Hochschuldidaktik",
+    "section": "",
+    "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
   }
 ]
