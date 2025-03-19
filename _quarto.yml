@@ -44,10 +44,10 @@ website:
         menu:
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/pdfs/Begleitdokument.pdf
-          # - text: "Begleitdokument: Orientierungshilfe"
-          #   file: resources/resources.qmd
-          # - text: "Begleitdokument: Orientierungshilfe (PDF)"
-          #   file: assets/pdfs/Orientierungshilfe.pdf
+          - text: "Begleitdokument: Orientierungshilfe"
+            file: resources/resources.qmd
+          - text: "Begleitdokument: Orientierungshilfe (PDF)"
+            file: assets/pdfs/Orientierungshilfe.pdf
 
     tools:
       - icon: lightbulb-fill
