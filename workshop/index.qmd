@@ -2,26 +2,10 @@
 title: "Ablauf"
 ---
 
-
-
-## Auswertung der Umfrage
-{{< bi clock >}} 10'
-
-## KI als Lehrassistent
-{{< bi clock >}} 15' Input + Q&A 10'
-
-- [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd)
-
-
-## Studierende & KI
-{{< bi clock >}} 10' Input + Q&A 10'
-
-- [Input: Studierende & KI](studis-und-ki/index.qmd)
-
-
-
-## KI im Unterricht
-{{< bi clock >}} 5' Input + Q&A 10'
-
-- [Input: KI im Unterricht](ki-unterricht/index.qmd)
+| Thema | Dauer {{< bi clock >}}  |
+|-------|--------|
+| [Auswertung der Umfrage](umfrage/index.qmd) | 10 min |
+| [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd) | 25 min (15' Input + 10' Q&A) |
+| [Input: Studierende & KI](studis-und-ki/index.qmd) | 20 min (10' Input + 10' Q&A) |
+| [Input: KI im Unterricht](ki-unterricht/index.qmd) | 15 min (5' Input + 10' Q&A) |
 
