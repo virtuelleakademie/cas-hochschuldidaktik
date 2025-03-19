@@ -68,6 +68,7 @@ website:
       background: light
       contents:
         - workshop/index.qmd
+        - workshop/umfrage/index.qmd
         - workshop/ki-lehrassistent/index.qmd
         - workshop/studis-und-ki/index.qmd
         - workshop/ki-unterricht/index.qmd
