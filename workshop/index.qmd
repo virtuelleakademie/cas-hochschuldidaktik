@@ -6,20 +6,11 @@ title: "Inhalt"
 
 ## Workshop-Program
 
-- [Input: KI als Lehrassistent](presentation/index.qmd)
+- [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd)
 
-- [Input: Künstliche Intelligenz in der Lehre: erste Schritte](presentation/index.qmd)
+- [Input: Studierende & KI](studis-und-ki/index.qmd)
 
-- [Anwendung: Prompting](prompting/index.qmd)
-
-
-## Dozenten
-
-<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
-
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
-Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+- [Input: KI im Unterricht](ki-unterricht/index.qmd)
 
 
 <!-- | {{< bi clock >}} | {{< bi book >}} Inhalt | {{< bi body-text >}} |
