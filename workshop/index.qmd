@@ -2,7 +2,7 @@
 title: "Ablauf"
 ---
 
-| Thema | Dauer {{< bi clock >}}  |
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
 |-------|--------|
 | [Auswertung der Umfrage](umfrage/index.qmd) | 10 min |
 | [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd) | 25 min (15' Input + 10' Q&A) |
