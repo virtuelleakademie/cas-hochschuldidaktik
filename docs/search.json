@@ -50,7 +50,7 @@
     "href": "workshop/ki-lehrassistent/index.html",
     "title": "KI als Lehrassistent",
     "section": "",
-    "text": "Diese Präsentation zeigt, wie Künstliche Intelligenz (KI), insbesondere Chatbots, als Lehrassistent genutzt werden kann, um Unterrichtsqualität und Effizienz zu steigern.\nWir lernen das Potenzial und die Herausforderungen bei der Integration von KI in Bildungssettings kennen.",
+    "text": "Diese Präsentation zeigt, wie künstliche Intelligenz (KI) und insbesondere Chatbots als digitale Lehrassistenten eingesetzt werden können. Der Fokus liegt darauf, wie diese Technologien die Qualität des Unterrichts verbessern und Lehrende bei ihrer Arbeit effektiv unterstützen können.",
     "crumbs": [
       "Workshop",
       "KI als Lehrassistent"
@@ -59,21 +59,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CAS Hochschuldidaktik",
+    "title": "Modul 6: KI in der Lehre",
     "section": "",
     "text": "21.03.2025\n13.13–14.45 Uhr"
   },
   {
     "objectID": "index.html#dozenten",
     "href": "index.html#dozenten",
-    "title": "CAS Hochschuldidaktik",
+    "title": "Modul 6: KI in der Lehre",
     "section": "Dozenten",
     "text": "Dozenten\n\nDr. Andrew Ellis und Dr. Stefan Hackstein sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig. Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann."
   },
   {
     "objectID": "index.html#website",
     "href": "index.html#website",
-    "title": "CAS Hochschuldidaktik",
+    "title": "Modul 6: KI in der Lehre",
     "section": "Website",
     "text": "Website\n virtuelleakademie.github.io/cas-hochschuldidaktik"
   },
@@ -261,7 +261,7 @@
     "href": "workshop/ki-lehrassistent/index.html#zusammenfassung",
     "title": "KI als Lehrassistent",
     "section": " Zusammenfassung",
-    "text": "Zusammenfassung\n\n\n\n\n\n\n Inhalt der Präsentation\n\n\n\n\n\n\n1. KI als Superkraft\n\nErweiterte Möglichkeiten:\n\nNutzung vielfältiger Medien\nIndividualisiertes Lernen und flexible Unterrichtsmethoden\nPraxisorientierter und kompetenzbasierter Unterricht\n\n\n\nZentrale Botschaft:\nKI ist eine “Superkraft”, die neue Lehrmöglichkeiten eröffnet.\n\n\n\n2. KI verstehen, um sie zu lehren\n\nLernen als Voraussetzung:\n\nEffektiver KI-Einsatz im Unterricht beginnt mit einem eigenen Verständnis der Technik.\nChatbots als Schlüsseltechnologie für weiterführende KI-Anwendungen.\n\n\n\nPraktischer Einsatz:\n\nKI zur Unterrichtsvorbereitung nutzen und dabei selbst deren Anwendung erlernen.\n\n\n\n\n3. Der KI-Assistent—Chatbot im Klassenzimmer\n\nHauptvorteile:\n\nReduziert den Arbeitsaufwand durch Übernahme repetitiver Aufgaben.\nErmöglicht Fokussierung auf Didaktik und Fachkompetenz.\n\n\n\nWesentliche Voraussetzung:\n\nKlare, strukturierte Anweisungen sind entscheidend für den erfolgreichen Einsatz.\n\n\n\n\n4. Erstellung von Musterlösungen\n\nMerkmale guter Musterlösungen:\n\nKlarheit, Vollständigkeit und schrittweise Darstellung.\nEinsatz von Beispielen und Grafiken zur Veranschaulichung.\n\n\n\nBeispiel:\n\nDetaillierte, strukturierte Lösungen im LaTeX-Format für Übungsaufgaben erstellen.\n\n\n\n\n5. Gestaltung von Multiple-Choice-Quizzen\n\nQuiz-Richtlinien:\n\n10 Fragen mit jeweils einer falschen und drei richtigen Antworten.\nFragen sollen fair sein, kritisches Denken fördern und Raterei vermeiden.\n\n\n\nZu beachten:\n\nFragen klar, präzise und kognitiv anspruchsvoll formulieren.\n\n\n\n\n6. Verbesserung von Feedback mit KI\n\nEffektives Feedback:\n\nBeginnt positiv und enthält konstruktive, umsetzbare Vorschläge.\nFördert den Dialog und unterstützt Studierende zielgerichtet.\n\n\n\nPraxisübung:\n\nErstellung von KI-gestütztem Feedback für verschiedene Lernsituationen.\n\n\n\n\n7. KI macht Lehrkräfte effektiver\n\nUnterstützungsbereiche:\n\nPlanung von Unterricht und Skripterstellung.\nErstellung von Quizzen und Umfragen.\nEinbindung aktueller Themen, Recherche, Projektideen und Bewertung von Abgaben.\n\n\n\n\n8. Neue Denkweisen: System 0, 1 und 2\n\nKognitive Ansätze:\n\nSystem 2: Langsam und analytisch.\nSystem 1: Schnell und intuitiv.\nSystem 0: Auslagerung der Kognition durch KI.\n\n\n\nChancen & Risiken:\n\nChancen: Schnelleres Denken, Zugriff auf neues Wissen, fundiertere Entscheidungen.\nRisiken: Verstärkung von Vorurteilen, Kompetenzverlust (Deskilling) und blindes Vertrauen in die Technik.",
+    "text": "Zusammenfassung\n\n\n\n\n\n\n Inhalt der Präsentation\n\n\n\n\n\n\n1. KI als Superkraft\n\nErweiterte Möglichkeiten:\n\nNutzung vielfältiger Medien\nIndividualisiertes Lernen und flexible Unterrichtsmethoden\nPraxisorientierter und kompetenzbasierter Unterricht\n\n\n\nZentrale Botschaft:\nKI ist eine “Superkraft”, die neue Lehrmöglichkeiten eröffnet.\n\n\n\n2. KI verstehen, um sie zu lehren\n\nLernen als Voraussetzung:\n\nEffektiver KI-Einsatz im Unterricht beginnt mit einem eigenen Verständnis der Technik.\nChatbots als Schlüsseltechnologie für weiterführende KI-Anwendungen.\n\n\n\nPraktischer Einsatz:\n\nKI zur Unterrichtsvorbereitung nutzen und dabei selbst deren Anwendung erlernen.\n\n\n\n\n3. Der KI-Assistent—Chatbot im Klassenzimmer\n\nHauptvorteile:\n\nReduziert den Arbeitsaufwand durch Übernahme repetitiver Aufgaben.\nErmöglicht Fokussierung auf Didaktik und Fachkompetenz.\n\n\n\nWesentliche Voraussetzung:\n\nKlare, strukturierte Anweisungen sind entscheidend für den erfolgreichen Einsatz.\n\n\n\n\n4. Erstellung von Musterlösungen\n\nMerkmale guter Musterlösungen:\n\nKlarheit, Vollständigkeit und schrittweise Darstellung.\nEinsatz von Beispielen und Grafiken zur Veranschaulichung.\n\n\n\nBeispiel:\n\nDetaillierte, strukturierte Lösungen (z.B. LaTeX) für Übungsaufgaben erstellen.\n\n\n\n\n5. Gestaltung von Multiple-Choice-Quizzen\n\nRichtlinien:\n\nFragen sollen fair sein, kritisches Denken fördern und Raterei vermeiden.\n\n\n\nZu beachten:\n\nAnleitungen zur Erstellung von MC Fragen konsultieren.\n\n\n\n\n6. Verbesserung von Feedback mit KI\n\nEffektives Feedback:\n\nBeginnt positiv und enthält konstruktive, umsetzbare Vorschläge.\nFördert den Dialog und unterstützt Studierende zielgerichtet.\n\n\n\nPraxisübung:\n\nErstellung von KI-gestütztem Feedback für verschiedene Lernsituationen.\n\n\n\n\n7. KI macht Lehrkräfte effektiver\n\nUnterstützungsbereiche:\n\nPlanung von Unterricht und Skripterstellung.\nErstellung von Quizzen und Umfragen.\nEinbindung aktueller Themen, Recherche, Projektideen und Bewertung von Abgaben.\n\n\n\n\n8. Neue Denkweisen: System 0, 1 und 2\n\nKognitive Ansätze:\n\nSystem 2: Langsam und analytisch.\nSystem 1: Schnell und intuitiv.\nSystem 0: Auslagerung der Kognition durch KI.\n\n\n\nChancen & Risiken:\n\nChancen: Schnelleres Denken, Zugriff auf neues Wissen, fundiertere Entscheidungen.\nRisiken: Verstärkung von Vorurteilen, Kompetenzverlust (Deskilling) und blindes Vertrauen in die Technik.",
     "crumbs": [
       "Workshop",
       "KI als Lehrassistent"
