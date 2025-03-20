@@ -2,9 +2,7 @@
 title: "KI als Lehrassistent"
 ---
 
-Diese Präsentation zeigt, wie Künstliche Intelligenz (KI), insbesondere Chatbots, als Lehrassistent genutzt werden kann, um Unterrichtsqualität und Effizienz zu steigern. 
-
-Wir lernen das Potenzial und die Herausforderungen bei der Integration von KI in Bildungssettings kennen.
+Diese Präsentation zeigt, wie künstliche Intelligenz (KI) und insbesondere Chatbots als digitale Lehrassistenten eingesetzt werden können. Der Fokus liegt darauf, wie diese Technologien die Qualität des Unterrichts verbessern und Lehrende bei ihrer Arbeit effektiv unterstützen können.
 
 ## {{< bi file-slides >}} Präsentation
 
