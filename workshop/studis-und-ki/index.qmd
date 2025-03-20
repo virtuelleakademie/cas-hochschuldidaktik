@@ -15,10 +15,7 @@ Diese Präsentation zeigt, wie KI---vor allem Chatbots---den Unterricht verbesse
 ::: {.callout-note collapse="true"}
 ## {{< bi book >}} Inhalt der Präsentation
 
-### 1. Einführung: Lernen und KI vereinen
-
-#### Kernidee
-- Einsatz von KI als Lernassistent.
+### 1. Einsatz von KI als Lernassistent
 
 #### Vorteile
 - Zugang zu unbekannten Informationen
@@ -30,21 +27,10 @@ Diese Präsentation zeigt, wie KI---vor allem Chatbots---den Unterricht verbesse
 - Kompetenzverlust
 - Übermässiges Vertrauen in die KI
 
-### 2. Neue Denkansätze
-
-#### Schwerpunkt
-
-- KI ergänzt kognitive Prozesse.
-
-#### Verweis
-
-- Schulz et al. (in Vorbereitung)
-- Auswirkungen von KI auf Lernen und Entscheidungen.
-
-### 3. Rolle des Chatbots in der Bildung
+### 2. Rolle von Chatbots in der Bildung
 
 #### Erkenntnisse
-- Ungeleitete Nutzung kann zu schlechteren Ergebnissen führen.
+- Ungeleitete Nutzung kann zu schlechteren Ergebnissen führen (Schulz et al. (in Vorbereitung)).
 
 #### Wichtige Fähigkeit
 - Aktive und iterative Auseinandersetzung mit KI-Tools.
