@@ -50,16 +50,15 @@ KI ist eine "Superkraft", die neue Lehrmöglichkeiten eröffnet.
 - Einsatz von Beispielen und Grafiken zur Veranschaulichung.
 
 #### Beispiel:
-- Detaillierte, strukturierte Lösungen im LaTeX-Format für Übungsaufgaben erstellen.
+- Detaillierte, strukturierte Lösungen (z.B. LaTeX) für Übungsaufgaben erstellen.
 
 ### 5. Gestaltung von Multiple-Choice-Quizzen
 
-#### Quiz-Richtlinien:
-- 10 Fragen mit jeweils einer falschen und drei richtigen Antworten.
+#### Richtlinien:
 - Fragen sollen fair sein, kritisches Denken fördern und Raterei vermeiden.
 
 #### Zu beachten:
-- Fragen klar, präzise und kognitiv anspruchsvoll formulieren.
+- Anleitungen zur Erstellung von MC Fragen konsultieren.
 
 ### 6. Verbesserung von Feedback mit KI
 
