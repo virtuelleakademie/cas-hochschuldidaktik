@@ -1,22 +1,5 @@
 ---
 title: "Auswertung der Umfrage"
 ---
-
-
-
-## Erfahrung
-
-## Erwartungen
-
-## Schlimmste Erfahrungen
-
-## Beste Erfahrungen
-
-
-
-
-<!-- - [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd)
-
-- [Input: Studierende & KI](studis-und-ki/index.qmd)
-
-- [Input: KI im Unterricht](ki-unterricht/index.qmd) -->
+ 
+Wir werten die Umfrage mithilfe von ChatGPT aus.
