@@ -145,33 +145,11 @@
     ]
   },
   {
-    "objectID": "workshop/umfrage/index.html#erwartungen",
-    "href": "workshop/umfrage/index.html#erwartungen",
+    "objectID": "workshop/umfrage/index.html",
+    "href": "workshop/umfrage/index.html",
     "title": "Auswertung der Umfrage",
-    "section": "Erwartungen",
-    "text": "Erwartungen",
-    "crumbs": [
-      "Workshop",
-      "Auswertung der Umfrage"
-    ]
-  },
-  {
-    "objectID": "workshop/umfrage/index.html#schlimmste-erfahrungen",
-    "href": "workshop/umfrage/index.html#schlimmste-erfahrungen",
-    "title": "Auswertung der Umfrage",
-    "section": "Schlimmste Erfahrungen",
-    "text": "Schlimmste Erfahrungen",
-    "crumbs": [
-      "Workshop",
-      "Auswertung der Umfrage"
-    ]
-  },
-  {
-    "objectID": "workshop/umfrage/index.html#beste-erfahrungen",
-    "href": "workshop/umfrage/index.html#beste-erfahrungen",
-    "title": "Auswertung der Umfrage",
-    "section": "Beste Erfahrungen",
-    "text": "Beste Erfahrungen",
+    "section": "",
+    "text": "Wir werten die Umfrage mithilfe von ChatGPT aus.\n\n\n\n Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
       "Auswertung der Umfrage"
