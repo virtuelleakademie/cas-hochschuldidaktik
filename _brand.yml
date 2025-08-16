@@ -1,7 +1,7 @@
 color:
   palette:
     dark-grey: "#222222"
-    blue: "#ddeaf1"
+    blue: "#F5F5F5" 
   background: blue
   foreground: dark-grey
   primary: black
