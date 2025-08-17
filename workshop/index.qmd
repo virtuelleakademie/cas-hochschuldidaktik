@@ -6,7 +6,7 @@ title: "Ablauf"
 | {{< bi collection-fill >}} Thema                                                             | {{< bi clock-fill >}} Dauer |
 | -------------------------------------------------------------------------------------------- | --------------------------- |
 | {{< bi collection >}} Einstieg                                                               |                             |
-| [Begrüssungsaufgabe](einstieg/index.qmd)                                                     | 15 min                      |
+| [Begrüssungsaufgabe](einstieg/index.qmd)                                                     | 10 min                      |
 | {{< bi collection >}} Teil 1                                                                 |                             |
 | [Input: KI verstehen](../01-ki-verstehen/index.qmd)                                          | 45 min                      |
 | {{< bi collection >}} Teil 2                                                                 |                             |
@@ -14,6 +14,6 @@ title: "Ablauf"
 | [Selbststudium: Wie Menschen lernen](../02-wie-menschen-lernen/kompetenz-erwerben/index.qmd) | 20 min                      |
 | [Aktive Verarbeitung: Reflexion](../02-wie-menschen-lernen/aktive-verarbeitung/index.qmd)    | 15 min                      |
 | {{< bi collection >}} Teil 3                                                                 |                             |
-| [Lernumgebungen gestalten](../03-lernumgebungen/index.qmd)                                   | 45 min                      |
+| [Lernumgebungen gestalten](../03-lernumgebungen/index.qmd)                                   | 50 min                      |
 | {{< bi collection >}} Diskussion                                                             |                             |
 | [Offene Diskussion](diskussion/index.qmd)                                                    | 30 min                      |
