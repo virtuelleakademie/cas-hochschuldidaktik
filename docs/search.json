@@ -371,21 +371,21 @@
     "href": "resources/prompting/index.html#effective-prompting-techniques",
     "title": "Effective Prompting Strategies in Education",
     "section": "Effective Prompting Techniques",
-    "text": "Effective Prompting Techniques\n\nSet Clear Roles and Contexts\nProvide explicit roles to guide the LLM’s responses.\n\n\n\n\n\n\nExample Prompt\n\n\n\nYou are an organic chemistry tutor helping a first-year student.\n\n\n\n\nSpecify Tasks and Formats Clearly\nBe specific to ensure precise responses.\n\n\n\n\n\n\nExample Prompt\n\n\n\nExplain ionic bonding using a real-world analogy suitable for freshmen.\n\n\n\n\nUse Examples or Templates\nDemonstrate the desired output.\n\n\n\n\n\n\nExample Prompt\n\n\n\nProvide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.\n\n\n\n\nChain-of-Thought and Reasoning\nAsk the LLM to detail its reasoning or provide multiple approaches.\n\n\n\n\n\n\nExample Prompt\n\n\n\nStep-by-step, explain how to identify the limiting reagent in this reaction.\n\n\n\n\n\n\n\n\n✅\n\n\n\nInstruct the LLM to think first: “Explain your reasoning first, then state the answer.”\n\n\n\n\n\n\n\n\n❌\n\n\n\nInstruct the LLM to give the answer first: “State the answer first, then explain your reasoning.”\n\n\n\n\nIterative Refinement\nTreat prompting as an interactive process, refining outputs through conversation.\n\n\n\n\n\n\nExample Prompt\n\n\n\nSimplify the previous explanation and provide a metaphor.\n\n\n\n\nUse Markdown Formatting\nUse Markdown formatting to make the prompt more readable (e.g. lists, bold, italics, etc.).\n\n\n\n\n\n\nBasic Markdown Formatting\n\n\n\n\n\n# Heading level 1\n## Heading level 2\n### Heading level 3\n\n**Bold text**\n\n*Italic text*\n\n1. List item 1\n2. List item 2\n3. List item 3\nUse delimiters (e.g. ---, \"\"\") to indicate different roles or parts of a prompt."
+    "text": "Effective Prompting Techniques\n\nSet Clear Roles and Contexts\nProvide explicit roles to guide the LLM’s responses.\n\nYou are an organic chemistry tutor helping a first-year student.\n\n\n\nSpecify Tasks and Formats Clearly\nBe specific to ensure precise responses.\n\nExplain ionic bonding using a real-world analogy suitable for freshmen.\n\n\n\nUse Examples or Templates\nDemonstrate the desired output.\n\nProvide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.\n\n\n\nChain-of-Thought and Reasoning\nAsk the LLM to detail its reasoning or provide multiple approaches.\n\nStep-by-step, explain how to identify the limiting reagent in this reaction.\n\n\n\n\n\n\n\n✅\n\n\n\nInstruct the LLM to think first: “Explain your reasoning first, then state the answer.”\n\n\n\n\n\n\n\n\n❌\n\n\n\nInstruct the LLM to give the answer first: “State the answer first, then explain your reasoning.”\n\n\n\n\nIterative Refinement\nTreat prompting as an interactive process, refining outputs through conversation.\n\nSimplify the previous explanation and provide a metaphor.\n\n\n\nUse Markdown Formatting\nUse Markdown formatting to make the prompt more readable (e.g. lists, bold, italics, etc.).\n\n\n\n\n\n\nBasic Markdown Formatting\n\n\n\n\n\n# Heading level 1\n## Heading level 2\n### Heading level 3\n\n**Bold text**\n\n*Italic text*\n\n1. List item 1\n2. List item 2\n3. List item 3\nUse delimiters (e.g. ---, \"\"\") to indicate different roles or parts of a prompt."
   },
   {
     "objectID": "resources/prompting/index.html#example-teaching-activities",
     "href": "resources/prompting/index.html#example-teaching-activities",
     "title": "Effective Prompting Strategies in Education",
     "section": "Example Teaching Activities",
-    "text": "Example Teaching Activities\n\nIllustrative Analogies\n\n\n\n\n\n\nExample Prompt\n\n\n\nCreate an everyday analogy to illustrate Le Châtelier’s principle.\n\n\n\n\nPractice Questions Generation\n\n\n\n\n\n\nExample Prompt\n\n\n\nCreate three practice questions on acid-base titrations at varying difficulty levels.\n\n\n\n\n\n\n\n\nNote that the task of generating practice questions is a complex task that requires a good understanding of the topic. It will be necessary to provide the LLM with a template for the questions, and to provide examples of how to format the questions. Additionally, you will need to consider how to define task difficulty very carefully.\n\n\n\n\n\nLesson Planning\n\n\n\n\n\n\nExample Prompt\n\n\n\nOutline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.\n\n\n\n\nInteractive Problem Solving\n\n\n\n\n\n\nExample Prompt\n\n\n\nGuide me through solving a galvanic cell problem, providing hints without revealing the solution immediately."
+    "text": "Example Teaching Activities\n\nIllustrative Analogies\n\nCreate an everyday analogy to illustrate Le Châtelier’s principle.\n\n\n\nPractice Questions Generation\n\nCreate three practice questions on acid-base titrations at varying difficulty levels.\n\n\n\n\n\n\n\nNote that the task of generating practice questions is a complex task that requires a good understanding of the topic. It will be necessary to provide the LLM with a template for the questions, and to provide examples of how to format the questions. Additionally, you will need to consider how to define task difficulty very carefully.\n\n\n\n\n\nLesson Planning\n\nOutline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.\n\n\n\nInteractive Problem Solving\n\nGuide me through solving a galvanic cell problem, providing hints without revealing the solution immediately."
   },
   {
     "objectID": "resources/prompting/index.html#example-student-activities",
     "href": "resources/prompting/index.html#example-student-activities",
     "title": "Effective Prompting Strategies in Education",
     "section": "Example Student Activities",
-    "text": "Example Student Activities\n\nClarifying Concepts\n\n\n\n\n\n\nExample Prompt\n\n\n\nSimplify and explain the concept of electrons behaving as waves.\n\n\n\n\nCreating Study Guides\n\n\n\n\n\n\nExample Prompt\n\n\n\nSummarize thermodynamics laws and generate two review questions for each.\n\n\n\n\nSelf-Explanation and Reflection\n\n\n\n\n\n\nExample Prompt\n\n\n\nEvaluate my explanation of buffer solutions and ask a clarifying follow-up question.\n\n\n\n\nError-Checking Practice\n\n\n\n\n\n\nExample Prompt\n\n\n\nReview my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.\n\n\n\n\nBrainstorming Project Ideas\n\n\n\n\n\n\nExample Prompt\n\n\n\nSuggest three practical applications of electrochemistry suitable for a student project."
+    "text": "Example Student Activities\n\nClarifying Concepts\n\nSimplify and explain the concept of electrons behaving as waves.\n\n\n\nCreating Study Guides\n\nSummarize thermodynamics laws and generate two review questions for each.\n\n\n\nSelf-Explanation and Reflection\n\nEvaluate my explanation of buffer solutions and ask a clarifying follow-up question.\n\n\n\nError-Checking Practice\n\nReview my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.\n\n\n\nBrainstorming Project Ideas\n\nSuggest three practical applications of electrochemistry suitable for a student project."
   },
   {
     "objectID": "03-lernumgebungen/learning-environment/index.html",
@@ -1901,7 +1901,7 @@
     "href": "slides/old-input/index.html#detektion-von-ki-generiertem-inhalt",
     "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
     "section": "Detektion von KI-generiertem Inhalt",
-    "text": "Detektion von KI-generiertem Inhalt\n\n\nHeuristiken:\n\nDurch Verwendung spezifischer Vokabeln und Phrasen: “delve”, “vibrant”, “embark”, “it’s important to note”, “based on the data provided”.\nDurch Verwendung des in der Schweiz unüblichen scharfen S (ß).\n\n\nDetektion anhand vom Schreibstil und Inhalt:\n\nErkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.\nErkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten (fleckensteinTeachersSpotAI2024?)."
+    "text": "Detektion von KI-generiertem Inhalt\n\n\nHeuristiken:\n\nDurch Verwendung spezifischer Vokabeln und Phrasen: “delve”, “vibrant”, “embark”, “it’s important to note”, “based on the data provided”.\nDurch Verwendung des in der Schweiz unüblichen scharfen S (ß).\n\n\nDetektion anhand vom Schreibstil und Inhalt:\n\nErkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.\nErkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten (Fleckenstein et al. 2024)."
   },
   {
     "objectID": "slides/old-input/index.html#fragen",
@@ -1915,7 +1915,7 @@
     "href": "slides/old-input/index.html#references",
     "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
     "section": "References",
-    "text": "References"
+    "text": "References\n\n\nFleckenstein, Johanna, Jennifer Meyer, Thorben Jansen, Stefan D. Keller, Olaf Köller, and Jens Möller. 2024. “Do Teachers Spot AI? Evaluating the Detectability of AI-generated Texts Among Student Essays.” Computers and Education: Artificial Intelligence 6 (June): 100209. https://doi.org/10.1016/j.caeai.2024.100209."
   },
   {
     "objectID": "01-ki-verstehen/index.html#weiterführende-präsentationen",
@@ -2608,5 +2608,89 @@
       "2: Lernen",
       "Wie Menschen lernen"
     ]
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte",
+    "href": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\nZwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:\n \n\n\nRechtliche Aspekte \n\nWer besitzt die Rechte an den von LLMs generierten Inhalten?\nRisiko von Plagiaten und Urheberrechtsverletzungen\nRichtlinien für den Umgang mit generierten Inhalten\n\n\nDatenschutz \n\nSchutz personenbezogener Daten\nEinhaltung von Datenschutzbestimmungen"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-1",
+    "href": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-1",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\n\nKI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben—dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.\nDer Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.\nDer von der KI generierte Output kann zufällig geschützte Inhalte Dritter enthalten."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-2",
+    "href": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-2",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\n\nAnbieter von KI-Plattformen können sich Rechte an generierten Inhalten vorbehalten, was ebenfalls rechtliche Herausforderungen mit sich bringen kann.\nOpenAI-Nutzungsbedingungen: die Rechte an generierten Inhalten abgetreten, OpenAI behält sich aber Nutzungsrechte vor.\nNutzende sind in der Verantwortung, die rechtlichen Anforderungen einzuhalten."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#empfehlung",
+    "href": "slides/möglichkeiten-grenzen/index.html#empfehlung",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Empfehlung",
+    "text": "Empfehlung\nKI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann:\n\n\n\n\nDeklaration\n\n\nDer/die Autor*in hat diesen Text teilweise mit [Modell] erstellt. Nach der Erstellung des Entwurfs hat der/die Autor*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.\n\n\n\n\nZitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#datenschutz",
+    "href": "slides/möglichkeiten-grenzen/index.html#datenschutz",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Datenschutz",
+    "text": "Datenschutz\nDatenschutz allgemein bedeutet:\n\nsicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.\nTransparenz darüber, welche Daten erhoben und wie sie verwendet werden.\nsicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden\nRecht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch\nEinhaltung von Datenschutzgesetzen und -vorschriften\n\n\n\n\nLehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#datensicherheit",
+    "href": "slides/möglichkeiten-grenzen/index.html#datensicherheit",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Datensicherheit",
+    "text": "Datensicherheit\nDies bedeutet:\n\nDaten so zu speichern, dass sie nicht verloren gehen\nDaten nicht manipuliert werden können\nTechnische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#schutzmassnahmen",
+    "href": "slides/möglichkeiten-grenzen/index.html#schutzmassnahmen",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Schutzmassnahmen",
+    "text": "Schutzmassnahmen\n\n\n\nKeine persönlichen Daten in die Eingabe von ChatGPT einfliessen lassen (nur anonymisierte Informationen)\nKeine Eingabe von sensiblen oder vertraulichen Informationen (Informationen über gesundheitliche, finanzielle oder private Angelegenheiten)\n\n\nEinstellungen im Konto für Datenkontrolle:"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#copilot-verwenden",
+    "href": "slides/möglichkeiten-grenzen/index.html#copilot-verwenden",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Copilot verwenden",
+    "text": "Copilot verwenden\n\n\nMicrosoft Copilot garantiert BFH-Mitarbeitenden, dass Benutzerdaten gesichert sind:\n Schutz von Unternehmensdaten\n\nBenutzerdaten sind durch Verschlüsselung, Sicherheitskontrollen und Datenisolation (gleich wie bei E-Mails in Exchange und Dateien in SharePoint) geschützt.\nMicrosoft verwendet Daten nicht ohne Anweisung des Benutzers."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#api-oder-lokale-ki-modelle-verwenden",
+    "href": "slides/möglichkeiten-grenzen/index.html#api-oder-lokale-ki-modelle-verwenden",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "API oder lokale KI-Modelle verwenden",
+    "text": "API oder lokale KI-Modelle verwenden\n\njan.ai: Eine Open-Source ChatGPT-Alternative\nlmstudio.ai: Lokale LLMs installieren"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#detektion-von-ki-generiertem-inhalt",
+    "href": "slides/möglichkeiten-grenzen/index.html#detektion-von-ki-generiertem-inhalt",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Detektion von KI-generiertem Inhalt",
+    "text": "Detektion von KI-generiertem Inhalt\n\n\nHeuristiken:\n\nDurch Verwendung spezifischer Vokabeln und Phrasen: “delve”, “vibrant”, “embark”, “it’s important to note”, “based on the data provided”.\nDurch Verwendung des in der Schweiz unüblichen scharfen S (ß).\n\n\nDetektion anhand vom Schreibstil und Inhalt:\n\nErkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.\nErkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten (Fleckenstein et al. 2024)."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#fragen",
+    "href": "slides/möglichkeiten-grenzen/index.html#fragen",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Fragen",
+    "text": "Fragen\n\n\n\n\n\n?"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#references",
+    "href": "slides/möglichkeiten-grenzen/index.html#references",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "References",
+    "text": "References\n\n\nFleckenstein, Johanna, Jennifer Meyer, Thorben Jansen, Stefan D. Keller, Olaf Köller, and Jens Möller. 2024. “Do Teachers Spot AI? Evaluating the Detectability of AI-generated Texts Among Student Essays.” Computers and Education: Artificial Intelligence 6 (June): 100209. https://doi.org/10.1016/j.caeai.2024.100209."
   }
 ]
