@@ -10,6 +10,7 @@
 ## Code Style & Conventions
 - **Language**: Quarto Markdown (.qmd files) with YAML frontmatter
 - **Formatting**: Use 2-space indentation for YAML, standard markdown formatting
+- **Lists**: Always leave an empty line above a list
 - **File naming**: lowercase with hyphens (kebab-case)
 - **Images/assets**: Store in assets/ directory, reference with relative paths
 - **Custom callouts**: Use configured types (individual, pair, group, try, reflect, etc.)
@@ -186,4 +187,296 @@ Cut techniques, not depth
 Maintain active processing frequency
 
 ## Final Reminder
-This workshop is about helping educators make informed decisions about AI integration based on learning science, not about promoting or restricting AI use. The goal is thoughtful, evidence-based practice that prioritizes student learning over technological novelty.
+This workshop isabout helping educators make informed decisions about AI
+integration based on learning science, not about promoting or restricting AI
+use. The goal is thoughtful, evidence-based practice that prioritizes student
+learning over technological novelty.
+
+
+# Active Processing Blocks - Complete Guide
+## AI in Education Workshop
+
+---
+
+## Part 1: Understanding AI in Education (2 blocks)
+
+### **Block 1: Reality Check (5 min)**
+**Purpose:** Connect AI concepts to personal experience and distinguish augmentation from replacement
+
+**Setup:** Simple reflection and pair-share
+
+**Process:**
+1. (1 min) Each person writes: "One way I currently use AI in my work"
+2. (2 min) Share with neighbor, discuss specific example
+3. (2 min) Together, categorize: 
+   - Augmentation (AI helps thinking)
+   - Replacement (AI does thinking)
+
+**Facilitator prompts:**
+- "Don't overthink - just one real example from your life"
+- "Is AI helping you think better or thinking for you?"
+
+**Expected outcomes:**
+- Personal connection to material
+- Recognition of the augmentation/replacement distinction
+- Awareness of own AI use patterns
+
+---
+
+### **Block 2: Spot the Problem (5 min)**
+**Purpose:** Apply Weidlich's framework intuitively before learning it formally
+
+**Setup:** One flawed study example displayed
+
+**The flawed study:**
+> "Group A used ChatGPT for essay writing. Group B didn't. Group A scored higher. Conclusion: ChatGPT improves writing."
+
+**Process:**
+1. (2 min) Individual reading and note problems
+2. (1 min) Circle/underline issues on handout
+3. (2 min) Table discussion - compare identified problems
+
+**Problems to surface:**
+- What exactly did Group A do? (undefined treatment)
+- What exactly did Group B do? (undefined control)
+- Did students learn to write better? (performance vs. learning)
+- Were other variables different? (confounding)
+
+**Facilitator guidance:**
+- "What's missing from this study?"
+- "Would you accept this conclusion? Why not?"
+
+**Bridge to next section:**
+- "These instincts you have are exactly what Weidlich formalized..."
+
+---
+
+## Part 2: Evidence-Based Learning Principles (1 block)
+
+### **Block 3: Pick Your Technique (10 min)**
+**Purpose:** Connect abstract techniques to concrete personal practice
+
+**Setup:** Individual work, then pair-share
+
+**Process:**
+1. (3 min) **Individual selection**
+   - Review the 3 techniques just presented
+   - Choose ONE that fits your teaching context
+   - Consider: Which addresses your biggest challenge?
+
+2. (4 min) **Write specific example**
+   - From your actual course (next week if possible)
+   - No AI involved yet - just the technique
+   - Include: What students do, what you do, why this helps
+
+3. (3 min) **Pair explanation**
+   - Find one neighbor
+   - Each person: 90 seconds to explain choice
+   - Partner asks: "What made you choose this over the others?"
+
+**Sample outputs:**
+- Retrieval Practice: "Start each class with 3-minute brain dump of last week's content"
+- Worked Examples: "Show complete problem solution before similar practice"
+- Elaborative Interrogation: "Students explain WHY each step in the process matters"
+
+**Facilitator notes:**
+- Circulate and listen for good examples
+- Note which techniques are most popular
+- Prepare to reference these in Part 3
+
+---
+
+## Part 3: Designing AI-Enhanced Learning (4 blocks)
+
+### **Block 4: Design Time (25 min)**
+**Purpose:** Create one complete, implementable AI-enhanced activity
+
+**Materials needed:**
+- Design framework handout (4 questions)
+- Blank paper for drafting
+- Pens/pencils
+
+#### **Phase 1 - Individual Draft (10 min)**
+**Silent work time - protect this!**
+
+**Task:** Answer four framework questions
+1. What should students learn? (specific objective)
+2. Which technique will you use? (from Part 2)
+3. What specific role will AI play? (limited, defined)
+4. How will you assess learning? (after intervention)
+
+**Facilitator behavior:**
+- Circulate silently
+- Only intervene if someone looks stuck
+- Use sticky notes for quiet questions
+
+**Common struggles and solutions:**
+- Too broad objective → "Make it smaller"
+- Vague AI role → "What specifically does AI do?"
+- Assessment during activity → "What about next week?"
+
+#### **Phase 2 - Pair Refinement (10 min)**
+**Structured peer consultation**
+
+**Process:**
+1. Find ONE partner (not a group)
+2. Partner A explains (5 min):
+   - Read through 4 answers
+   - Partner B listens, asks clarifying questions only
+   - No suggestions yet
+3. Partner B explains (5 min):
+   - Same process reverses
+   - Focus on clarity, not judgment
+
+**Question prompts for listeners:**
+- "Can you tell me more about...?"
+- "What would that look like in practice?"
+- "How is that different from what you do now?"
+
+#### **Phase 3 - Quick Polish (5 min)**
+**Individual finalization**
+
+**Task:**
+- Return to own design
+- Make adjustments based on partner questions
+- Create one clean version
+- Star (*) the part you're most excited about
+
+---
+
+### **Block 5: Speed Dating Feedback (10 min)**
+**Purpose:** Get rapid, focused feedback without presentation anxiety
+
+**Setup:** 
+- Pairs stay at tables with their designs visible
+- Visitors rotate every 2 minutes
+- Timer visible to all
+
+**Rotation schedule:**
+- Rounds 1-2: "What's your learning objective?"
+- Rounds 3-4: "What exactly does AI do here?"
+- Round 5: "How do you assess this?"
+
+**Rules:**
+- Visitors ask their assigned question ONLY
+- Designers answer in 30 seconds
+- Visitors can ask ONE follow-up
+- No advice giving - questions only
+
+**Facilitator management:**
+- Call rotations clearly
+- Model first question if needed
+- Keep energy up: "Switch! Find someone new!"
+
+**Debrief thought:**
+Each designer now has 5 perspectives on their clarity
+
+---
+
+### **Block 6: Harvest Key Insights (10 min)**
+**Purpose:** Collective sense-making and pattern recognition
+
+**Setup:** Table discussion → whole group share
+
+**Process:**
+1. (5 min) **Table discussion**
+   - Prompt: "What surprised you most about this design process?"
+   - Each table identifies ONE key surprise
+   - Choose spokesperson
+
+2. (3 min) **Rapid share-out**
+   - Each table: 30 seconds maximum
+   - Spokesperson shares the ONE surprise
+   - No elaboration, just the insight
+
+3. (2 min) **Pattern identification**
+   - Facilitator notes patterns on board
+   - "I'm hearing several groups mention..."
+   - Connect back to morning principles
+
+**Common insights that emerge:**
+- "Harder to define AI's role than expected"
+- "Assessment is the tricky part"
+- "My technique didn't need AI"
+- "AI works better for some techniques"
+
+**Closing connection:**
+- "Notice how we keep coming back to method vs. medium..."
+
+---
+
+## Facilitation Tips Across All Blocks
+
+### **Time Management**
+- Use a visible timer (phone/screen/timer cube)
+- Give warnings: "One minute remaining"
+- Have a clear sound for transitions
+- Build in 30-second buffers
+
+### **Energy Management**
+- Vary sitting/standing
+- Change partner configurations
+- Use different processing types
+- Watch for energy dips (especially after lunch)
+
+### **Differentiation Strategies**
+- **Fast finishers:** "Add a challenge variation to your design"
+- **Struggling participants:** "Start with just next Monday's class"
+- **Resistant participants:** "Design what NOT to do with AI"
+- **Experienced AI users:** "Focus on the assessment challenge"
+
+### **Materials Checklist**
+- [ ] Framework handout (one per person)
+- [ ] Flawed study example
+- [ ] Blank paper for design work
+- [ ] Sticky notes for insights
+- [ ] Timer (visible to all)
+- [ ] Board/flip chart for harvesting
+
+### **Common Pitfalls to Avoid**
+- Don't let pair shares become group discussions
+- Don't allow advice-giving in speed dating
+- Don't extend input to "finish the thought"
+- Don't skip processing to "save time"
+- Don't let one person dominate pair work
+
+### **Recovery Strategies**
+If running behind:
+- Shorten pair shares by 1 minute
+- Reduce speed dating rotations to 3
+- Skip one elaboration in input
+
+If running ahead:
+- Add "find one more partner" to pair shares
+- Include "write one question you still have"
+- Do a bonus round of speed dating
+
+If energy is low:
+- Stand and stretch (30 seconds)
+- Share with someone across the room
+- Do a walking partner exchange
+
+---
+
+## Assessment of Success
+
+### **Participants should be able to:**
+- ✓ Distinguish augmentation from replacement
+- ✓ Identify flaws in media comparison studies
+- ✓ Apply one technique to their teaching
+- ✓ Design one complete AI-enhanced activity
+- ✓ Explain their design choices clearly
+
+### **Red flags that processing isn't working:**
+- 🚩 Silence during pair shares
+- 🚩 Same people talking repeatedly
+- 🚩 Confusion about instructions
+- 🚩 Off-topic discussions
+- 🚩 Rushing through without thinking
+
+### **Signs of success:**
+- ✅ Animated pair discussions
+- ✅ "Aha" moments visible
+- ✅ References back to earlier content
+- ✅ Specific examples from own courses
+- ✅ Questions that show deep thinking

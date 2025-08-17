@@ -2491,5 +2491,111 @@
     "title": "Prompting: Eine Einführung",
     "section": "References",
     "text": "References"
+  },
+  {
+    "objectID": "01-ki-verstehen/index.html#reflexion-mustererkennung-vs.-verstehen-5-min",
+    "href": "01-ki-verstehen/index.html#reflexion-mustererkennung-vs.-verstehen-5-min",
+    "title": "KI verstehen",
+    "section": "Reflexion: Mustererkennung vs. Verstehen (5 Min)",
+    "text": "Reflexion: Mustererkennung vs. Verstehen (5 Min)\nAufgabe: Vergleichen Sie diese zwei Antworten auf die Frage “Was ist 2+2?”\n\nMensch: “4, weil wenn ich zwei Äpfel habe und zwei dazu bekomme, habe ich vier Äpfel”\nKI: “4” (basierend auf Millionen gesehenen Beispielen von “2+2=4”)\n\nDiskutieren Sie mit Ihrem Partner: - Welcher Prozess führt zu echter mathematischer Kompetenz? - Was passiert bei “17×23”? Wer hat den Vorteil und warum? - Welche Implikationen hat das für das Lernen Ihrer Studierenden?\nKernfrage: Wenn KI durch Mustererkennung “richtige” Antworten liefert, was bedeutet das für den Unterschied zwischen Performanz und Verständnis?",
+    "crumbs": [
+      "1: KI verstehen",
+      "KI verstehen"
+    ]
+  },
+  {
+    "objectID": "01-ki-verstehen/index.html#aktive-verarbeitung",
+    "href": "01-ki-verstehen/index.html#aktive-verarbeitung",
+    "title": "KI verstehen",
+    "section": " Aktive Verarbeitung",
+    "text": "Aktive Verarbeitung\n\n\n\n\n\n\nAktive Verarbeitung: Wie funktionieren LLMs? (5 Min)\n\n\n\nAufgabe: Erkläre deinem Nachbarn in eigenen Worten:\nPhase 1 (2 Min): Partner A erklärt Partner B:\n\nWie “lernt” ein LLM aus Texten?\nWas bedeutet “Vorhersage des nächsten Wortes”?\n\nPhase 2 (2 Min): Partner B erklärt Partner A:\n\nWas können LLMs?\nWas können sie nicht?\n\nPhase 3 (1 Min): Gemeinsam identifizieren:\n\nWas sind die Implikationen für das Lernen eurer Studierenden?",
+    "crumbs": [
+      "1: KI verstehen",
+      "KI verstehen"
+    ]
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte",
+    "href": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\nZwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:\n \n\n\nRechtliche Aspekte \n\nWer besitzt die Rechte an den von LLMs generierten Inhalten?\nRisiko von Plagiaten und Urheberrechtsverletzungen\nRichtlinien für den Umgang mit generierten Inhalten\n\n\nDatenschutz \n\nSchutz personenbezogener Daten\nEinhaltung von Datenschutzbestimmungen"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-1",
+    "href": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-1",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\n\nKI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben—dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.\nDer Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.\nDer von der KI generierte Output kann zufällig geschützte Inhalte Dritter enthalten."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-2",
+    "href": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte-2",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\n\nAnbieter von KI-Plattformen können sich Rechte an generierten Inhalten vorbehalten, was ebenfalls rechtliche Herausforderungen mit sich bringen kann.\nOpenAI-Nutzungsbedingungen: die Rechte an generierten Inhalten abgetreten, OpenAI behält sich aber Nutzungsrechte vor.\nNutzende sind in der Verantwortung, die rechtlichen Anforderungen einzuhalten."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#empfehlung",
+    "href": "slides/möglichkeiten-grenzen/index.html#empfehlung",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Empfehlung",
+    "text": "Empfehlung\nKI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann:\n\n\n\n\nDeklaration\n\n\nDer/die Autor*in hat diesen Text teilweise mit [Modell] erstellt. Nach der Erstellung des Entwurfs hat der/die Autor*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.\n\n\n\n\nZitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#datenschutz",
+    "href": "slides/möglichkeiten-grenzen/index.html#datenschutz",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Datenschutz",
+    "text": "Datenschutz\nDatenschutz allgemein bedeutet:\n\nsicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.\nTransparenz darüber, welche Daten erhoben und wie sie verwendet werden.\nsicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden\nRecht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch\nEinhaltung von Datenschutzgesetzen und -vorschriften\n\n\n\n\nLehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#datensicherheit",
+    "href": "slides/möglichkeiten-grenzen/index.html#datensicherheit",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Datensicherheit",
+    "text": "Datensicherheit\nDies bedeutet:\n\nDaten so zu speichern, dass sie nicht verloren gehen\nDaten nicht manipuliert werden können\nTechnische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#schutzmassnahmen",
+    "href": "slides/möglichkeiten-grenzen/index.html#schutzmassnahmen",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Schutzmassnahmen",
+    "text": "Schutzmassnahmen\n\n\n\nKeine persönlichen Daten in die Eingabe von ChatGPT einfliessen lassen (nur anonymisierte Informationen)\nKeine Eingabe von sensiblen oder vertraulichen Informationen (Informationen über gesundheitliche, finanzielle oder private Angelegenheiten)\n\n\nEinstellungen im Konto für Datenkontrolle:"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#copilot-verwenden",
+    "href": "slides/möglichkeiten-grenzen/index.html#copilot-verwenden",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Copilot verwenden",
+    "text": "Copilot verwenden\n\n\nMicrosoft Copilot garantiert BFH-Mitarbeitenden, dass Benutzerdaten gesichert sind:\n Schutz von Unternehmensdaten\n\nBenutzerdaten sind durch Verschlüsselung, Sicherheitskontrollen und Datenisolation (gleich wie bei E-Mails in Exchange und Dateien in SharePoint) geschützt.\nMicrosoft verwendet Daten nicht ohne Anweisung des Benutzers."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#api-oder-lokale-ki-modelle-verwenden",
+    "href": "slides/möglichkeiten-grenzen/index.html#api-oder-lokale-ki-modelle-verwenden",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "API oder lokale KI-Modelle verwenden",
+    "text": "API oder lokale KI-Modelle verwenden\n\njan.ai: Eine Open-Source ChatGPT-Alternative\nlmstudio.ai: Lokale LLMs installieren"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#detektion-von-ki-generiertem-inhalt",
+    "href": "slides/möglichkeiten-grenzen/index.html#detektion-von-ki-generiertem-inhalt",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Detektion von KI-generiertem Inhalt",
+    "text": "Detektion von KI-generiertem Inhalt\n\n\nHeuristiken:\n\nDurch Verwendung spezifischer Vokabeln und Phrasen: “delve”, “vibrant”, “embark”, “it’s important to note”, “based on the data provided”.\nDurch Verwendung des in der Schweiz unüblichen scharfen S (ß).\n\n\nDetektion anhand vom Schreibstil und Inhalt:\n\nErkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.\nErkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten (Fleckenstein et al. 2024)."
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#fragen",
+    "href": "slides/möglichkeiten-grenzen/index.html#fragen",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "Fragen",
+    "text": "Fragen\n\n\n\n\n\n?"
+  },
+  {
+    "objectID": "slides/möglichkeiten-grenzen/index.html#references",
+    "href": "slides/möglichkeiten-grenzen/index.html#references",
+    "title": "Möglichkeiten und Grenzen",
+    "section": "References",
+    "text": "References\n\n\nFleckenstein, Johanna, Jennifer Meyer, Thorben Jansen, Stefan D. Keller, Olaf Köller, and Jens Möller. 2024. “Do Teachers Spot AI? Evaluating the Detectability of AI-generated Texts Among Student Essays.” Computers and Education: Artificial Intelligence 6 (June): 100209. https://doi.org/10.1016/j.caeai.2024.100209."
   }
 ]

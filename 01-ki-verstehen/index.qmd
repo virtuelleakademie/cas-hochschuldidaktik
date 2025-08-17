@@ -20,9 +20,38 @@ This presentation reveals why offloading cognitive processing to AI can undermin
 {{< revealjs file="../slides/was-sind-chatbots/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
+## {{< bi megaphone >}} Aktive Verarbeitung
+::: {.active-processing}
+## Aktive Verarbeitung: Wie funktionieren LLMs? (5 Min)
+
+**Aufgabe:** Erkläre deinem Nachbarn in eigenen Worten:
+
+**Phase 1 (2 Min):** Partner A erklärt Partner B:
+
+- Wie "lernt" ein LLM aus Texten?
+- Was bedeutet "Vorhersage des nächsten Wortes"?
+
+**Phase 2 (2 Min):** Partner B erklärt Partner A:
+
+- Was können LLMs?
+- Was können sie nicht?
+
+**Phase 3 (1 Min):** Gemeinsam identifizieren:
+
+- Was sind die Implikationen für das Lernen eurer Studierenden?
+
+:::
+
+
 ## {{< bi file-slides >}} Prompting Tipps
 
 {{< revealjs file="../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
+## {{< bi file-slides >}} Möglichkeiten und Grenzen
+
+{{< revealjs file="../slides/möglichkeiten-grenzen/index.html" height="500px" class="ratio ratio-16x9" >}}
+
 
 
 
