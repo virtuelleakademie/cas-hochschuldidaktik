@@ -86,13 +86,13 @@ website:
         # - 03-lernumgebungen/index.qmd
         - workshop/diskussion/index.qmd
 
-    - title: "Teil 1: KI verstehen"
-      style: "docked"
-      search: true
-      background: light
-      contents:
-        - 01-ki-verstehen/index.qmd
-        # - 01-ki-verstehen/selbststudium/index.qmd
+    # - title: "Teil 1: KI verstehen"
+    #   style: "docked"
+    #   search: true
+    #   background: light
+    #   contents:
+    #     - 01-ki-verstehen/index.qmd
+    #     # - 01-ki-verstehen/selbststudium/index.qmd
 
 
     - title: "Teil 2: Wie Menschen lernen "
@@ -151,7 +151,7 @@ custom-callout:
   active-processing:
     icon-symbol: "📝"
     collapse: false
-    color: "pink"
+    color: "#9A4665"
 
   # thumbs-up:
   #   title: "Great job!"

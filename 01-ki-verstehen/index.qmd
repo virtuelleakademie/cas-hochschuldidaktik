@@ -21,8 +21,9 @@ This presentation reveals why offloading cognitive processing to AI can undermin
 
 
 ## {{< bi megaphone >}} Aktive Verarbeitung
+
 ::: {.active-processing}
-## Aktive Verarbeitung: Wie funktionieren LLMs? (5 Min)
+## Wie funktionieren LLMs? (5 Min)
 
 **Aufgabe:** Erkläre deinem Nachbarn in eigenen Worten:
 

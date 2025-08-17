@@ -589,11 +589,7 @@
     "href": "01-ki-verstehen/index.html",
     "title": "KI verstehen",
     "section": "",
-    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.",
-    "crumbs": [
-      "1: KI verstehen",
-      "KI verstehen"
-    ]
+    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise."
   },
   {
     "objectID": "workshop/index.html#teil-1",
@@ -1451,44 +1447,28 @@
     "href": "01-ki-verstehen/index.html#was-ist-künstliche-intelligenz",
     "title": "KI verstehen",
     "section": " Was ist Künstliche Intelligenz",
-    "text": "Was ist Künstliche Intelligenz\n    View slides in full screen",
-    "crumbs": [
-      "1: KI verstehen",
-      "KI verstehen"
-    ]
+    "text": "Was ist Künstliche Intelligenz\n    View slides in full screen"
   },
   {
     "objectID": "01-ki-verstehen/index.html#wie-funktionieren-chatbots",
     "href": "01-ki-verstehen/index.html#wie-funktionieren-chatbots",
     "title": "KI verstehen",
     "section": " Wie funktionieren Chatbots?",
-    "text": "Wie funktionieren Chatbots?\n    View slides in full screen",
-    "crumbs": [
-      "1: KI verstehen",
-      "KI verstehen"
-    ]
+    "text": "Wie funktionieren Chatbots?\n    View slides in full screen"
   },
   {
     "objectID": "01-ki-verstehen/index.html#möglichkeiten-und-grenzen",
     "href": "01-ki-verstehen/index.html#möglichkeiten-und-grenzen",
     "title": "KI verstehen",
     "section": " Möglichkeiten und Grenzen",
-    "text": "Möglichkeiten und Grenzen\n    View slides in full screen",
-    "crumbs": [
-      "1: KI verstehen",
-      "KI verstehen"
-    ]
+    "text": "Möglichkeiten und Grenzen\n    View slides in full screen"
   },
   {
     "objectID": "01-ki-verstehen/index.html#prompting-tipps",
     "href": "01-ki-verstehen/index.html#prompting-tipps",
     "title": "KI verstehen",
     "section": " Prompting Tipps",
-    "text": "Prompting Tipps\n    View slides in full screen",
-    "crumbs": [
-      "1: KI verstehen",
-      "KI verstehen"
-    ]
+    "text": "Prompting Tipps\n    View slides in full screen"
   },
   {
     "objectID": "01-ki-verstehen/index.html#selbststudium",
@@ -1933,11 +1913,7 @@
     "href": "01-ki-verstehen/index.html#weiterführende-kurse",
     "title": "KI verstehen",
     "section": " Weiterführende Kurse",
-    "text": "Weiterführende Kurse\n\nKI in der Lehre: Einsteiger\nKI in der Lehre: Intermediate\nKI in der Lehre: Advanced",
-    "crumbs": [
-      "1: KI verstehen",
-      "KI verstehen"
-    ]
+    "text": "Weiterführende Kurse\n\nKI in der Lehre: Einsteiger\nKI in der Lehre: Intermediate\nKI in der Lehre: Advanced"
   },
   {
     "objectID": "slides/was-ist-ki/index.html#section",
@@ -2508,11 +2484,7 @@
     "href": "01-ki-verstehen/index.html#aktive-verarbeitung",
     "title": "KI verstehen",
     "section": " Aktive Verarbeitung",
-    "text": "Aktive Verarbeitung\n\n\n\n\n\n\nAktive Verarbeitung: Wie funktionieren LLMs? (5 Min)\n\n\n\nAufgabe: Erkläre deinem Nachbarn in eigenen Worten:\nPhase 1 (2 Min): Partner A erklärt Partner B:\n\nWie “lernt” ein LLM aus Texten?\nWas bedeutet “Vorhersage des nächsten Wortes”?\n\nPhase 2 (2 Min): Partner B erklärt Partner A:\n\nWas können LLMs?\nWas können sie nicht?\n\nPhase 3 (1 Min): Gemeinsam identifizieren:\n\nWas sind die Implikationen für das Lernen eurer Studierenden?",
-    "crumbs": [
-      "1: KI verstehen",
-      "KI verstehen"
-    ]
+    "text": "Aktive Verarbeitung\n\n\n\n\n\n\nWie funktionieren LLMs? (5 Min)\n\n\n\nAufgabe: Erkläre deinem Nachbarn in eigenen Worten:\nPhase 1 (2 Min): Partner A erklärt Partner B:\n\nWie “lernt” ein LLM aus Texten?\nWas bedeutet “Vorhersage des nächsten Wortes”?\n\nPhase 2 (2 Min): Partner B erklärt Partner A:\n\nWas können LLMs?\nWas können sie nicht?\n\nPhase 3 (1 Min): Gemeinsam identifizieren:\n\nWas sind die Implikationen für das Lernen eurer Studierenden?"
   },
   {
     "objectID": "slides/möglichkeiten-grenzen/index.html#rechtliche-aspekte",
