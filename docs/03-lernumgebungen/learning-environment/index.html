@@ -61,7 +61,7 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-daecaad92b6cead24fffa8bec68d087f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a4d2e8a7fb8fd9f1eb00dd96e7fb4eca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -103,224 +103,15 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-screens-up.callout {
-  border-left-color: green;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-screens-up.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
-  content: '🔼';
-  background-image: none;
-}
-div.callout-setup.callout {
-  border-left-color: gray;
-}
-div.callout-setup.callout-style-default > .callout-header {
-  background-color: rgb(from gray r g b / 13%);
-}
-div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
-  content: '⚙️';
-  background-image: none;
-}
-div.callout-prompt-template.callout {
-  border-left-color: indigo;
-}
-div.callout-prompt-template.callout-style-default > .callout-header {
-  background-color: rgb(from indigo r g b / 13%);
-}
-div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
-div.callout-caution.callout {
-  border-left-color: orange;
-}
-div.callout-caution.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
-  content: '⚠️';
-  background-image: none;
-}
-div.callout-testing.callout {
-  border-left-color: green;
-}
-div.callout-testing.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
-  content: '🧪';
-  background-image: none;
-}
-div.callout-prompt-example.callout {
-  border-left-color: steelblue;
-}
-div.callout-prompt-example.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
-  content: '👩🏼‍🔧';
-  background-image: none;
-}
-div.callout-export.callout {
-  border-left-color: brown;
-}
-div.callout-export.callout-style-default > .callout-header {
-  background-color: rgb(from brown r g b / 13%);
-}
-div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
-  content: '📤';
-  background-image: none;
-}
-div.callout-break.callout {
-  border-left-color: yellow;
-}
-div.callout-break.callout-style-default > .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
-}
-div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
-  content: '☕';
-  background-image: none;
-}
-div.callout-timing.callout {
-  border-left-color: red;
-}
-div.callout-timing.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
-}
-div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
-  content: '⏱️';
-  background-image: none;
-}
-div.callout-schedule.callout {
-  border-left-color: steelblue;
-}
-div.callout-schedule.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-schedule .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-schedule.callout-style-default .callout-icon::before, div.callout-schedule.callout-titled .callout-icon::before {
-  content: '⏰︎';
-  background-image: none;
-}
-div.callout-checkpoint.callout {
-  border-left-color: purple;
-}
-div.callout-checkpoint.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
-  content: '🎯';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-try.callout {
-  border-left-color: blue;
-}
-div.callout-try.callout-style-default > .callout-header {
-  background-color: rgb(from blue r g b / 13%);
-}
-div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
-  content: '🔄';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-screens-down.callout {
-  border-left-color: orange;
-}
-div.callout-screens-down.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
-  content: '🔽';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-output-example.callout {
-  border-left-color: purple;
-}
-div.callout-output-example.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-output-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-output-example.callout-style-default .callout-icon::before, div.callout-output-example.callout-titled .callout-icon::before {
-  content: '📄';
-  background-image: none;
-}
-div.callout-feedback.callout {
-  border-left-color: teal;
-}
-div.callout-feedback.callout-style-default > .callout-header {
-  background-color: rgb(from teal r g b / 13%);
-}
-div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 </style>
@@ -355,19 +146,19 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../01-KI-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../../01-ki-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
-<span class="menu-text">Teil 1: KI Kompetenz</span></a>
+<span class="menu-text">1: KI verstehen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../02-wie-menschen-lernen/index.html"> <i class="bi bi-person-gear" role="img">
 </i> 
-<span class="menu-text">Teil 2: Lernen</span></a>
+<span class="menu-text">2: Lernen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../03-lernumgebungen/index.html"> <i class="bi bi-marker-tip" role="img">
 </i> 
-<span class="menu-text">Teil 3</span></a>
+<span class="menu-text">3: Lernumgebungen</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -418,10 +209,10 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   <ul class="collapse">
   <li><a href="#lower-stakes-assessment-langcheatinglessons2013" id="toc-lower-stakes-assessment-langcheatinglessons2013" class="nav-link" data-scroll-target="#lower-stakes-assessment-langcheatinglessons2013">1. Lower-Stakes Assessment <span class="citation" data-cites="langCheatingLessons2013">(Lang 2013)</span></a></li>
   <li><a href="#intrinsic-motivation-design-langcheatinglessons2013" id="toc-intrinsic-motivation-design-langcheatinglessons2013" class="nav-link" data-scroll-target="#intrinsic-motivation-design-langcheatinglessons2013">2. Intrinsic Motivation Design <span class="citation" data-cites="langCheatingLessons2013">(Lang 2013)</span></a></li>
-  <li><a href="#spaced-repetition-cepedadistributedpracticeverbal2006" id="toc-spaced-repetition-cepedadistributedpracticeverbal2006" class="nav-link" data-scroll-target="#spaced-repetition-cepedadistributedpracticeverbal2006">3. Spaced Repetition <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(<strong>cepedaDistributedPracticeVerbal2006?</strong>)</span></a></li>
-  <li><a href="#retrieval-practice-roedigertestenhancedlearningtaking2006" id="toc-retrieval-practice-roedigertestenhancedlearningtaking2006" class="nav-link" data-scroll-target="#retrieval-practice-roedigertestenhancedlearningtaking2006">4. Retrieval Practice <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<strong>roedigerTestenhancedLearningTaking2006?</strong>)</span></a></li>
-  <li><a href="#interleaved-practice-rohrerinterleavinghelpsstudents2012" id="toc-interleaved-practice-rohrerinterleavinghelpsstudents2012" class="nav-link" data-scroll-target="#interleaved-practice-rohrerinterleavinghelpsstudents2012">5. Interleaved Practice <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(<strong>rohrerInterleavingHelpsStudents2012?</strong>)</span></a></li>
-  <li><a href="#cognitive-load-management-swellerdevelopmentcognitiveload2023" id="toc-cognitive-load-management-swellerdevelopmentcognitiveload2023" class="nav-link" data-scroll-target="#cognitive-load-management-swellerdevelopmentcognitiveload2023">6. Cognitive Load Management <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<strong>swellerDevelopmentCognitiveLoad2023?</strong>)</span></a></li>
+  <li><a href="#spaced-repetition-cepedadistributedpracticeverbal2006" id="toc-spaced-repetition-cepedadistributedpracticeverbal2006" class="nav-link" data-scroll-target="#spaced-repetition-cepedadistributedpracticeverbal2006">3. Spaced Repetition <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(Cepeda et al. 2006)</span></a></li>
+  <li><a href="#retrieval-practice-roedigertestenhancedlearningtaking2006" id="toc-retrieval-practice-roedigertestenhancedlearningtaking2006" class="nav-link" data-scroll-target="#retrieval-practice-roedigertestenhancedlearningtaking2006">4. Retrieval Practice <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(Roediger and Karpicke 2006)</span></a></li>
+  <li><a href="#interleaved-practice-rohrerinterleavinghelpsstudents2012" id="toc-interleaved-practice-rohrerinterleavinghelpsstudents2012" class="nav-link" data-scroll-target="#interleaved-practice-rohrerinterleavinghelpsstudents2012">5. Interleaved Practice <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(Rohrer 2012)</span></a></li>
+  <li><a href="#cognitive-load-management-swellerdevelopmentcognitiveload2023" id="toc-cognitive-load-management-swellerdevelopmentcognitiveload2023" class="nav-link" data-scroll-target="#cognitive-load-management-swellerdevelopmentcognitiveload2023">6. Cognitive Load Management <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(Sweller 2023)</span></a></li>
   </ul></li>
   <li><a href="#optimal-challenge-design" id="toc-optimal-challenge-design" class="nav-link" data-scroll-target="#optimal-challenge-design">Optimal Challenge Design</a></li>
   <li><a href="#subject-specific-applications" id="toc-subject-specific-applications" class="nav-link" data-scroll-target="#subject-specific-applications">Subject-Specific Applications</a></li>
@@ -478,7 +269,7 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
 <section id="core-principle" class="level2">
 <h2 class="anchored" data-anchor-id="core-principle">Core Principle</h2>
 <p>As James Lang argues in <em>Cheating Lessons</em> <span class="citation" data-cites="langCheatingLessons2013">(<a href="#ref-langCheatingLessons2013" role="doc-biblioref">Lang 2013</a>)</span>, “cheating is an inappropriate response to a learning environment that’s not working for the student.” Rather than focusing on student behavior, we must design learning environments that make <strong>productive struggle</strong> the most rewarding path.</p>
-<p>Research on “desirable difficulties” <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994 bjorkMakingThingsHard2011">(<a href="#ref-bjorkMemoryMetamemoryConsiderations1994" role="doc-biblioref"><strong>bjorkMemoryMetamemoryConsiderations1994?</strong></a>; <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref"><strong>bjorkMakingThingsHard2011?</strong></a>)</span> shows that learning requires cognitive effort—when we remove struggle, we remove learning. Yet students are often not given incentives to engage with effortful processing. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.</p>
+<p>Research on “desirable difficulties” <span class="citation" data-cites="bjorkMemoryMetamemoryConsiderations1994 bjorkMakingThingsHard2011">(<a href="#ref-bjorkMemoryMetamemoryConsiderations1994" role="doc-biblioref">R. A. Bjork 1994</a>; <a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">E. L. Bjork and Bjork 2011</a>)</span> shows that learning requires cognitive effort—when we remove struggle, we remove learning. Yet students are often not given incentives to engage with effortful processing. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.</p>
 <div class="callout callout-style-simple callout-important no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -521,7 +312,7 @@ Research-Based Approach
 <li>Weekly reflection journals</li>
 <li>Multiple opportunities to demonstrate learning</li>
 </ul>
-<p>This reduces anxiety-driven shortcuts while improving retention through the <strong>testing effect</strong> <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref"><strong>roedigerTestenhancedLearningTaking2006?</strong></a>)</span>.</p>
+<p>This reduces anxiety-driven shortcuts while improving retention through the <strong>testing effect</strong> <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">Roediger and Karpicke 2006</a>)</span>.</p>
 </div>
 </div>
 </section>
@@ -533,7 +324,7 @@ Research-Based Approach
 <p>Problems rooted in students’ environments may tap intrinsic motivation and therefore be less prone to AI generation.</p>
 </section>
 <section id="spaced-repetition-cepedadistributedpracticeverbal2006" class="level3">
-<h3 class="anchored" data-anchor-id="spaced-repetition-cepedadistributedpracticeverbal2006">3. Spaced Repetition <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(<a href="#ref-cepedaDistributedPracticeVerbal2006" role="doc-biblioref"><strong>cepedaDistributedPracticeVerbal2006?</strong></a>)</span></h3>
+<h3 class="anchored" data-anchor-id="spaced-repetition-cepedadistributedpracticeverbal2006">3. Spaced Repetition <span class="citation" data-cites="cepedaDistributedPracticeVerbal2006">(<a href="#ref-cepedaDistributedPracticeVerbal2006" role="doc-biblioref">Cepeda et al. 2006</a>)</span></h3>
 <p>Distribute practice across time rather than massing it:</p>
 <pre><code>Week 1: Introduce concept A
 Week 3: Review concept A while learning B  
@@ -542,7 +333,7 @@ Week 10: Connect A &amp; B to concept C</code></pre>
 <p>Research shows spaced practice improves long-term retention by 200-300%.</p>
 </section>
 <section id="retrieval-practice-roedigertestenhancedlearningtaking2006" class="level3">
-<h3 class="anchored" data-anchor-id="retrieval-practice-roedigertestenhancedlearningtaking2006">4. Retrieval Practice <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref"><strong>roedigerTestenhancedLearningTaking2006?</strong></a>)</span></h3>
+<h3 class="anchored" data-anchor-id="retrieval-practice-roedigertestenhancedlearningtaking2006">4. Retrieval Practice <span class="citation" data-cites="roedigerTestenhancedLearningTaking2006">(<a href="#ref-roedigerTestenhancedLearningTaking2006" role="doc-biblioref">Roediger and Karpicke 2006</a>)</span></h3>
 <p>Use testing as a learning tool, not just assessment:</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -566,7 +357,7 @@ Implementation Strategy
 </div>
 </section>
 <section id="interleaved-practice-rohrerinterleavinghelpsstudents2012" class="level3">
-<h3 class="anchored" data-anchor-id="interleaved-practice-rohrerinterleavinghelpsstudents2012">5. Interleaved Practice <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(<a href="#ref-rohrerInterleavingHelpsStudents2012" role="doc-biblioref"><strong>rohrerInterleavingHelpsStudents2012?</strong></a>)</span></h3>
+<h3 class="anchored" data-anchor-id="interleaved-practice-rohrerinterleavinghelpsstudents2012">5. Interleaved Practice <span class="citation" data-cites="rohrerInterleavingHelpsStudents2012">(<a href="#ref-rohrerInterleavingHelpsStudents2012" role="doc-biblioref">Rohrer 2012</a>)</span></h3>
 <p>Mix different types of problems within assignments:</p>
 <p>Instead of 20 algebra problems, then 20 geometry problems, mix them:</p>
 <ul>
@@ -578,7 +369,7 @@ Implementation Strategy
 <p>Interleaving improves discrimination between similar concepts and long-term retention.</p>
 </section>
 <section id="cognitive-load-management-swellerdevelopmentcognitiveload2023" class="level3">
-<h3 class="anchored" data-anchor-id="cognitive-load-management-swellerdevelopmentcognitiveload2023">6. Cognitive Load Management <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref"><strong>swellerDevelopmentCognitiveLoad2023?</strong></a>)</span></h3>
+<h3 class="anchored" data-anchor-id="cognitive-load-management-swellerdevelopmentcognitiveload2023">6. Cognitive Load Management <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span></h3>
 <p>Design instruction to optimize working memory capacity while preserving productive struggle:</p>
 <p><strong>For Novices:</strong></p>
 <ul>
@@ -823,8 +614,26 @@ Environmental Changes
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bjorkMakingThingsHard2011" class="csl-entry" role="listitem">
+Bjork, Elizabeth Ligon, and Robert A. Bjork. 2011. <span>“Making Things Hard on Yourself, but in a Good Way: <span>Creating</span> Desirable Difficulties to Enhance Learning.”</span> In <em>Psychology and the Real World: <span>Essays</span> Illustrating Fundamental Contributions to Society</em>, 56–64. New York, NY, US: Worth Publishers.
+</div>
+<div id="ref-bjorkMemoryMetamemoryConsiderations1994" class="csl-entry" role="listitem">
+Bjork, Robert A. 1994. <span>“Memory and Metamemory Considerations in the Training of Human Beings.”</span> In <em>Metacognition: <span>Knowing</span> about Knowing</em>, 185–205. Cambridge, MA, US: The MIT Press. <a href="https://doi.org/10.7551/mitpress/4561.001.0001">https://doi.org/10.7551/mitpress/4561.001.0001</a>.
+</div>
+<div id="ref-cepedaDistributedPracticeVerbal2006" class="csl-entry" role="listitem">
+Cepeda, Nicholas J., Harold Pashler, Edward Vul, John T. Wixted, and Doug Rohrer. 2006. <span>“Distributed Practice in Verbal Recall Tasks: <span>A</span> Review and Quantitative Synthesis.”</span> <em>Psychological Bulletin</em> 132 (3): 354–80. <a href="https://doi.org/10.1037/0033-2909.132.3.354">https://doi.org/10.1037/0033-2909.132.3.354</a>.
+</div>
 <div id="ref-langCheatingLessons2013" class="csl-entry" role="listitem">
-Lang, James M. 2013. <em>Cheating <span>Lessons</span></em>. Harvard University Press. <a href="https://books.google.com?id=Fa16AAAAQBAJ">https://books.google.com?id=Fa16AAAAQBAJ</a>.
+Lang, James M. 2013. <span>“Cheating <span>Lessons</span>.”</span> Harvard University Press. 2013. <a href="https://www.hup.harvard.edu/books/9780674724631">https://www.hup.harvard.edu/books/9780674724631</a>.
+</div>
+<div id="ref-roedigerTestenhancedLearningTaking2006" class="csl-entry" role="listitem">
+Roediger, Henry L., and Jeffrey D. Karpicke. 2006. <span>“Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention.”</span> <em>Psychological Science</em> 17 (3): 249–55. <a href="https://doi.org/10.1111/j.1467-9280.2006.01693.x">https://doi.org/10.1111/j.1467-9280.2006.01693.x</a>.
+</div>
+<div id="ref-rohrerInterleavingHelpsStudents2012" class="csl-entry" role="listitem">
+Rohrer, Doug. 2012. <span>“Interleaving <span>Helps Students Distinguish</span> Among <span>Similar Concepts</span>.”</span> <em>Educational Psychology Review</em> 24 (3): 355–67. <a href="https://doi.org/10.1007/s10648-012-9201-3">https://doi.org/10.1007/s10648-012-9201-3</a>.
+</div>
+<div id="ref-swellerDevelopmentCognitiveLoad2023" class="csl-entry" role="listitem">
+Sweller, John. 2023. <span>“The <span>Development</span> of <span>Cognitive Load Theory</span>: <span>Replication Crises</span> and <span>Incorporation</span> of <span>Other Theories Can Lead</span> to <span>Theory Expansion</span>.”</span> <em>Educational Psychology Review</em> 35 (4): 95. <a href="https://doi.org/10.1007/s10648-023-09817-2">https://doi.org/10.1007/s10648-023-09817-2</a>.
 </div>
 </div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ellis,
   author = {Ellis, Andrew},

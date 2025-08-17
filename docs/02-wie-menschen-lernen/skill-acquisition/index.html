@@ -61,7 +61,7 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-daecaad92b6cead24fffa8bec68d087f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a4d2e8a7fb8fd9f1eb00dd96e7fb4eca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -103,224 +103,15 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-prompt-template.callout {
-  border-left-color: indigo;
+div.callout-active-processing.callout {
+  border-left-color: #9A4665;
 }
-div.callout-prompt-template.callout-style-default > .callout-header {
-  background-color: rgb(from indigo r g b / 13%);
+div.callout-active-processing.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
-  content: '📋';
-  background-image: none;
-}
-div.callout-testing.callout {
-  border-left-color: green;
-}
-div.callout-testing.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
-  content: '🧪';
-  background-image: none;
-}
-div.callout-export.callout {
-  border-left-color: brown;
-}
-div.callout-export.callout-style-default > .callout-header {
-  background-color: rgb(from brown r g b / 13%);
-}
-div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
-  content: '📤';
-  background-image: none;
-}
-div.callout-setup.callout {
-  border-left-color: gray;
-}
-div.callout-setup.callout-style-default > .callout-header {
-  background-color: rgb(from gray r g b / 13%);
-}
-div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
-  content: '⚙️';
-  background-image: none;
-}
-div.callout-screens-up.callout {
-  border-left-color: green;
-}
-div.callout-screens-up.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
-  content: '🔼';
-  background-image: none;
-}
-div.callout-timing.callout {
-  border-left-color: red;
-}
-div.callout-timing.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
-}
-div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
-  content: '⏱️';
-  background-image: none;
-}
-div.callout-feedback.callout {
-  border-left-color: teal;
-}
-div.callout-feedback.callout-style-default > .callout-header {
-  background-color: rgb(from teal r g b / 13%);
-}
-div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
+div.callout-active-processing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-active-processing.callout-style-default .callout-icon::before, div.callout-active-processing.callout-titled .callout-icon::before {
   content: '📝';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-caution.callout {
-  border-left-color: orange;
-}
-div.callout-caution.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
-  content: '⚠️';
-  background-image: none;
-}
-div.callout-checkpoint.callout {
-  border-left-color: purple;
-}
-div.callout-checkpoint.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
-  content: '🎯';
-  background-image: none;
-}
-div.callout-prompt-example.callout {
-  border-left-color: steelblue;
-}
-div.callout-prompt-example.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
-  content: '👩🏼‍🔧';
-  background-image: none;
-}
-div.callout-schedule.callout {
-  border-left-color: steelblue;
-}
-div.callout-schedule.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-schedule .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-schedule.callout-style-default .callout-icon::before, div.callout-schedule.callout-titled .callout-icon::before {
-  content: '⏰︎';
-  background-image: none;
-}
-div.callout-screens-down.callout {
-  border-left-color: orange;
-}
-div.callout-screens-down.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
-  content: '🔽';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-try.callout {
-  border-left-color: blue;
-}
-div.callout-try.callout-style-default > .callout-header {
-  background-color: rgb(from blue r g b / 13%);
-}
-div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
-  content: '🔄';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-output-example.callout {
-  border-left-color: purple;
-}
-div.callout-output-example.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-output-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-output-example.callout-style-default .callout-icon::before, div.callout-output-example.callout-titled .callout-icon::before {
-  content: '📄';
-  background-image: none;
-}
-div.callout-break.callout {
-  border-left-color: yellow;
-}
-div.callout-break.callout-style-default > .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
-}
-div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
-  content: '☕';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '💻';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
   background-image: none;
 }
 </style>
@@ -384,19 +175,19 @@ window.Quarto = {
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../01-KI-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../../01-ki-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
-<span class="menu-text">Teil 1: KI Kompetenz</span></a>
+<span class="menu-text">1: KI verstehen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../02-wie-menschen-lernen/index.html"> <i class="bi bi-person-gear" role="img">
 </i> 
-<span class="menu-text">Teil 2: Lernen</span></a>
+<span class="menu-text">2: Lernen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../03-lernumgebungen/index.html"> <i class="bi bi-marker-tip" role="img">
 </i> 
-<span class="menu-text">Teil 3</span></a>
+<span class="menu-text">3: Lernumgebungen</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -555,7 +346,7 @@ window.Quarto = {
 </section>
 <section id="the-weak-to-strong-methods-progression" class="level2">
 <h2 class="anchored" data-anchor-id="the-weak-to-strong-methods-progression">The Weak-to-Strong Methods Progression</h2>
-<p>According to John Anderson’s ACT-R theory <span class="citation" data-cites="andersonAcquisitionCognitiveSkill1982 andersonHowCanHuman2007">(<a href="#ref-andersonAcquisitionCognitiveSkill1982" role="doc-biblioref"><strong>andersonAcquisitionCognitiveSkill1982?</strong></a>; <a href="#ref-andersonHowCanHuman2007" role="doc-biblioref"><strong>andersonHowCanHuman2007?</strong></a>)</span>, expertise develops through a predictable progression:</p>
+<p>According to John Anderson’s ACT-R theory <span class="citation" data-cites="andersonAcquisitionCognitiveSkill1982 andersonHowCanHuman2007">(<a href="#ref-andersonAcquisitionCognitiveSkill1982" role="doc-biblioref">Anderson 1982</a>, <a href="#ref-andersonHowCanHuman2007" role="doc-biblioref">2007</a>)</span>, expertise develops through a predictable progression:</p>
 <section id="weak-methods-novice-stage" class="level3">
 <h3 class="anchored" data-anchor-id="weak-methods-novice-stage">1. <strong>Weak Methods</strong> (Novice Stage)</h3>
 <p>Weak methods are domain-general problem-solving strategies that novices use when they lack specific knowledge:</p>
@@ -651,7 +442,7 @@ Example: Expert solving <span class="math inline">\(3x + 5 = 20\)</span>
 <h2 class="anchored" data-anchor-id="understanding-cognitive-load-theory">Understanding Cognitive Load Theory</h2>
 <section id="the-evolutionary-foundation-of-learning" class="level3">
 <h3 class="anchored" data-anchor-id="the-evolutionary-foundation-of-learning">The Evolutionary Foundation of Learning</h3>
-<p>Cognitive Load Theory (CLT) <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref"><strong>swellerDevelopmentCognitiveLoad2023?</strong></a>)</span> is specifically concerned with how humans acquire <strong>biologically secondary knowledge</strong>—the academic content that schools exist to teach. Understanding this distinction is crucial for grasping why AI can disrupt learning so profoundly.</p>
+<p>Cognitive Load Theory (CLT) <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span> is specifically concerned with how humans acquire <strong>biologically secondary knowledge</strong>—the academic content that schools exist to teach. Understanding this distinction is crucial for grasping why AI can disrupt learning so profoundly.</p>
 <section id="biologically-primary-vs.-secondary-knowledge" class="level4">
 <h4 class="anchored" data-anchor-id="biologically-primary-vs.-secondary-knowledge">Biologically Primary vs.&nbsp;Secondary Knowledge</h4>
 <table class="caption-top table">
@@ -698,7 +489,7 @@ Why This Distinction Matters
 </section>
 <section id="the-cognitive-architecture-of-learning" class="level3">
 <h3 class="anchored" data-anchor-id="the-cognitive-architecture-of-learning">The Cognitive Architecture of Learning</h3>
-<p>CLT is based on how human cognition actually processes information, using an architecture that mirrors evolution by natural selection <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref"><strong>swellerDevelopmentCognitiveLoad2023?</strong></a>)</span>:</p>
+<p>CLT is based on how human cognition actually processes information, using an architecture that mirrors evolution by natural selection <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span>:</p>
 <section id="two-pathways-for-novel-information" class="level4">
 <h4 class="anchored" data-anchor-id="two-pathways-for-novel-information">Two Pathways for Novel Information</h4>
 <p>Humans can acquire new biologically secondary information through two routes:</p>
@@ -746,7 +537,7 @@ Element Interactivity in Action
 </section>
 <section id="how-expertise-actually-develops" class="level3">
 <h3 class="anchored" data-anchor-id="how-expertise-actually-develops">How Expertise Actually Develops</h3>
-<p>As De Groot first demonstrated in 1965 <span class="citation" data-cites="grootThoughtChoiceChess1978 swellerCognitiveLoadTheory2024">(<a href="#ref-grootThoughtChoiceChess1978" role="doc-biblioref"><strong>grootThoughtChoiceChess1978?</strong></a>; <a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref"><strong>swellerCognitiveLoadTheory2024?</strong></a>)</span>, expertise is <strong>domain-specific</strong> and results from <strong>enormous amounts of domain-specific information stored in long-term memory</strong>. This isn’t just “knowing more facts”—it’s having organized knowledge structures (schemas) that allow experts to:</p>
+<p>As De Groot first demonstrated in 1965 <span class="citation" data-cites="grootThoughtChoiceChess1978 swellerCognitiveLoadTheory2024">(<a href="#ref-grootThoughtChoiceChess1978" role="doc-biblioref">Groot and Groot 1978</a>; <a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref">Sweller 2024</a>)</span>, expertise is <strong>domain-specific</strong> and results from <strong>enormous amounts of domain-specific information stored in long-term memory</strong>. This isn’t just “knowing more facts”—it’s having organized knowledge structures (schemas) that allow experts to:</p>
 <ul>
 <li><strong>Chunk multiple elements</strong> into single units</li>
 <li><strong>Recognize patterns</strong> automatically</li>
@@ -968,7 +759,7 @@ Example: Learning Algebra Through Prediction Errors
 </section>
 <section id="the-desirable-difficulties-principle" class="level3">
 <h3 class="anchored" data-anchor-id="the-desirable-difficulties-principle">The Desirable Difficulties Principle</h3>
-<p>Learning requires what researchers call “desirable difficulties” <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref"><strong>bjorkMakingThingsHard2011?</strong></a>)</span>—challenges that feel hard but promote long-term retention:</p>
+<p>Learning requires what researchers call “desirable difficulties” <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork and Bjork 2011</a>)</span>—challenges that feel hard but promote long-term retention:</p>
 <ol type="1">
 <li><strong>Retrieval Practice</strong>: Pulling information from memory strengthens it</li>
 <li><strong>Spaced Repetition</strong>: Forgetting and relearning creates durable knowledge</li>
@@ -1029,8 +820,8 @@ What We Lose
 <h3 class="anchored" data-anchor-id="research-evidence-the-cost-of-cognitive-offloading">Research Evidence: The Cost of Cognitive Offloading</h3>
 <p>Recent studies show alarming impacts of AI use on learning:</p>
 <ul>
-<li><strong>68% reduction in critical thinking</strong> among knowledge workers with high AI confidence <span class="citation" data-cites="leeImpactGenerativeAI2025">(<a href="#ref-leeImpactGenerativeAI2025" role="doc-biblioref"><strong>leeImpactGenerativeAI2025?</strong></a>)</span></li>
-<li><strong>Surface learning only</strong> for programming students using ChatGPT <span class="citation" data-cites="yangEffectivenessChatGPTAssisting2025">(<a href="#ref-yangEffectivenessChatGPTAssisting2025" role="doc-biblioref"><strong>yangEffectivenessChatGPTAssisting2025?</strong></a>)</span></li>
+<li><strong>68% reduction in critical thinking</strong> among knowledge workers with high AI confidence <span class="citation" data-cites="leeImpactGenerativeAI2025">(<a href="#ref-leeImpactGenerativeAI2025" role="doc-biblioref">Lee et al. 2025</a>)</span></li>
+<li><strong>Surface learning only</strong> for programming students using ChatGPT <span class="citation" data-cites="yangEffectivenessChatGPTAssisting2025">(<a href="#ref-yangEffectivenessChatGPTAssisting2025" role="doc-biblioref">Yang, Hsu, and Wu 2025</a>)</span></li>
 <li><strong>Decreased problem-solving ability</strong> in math students using AI tools <span class="citation" data-cites="bastaniGenerativeAICan2024">(<a href="#ref-bastaniGenerativeAICan2024" role="doc-biblioref">Bastani et al. 2024</a>)</span></li>
 <li><strong>“The fluency illusion”</strong>: Mistaking AI’s competence for your own</li>
 </ul>
@@ -1038,7 +829,7 @@ What We Lose
 </section>
 <section id="the-biological-reality-of-learning" class="level2">
 <h2 class="anchored" data-anchor-id="the-biological-reality-of-learning">The Biological Reality of Learning</h2>
-<p>Learning isn’t just a cognitive process—it’s a biological one that physically changes your brain <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(<a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref"><strong>oakleyMemoryParadoxWhy2025?</strong></a>)</span>:</p>
+<p>Learning isn’t just a cognitive process—it’s a biological one that physically changes your brain <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(<a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref">Oakley et al. 2025</a>)</span>:</p>
 <section id="sleep-consolidation-is-essential" class="level3">
 <h3 class="anchored" data-anchor-id="sleep-consolidation-is-essential">Sleep Consolidation is Essential</h3>
 <p>Learning doesn’t stop when practice ends: - <strong>Sharp wave ripples</strong> during sleep replay daily experiences - Brain decides what to keep vs.&nbsp;discard - Memories transfer from hippocampus to cortex - New neural connections solidify</p>
@@ -1061,7 +852,7 @@ Flynn Effect Reversal
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Since the 1970s-80s, when education moved away from memorization: - IQ scores began declining for the first time in history - “Why memorize when you can look it up?” became the mantra - Exactly when neuroscience was proving memorization builds critical thinking - We abandoned proven methods just as we discovered why they work <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(<a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref"><strong>oakleyMemoryParadoxWhy2025?</strong></a>)</span></p>
+<p>Since the 1970s-80s, when education moved away from memorization: - IQ scores began declining for the first time in history - “Why memorize when you can look it up?” became the mantra - Exactly when neuroscience was proving memorization builds critical thinking - We abandoned proven methods just as we discovered why they work <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(<a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref">Oakley et al. 2025</a>)</span></p>
 </div>
 </div>
 </section>
@@ -1222,11 +1013,38 @@ Evidence-Based Strategies
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-andersonAcquisitionCognitiveSkill1982" class="csl-entry" role="listitem">
+Anderson, John R. 1982. <span>“Acquisition of Cognitive Skill.”</span> <em>Psychological Review</em> 89 (4): 369–406. <a href="https://doi.org/10.1037/0033-295X.89.4.369">https://doi.org/10.1037/0033-295X.89.4.369</a>.
+</div>
+<div id="ref-andersonHowCanHuman2007" class="csl-entry" role="listitem">
+———. 2007. <em>How <span>Can</span> the <span>Human Mind Occur</span> in the <span>Physical Universe</span>?</em> Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780195324259.001.0001">https://doi.org/10.1093/acprof:oso/9780195324259.001.0001</a>.
+</div>
 <div id="ref-bastaniGenerativeAICan2024" class="csl-entry" role="listitem">
 Bastani, Hamsa, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman. 2024. <span>“Generative <span>AI Can Harm Learning</span>.”</span> SSRN Scholarly Paper. Rochester, NY. July 15, 2024. <a href="https://doi.org/10.2139/ssrn.4895486">https://doi.org/10.2139/ssrn.4895486</a>.
 </div>
+<div id="ref-bjorkMakingThingsHard2011" class="csl-entry" role="listitem">
+Bjork, Elizabeth Ligon, and Robert A. Bjork. 2011. <span>“Making Things Hard on Yourself, but in a Good Way: <span>Creating</span> Desirable Difficulties to Enhance Learning.”</span> In <em>Psychology and the Real World: <span>Essays</span> Illustrating Fundamental Contributions to Society</em>, 56–64. New York, NY, US: Worth Publishers.
+</div>
+<div id="ref-grootThoughtChoiceChess1978" class="csl-entry" role="listitem">
+Groot, Adriaan D. De, and Adrianus Dingeman de Groot. 1978. <em>Thought and <span>Choice</span> in <span>Chess</span></em>. Walter de Gruyter. <a href="https://books.google.com?id=EI4gr42NwDQC">https://books.google.com?id=EI4gr42NwDQC</a>.
+</div>
 <div id="ref-kirschnerHowTeachingHappens2022" class="csl-entry" role="listitem">
 Kirschner, Paul, Carl Hendrick, and Jim Heal. 2022. <em>How <span>Teaching Happens</span>: <span>Seminal Works</span> in <span>Teaching</span> and <span>Teacher Effectiveness</span> and <span>What They Mean</span> in <span>Practice</span></em>. London: Routledge. <a href="https://doi.org/10.4324/9781003228165">https://doi.org/10.4324/9781003228165</a>.
+</div>
+<div id="ref-leeImpactGenerativeAI2025" class="csl-entry" role="listitem">
+Lee, Hao-Ping (Hank), Advait Sarkar, Lev Tankelevitch, Ian Drosos, Sean Rintel, Richard Banks, and Nicholas Wilson. 2025. <span>“The <span>Impact</span> of <span>Generative AI</span> on <span>Critical Thinking</span>: <span>Self-Reported Reductions</span> in <span>Cognitive Effort</span> and <span>Confidence Effects From</span> a <span>Survey</span> of <span>Knowledge Workers</span>.”</span> In. <a href="https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/">https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/</a>.
+</div>
+<div id="ref-oakleyMemoryParadoxWhy2025" class="csl-entry" role="listitem">
+Oakley, Barbara, Michael Johnston, Kenzen Chen, Eulho Jung, and Terrence Sejnowski. 2025. <span>“The <span>Memory Paradox</span>: <span>Why Our Brains Need Knowledge</span> in an <span>Age</span> of <span>AI</span>.”</span> May 12, 2025. <a href="https://doi.org/10.31234/osf.io/3xye5_v2">https://doi.org/10.31234/osf.io/3xye5_v2</a>.
+</div>
+<div id="ref-swellerDevelopmentCognitiveLoad2023" class="csl-entry" role="listitem">
+Sweller, John. 2023. <span>“The <span>Development</span> of <span>Cognitive Load Theory</span>: <span>Replication Crises</span> and <span>Incorporation</span> of <span>Other Theories Can Lead</span> to <span>Theory Expansion</span>.”</span> <em>Educational Psychology Review</em> 35 (4): 95. <a href="https://doi.org/10.1007/s10648-023-09817-2">https://doi.org/10.1007/s10648-023-09817-2</a>.
+</div>
+<div id="ref-swellerCognitiveLoadTheory2024" class="csl-entry" role="listitem">
+———. 2024. <span>“Cognitive Load Theory and Individual Differences.”</span> <em>Learning and Individual Differences</em> 110 (February): 102423. <a href="https://doi.org/10.1016/j.lindif.2024.102423">https://doi.org/10.1016/j.lindif.2024.102423</a>.
+</div>
+<div id="ref-yangEffectivenessChatGPTAssisting2025" class="csl-entry" role="listitem">
+Yang, Tzu-Chi, Yi-Chuan Hsu, and Jiun-Yu Wu. 2025. <span>“The Effectiveness of <span>ChatGPT</span> in Assisting High School Students in Programming Learning: Evidence from a Quasi-Experimental Research.”</span> <em>Interactive Learning Environments</em>, January, 1–18. <a href="https://doi.org/10.1080/10494820.2025.2450659">https://doi.org/10.1080/10494820.2025.2450659</a>.
 </div>
 </div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ellis,
   author = {Ellis, Andrew},
