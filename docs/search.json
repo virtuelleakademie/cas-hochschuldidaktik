@@ -567,7 +567,7 @@
     "href": "02-wie-menschen-lernen/index.html",
     "title": "Wie Menschen lernen",
     "section": "",
-    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.",
+    "text": "Working memory\ncognitive load theory",
     "crumbs": [
       "2: Lernen",
       "Wie Menschen lernen"
@@ -2597,5 +2597,16 @@
     "title": "Möglichkeiten und Grenzen",
     "section": "References",
     "text": "References\n\n\nFleckenstein, Johanna, Jennifer Meyer, Thorben Jansen, Stefan D. Keller, Olaf Köller, and Jens Möller. 2024. “Do Teachers Spot AI? Evaluating the Detectability of AI-generated Texts Among Student Essays.” Computers and Education: Artificial Intelligence 6 (June): 100209. https://doi.org/10.1016/j.caeai.2024.100209."
+  },
+  {
+    "objectID": "02-wie-menschen-lernen/index.html#selbststudium",
+    "href": "02-wie-menschen-lernen/index.html#selbststudium",
+    "title": "Wie Menschen lernen",
+    "section": " Selbststudium",
+    "text": "Selbststudium\nVon Zetteln zu Prompts (Geyer 2025)",
+    "crumbs": [
+      "2: Lernen",
+      "Wie Menschen lernen"
+    ]
   }
 ]
