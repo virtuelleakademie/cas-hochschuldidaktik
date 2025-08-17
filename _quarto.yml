@@ -43,7 +43,7 @@ website:
         text: "1: KI verstehen"
       - icon: person-gear
         href: 02-wie-menschen-lernen/index.qmd
-        text: "2: Lernen"
+        text: "2: Kompetenzerwerb"
       - icon: marker-tip
         href: 03-lernumgebungen/index.qmd
         text: "3: Lernumgebungen"
@@ -102,6 +102,8 @@ website:
       contents:
         - 02-wie-menschen-lernen/index.qmd
         - 02-wie-menschen-lernen/kompetenz-erwerben/index.qmd
+        - 02-wie-menschen-lernen/aktive-verarbeitung/index.qmd
+        - 02-wie-menschen-lernen/selbststudium/index.qmd
 
     - title: "Teil 3: Lernumgebungen"
       style: "docked"
@@ -110,6 +112,7 @@ website:
       contents:
         - 03-lernumgebungen/index.qmd
         - 03-lernumgebungen/produktive-anstrengung/index.qmd
+        - 03-lernumgebungen/aktive-verarbeitung/index.qmd
 
 page-footer:
     right:
