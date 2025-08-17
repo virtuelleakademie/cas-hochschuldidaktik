@@ -61,9 +61,22 @@ Experten haben die neuronale Architektur, die Anfänger erst entwickeln müssen
 
 Wir unterscheiden zwischen:
 
-- biologisch primärem (z.B. Sprache) und 
-- biologisch sekundärem Wissen (z.B. Mathematik).
+::::{.columns}
+:::{.column width="50%"}
+**Biologisch primärem Wissen**: 
 
+- Wofür wir evolutionär angepasst sind
+- Lernen geschieht mühelos und automatisch
+- Beispiele: Sprechen lernen, Gesichter erkennen, soziale Interaktion
+:::
+:::{.column width=50%}
+**Biologisch sekundärem Wissen**:
+
+- Kulturelle Errungenschaften ohne evolutionäre Anpassung
+- Erfordert bewusste Anstrengung und Instruktion
+- Beispiele: Lesen, Schreiben, Mathematik, Programmieren
+:::
+::::
 
 ::: {.callout-important}
 Primäres Wissen kann durch natürliche Entdeckung (discovery) erlernt werden, während akademische Fähigkeiten explizite Anleitung und strukturiertes Üben erfordern.
