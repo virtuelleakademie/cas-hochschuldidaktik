@@ -81,9 +81,9 @@ website:
       contents:
         - workshop/index.qmd
         - workshop/einstieg/index.qmd
-        - 01-ki-verstehen/index.qmd
-        - 02-wie-menschen-lernen/index.qmd
-        - 03-lernumgebungen/index.qmd
+        # - 01-ki-verstehen/index.qmd
+        # - 02-wie-menschen-lernen/index.qmd
+        # - 03-lernumgebungen/index.qmd
         - workshop/diskussion/index.qmd
 
     - title: "Teil 1: KI verstehen"
@@ -92,18 +92,24 @@ website:
       background: light
       contents:
         - 01-ki-verstehen/index.qmd
+        - 01-ki-verstehen/selbststudium/index.qmd
+
+
     - title: "Teil 2: Wie Menschen lernen "
       style: "docked"
       search: true
       background: light
       contents:
         - 02-wie-menschen-lernen/index.qmd
+        - 02-wie-menschen-lernen/kompetenz-erwerben/index.qmd
+
     - title: "Teil 3: Lernumgebungen"
       style: "docked"
       search: true
       background: light
       contents:
         - 03-lernumgebungen/index.qmd
+        - 03-lernumgebungen/produktive-anstrengung/index.qmd
 
 page-footer:
     right:

@@ -2,37 +2,45 @@
 title: "Ablauf"
 ---
 
-## Einstieg
-| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
+<!-- ## Einstieg -->
+| {{< bi collection-fill >}} Thema | {{< bi clock-fill >}} Dauer |
 | --------------------------- | ---------------------- |
-| [Begrüssungsaufgabe](einstieg/index.qmd)  | 15 min                 |
+| {{< bi collection >}} Einstieg | |
+| [Begrüssungsaufgabe](einstieg/index.qmd)  | 15 min   |
+| {{< bi collection >}} Teil 1 | |
+| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
+| {{< bi collection >}} Teil 2 | |
+| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
+| {{< bi collection >}} Teil 3 | |
+| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
+| {{< bi collection >}} Diskussion | |
+| [Offene Diskussion](diskussion/index.qmd)     | 30 min          |
 
 
-<br> 
+<!-- <br> 
 
 ## Teil 1: KI verstehen
 
 | {{< bi collection >}} Thema                         | {{< bi clock >}} Dauer        |
 |------------------------------------------------------|-------------------------------|
-| [Input: KI verstehen](ki-lehrassistent/index.qmd)   | 25 min (15' Input + 10' Q&A) |
-| [Aktive Mitarbeit](studis-und-ki/index.qmd)         | 20 min (10' Input + 10' Q&A) |
-| [Input: KI im Unterricht](ki-unterricht/index.qmd)  | 15 min (5' Input + 10' Q&A)  |
+| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
+
 
 ## Teil 2: Wie Menschen lernen  
 
 | {{< bi collection >}} Thema                             | {{< bi clock >}} Dauer        |
 |----------------------------------------------------------|-------------------------------|
-| [Input: Wie Menschen lernen](02-wie-menschen-lernen/index.qmd) | 25 min (15' Input + 10' Q&A) |
+| [Input: Wie Menschen lernen](../02-wie-menschen-lernen/index.qmd) | 20 min  |
 
 ## Teil 3: Lernumgebungen 
 
 | {{< bi collection >}} Thema                          | {{< bi clock >}} Dauer        |
 |-------------------------------------------------------|-------------------------------|
-| [Input: Lernumgebungen](03-lernumgebungen/index.qmd) | 25 min (15' Input + 10' Q&A) |
+| [Input: Lernumgebungen](../03-lernumgebungen/index.qmd) | 20 min  |
 
 
 ## Offene Diskussion
 
 | {{< bi collection >}} Thema                          | {{< bi clock >}} Dauer        |
 |-------------------------------------------------------|-------------------------------|
-| [Offene Diskussion](diskussion/index.qmd)     | 30 min                        |
+| [Offene Diskussion](diskussion/index.qmd)     | 30 min                        | -->

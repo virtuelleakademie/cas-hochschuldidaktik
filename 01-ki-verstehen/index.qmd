@@ -9,12 +9,27 @@ This presentation reveals why offloading cognitive processing to AI can undermin
 
 
 
-## {{< bi file-slides >}} Presentation
+## {{< bi file-slides >}} Was ist Künstliche Intelligenz
 
-{{< revealjs file="../../slides/ki-verstehen/index.html" height="500px" class="ratio ratio-16x9" >}}
+{{< revealjs file="../slides/was-ist-ki/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+## {{< bi file-slides >}} Wie funktionieren Chatbots?
+
+{{< revealjs file="../slides/was-sind-chatbots/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
-<br> <br>
+## {{< bi file-slides >}} Möglichkeiten und Grenzen
+
+{{< revealjs file="../slides/möglichkeiten-grenzen/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+## {{< bi file-slides >}} Prompting Tipps
+
+{{< revealjs file="../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
 
+
+<!-- ## {{< bi book>}} Selbststudium -->
+
+
+<!-- ## {{< bi file-slides >}} Bibliographie -->
