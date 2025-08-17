@@ -2,10 +2,29 @@
 title: "Ablauf"
 ---
 
-| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
-|-------|--------|
-| [Auswertung der Umfrage](umfrage/index.qmd) | 10 min |
-| [Input: KI als Lehrassistent](ki-lehrassistent/index.qmd) | 25 min (15' Input + 10' Q&A) |
-| [Input: Studierende & KI](studis-und-ki/index.qmd) | 20 min (10' Input + 10' Q&A) |
-| [Input: KI im Unterricht](ki-unterricht/index.qmd) | 15 min (5' Input + 10' Q&A) |
+| {{< bi collection >}} Thema                        | {{< bi clock >}} Dauer       |
+| -------------------------------------------------- | ---------------------------- |
+| [Einstieg](einstieg/index.qmd)                     | 15 min                       |
 
+
+<br> 
+
+## Teil 1: KI verstehen
+
+| {{< bi collection >}} Thema                         | {{< bi clock >}} Dauer        |
+|------------------------------------------------------|-------------------------------|
+| [Input: KI verstehen](ki-lehrassistent/index.qmd)   | 25 min (15' Input + 10' Q&A) |
+| [Aktive Mitarbeit](studis-und-ki/index.qmd)         | 20 min (10' Input + 10' Q&A) |
+| [Input: KI im Unterricht](ki-unterricht/index.qmd)  | 15 min (5' Input + 10' Q&A)  |
+
+## Teil 2: Wie Menschen lernen  
+
+| {{< bi collection >}} Thema                             | {{< bi clock >}} Dauer        |
+|----------------------------------------------------------|-------------------------------|
+| [Input: Wie Menschen lernen](02-wie-menschen-lernen/index.qmd) | 25 min (15' Input + 10' Q&A) |
+
+## Teil 3: Lernumgebungen 
+
+| {{< bi collection >}} Thema                          | {{< bi clock >}} Dauer        |
+|-------------------------------------------------------|-------------------------------|
+| [Input: Lernumgebungen](03-lernumgebungen/index.qmd) | 25 min (15' Input + 10' Q&A) |
