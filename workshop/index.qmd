@@ -2,9 +2,10 @@
 title: "Ablauf"
 ---
 
-| {{< bi collection >}} Thema                        | {{< bi clock >}} Dauer       |
-| -------------------------------------------------- | ---------------------------- |
-| [Einstieg](einstieg/index.qmd)                     | 15 min                       |
+## Einstieg
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
+| --------------------------- | ---------------------- |
+| [Begrüssungsaufgabe](einstieg/index.qmd)  | 15 min                 |
 
 
 <br> 
@@ -28,3 +29,10 @@ title: "Ablauf"
 | {{< bi collection >}} Thema                          | {{< bi clock >}} Dauer        |
 |-------------------------------------------------------|-------------------------------|
 | [Input: Lernumgebungen](03-lernumgebungen/index.qmd) | 25 min (15' Input + 10' Q&A) |
+
+
+## Offene Diskussion
+
+| {{< bi collection >}} Thema                          | {{< bi clock >}} Dauer        |
+|-------------------------------------------------------|-------------------------------|
+| [Offene Diskussion](diskussion/index.qmd)     | 30 min                        |

@@ -105,7 +105,7 @@
     "href": "workshop/index.html",
     "title": "Ablauf",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nEinstieg\n15 min",
+    "text": "Thema\n Dauer\n\n\n\n\nBegrüssungsaufgabe\n15 min",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -223,14 +223,14 @@
     "href": "workshop/diskussion/index.html",
     "title": "Offene Diskussion",
     "section": "",
-    "text": "Jetzt möchten wir eine offene Diskussion führen. Bitte teilen Sie Ihre Gedanken zu folgenden Fragen:\n\nWas war die wichtigste Erkenntnis, die Sie aus diesem Workshop mitgenommen haben?\nGab es Aspekte, die Ihnen besonders schwierig oder verwirrend erschienen sind?\nWie planen Sie, das Gelernte in Ihrer Praxis oder Lehre anzuwenden?\nWelche Themen oder Fragestellungen würden Sie gerne in zukünftigen Workshops vertiefen?\nGibt es weitere Fragen oder Anmerkungen?\n\nWir freuen uns auf Ihre Beiträge und eine interessante Diskussion!"
+    "text": "Jetzt möchten wir eine offene Diskussion führen. Bitte teile deine Gedanken zu folgenden Fragen:\n\nWas war die wichtigste Erkenntnis, die du aus diesem Workshop mitgenommen hast?\nGab es Aspekte, die dir besonders schwierig oder verwirrend erschienen sind?\nWie planst du, das Gelernte in deiner Praxis oder Lehre anzuwenden?\nWelche Themen oder Fragestellungen würdest du gerne in zukünftigen Workshops vertiefen?\nGibt es weitere Fragen oder Anmerkungen?\n\nWir freuen uns auf deine Beiträge und eine interessante Diskussion!"
   },
   {
     "objectID": "workshop/diskussion/index.html#offene-diskussion",
     "href": "workshop/diskussion/index.html#offene-diskussion",
     "title": "Offene Diskussion",
     "section": "",
-    "text": "Jetzt möchten wir eine offene Diskussion führen. Bitte teilen Sie Ihre Gedanken zu folgenden Fragen:\n\nWas war die wichtigste Erkenntnis, die Sie aus diesem Workshop mitgenommen haben?\nGab es Aspekte, die Ihnen besonders schwierig oder verwirrend erschienen sind?\nWie planen Sie, das Gelernte in Ihrer Praxis oder Lehre anzuwenden?\nWelche Themen oder Fragestellungen würden Sie gerne in zukünftigen Workshops vertiefen?\nGibt es weitere Fragen oder Anmerkungen?\n\nWir freuen uns auf Ihre Beiträge und eine interessante Diskussion!"
+    "text": "Jetzt möchten wir eine offene Diskussion führen. Bitte teile deine Gedanken zu folgenden Fragen:\n\nWas war die wichtigste Erkenntnis, die du aus diesem Workshop mitgenommen hast?\nGab es Aspekte, die dir besonders schwierig oder verwirrend erschienen sind?\nWie planst du, das Gelernte in deiner Praxis oder Lehre anzuwenden?\nWelche Themen oder Fragestellungen würdest du gerne in zukünftigen Workshops vertiefen?\nGibt es weitere Fragen oder Anmerkungen?\n\nWir freuen uns auf deine Beiträge und eine interessante Diskussion!"
   },
   {
     "objectID": "workshop/einstieg/index.html",
@@ -636,6 +636,28 @@
     "title": "Ablauf",
     "section": "Teil 3: Lernumgebungen",
     "text": "Teil 3: Lernumgebungen\n\n\n\n Thema\n Dauer\n\n\n\n\nInput: Lernumgebungen\n25 min (15’ Input + 10’ Q&A)",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#einstieg",
+    "href": "workshop/index.html#einstieg",
+    "title": "Ablauf",
+    "section": "",
+    "text": "Thema\n Dauer\n\n\n\n\nBegrüssungsaufgabe\n15 min",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#offene-diskussion",
+    "href": "workshop/index.html#offene-diskussion",
+    "title": "Ablauf",
+    "section": "Offene Diskussion",
+    "text": "Offene Diskussion\n\n\n\n Thema\n Dauer\n\n\n\n\nOffene Diskussion\n30 min",
     "crumbs": [
       "Workshop",
       "Ablauf"
