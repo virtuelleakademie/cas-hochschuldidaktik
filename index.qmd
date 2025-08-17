@@ -1,5 +1,5 @@
 ---
-title: "Modul 6: KI in der Lehre"
+# title: "Modul 4: KI in der Lehre"
 format:
   html:
     toc: false
@@ -22,9 +22,13 @@ about:
 ---
 
 
-{{< bi calendar-event >}} 21.03.2025
+{{< bi calendar-event >}} 18.08.2025
 
-{{< bi clock >}} 13.13–14.45 Uhr
+{{< bi clock >}} Vormittag: 8.45–12:15 Uhr
+
+{{< bi clock >}} Nachmittag: 13.15–16:00 Uhr
+
+{{< bi map >}} Raum P 103, Brückenstrasse 73
 
 <!-- {{< bi map >}} H55, Grosser Konzertsaal, Papiermühlestrasse 13d, 3014 Bern -->
 
@@ -34,7 +38,7 @@ about:
 
 [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
 [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
-Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+Gemeinsam erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
 
 ## Website
 
@@ -42,7 +46,7 @@ Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkung
 
 <br>
 <!-- ## QR Code -->
-{{< qrcode https://virtuelleakademie.github.io/cas-hochschuldidaktik width=400 height=400 colorDark='#000000' >}}
+<!-- {{< qrcode https://virtuelleakademie.github.io/cas-hochschuldidaktik width=400 height=400 colorDark='#000000' >}} -->
 
 
 
