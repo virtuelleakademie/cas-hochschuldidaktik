@@ -14,7 +14,7 @@ citation: true
 
 Wie James Lang in *Cheating Lessons* [@langCheatingLessons2013] argumentiert, ist „Schummeln eine unangemessene Reaktion auf eine Lernumgebung, die für den Studierenden nicht funktioniert.“ Statt den Fokus auf das Verhalten der Studierenden zu richten, müssen wir Lernumgebungen so gestalten, dass **produktives Ringen** der lohnendste Weg ist.
 
-Forschung zu „wünschenswerten Schwierigkeiten“ [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] zeigt, dass Lernen kognitive Anstrengung erfordert—wenn wir das Ringen entfernen, entfernen wir das Lernen. Doch Studierende erhalten oft keinen Anreiz, sich auf anstrengende Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende sich bewusst auf diese Anstrengung einlassen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.
+Forschung zu "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] zeigt, dass Lernen kognitive Anstrengung erfordert—wenn wir den "struggle" entfernen, entfernen wir das Lernen. Doch Studierende erhalten oft keinen Anreiz, sich auf anstrengende Verarbeitung einzulassen. Das Ziel ist es, Umgebungen zu schaffen, in denen Lernende sich bewusst auf diese Anstrengung einlassen, weil sie deren Notwendigkeit für tiefes Lernen verstehen.
 
 ::: {.callout-important}
 ## Das Paradox des Lernens

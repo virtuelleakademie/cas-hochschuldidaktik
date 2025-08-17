@@ -112,7 +112,6 @@ website:
       contents:
         - 03-lernumgebungen/index.qmd
         - 03-lernumgebungen/produktive-anstrengung/index.qmd
-        - 03-lernumgebungen/aktive-verarbeitung/index.qmd
 
 page-footer:
     right:
