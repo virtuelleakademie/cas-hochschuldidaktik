@@ -1386,63 +1386,63 @@
   {
     "objectID": "slides/was-ist-ki/index.html#what-you-just-experienced",
     "href": "slides/was-ist-ki/index.html#what-you-just-experienced",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "What You Just Experienced",
     "text": "What You Just Experienced\nYour Three Research Modes:\n\n\n\n\n\n\n\n\nResearch Mode\nDescription\nHow did it feel?\n\n\n\n\nWithout AI\nClassical sources\nSlower, effortful, uncertain\n\n\nSingle AI Prompt\nOne question\nFast, confident, comprehensive\n\n\nCollaborative AI\nIterative questions\nEngaging, interactive, refined\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember and transfer a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
   },
   {
     "objectID": "slides/was-ist-ki/index.html#why-schools-exist-the-knowledge-divide",
     "href": "slides/was-ist-ki/index.html#why-schools-exist-the-knowledge-divide",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "Why Schools Exist: The Knowledge Divide",
     "text": "Why Schools Exist: The Knowledge Divide\n\n\nBiologically Primary\nWe evolved to learn:\n\nSpeaking & understanding\nRecognizing faces\n\nReading social cues\nBasic problem solving\n\nNatural discovery works!\n\n\n\nBiologically Secondary\nWe didn’t evolve to learn:\n\nReading & writing\nMathematics & algebra\nProgramming & analysis\nScientific reasoning\n\nNeeds explicit teaching & struggle!\n\n\n\n\nPrimary knowledge can be learned through natural discovery, while academic skills require explicit instruction and structured practice.\n\n\n\n\nTo understand why AI disrupts learning so profoundly, we need to understand why schools exist in the first place."
   },
   {
     "objectID": "slides/was-ist-ki/index.html#how-expertise-actually-develops",
     "href": "slides/was-ist-ki/index.html#how-expertise-actually-develops",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "How Expertise Actually Develops",
     "text": "How Expertise Actually Develops\nThe Brain’s Learning System:\n\n\n\n\n\n\n\n\n\nMemory Type\nDescription\nCharacteristics\nExample\n\n\n\n\nDeclarative Memory\n“Knowing That”\n• Facts and rules you hold consciously• Slow, effortful retrieval\n“To solve  \\(3x + 5 = 20\\),  subtract \\(5\\) from both sides”\n\n\nProcedural Memory\n“Knowing How”\n• Automatic “atomic thinking steps”• Fast, effortless execution\nSee \\(3x + 5 = 20\\) → instantly know \\(x = 5\\)\n\n\n\n\n\n\nThe journey: Facts → Thousands of practice cycles → Automatic procedures → Expertise\nWhy struggle matters: Each practice attempt strengthens the neural pathways that create expertise\n\n\n\n\nFigure courtesy of Scott H Young"
   },
   {
     "objectID": "slides/was-ist-ki/index.html#the-weak-to-strong-methods-journey",
     "href": "slides/was-ist-ki/index.html#the-weak-to-strong-methods-journey",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "The Weak-to-Strong Methods Journey",
     "text": "The Weak-to-Strong Methods Journey\nHow novices become experts through progressive skill building:\n\n\n\n\n\n\n\n\n\nStage\nDescription\nMethods/Characteristics\nNature\n\n\n\n\nWeak Methods (Novice)\nGeneral strategies when lacking knowledge\n• Means-end analysis• Working backward• Trial and error• Surface analogies• Hill climbing\nSlow, effortful, but essential for learning\n\n\nProceduralization\nPatterns become procedures\n• Repeated sequences chunk together• Still conscious but more fluid• Reduced cognitive load• Faster with fewer errors\nThe critical transition phase\n\n\nStrong Methods (Expert)\nDomain-specific automaticity\n• Pattern recognition• Forward chaining• Compiled procedures• Deep structural understanding\nFast, accurate, unconscious\n\n\n\n\n\n\nWhy This Matters for AI Use\n\n\nAI provides expert-level answers (strong methods) to novices who haven’t developed through weak methods first. This skips the essential struggle phase where real learning occurs.\nWhen novices use expert tools, they miss building the foundational procedures that enable true understanding."
   },
   {
     "objectID": "slides/was-ist-ki/index.html#productions-your-brains-atomic-thinking-steps",
     "href": "slides/was-ist-ki/index.html#productions-your-brains-atomic-thinking-steps",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "Productions: Your Brain’s Atomic Thinking Steps",
     "text": "Productions: Your Brain’s Atomic Thinking Steps\nHow Complex Skills Are Built:\n\n\nProductions = IF-THEN Rules\n\nIF see \\(3x + 5 = 20\\) THEN subtract 5 from both sides\nIF stuck on code THEN check syntax first\nIF need to remember phone number THEN repeat internally\n\nEach one is an “atomic thinking step”\n\n\n\nProduction Competition\nWhen you see \\(3x + 5 = 20\\):\n\nProduction A: “Guess and check” (weak)\nProduction B: “Subtract 5” (strong)\nWinner: Strongest fires automatically\n\nPractice strengthens winning productions\n\n\n\n\n\n\nWhy this matters:  Complex expertise = thousands of these atomic steps compiled together. Offloading provides final answers without building the atomic steps.\n\n\n\n\n\n\n\nFigure courtesy of Scott H Young"
   },
   {
     "objectID": "slides/was-ist-ki/index.html#the-ai-bypass-problem",
     "href": "slides/was-ist-ki/index.html#the-ai-bypass-problem",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "The AI Bypass Problem",
     "text": "The AI Bypass Problem\nThree Ways Learning Is Disrupted:\n\n\n\n\n\n\n\n\nIssue\nProblem\nConsequence of offloading to AI\n\n\n\n\nNo Prediction Errors\nBrain learns from gaps between “what I expect” and “what happens”\nEliminates this entirely\n\n\nNo Memory Formation\nInformation that isn’t actively processed isn’t stored\nProvides answers without processing\n\n\nNo Procedural Development\nExpertise requires thousands of “atomic thinking steps”\nSkips this building process\n\n\n\n \n\n\n\nResult: Offloading cognitive processes can lead to surface fluency without deep understanding and complete dependency on tools."
   },
   {
     "objectID": "slides/was-ist-ki/index.html#the-research-reality",
     "href": "slides/was-ist-ki/index.html#the-research-reality",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "The Research Reality",
     "text": "The Research Reality\nWhat Studies Show About AI Use in Learning:\n\n\n68% reduction in critical thinking among high AI users\nSurface learning only in programming students using ChatGPT\n\nFlynn Effect reversal: IQ scores declining since we stopped memorizing\nStudents can’t solve basic problems without AI after repeated AI-assisted attempts \n\n\n\n\nWe abandoned proven learning methods just as neuroscience proved why they work!"
   },
   {
     "objectID": "slides/was-ist-ki/index.html#evidence-based-guidelines",
     "href": "slides/was-ist-ki/index.html#evidence-based-guidelines",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "Evidence-Based Guidelines",
     "text": "Evidence-Based Guidelines\n\n\n\n\n\n\nEmbrace the Struggle\n\nConfusion is a necessary stage of learning\nErrors provide valuable prediction error signals\nDifficulty signals brain growth\n\n\n\n\n\n\n\n\n\nPractice Retrieval\n\nTest yourself before checking answers\nExplain concepts without notes\nTeach others what you’re learning\n\n\n\n\n\n\n\n\n\nSpace Your Learning\n\nReturn to concepts over days/weeks\nAllow forgetting between sessions\nRelearn in different contexts\n\n\n\n\n\n\n\n\n\n\nVary Your Practice\n\nMix problem types\nChange contexts\nSeek novel applications\n\n\n\n\n\n\n\n\n\nProtect Your Prediction Errors\n\nMake attempts before seeking help\nNotice when your expectations are wrong\nUse errors as learning opportunities, not failures"
   },
   {
     "objectID": "slides/was-ist-ki/index.html#teaching-that-matches-how-brains-learn",
     "href": "slides/was-ist-ki/index.html#teaching-that-matches-how-brains-learn",
-    "title": "How Humans Learn",
+    "title": "Was ist Künstliche Intelligenz?",
     "section": "Teaching That Matches How Brains Learn",
     "text": "Teaching That Matches How Brains Learn\n\n\n\n\n\n1. Respect the Developmental Sequence\n\n\n\nWeak methods must come first—they’re not a bug, they’re a feature\nProceduralization requires extensive practice with deliberative processes\nCompilation happens automatically after sufficient repetition\n\n\n\n\n\n\n\n2. Calibrate Cognitive Load\n\n\n\nNovices need simplified, sequential presentation\nExperts can handle complex, parallel processing\nThe same material must be presented differently based on expertise level\n\n\n\n\n\n\n\n\n3. Protect the Struggle Window\n\n\n\nAllow sufficient time for independent struggle before AI consultation\nDocument thinking process before seeking external help\nMultiple attempts required before accessing solutions\n\n\n\n\n\n\n\n4. Scaffold, Don’t Substitute\n\n\n\nUse AI to reduce irrelevant cognitive load, not eliminate all effort\nProvide worked examples that show the process, not just answers\nGradually fade support as competence develops\n\n\n\n\n\n\n\n\nThe Key Insight:\n\n\nAI is an expert-level tool. Using it before building foundational skills through weak methods isn’t just ineffective—it actively prevents the very processes that create expertise.\nDesign learning experiences that match how brains actually develop competence."
   },
@@ -1496,5 +1496,755 @@
     "title": "KI verstehen",
     "section": " Selbststudium",
     "text": "Selbststudium"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#what-is-a-large-language-model",
+    "href": "slides/understanding-llms.html#what-is-a-large-language-model",
+    "title": "Understanding Large Language Models",
+    "section": "What is a Large Language Model?",
+    "text": "What is a Large Language Model?\n\nNeural network trained on vast amounts of text data.\nOutput a distribution over all possible tokens in a sequence conditional on input.\nLLMs undergo three key stages of training:"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#how-do-llms-generate-text",
+    "href": "slides/understanding-llms.html#how-do-llms-generate-text",
+    "title": "Understanding Large Language Models",
+    "section": "How do LLMs generate text?",
+    "text": "How do LLMs generate text?\n\\[\n\\newcommand{\\purple}[1]{\\color{purple}{#1}}\n\\newcommand{\\red}[1]{\\color{red}{#1}}\n\\newcommand{\\blue}[1]{\\color{blue}{#1}}\n\\]\n\\[\\purple{P(x_{i+1}} \\mid \\blue{\\text{Context}}, \\red{\\text{Model}})\\]\n\n\\(\\purple{\\text{Next token}}\\)\n\\(\\blue{\\text{The input sequence}:\\ x_1, \\ldots, x_i}\\)\n\\(\\red{\\text{The learned model}}\\)"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#how-do-llms-generate-text-1",
+    "href": "slides/understanding-llms.html#how-do-llms-generate-text-1",
+    "title": "Understanding Large Language Models",
+    "section": "How do LLMs generate text?",
+    "text": "How do LLMs generate text?\n\\[\\purple{P(x_{i+1}} \\mid \\blue{\\text{Context}}, \\red{\\text{Model}})\\]"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#the-space-of-all-possible-outputs",
+    "href": "slides/understanding-llms.html#the-space-of-all-possible-outputs",
+    "title": "Understanding Large Language Models",
+    "section": "The Space Of All Possible Outputs",
+    "text": "The Space Of All Possible Outputs\n\n\nFigure from (shanahanRolePlayLarge2023?)\n\n\nAn LLM has the capacity to generate any number of possible documents based on its training. However, the context we provide narrows down the potential outputs by guiding the model along specific trajectories.\n- Without context: All paths are equally possible.\n- With context: The paths are constrained, reducing the potential outcomes.\n\nFigure Description: A branching tree diagram. At the base (without context), the tree splits into many branches, each representing a possible document. As tokens (context) are added, paths narrow, showing fewer branches remaining as viable output possibilities."
+  },
+  {
+    "objectID": "slides/understanding-llms.html#what-do-llms-learn",
+    "href": "slides/understanding-llms.html#what-do-llms-learn",
+    "title": "Understanding Large Language Models",
+    "section": "What Do LLMs Learn?",
+    "text": "What Do LLMs Learn?\n\\[\\purple{P(x_{i+1}} \\mid \\blue{\\text{Context}}, \\red{\\text{Model}})\\]\n\nKnowledge is statistical and not grounded in direct experience or sensory input\n\nSyntax and grammar\nSemantics, pragmatics\nAssociations between concepts, facts, and common knowledge\n\nThey can simulate reasoning and planning, but can they actually reason and plan (kambhampatiCanLargeLanguage2024?)?"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#can-llms-reason",
+    "href": "slides/understanding-llms.html#can-llms-reason",
+    "title": "Understanding Large Language Models",
+    "section": "Can LLMs Reason?",
+    "text": "Can LLMs Reason?\n\nA farmer needs to transport a wolf, a goat, and a cabbage across a river using a small boat. The boat can carry only the farmer and one other item (either the wolf, the goat, or the cabbage) at a time. However, if left together without the farmer’s supervision: The wolf will eat the cabbage. The goat will eat the wolf. The challenge is to figure out how the farmer can get all three items across the river safely. What is the sequence of moves that the farmer needs to make?\n\n\nThis is a classic puzzle with a twist! Here’s the step-by-step solution for safely transporting the wolf, goat, and cabbage across the river:\n1.  First trip: The farmer takes the goat across the river and leaves it on the other side.\n2.  Second trip: The farmer returns alone to the original side.\n3.  Third trip: The farmer takes the wolf across the river.\n4.  Fourth trip: The farmer leaves the wolf on the other side but takes the goat back to the original side.\n5.  Fifth trip: The farmer takes the cabbage across the river and leaves it with the wolf.\n6.  Sixth trip: The farmer returns alone to the original side.\n7.  Seventh trip: The farmer takes the goat across the river.\nNow, all three (wolf, goat, and cabbage) are safely across the river, and the puzzle is solved!\nKey point: By taking the goat back on the fourth trip, the farmer ensures that neither the wolf nor the goat are left together, and neither are the goat and the cabbage left together.\n\n A wolf, goat, and cabbage problem with a twist"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#manhole-covers-why-are-they-round",
+    "href": "slides/understanding-llms.html#manhole-covers-why-are-they-round",
+    "title": "Understanding Large Language Models",
+    "section": "Manhole Covers: Why Are They Round?",
+    "text": "Manhole Covers: Why Are They Round?"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#manhole-covers-why-are-they-round-1",
+    "href": "slides/understanding-llms.html#manhole-covers-why-are-they-round-1",
+    "title": "Understanding Large Language Models",
+    "section": "Manhole Covers: Why Are They Round?",
+    "text": "Manhole Covers: Why Are They Round?\n\n\n\n\n\nThe human body that had to fit through the hole is round.\nA circle gives a maximum opening for a minimum surface area.\nHeavy round covers can be rolled rather than lifted into position.\nThey were easier and cheaper to manufacture than square pit covers of the same materials.\nA circle has a constant diameter and won’t fall into the pit if rotatedthe wrong way – a tricky problem to remedy if the access cover weighs well over 100kg as concrete and iron covers did.\n\n Why are manhole covers round?"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#probabilistic-reasoning",
+    "href": "slides/understanding-llms.html#probabilistic-reasoning",
+    "title": "Understanding Large Language Models",
+    "section": "Probabilistic Reasoning",
+    "text": "Probabilistic Reasoning\n\n\n\nA tool capable of reasoning about possible causes of observable symptoms must perform probabilistic reasoning.\nLLMs cannot do this,"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#prompting-guiding-the-model-through-its-space-of-possible-outputs",
+    "href": "slides/understanding-llms.html#prompting-guiding-the-model-through-its-space-of-possible-outputs",
+    "title": "Understanding Large Language Models",
+    "section": "Prompting: Guiding the Model Through its Space of Possible Outputs",
+    "text": "Prompting: Guiding the Model Through its Space of Possible Outputs\n\\(\\purple{P(x_{i+1}} \\mid \\blue{\\text{Context}}, \\red{\\text{Model}})\\)\n\nPrompting guides the LLM along specific paths in its space of possible documents.\nEvery token in a prompt reduces the number of potential outcomes, helping the model generate relevant responses.\n\nWithout a prompt, all outputs are possible.\nAs tokens are added, the range of possible outputs shrinks, making the model’s behavior more predictable."
+  },
+  {
+    "objectID": "slides/understanding-llms.html#how-prompting-reduces-uncertainty",
+    "href": "slides/understanding-llms.html#how-prompting-reduces-uncertainty",
+    "title": "Understanding Large Language Models",
+    "section": "How Prompting Reduces Uncertainty",
+    "text": "How Prompting Reduces Uncertainty\n\nEach token conditions the model’s next prediction\nWith more context, the uncertainty (entropy) decreases, guiding the model towards a more specific output."
+  },
+  {
+    "objectID": "slides/understanding-llms.html#the-power-of-prompting-why-it-matters",
+    "href": "slides/understanding-llms.html#the-power-of-prompting-why-it-matters",
+    "title": "Understanding Large Language Models",
+    "section": "The Power of Prompting: Why It Matters",
+    "text": "The Power of Prompting: Why It Matters\n\nControls the behaviour of LLMs, steering them toward relevant outputs.\nWithout effective prompting, the full potential of an LLM remains untapped, as it may generate irrelevant or misleading outputs.\n\nPrompting allows us to: - Navigate the vast space of possible outputs. - Achieve more controlled and useful results.\nContexts are combinatorial: we do not know how a model will behave conditioned on all possible contexts. The output is highly contingent on the prompt."
+  },
+  {
+    "objectID": "slides/understanding-llms.html#prompt-engineering",
+    "href": "slides/understanding-llms.html#prompt-engineering",
+    "title": "Understanding Large Language Models",
+    "section": " Prompt Engineering",
+    "text": "Prompt Engineering\nWe treat LLMs as black boxes and use engineering approaches to guide their behaviour."
+  },
+  {
+    "objectID": "slides/understanding-llms.html#questions-discussion",
+    "href": "slides/understanding-llms.html#questions-discussion",
+    "title": "Understanding Large Language Models",
+    "section": "Questions / Discussion ",
+    "text": "Questions / Discussion"
+  },
+  {
+    "objectID": "slides/understanding-llms.html#references",
+    "href": "slides/understanding-llms.html#references",
+    "title": "Understanding Large Language Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "slides/old-input/index.html#künstliche-intelligenz",
+    "href": "slides/old-input/index.html#künstliche-intelligenz",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Künstliche Intelligenz",
+    "text": "Künstliche Intelligenz\n\n\n\n\n\nEntwicklung von Computersystemen, welche Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern."
+  },
+  {
+    "objectID": "slides/old-input/index.html#beispiel-alphafold",
+    "href": "slides/old-input/index.html#beispiel-alphafold",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Beispiel: AlphaFold",
+    "text": "Beispiel: AlphaFold\n\n\n\nAlphaFold ist ein von Google DeepMind entwickeltes KI-System, das die 3D-Struktur eines Proteins aus seiner Aminosäuresequenz vorhersagt.\n\n\n\n\nQuelle: AlphaFold"
+  },
+  {
+    "objectID": "slides/old-input/index.html#künstliche-intelligenz-1",
+    "href": "slides/old-input/index.html#künstliche-intelligenz-1",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Künstliche Intelligenz",
+    "text": "Künstliche Intelligenz"
+  },
+  {
+    "objectID": "slides/old-input/index.html#künstliche-intelligenz-2",
+    "href": "slides/old-input/index.html#künstliche-intelligenz-2",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Künstliche Intelligenz",
+    "text": "Künstliche Intelligenz"
+  },
+  {
+    "objectID": "slides/old-input/index.html#symbolische-ki-maschinelles-lernen",
+    "href": "slides/old-input/index.html#symbolische-ki-maschinelles-lernen",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Symbolische KI / Maschinelles Lernen",
+    "text": "Symbolische KI / Maschinelles Lernen\n\n\nSymbolische KI:\n\nVerwendet explizite Regeln und Logik, programmiert von Menschen\nBasiert auf Wenn-Dann-Anweisungen und vordefiniertem Wissen\nFolgt klaren, erklärbaren Schritten\nGut für Probleme mit eindeutigen Regeln\nWeniger anpassungsfähig an neue Situationen\n\n\nMachine Learning/Deep Learning:\n\nLernt automatisch statistische Muster und Beziehungen aus Daten\nFunktioniert wie eine “Black Box” - Entscheidungen schwerer zu erklären\nGut für komplexe Muster und unklare Regeln\nKann sich durch Training an neue Situationen anpassen"
+  },
+  {
+    "objectID": "slides/old-input/index.html#beispiel-klassifikation-von-katzen-und-hunden",
+    "href": "slides/old-input/index.html#beispiel-klassifikation-von-katzen-und-hunden",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Beispiel: Klassifikation von Katzen und Hunden",
+    "text": "Beispiel: Klassifikation von Katzen und Hunden\n\n\nAnhand welcher Merkmale kann man Katzen und Hunden unterscheiden?"
+  },
+  {
+    "objectID": "slides/old-input/index.html#mit-symbolischer-ki",
+    "href": "slides/old-input/index.html#mit-symbolischer-ki",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Mit Symbolischer KI",
+    "text": "Mit Symbolischer KI\n\n\n\n\n\n\n\nIF has_whiskers = true\nAND has_pointed_ears = true\nAND has_fur = true\nAND has_tail = true\nTHEN is_cat = true"
+  },
+  {
+    "objectID": "slides/old-input/index.html#mit-maschinellen-lernen",
+    "href": "slides/old-input/index.html#mit-maschinellen-lernen",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Mit Maschinellen Lernen",
+    "text": "Mit Maschinellen Lernen\n\n\n\nSystem lernt automatisch Muster (Formen, Farben, Texturen) aus tausenden Bildern.\nKann Katzen in neuen Bildern erkennen, auch in ungewöhnlichen Positionen oder Beleuchtungen.\nBraucht keine expliziten Regeln."
+  },
+  {
+    "objectID": "slides/old-input/index.html#sprache",
+    "href": "slides/old-input/index.html#sprache",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Sprache",
+    "text": "Sprache\n\nfruit flies like a banana\n\nIst flies ein\n\nVerb (bezieht sich auf Früchte, die durch die Luft fliegen)\n\noder ein\n\nNomen (bezieht sich auf Bananenliebende Insekten)?"
+  },
+  {
+    "objectID": "slides/old-input/index.html#was-sind-large-language-models-llms",
+    "href": "slides/old-input/index.html#was-sind-large-language-models-llms",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Was sind Large Language Models (LLMs)?",
+    "text": "Was sind Large Language Models (LLMs)?\nDas Wichtigste ist zu verstehen, dass ChatGPT grundsätzlich immer versucht, eine vernünftige Fortsetzung des bisherigen Textes zu produzieren.\nMit “vernünftig” meinen wir: “Was ist die wahrscheinlichste Fortsetzung eines Textanfangs, wenn man alle möglichen Texte berücksichtigt?”"
+  },
+  {
+    "objectID": "slides/old-input/index.html#was-sind-large-language-models-llms-1",
+    "href": "slides/old-input/index.html#was-sind-large-language-models-llms-1",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Was sind Large language models (LLMs)?",
+    "text": "Was sind Large language models (LLMs)?\n\n\n\nStatistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.\nDiese Vorhersage geschieht Wort für Wort.\nJede Vorhersage basiert auf\n\nder Eingabe (Prompt)\nden zuvor generierten Wörtern\nder internen Struktur des Modells\n\n\n\n\\[\n\\newcommand{\\purple}[1]{\\color{purple}{#1}}\n\\newcommand{\\red}[1]{\\color{red}{#1}}\n\\newcommand{\\blue}[1]{\\color{blue}{#1}}\n\\]\n\n\\[\\purple{P(\\text{Wort}_{i+1}} \\mid \\blue{\\text{Kontext}}, \\red{\\text{Modell}})\\]\n\nDas \\(\\purple{\\text{nächste Wort}}\\) wird vorhergesagt, in Abhängigkeit von \\(\\blue{\\text{Inputsequenz}}\\) und \\(\\red{\\text{Modell}}\\)."
+  },
+  {
+    "objectID": "slides/old-input/index.html#vorhersage",
+    "href": "slides/old-input/index.html#vorhersage",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Vorhersage",
+    "text": "Vorhersage\nNicht alle Teile des Kontexts sind gleich wichtig:\n \n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen _“\n\n\nNach Thomas Mann, Buddenbrooks\n\n \nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
+  },
+  {
+    "objectID": "slides/old-input/index.html#kontext-verstehen",
+    "href": "slides/old-input/index.html#kontext-verstehen",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Kontext verstehen",
+    "text": "Kontext verstehen\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\nSyntaktische Struktur (Grammatik und Struktur des Satzes):\n\nDas Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen—im Plural—beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).\nDer Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.\n\nSemantischer Kontext (Bedeutung):\nDie Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.\nLexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):\nNach “grosszügigen” folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. “Räume”, “Gärten”, “Fenster”."
+  },
+  {
+    "objectID": "slides/old-input/index.html#was-sind-llms",
+    "href": "slides/old-input/index.html#was-sind-llms",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Was sind LLMs?",
+    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
+  },
+  {
+    "objectID": "slides/old-input/index.html#wie-generieren-llms-text",
+    "href": "slides/old-input/index.html#wie-generieren-llms-text",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Wie generieren LLMs Text?",
+    "text": "Wie generieren LLMs Text?"
+  },
+  {
+    "objectID": "slides/old-input/index.html#wie-werden-llms-trainiert",
+    "href": "slides/old-input/index.html#wie-werden-llms-trainiert",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Wie werden LLMs trainiert?",
+    "text": "Wie werden LLMs trainiert?"
+  },
+  {
+    "objectID": "slides/old-input/index.html#gefahren-und-herausforderungen",
+    "href": "slides/old-input/index.html#gefahren-und-herausforderungen",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Gefahren und Herausforderungen",
+    "text": "Gefahren und Herausforderungen\n\n\n\nDie verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken verbunden:\n\nUrheberrecht: Die trainierten Modelle werden mit Texten trainiert, die möglicherweise Urheberrechtlich geschützt sind.\nBias: Die trainierten Modelle können bestehende Vorurteile aus den Trainingsdaten lernen.\nEnergieverbrauch: Das Training der Modelle verbraucht viel Energie und ist damit umweltbelastend."
+  },
+  {
+    "objectID": "slides/old-input/index.html#gefahren-und-herausforderungen-1",
+    "href": "slides/old-input/index.html#gefahren-und-herausforderungen-1",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Gefahren und Herausforderungen",
+    "text": "Gefahren und Herausforderungen\n\n\n\n\nObschon sich LLMs viel Wissen aneignen1, werden sie nicht trainiert, faktisch korrekte Aussagen zu machen.\nDies bedeutet, dass wir alle Aussagen, die LLMs uns präsentieren, immer kritisch hinterfragen müssen.\nLLMs sind keine Wissensdatenbanken. Informationen immer anhand externer Quellen überprüfen.\n\n\n\n\n\nDas ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen."
+  },
+  {
+    "objectID": "slides/old-input/index.html#wie-sieht-das-für-musik-aus",
+    "href": "slides/old-input/index.html#wie-sieht-das-für-musik-aus",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Wie sieht das für Musik aus?",
+    "text": "Wie sieht das für Musik aus?\n\nYour browser does not support the audio tag.WA Mozart: Horn Concerto KV 495, Romanza (Christian Holenstein)\n\nQuelle: www.christian-holenstein.ch/sounds"
+  },
+  {
+    "objectID": "slides/old-input/index.html#style-transfer",
+    "href": "slides/old-input/index.html#style-transfer",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Style transfer",
+    "text": "Style transfer\n\n\nVoicebox ist ein KI-System, das hochwertige Audioclips in verschiedenen Stilen erzeugen kann. Es beherrscht Sprachsynthese in sechs Sprachen und kann bestehende Aufnahmen bearbeiten oder neue erstellen."
+  },
+  {
+    "objectID": "slides/old-input/index.html#ki-verrichtet-geistige-arbeit",
+    "href": "slides/old-input/index.html#ki-verrichtet-geistige-arbeit",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "KI verrichtet geistige Arbeit",
+    "text": "KI verrichtet geistige Arbeit\n\nKognitive Arbeit und KI: KI hat das Potential zu verändern, wie geistige Arbeit verrichtet wird.\nWichtige Erkenntnisse aus der Forschung:\n\n(dellacquaNavigatingJaggedTechnological2023?) erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.\n(toner-rodgersArtificialIntelligenceScientific?) diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.\n(cuiEffectsGenerativeAI2024a?) analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.\n\nErkenntnisse:\n\nAutomatisierung von routinemässigen kognitiven Aufgaben ist möglich\nUnterstützung kreativer Arbeit ist möglich\nDeskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren\nOhne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt"
+  },
+  {
+    "objectID": "slides/old-input/index.html#körperliche-arbeit",
+    "href": "slides/old-input/index.html#körperliche-arbeit",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Körperliche Arbeit",
+    "text": "Körperliche Arbeit\n\n\n19. Jahrhundert\n\n\n20. Jahrhundert\n\n\n\nBildquelle: Erstellt mit DALL-E 3"
+  },
+  {
+    "objectID": "slides/old-input/index.html#wie-sieht-das-für-die-kognitive-arbeit-aus",
+    "href": "slides/old-input/index.html#wie-sieht-das-für-die-kognitive-arbeit-aus",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Wie sieht das für die kognitive Arbeit aus?",
+    "text": "Wie sieht das für die kognitive Arbeit aus?\n\n\n1960\n\n\n2030 \n\n\n\nBildquelle: Erstellt mit DALL-E 3"
+  },
+  {
+    "objectID": "slides/old-input/index.html#ankunftstechnologien",
+    "href": "slides/old-input/index.html#ankunftstechnologien",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Ankunftstechnologien",
+    "text": "Ankunftstechnologien\n\n\nSchulen und Hochschulen stehen vor Herausforderungen mit Technologien wie ChatGPT, weil sie:\n\nTraditionelle Technologie-Evaluierungsprozesse umgehen\nDurch spontane Adoption eingeführt werden\nReaktive statt proaktive Richtlinien erfordern\n\n\n\n\n\nBildquelle: Erstellt mit DALL-E 3 (“ChatGPT arriving at a university in the style of a 14th century painting.”)"
+  },
+  {
+    "objectID": "slides/old-input/index.html#adoptions--vs.-ankunfts-technologien",
+    "href": "slides/old-input/index.html#adoptions--vs.-ankunfts-technologien",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Adoptions- vs. Ankunfts-Technologien",
+    "text": "Adoptions- vs. Ankunfts-Technologien\n(reichNewTheoryArrival2024?)\n\n\nTraditionelle Einführung\n\nSorgfältige Bewertung\nPilotversuche\nMitarbeiterschulung\nKlare Zeitpläne\nEtablierte Richtlinien\n\n\n\n\nBeispiele: Adoptions-Technologien\n\n\nLearning Management Systems, Smart boards\n\n\n\n\nAnkunftstechnologien\n\nSpontane Nutzung\nUmgehung von Prozessen\nKeine Vorbereitung\nBenutzergeführte Einführung\nReaktive Richtlinien\n\n\n\n\nBeispiele: Ankunfts-Technologien\n\n\nSmartphone, Wikipedia, YouTube, TikTok"
+  },
+  {
+    "objectID": "slides/old-input/index.html#chatgpt",
+    "href": "slides/old-input/index.html#chatgpt",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "ChatGPT",
+    "text": "ChatGPT"
+  },
+  {
+    "objectID": "slides/old-input/index.html#fragen-beantworten",
+    "href": "slides/old-input/index.html#fragen-beantworten",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Fragen beantworten",
+    "text": "Fragen beantworten"
+  },
+  {
+    "objectID": "slides/old-input/index.html#bilder-analysieren",
+    "href": "slides/old-input/index.html#bilder-analysieren",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Bilder analysieren",
+    "text": "Bilder analysieren"
+  },
+  {
+    "objectID": "slides/old-input/index.html#dokumente-zusammenfassen",
+    "href": "slides/old-input/index.html#dokumente-zusammenfassen",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Dokumente zusammenfassen",
+    "text": "Dokumente zusammenfassen"
+  },
+  {
+    "objectID": "slides/old-input/index.html#output-strukturieren",
+    "href": "slides/old-input/index.html#output-strukturieren",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Output strukturieren",
+    "text": "Output strukturieren"
+  },
+  {
+    "objectID": "slides/old-input/index.html#websuche",
+    "href": "slides/old-input/index.html#websuche",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Websuche",
+    "text": "Websuche"
+  },
+  {
+    "objectID": "slides/old-input/index.html#datenanalyse",
+    "href": "slides/old-input/index.html#datenanalyse",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Datenanalyse",
+    "text": "Datenanalyse"
+  },
+  {
+    "objectID": "slides/old-input/index.html#custom-gpts",
+    "href": "slides/old-input/index.html#custom-gpts",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Custom GPTs",
+    "text": "Custom GPTs"
+  },
+  {
+    "objectID": "slides/old-input/index.html#rechtliche-aspekte",
+    "href": "slides/old-input/index.html#rechtliche-aspekte",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\nZwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:\n \n\n\nRechtliche Aspekte \n\nWer besitzt die Rechte an den von LLMs generierten Inhalten?\nRisiko von Plagiaten und Urheberrechtsverletzungen\nRichtlinien für den Umgang mit generierten Inhalten\n\n\nDatenschutz \n\nSchutz personenbezogener Daten\nEinhaltung von Datenschutzbestimmungen"
+  },
+  {
+    "objectID": "slides/old-input/index.html#rechtliche-aspekte-1",
+    "href": "slides/old-input/index.html#rechtliche-aspekte-1",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\n\nKI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben—dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.\nDer Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.\nDer von der KI generierte Output kann zufällig geschützte Inhalte Dritter enthalten."
+  },
+  {
+    "objectID": "slides/old-input/index.html#rechtliche-aspekte-2",
+    "href": "slides/old-input/index.html#rechtliche-aspekte-2",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Rechtliche Aspekte",
+    "text": "Rechtliche Aspekte\n\nAnbieter von KI-Plattformen können sich Rechte an generierten Inhalten vorbehalten, was ebenfalls rechtliche Herausforderungen mit sich bringen kann.\nOpenAI-Nutzungsbedingungen: die Rechte an generierten Inhalten abgetreten, OpenAI behält sich aber Nutzungsrechte vor.\nNutzende/r ist in der Verantwortung, die rechtlichen Anforderungen einzuhalten."
+  },
+  {
+    "objectID": "slides/old-input/index.html#empfehlung",
+    "href": "slides/old-input/index.html#empfehlung",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Empfehlung",
+    "text": "Empfehlung\nKI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann:\n\n\n\n\nDeklaration\n\n\nDer/die Autor*in hat diesen Text teilweise mit [[Modell]] erstellt. Nach der Erstellung des Entwurfs hat der/die Autor*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.\n\n\n\n\nZitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden."
+  },
+  {
+    "objectID": "slides/old-input/index.html#datenschutz",
+    "href": "slides/old-input/index.html#datenschutz",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Datenschutz",
+    "text": "Datenschutz\nDatenschutz allgemein bedeutet:\n\nsicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.\nTransparenz darüber, welche Daten erhoben und wie sie verwendet werden.\nsicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden\nRecht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch\nEinhaltung von Datenschutzgesetzen und -vorschriften\n\n\n\n\nLehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten."
+  },
+  {
+    "objectID": "slides/old-input/index.html#datensicherheit",
+    "href": "slides/old-input/index.html#datensicherheit",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Datensicherheit",
+    "text": "Datensicherheit\nDies bedeutet:\n\nDaten so zu speichern, dass sie nicht verloren gehen\nDaten nicht manipuliert werden können\nTechnische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten"
+  },
+  {
+    "objectID": "slides/old-input/index.html#schutzmassnahmen",
+    "href": "slides/old-input/index.html#schutzmassnahmen",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Schutzmassnahmen",
+    "text": "Schutzmassnahmen\n\n\n\nKeine persönlichen Daten in die Eingabe von ChatGPT einfliessen lassen (nur anonymisierte Informationen)\nKeine Eingabe von sensiblen oder vertraulichen Informationen (Informationen über gesundheitliche, finanzielle oder private Angelegenheiten)\n\n\nEinstellungen im Konto für Datenkontrolle:"
+  },
+  {
+    "objectID": "slides/old-input/index.html#copilot-verwenden",
+    "href": "slides/old-input/index.html#copilot-verwenden",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Copilot verwenden",
+    "text": "Copilot verwenden\n\n\nMicrosoft Copilot garantiert BFH-Mitarbeitenden, dass Benutzerdaten gesichert sind:\n Schutz von Unternehmensdaten\n\nBenutzerdaten sind durch Verschlüsselung, Sicherheitskontrollen und Datenisolation (gleich wie bei E-Mails in Exchange und Dateien in SharePoint) geschützt.\nMicrosoft verwendet Daten nicht ohne Anweisung des Benutzers."
+  },
+  {
+    "objectID": "slides/old-input/index.html#api-oder-lokale-ki-modelle-verwenden",
+    "href": "slides/old-input/index.html#api-oder-lokale-ki-modelle-verwenden",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "API oder lokale KI-Modelle verwenden",
+    "text": "API oder lokale KI-Modelle verwenden\n\n\njan.ai: Eine Open-Source ChatGPT-Alternative\n\n\n\n\nlmstudio.ai: Lokale LLMs installieren"
+  },
+  {
+    "objectID": "slides/old-input/index.html#detektion-von-ki-generiertem-inhalt",
+    "href": "slides/old-input/index.html#detektion-von-ki-generiertem-inhalt",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Detektion von KI-generiertem Inhalt",
+    "text": "Detektion von KI-generiertem Inhalt\n\n\nHeuristiken:\n\nDurch Verwendung spezifischer Vokabeln und Phrasen: “delve”, “vibrant”, “embark”, “it’s important to note”, “based on the data provided”.\nDurch Verwendung des in der Schweiz unüblichen scharfen S (ß).\n\n\nDetektion anhand vom Schreibstil und Inhalt:\n\nErkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.\nErkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten (fleckensteinTeachersSpotAI2024?)."
+  },
+  {
+    "objectID": "slides/old-input/index.html#fragen",
+    "href": "slides/old-input/index.html#fragen",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "Fragen",
+    "text": "Fragen\n\n?"
+  },
+  {
+    "objectID": "slides/old-input/index.html#references",
+    "href": "slides/old-input/index.html#references",
+    "title": "Künstliche Intelligenz in der Lehre: erste Schritte",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "01-ki-verstehen/index.html#weiterführende-präsentationen",
+    "href": "01-ki-verstehen/index.html#weiterführende-präsentationen",
+    "title": "KI verstehen",
+    "section": " Weiterführende Präsentationen",
+    "text": "Weiterführende Präsentationen\nKI in der Lehre: Einsteiger",
+    "crumbs": [
+      "1: KI verstehen",
+      "KI verstehen"
+    ]
+  },
+  {
+    "objectID": "01-ki-verstehen/index.html#weiterführende-kurse",
+    "href": "01-ki-verstehen/index.html#weiterführende-kurse",
+    "title": "KI verstehen",
+    "section": " Weiterführende Kurse",
+    "text": "Weiterführende Kurse\n\nKI in der Lehre: Einsteiger\nKI in der Lehre: Intermediate\nKI in der Lehre: Advanced",
+    "crumbs": [
+      "1: KI verstehen",
+      "KI verstehen"
+    ]
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#section",
+    "href": "slides/was-ist-ki/index.html#section",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "",
+    "text": "The journey: Facts → Thousands of practice cycles → Automatic procedures → Expertise\nWhy struggle matters: Each practice attempt strengthens the neural pathways that create expertise\n\n\n\n\nFigure courtesy of Scott H Young"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#ki-kompetenz-entwickeln",
+    "href": "slides/was-ist-ki/index.html#ki-kompetenz-entwickeln",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "KI Kompetenz entwickeln",
+    "text": "KI Kompetenz entwickeln\n\nBasis schaffen"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#erster-schritt-eigene-ki-kompetenz-entwickeln",
+    "href": "slides/was-ist-ki/index.html#erster-schritt-eigene-ki-kompetenz-entwickeln",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Erster Schritt: Eigene KI-Kompetenz entwickeln",
+    "text": "Erster Schritt: Eigene KI-Kompetenz entwickeln\n\n\nWarum du beginnen solltest\n\nBlog Post: KI integrieren\n\n\n\n\nGrafik von Barbara Geyer"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#kommerzielle-tools",
+    "href": "slides/was-ist-ki/index.html#kommerzielle-tools",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Kommerzielle Tools",
+    "text": "Kommerzielle Tools\n\nChatGPT\nClaude\nCopilot\nGemini"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#lokale-sprachmodelle",
+    "href": "slides/was-ist-ki/index.html#lokale-sprachmodelle",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Lokale Sprachmodelle",
+    "text": "Lokale Sprachmodelle\n\nLM Studio\nOllama"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#section-1",
+    "href": "slides/was-ist-ki/index.html#section-1",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "",
+    "text": "The journey: Facts → Thousands of practice cycles → Automatic procedures → Expertise\nWhy struggle matters: Each practice attempt strengthens the neural pathways that create expertise\n\n\n\n\nFigure courtesy of Scott H Young"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-is-künstliche-intelligenz",
+    "href": "slides/was-ist-ki/index.html#was-is-künstliche-intelligenz",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was is Künstliche Intelligenz?",
+    "text": "Was is Künstliche Intelligenz?"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-is-künstliche-intelligenz-1",
+    "href": "slides/was-ist-ki/index.html#was-is-künstliche-intelligenz-1",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was is Künstliche Intelligenz?",
+    "text": "Was is Künstliche Intelligenz?"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-is-ki",
+    "href": "slides/was-ist-ki/index.html#was-is-ki",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was is KI?",
+    "text": "Was is KI?"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-is-ki-1",
+    "href": "slides/was-ist-ki/index.html#was-is-ki-1",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was is KI?",
+    "text": "Was is KI?"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-kann-ki",
+    "href": "slides/was-ist-ki/index.html#was-kann-ki",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was kann KI?",
+    "text": "Was kann KI?"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-ist-ki",
+    "href": "slides/was-ist-ki/index.html#was-ist-ki",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was ist KI?",
+    "text": "Was ist KI?"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#erster-schritt-eigene-ki-kompetenz-entwickeln-1",
+    "href": "slides/was-ist-ki/index.html#erster-schritt-eigene-ki-kompetenz-entwickeln-1",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Erster Schritt: Eigene KI-Kompetenz entwickeln",
+    "text": "Erster Schritt: Eigene KI-Kompetenz entwickeln\n\n\nWarum du beginnen solltest\n\nBlog Post: KI integrieren\n\nKommerzielle Tools\n\nChatGPT\nClaude\nCopilot\nGemini\n\nLokale Sprachmodelle\n\nLM Studio\nOllama\n\n\n\nGrafik von Barbara Geyer"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-ist-ki-1",
+    "href": "slides/was-ist-ki/index.html#was-ist-ki-1",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was ist KI?",
+    "text": "Was ist KI?"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#machine-learning",
+    "href": "slides/was-ist-ki/index.html#machine-learning",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Machine learning",
+    "text": "Machine learning"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#symbolische-ki-maschinelles-lernen",
+    "href": "slides/was-ist-ki/index.html#symbolische-ki-maschinelles-lernen",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Symbolische KI / Maschinelles Lernen",
+    "text": "Symbolische KI / Maschinelles Lernen\n\n\nSymbolische KI:\n\nExplizite Regeln und Logik, programmiert von Menschen\nBasiert auf Wenn-Dann-Anweisungen und vordefiniertem Wissen\nFolgt klaren, erklärbaren Schritten\nGut für Probleme mit eindeutigen Regeln\nWeniger anpassungsfähig an neue Situationen\nKann schlecht mit Unsicherheit umgehen\n\n\nMachine Learning:\n\nLernt automatisch statistische Muster und Beziehungen aus Daten\nFunktioniert wie eine “Black Box” - Entscheidungen schwerer zu erklären\nKann sich durch Training an neue Situationen anpassen\nGut für komplexe Muster und unklare Regeln"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#mit-symbolischer-ki",
+    "href": "slides/was-ist-ki/index.html#mit-symbolischer-ki",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Mit Symbolischer KI",
+    "text": "Mit Symbolischer KI\n \n\n\n\nIF has_whiskers = true\nAND has_pointed_ears = true\nAND has_fur = true\nAND has_tail = true\nTHEN is_cat = true"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#mit-maschinellen-lernen",
+    "href": "slides/was-ist-ki/index.html#mit-maschinellen-lernen",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Mit Maschinellen Lernen",
+    "text": "Mit Maschinellen Lernen\n\n\n\nSystem lernt automatisch Muster (Formen, Farben, Texturen) aus tausenden Bildern.\nKann Katzen in neuen Bildern erkennen, auch in ungewöhnlichen Positionen oder Beleuchtungen.\nBraucht keine expliziten Regeln."
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#machine-learning-1",
+    "href": "slides/was-ist-ki/index.html#machine-learning-1",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Machine learning",
+    "text": "Machine learning\n\n\n\nSupervised learning\nUnsupervised learning\nReinforcement learning"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#machine-learning-2",
+    "href": "slides/was-ist-ki/index.html#machine-learning-2",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Machine learning",
+    "text": "Machine learning\n\n\n\nSupervised learning\nUnsupervised learning\nReinforcement learning"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#machine-learning-3",
+    "href": "slides/was-ist-ki/index.html#machine-learning-3",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Machine learning",
+    "text": "Machine learning\n\n\n\nSupervised learning\nUnsupervised learning\nReinforcement learning"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#mit-machine-learning",
+    "href": "slides/was-ist-ki/index.html#mit-machine-learning",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Mit Machine learning",
+    "text": "Mit Machine learning\n\n\n\nSystem lernt automatisch Muster (Formen, Farben, Texturen) aus tausenden Bildern.\nKann Katzen in neuen Bildern erkennen, auch in ungewöhnlichen Positionen oder Beleuchtungen.\nBraucht keine expliziten Regeln."
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#klassifizierung",
+    "href": "slides/was-ist-ki/index.html#klassifizierung",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Klassifizierung",
+    "text": "Klassifizierung\n\n\n\n\n\n\n\nFigure courtesy of Branav Kumar Gnanamoorthy"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-kann-ki-1",
+    "href": "slides/was-ist-ki/index.html#was-kann-ki-1",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was kann KI?",
+    "text": "Was kann KI?\n\n\nAlphaFold ist ein von Google DeepMind entwickeltes KI-System, das die 3D-Struktur eines Proteins aus seiner Aminosäuresequenz vorhersagt.\n\n\n\n\nQuelle: AlphaFold"
+  },
+  {
+    "objectID": "slides/was-ist-ki/index.html#was-kann-ki-2",
+    "href": "slides/was-ist-ki/index.html#was-kann-ki-2",
+    "title": "Was ist Künstliche Intelligenz?",
+    "section": "Was kann KI?",
+    "text": "Was kann KI?"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#was-sind-chatbots",
+    "href": "slides/was-sind-chatbots/index.html#was-sind-chatbots",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Was sind Chatbots?",
+    "text": "Was sind Chatbots?"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#wie-verstehen-chatbots-text",
+    "href": "slides/was-sind-chatbots/index.html#wie-verstehen-chatbots-text",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Wie “verstehen” Chatbots Text?",
+    "text": "Wie “verstehen” Chatbots Text?\n\n\n1. Tokenisierung\nText wird in kleine Einheiten (Tokens) zerlegt\nBeispiel: “Ich lerne KI” → [“Ich”, “ler”, “ne”, “KI”]\nJedes Token wird zu einer Zahl\n\n2. Mustererkennung\n\nDas Modell hat Millionen von Texten “gesehen”\nEs lernt statistische Muster:\n\nWelche Wörter folgen oft aufeinander?\nWelche Formulierungen sind typisch?\nWie sind Sätze strukturiert?\n\nWichtig: Kein echtes “Verstehen”, sondern Mustererkennung!"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#der-transformer-das-herzstück",
+    "href": "slides/was-sind-chatbots/index.html#der-transformer-das-herzstück",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Der Transformer: Das Herzstück",
+    "text": "Der Transformer: Das Herzstück\n\n\nAttention-Mechanismus\n\n“Aufmerksamkeit” auf relevante Teile des Textes\nBerücksichtigt Kontext und Beziehungen zwischen Wörtern\nBeispiel: “Die Bank am Fluss” vs “Die Bank für Geld”\n\n\nVorhersage\nDas Modell berechnet: - Wahrscheinlichkeiten für das nächste Wort - Basiert auf dem bisherigen Kontext - Wählt das wahrscheinlichste (oder ein kreatives) Wort\nVereinfacht: Sehr ausgefeilte Textvorhersage!"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#training-wie-lernt-ein-chatbot",
+    "href": "slides/was-sind-chatbots/index.html#training-wie-lernt-ein-chatbot",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Training: Wie lernt ein Chatbot?",
+    "text": "Training: Wie lernt ein Chatbot?\n\n\nPhase 1: Vortraining\n\nRiesige Textmengen (Bücher, Websites, Wikipedia)\nLernt Sprache, Fakten, Muster\nMonatelange Rechenzeit\nKosten: Millionen von Euro\n\n\nPhase 2: Feinabstimmung\n\nInstruktionsfolgen lernen\nMenschen bewerten Antworten\nReinforcement Learning (RLHF)\nZiel: Hilfreiche, sichere Antworten\n\n\n\n\n\nWichtig: Das Modell “weiss” nicht, was es sagt - es erzeugt plausible Texte basierend auf Mustern!"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#grenzen-und-herausforderungen",
+    "href": "slides/was-sind-chatbots/index.html#grenzen-und-herausforderungen",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Grenzen und Herausforderungen",
+    "text": "Grenzen und Herausforderungen\n\n\nWas Chatbots NICHT können\n\nEchtes Verstehen oder Bewusstsein\nVerlässliche Faktentreue garantieren\nLogisch schlussfolgern wie Menschen\nAktuelle Ereignisse kennen (Trainingsdatum!)\nPersönliche Erfahrungen haben\n\n\nTypische Probleme\n\nHalluzinationen: Erfundene “Fakten”\nBias: Vorurteile aus Trainingsdaten\nKontext-Länge: Begrenzte “Erinnerung”\nKonsistenz: Widersprüchliche Aussagen\nÜberschätzung: Wirkt oft überzeugender als korrekt\n\n\n\n\n\nMerke: Chatbots sind Werkzeuge für Textgenerierung, keine allwissenden Orakel!"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#section",
+    "href": "slides/was-sind-chatbots/index.html#section",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "",
+    "text": "Definition\n\nTextbasierte KI-Systeme die natürliche Sprache verstehen und generieren\nBasieren auf Large Language Models (LLMs)\nTrainiert mit Milliarden von Texten aus dem Internet\n\n\nBekannte Beispiele\n\nChatGPT (OpenAI)\nClaude (Anthropic)\nGemini (Google)\nCopilot (Microsoft)\nLLaMA (Meta)"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#section-1",
+    "href": "slides/was-sind-chatbots/index.html#section-1",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "",
+    "text": "Definition\n\nTextbasierte KI-Systeme die natürliche Sprache verstehen und generieren\nBasieren auf Large Language Models (LLMs)\nTrainiert mit Milliarden von Texten aus dem Internet\n\n\nBekannte Beispiele\n\nChatGPT (OpenAI)\nClaude (Anthropic)\nGemini (Google)\nCopilot (Microsoft)\nLLaMA (Meta)"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#was-sind-large-language-models-llms",
+    "href": "slides/was-sind-chatbots/index.html#was-sind-large-language-models-llms",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Was sind Large language models (LLMs)?",
+    "text": "Was sind Large language models (LLMs)?\n\n\nStatistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.\nDiese Vorhersage geschieht Wort für Wort.\nJede Vorhersage basiert auf\n\nder Eingabe (Prompt)\nden zuvor generierten Wörtern\nder internen Struktur des Modells\n\n\n\n\\[\n\\newcommand{\\purple}[1]{\\color{purple}{#1}}\n\\newcommand{\\red}[1]{\\color{red}{#1}}\n\\newcommand{\\blue}[1]{\\color{blue}{#1}}\n\\]\n\n\\[\\purple{P(\\text{Wort}_{i+1}} \\mid \\blue{\\text{Kontext}}, \\red{\\text{Modell}})\\]\n\nDas \\(\\purple{\\text{nächste Wort}}\\) wird vorhergesagt, in Abhängigkeit von \\(\\blue{\\text{Inputsequenz}}\\) und \\(\\red{\\text{Modell}}\\)."
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#vorhersage",
+    "href": "slides/was-sind-chatbots/index.html#vorhersage",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Vorhersage",
+    "text": "Vorhersage\nNicht alle Teile des Kontexts sind gleich wichtig:\n \n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen _“\n\n\nNach Thomas Mann, Buddenbrooks\n\n \nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#kontext-verstehen",
+    "href": "slides/was-sind-chatbots/index.html#kontext-verstehen",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Kontext verstehen",
+    "text": "Kontext verstehen\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\nSyntaktische Struktur (Grammatik und Struktur des Satzes):\n\nDas Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen—im Plural—beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).\nDer Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.\n\nSemantischer Kontext (Bedeutung):\nDie Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.\nLexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):\nNach “grosszügigen” folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. “Räume”, “Gärten”, “Fenster”."
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#was-sind-llms",
+    "href": "slides/was-sind-chatbots/index.html#was-sind-llms",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Was sind LLMs?",
+    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#vorhersage-1",
+    "href": "slides/was-sind-chatbots/index.html#vorhersage-1",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Vorhersage",
+    "text": "Vorhersage\nNicht alle Teile des Kontexts sind gleich wichtig:\n \n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen _“\n\n\nNach Thomas Mann, Buddenbrooks\n\n \nWelche Wörter sind besonders wichtig, um\n\ndie Bedeutung des Satzes zu erfassen?\ndas nächste Wort vorherzusagen?"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#kontext-verstehen-1",
+    "href": "slides/was-sind-chatbots/index.html#kontext-verstehen-1",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Kontext verstehen",
+    "text": "Kontext verstehen\n\n\n\n“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”\n\n\n\nSyntaktische Struktur (Grammatik und Struktur des Satzes):\n\nDas Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen—im Plural—beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).\nDer Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.\n\nSemantischer Kontext (Bedeutung):\nDie Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.\nLexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):\nNach “grosszügigen” folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. “Räume”, “Gärten”, “Fenster”."
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#was-sind-llms-1",
+    "href": "slides/was-sind-chatbots/index.html#was-sind-llms-1",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Was sind LLMs?",
+    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#wie-generieren-llms-text",
+    "href": "slides/was-sind-chatbots/index.html#wie-generieren-llms-text",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Wie generieren LLMs Text?",
+    "text": "Wie generieren LLMs Text?"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#wie-werden-llms-trainiert",
+    "href": "slides/was-sind-chatbots/index.html#wie-werden-llms-trainiert",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Wie werden LLMs trainiert?",
+    "text": "Wie werden LLMs trainiert?"
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#gefahren-und-herausforderungen",
+    "href": "slides/was-sind-chatbots/index.html#gefahren-und-herausforderungen",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Gefahren und Herausforderungen",
+    "text": "Gefahren und Herausforderungen\n\n\n\nDie verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken verbunden:\n\nUrheberrecht: Die trainierten Modelle werden mit Texten trainiert, die möglicherweise Urheberrechtlich geschützt sind.\nBias: Die trainierten Modelle können bestehende Vorurteile aus den Trainingsdaten lernen.\nEnergieverbrauch: Das Training der Modelle verbraucht viel Energie und ist damit umweltbelastend."
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#gefahren-und-herausforderungen-1",
+    "href": "slides/was-sind-chatbots/index.html#gefahren-und-herausforderungen-1",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Gefahren und Herausforderungen",
+    "text": "Gefahren und Herausforderungen\n\n\n\n\nObschon sich LLMs viel Wissen aneignen1, werden sie nicht trainiert, faktisch korrekte Aussagen zu machen.\nDies bedeutet, dass wir alle Aussagen, die LLMs uns präsentieren, immer kritisch hinterfragen müssen.\nLLMs sind keine Wissensdatenbanken. Informationen immer anhand externer Quellen überprüfen.\n\n\n\n\n\n\n\nDas ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen."
+  },
+  {
+    "objectID": "slides/was-sind-chatbots/index.html#was-sind-llms-2",
+    "href": "slides/was-sind-chatbots/index.html#was-sind-llms-2",
+    "title": "Wie funktionieren Chatbots?",
+    "section": "Was sind LLMs?",
+    "text": "Was sind LLMs?\n\n\nEin LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.\n\n\n\n\nBildquelle: www.apple.com"
   }
 ]

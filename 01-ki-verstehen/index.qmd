@@ -11,7 +11,9 @@ This presentation reveals why offloading cognitive processing to AI can undermin
 
 ## {{< bi file-slides >}} Was ist Künstliche Intelligenz
 
-{{< revealjs file="../slides/was-ist-ki/index.html" height="500px" class="ratio ratio-16x9" >}}
+{{< revealjs file="../slides/was-ist-ki/index.html" class="ratio ratio-16x9" >}}
+
+
 
 ## {{< bi file-slides >}} Wie funktionieren Chatbots?
 
@@ -29,7 +31,9 @@ This presentation reveals why offloading cognitive processing to AI can undermin
 
 
 
-<!-- ## {{< bi book>}} Selbststudium -->
+## {{< bi book>}} Weiterführende Kurse
 
-
+- [KI in der Lehre: Einsteiger](https://virtuelleakademie.github.io/ki-lehre-beginner/workshop/)
+- [KI in der Lehre: Intermediate](https://virtuelleakademie.github.io/ki-lehre-intermediate/workshop/)
+- [KI in der Lehre: Advanced](https://virtuelleakademie.github.io/ki-lehre-advanced/workshop/)
 <!-- ## {{< bi file-slides >}} Bibliographie -->

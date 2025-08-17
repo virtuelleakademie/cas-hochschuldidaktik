@@ -9,11 +9,12 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
   <meta name="author" content="Andrew Ellis">
-  <title>CAS Hochschuldidaktik – Wie funktionieren Chatbots?</title>
+  <title>CAS Hochschuldidaktik – Künstliche Intelligenz in der Lehre: erste Schritte</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,7 +32,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-a421c71bc5ecd553d56dd0130b391b93.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -151,7 +171,7 @@
     background-image: none;
   }
   </style>
-<meta property="og:title" content="Wie funktionieren Chatbots? – CAS Hochschuldidaktik">
+<meta property="og:title" content="Künstliche Intelligenz in der Lehre: erste Schritte – CAS Hochschuldidaktik">
 <meta property="og:site_name" content="CAS Hochschuldidaktik">
 </head>
 <body class="quarto-light">
@@ -159,7 +179,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
-  <h1 class="title">Wie funktionieren Chatbots?</h1>
+  <h1 class="title">Künstliche Intelligenz in der Lehre: erste Schritte</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -171,18 +191,152 @@ Andrew Ellis
 
   <p class="date">18 August, 2025</p>
 </section>
-<section id="was-sind-chatbots" class="slide level2">
-<h2>Was sind Chatbots?</h2>
+<section id="künstliche-intelligenz" class="slide level2">
+<h2>Künstliche Intelligenz</h2>
+<!-- ::: {.r-fit-text}
+Big Text
+::: -->
 <div class="columns">
-<div class="column" style="width:30%;">
+<div class="column" style="width:50%;">
 
-</div><div class="column" style="width:70%;">
-<p><img data-src="../../assets/images/claude.png"></p>
+</div><div class="column" style="width:50%;">
+<p>Entwicklung von Computersystemen, welche Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern.</p>
 </div></div>
 </section>
+<section id="beispiel-alphafold" class="slide level2">
+<h2>Beispiel: AlphaFold</h2>
+<!--  -->
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><a href="https://alphafold.com/">AlphaFold</a> ist ein von <a href="https://deepmind.google/">Google DeepMind</a> entwickeltes KI-System, das die 3D-Struktur eines Proteins aus seiner Aminosäuresequenz vorhersagt.</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="../../assets/images/protein.png"></p>
+</div></div>
+<div class="attribution">
+<p>Quelle: <a href="https://alphafold.com/">AlphaFold</a></p>
+</div>
+<!-- ## Künstliche Intelligenz
+
+- KI-Systeme können **trainiert** werden, um aus Daten zu lernen und Muster zu erkennen.
+
+- Mögliche Einsatzbereiche:
+  
+    - Personalisierte Empfehlungen
+    - Selbstfahrende Autos
+    - Vorhersage von Proteinfaltungen
+    - Erstellung von Musik/Bildern/Texten -->
+</section>
+<section id="künstliche-intelligenz-1" class="slide level2">
+<h2>Künstliche Intelligenz</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<!-- Maschinelles Lernen: 
+
+Modelle, die ohne explizite Programmierung Muster aus Daten erlernen, um Vorhersagen oder Entscheidungen zu treffen. -->
+<p><img data-src="../../assets/images/what-is-AI.svg" style="width:80.0%"></p>
+</div><div class="column" style="width:40%;">
+<!-- Large Language Model: -->
+<!-- Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach einem Eingabetext (Prompt) vorherzusagen. -->
+<!-- ![](../../assets/images/LLM.svg) -->
+</div></div>
+</section>
+<section id="künstliche-intelligenz-2" class="slide level2">
+<h2>Künstliche Intelligenz</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<!-- Maschinelles Lernen: 
+
+Modelle, die ohne explizite Programmierung Muster aus Daten erlernen, um Vorhersagen oder Entscheidungen zu treffen. -->
+<p><img data-src="../../assets/images/what-is-AI.svg" style="width:80.0%"></p>
+</div><div class="column" style="width:40%;">
+<!-- Large Language Model: -->
+<!-- Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach einem Eingabetext (Prompt) vorherzusagen. -->
+<p><img data-src="../../assets/images/LLM.svg"></p>
+</div></div>
+</section>
+<section id="symbolische-ki-maschinelles-lernen" class="slide level2">
+<h2>Symbolische KI / Maschinelles Lernen</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Symbolische KI:</strong></p>
+<ul>
+<li>Verwendet explizite Regeln und Logik, programmiert von Menschen</li>
+<li>Basiert auf Wenn-Dann-Anweisungen und vordefiniertem Wissen</li>
+<li>Folgt klaren, erklärbaren Schritten</li>
+<li>Gut für Probleme mit eindeutigen Regeln</li>
+<li>Weniger anpassungsfähig an neue Situationen</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Machine Learning/Deep Learning:</strong></p>
+<ul>
+<li>Lernt automatisch statistische Muster und Beziehungen aus Daten</li>
+<li>Funktioniert wie eine “Black Box” - Entscheidungen schwerer zu erklären</li>
+<li>Gut für komplexe Muster und unklare Regeln</li>
+<li>Kann sich durch Training an neue Situationen anpassen</li>
+</ul>
+</div></div>
+</section>
+<section id="beispiel-klassifikation-von-katzen-und-hunden" class="slide level2">
+<h2>Beispiel: Klassifikation von Katzen und Hunden</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Anhand welcher Merkmale kann man Katzen und Hunden unterscheiden?</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="../../assets/images/cats-vs-dogs.png"></p>
+</div></div>
+</section>
+<section id="mit-symbolischer-ki" class="slide level2">
+<h2>Mit Symbolischer KI</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+
+</div><div class="column" style="width:40%;">
+<p><img data-src="../../assets/images/cat.png"></p>
+</div></div>
+<div class="r-fit-text">
+<pre><code>IF has_whiskers = true
+AND has_pointed_ears = true
+AND has_fur = true
+AND has_tail = true
+THEN is_cat = true</code></pre>
+</div>
+</section>
+<section id="mit-maschinellen-lernen" class="slide level2">
+<h2>Mit Maschinellen Lernen</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>System lernt automatisch Muster (Formen, Farben, Texturen) aus tausenden Bildern.</li>
+<li>Kann Katzen in neuen Bildern erkennen, auch in ungewöhnlichen Positionen oder Beleuchtungen.</li>
+<li>Braucht keine expliziten Regeln.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="../../assets/images/cat-features.png"></p>
+</div></div>
+</section>
+<section id="sprache" class="slide level2">
+<h2>Sprache</h2>
+<div class="r-fit-text">
+<p>fruit <code>flies</code> like a banana</p>
+</div>
+<p>Ist <code>flies</code> ein</p>
+<ul>
+<li>Verb (bezieht sich auf Früchte, die durch die Luft fliegen)</li>
+</ul>
+<p>oder ein</p>
+<ul>
+<li>Nomen (bezieht sich auf Bananenliebende Insekten)?</li>
+</ul>
+</section>
 <section id="was-sind-large-language-models-llms" class="slide level2">
+<h2>Was sind Large Language Models (LLMs)?</h2>
+<p>Das Wichtigste ist zu verstehen, dass ChatGPT grundsätzlich immer versucht, eine <strong>vernünftige Fortsetzung</strong> des bisherigen Textes zu produzieren.</p>
+<p>Mit “vernünftig” meinen wir: “Was ist die wahrscheinlichste Fortsetzung eines Textanfangs, wenn man alle möglichen Texte berücksichtigt?”</p>
+</section>
+<section id="was-sind-large-language-models-llms-1" class="slide level2">
 <h2>Was sind Large language models (LLMs)?</h2>
 <div class="r-fit-text">
+<!-- Um die angekommene Technologie einordnen zu können, ist eine **Entmystifizierung** notwendig: -->
 <ul>
 <li>Statistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.</li>
 <li>Diese Vorhersage geschieht <strong>Wort für Wort</strong>.</li>
@@ -254,55 +408,6 @@ Andrew Ellis
 <p>Bildquelle: <a href="https://www.apple.com">www.apple.com</a></p>
 </div>
 </section>
-<section id="vorhersage-1" class="slide level2">
-<h2>Vorhersage</h2>
-<p>Nicht alle Teile des Kontexts sind gleich wichtig:</p>
-<p><br> <br></p>
-<!-- :::{.callout-note appearance="minimal"}-->
-<div class="r-fit-text">
-<p><em>“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen </em>_<em>“</em></p>
-</div>
-<div class="attribution">
-<p>Nach Thomas Mann, <em>Buddenbrooks</em></p>
-</div>
-<p><br> <br></p>
-<p>Welche Wörter sind besonders wichtig, um</p>
-<ul>
-<li>die Bedeutung des Satzes zu erfassen?</li>
-<li>das nächste Wort vorherzusagen?</li>
-</ul>
-</section>
-<section id="kontext-verstehen-1" class="slide level2 smaller">
-<h2>Kontext verstehen</h2>
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p>“Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___”</p>
-</div>
-</div>
-</div>
-<p><strong>Syntaktische Struktur (Grammatik und Struktur des Satzes):</strong></p>
-<ul>
-<li>Das Wort “grosszügigen” ist ein Adjektiv, das wahrscheinlich ein Nomen—im Plural—beschreibt (Dativ oder Akkusativ wegen der Endung “-en”).</li>
-<li>Der Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.</li>
-</ul>
-<p><strong>Semantischer Kontext (Bedeutung):</strong></p>
-<p>Die Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.</p>
-<p><strong>Lexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):</strong></p>
-<p>Nach “grosszügigen” folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. “Räume”, “Gärten”, “Fenster”.</p>
-</section>
-<section id="was-sind-llms-1" class="slide level2">
-<h2>Was sind LLMs?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Ein LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.</p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="../../assets/images/predictive-text.png"></p>
-</div></div>
-<div class="attribution">
-<p>Bildquelle: <a href="https://www.apple.com">www.apple.com</a></p>
-</div>
-</section>
 <section id="wie-generieren-llms-text" class="slide level2">
 <h2>Wie generieren LLMs Text?</h2>
 <p><br> <br></p>
@@ -359,9 +464,337 @@ Ein LLM wird in drei Schritten aufgebaut:
 </div><div class="column" style="width:50%;">
 <p><img data-src="../../assets/images/KnowledgeBase.png"></p>
 </div></div>
-
-
 <aside><ol class="aside-footnotes"><li id="fn1"><p>Das ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen.</p></li></ol></aside></section>
+<section id="wie-sieht-das-für-musik-aus" class="slide level2">
+<h2>Wie sieht das für Musik aus?</h2>
+
+<img data-src="../../assets/images/mozarthornkonzertkv495-2.png" class="r-stretch"><figure class=""><audio controls="" src="../../assets/audio/mozarthornkonzertkv495-2.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio><figcaption>WA Mozart: Horn Concerto KV 495, Romanza (Christian Holenstein)</figcaption></figure>
+<div class="attribution">
+<p>Quelle: <a href="https://www.christian-holenstein.ch/sounds">www.christian-holenstein.ch/sounds</a></p>
+</div>
+</section>
+<section id="style-transfer" class="slide level2">
+<h2>Style transfer</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><a href="https://voicebox.metademolab.com/">Voicebox</a> ist ein KI-System, das hochwertige Audioclips in verschiedenen Stilen erzeugen kann. Es beherrscht Sprachsynthese in sechs Sprachen und kann bestehende Aufnahmen bearbeiten oder neue erstellen.</p>
+</div><div class="column" style="width:50%;">
+<iframe width="800" height="600" src="https://voicebox.metademolab.com/" title="Viocebox"></iframe>
+</div></div>
+<!-- ----------------------- -->
+</section>
+<section id="ki-verrichtet-geistige-arbeit" class="slide level2 smaller">
+<h2>KI verrichtet geistige Arbeit</h2>
+<ul>
+<li><p><strong>Kognitive Arbeit und KI</strong>: KI hat das Potential zu verändern, wie <em>geistige</em> Arbeit verrichtet wird.</p></li>
+<li><p><strong>Wichtige Erkenntnisse aus der Forschung</strong>:</p>
+<ul>
+<li><span class="citation" data-cites="dellacquaNavigatingJaggedTechnological2023">(<a href="#/references" role="doc-biblioref" onclick=""><strong>dellacquaNavigatingJaggedTechnological2023?</strong></a>)</span> erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.</li>
+<li><span class="citation" data-cites="toner-rodgersArtificialIntelligenceScientific">(<a href="#/references" role="doc-biblioref" onclick=""><strong>toner-rodgersArtificialIntelligenceScientific?</strong></a>)</span> diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.</li>
+<li><span class="citation" data-cites="cuiEffectsGenerativeAI2024a">(<a href="#/references" role="doc-biblioref" onclick=""><strong>cuiEffectsGenerativeAI2024a?</strong></a>)</span> analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.</li>
+</ul></li>
+<li><p><strong>Erkenntnisse</strong>:</p>
+<ul>
+<li>Automatisierung von routinemässigen kognitiven Aufgaben ist möglich</li>
+<li>Unterstützung kreativer Arbeit ist möglich</li>
+<li>Deskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren</li>
+<li>Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt</li>
+</ul></li>
+</ul>
+<!-- [@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific; @cuiEffectsGenerativeAI2024a] -->
+</section>
+<section id="körperliche-arbeit" class="slide level2">
+<h2>Körperliche Arbeit</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>19. Jahrhundert</strong></p>
+<p><img data-src="../../assets/images/koerperlich.png"></p>
+</div><div class="column" style="width:50%;">
+<p><strong>20. Jahrhundert</strong></p>
+<p><img data-src="../../assets/images/maschinell.png"></p>
+</div></div>
+<div class="attribution">
+<p>Bildquelle: Erstellt mit DALL-E 3</p>
+</div>
+</section>
+<section id="wie-sieht-das-für-die-kognitive-arbeit-aus" class="slide level2">
+<h2>Wie sieht das für die kognitive Arbeit aus?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>1960</strong></p>
+<p><img data-src="../../assets/images/human-cognitive-work.png"></p>
+</div><div class="column" style="width:50%;">
+<p><strong>2030</strong> <img data-src="../../assets/images/human-ai-fusion.png"></p>
+<!--  -->
+</div></div>
+<div class="attribution">
+<p>Bildquelle: Erstellt mit DALL-E 3</p>
+</div>
+</section>
+<section id="ankunftstechnologien" class="slide level2">
+<h2>Ankunftstechnologien</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Schulen und Hochschulen stehen vor Herausforderungen mit Technologien wie ChatGPT, weil sie:</p>
+<ul>
+<li>Traditionelle Technologie-Evaluierungsprozesse umgehen</li>
+<li>Durch <strong>spontane Adoption</strong> eingeführt werden</li>
+<li>Reaktive statt proaktive Richtlinien erfordern</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/arrival.png"></p>
+</div></div>
+<div class="attribution">
+<p>Bildquelle: Erstellt mit DALL-E 3 (“ChatGPT arriving at a university in the style of a 14th century painting.”)</p>
+</div>
+</section>
+<section id="adoptions--vs.-ankunfts-technologien" class="slide level2">
+<h2>Adoptions- vs.&nbsp;Ankunfts-Technologien</h2>
+<p><span class="citation" data-cites="reichNewTheoryArrival2024">(<a href="#/references" role="doc-biblioref" onclick=""><strong>reichNewTheoryArrival2024?</strong></a>)</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Traditionelle Einführung</strong></p>
+<ul>
+<li>Sorgfältige Bewertung</li>
+<li>Pilotversuche</li>
+<li>Mitarbeiterschulung</li>
+<li>Klare Zeitpläne</li>
+<li>Etablierte Richtlinien</li>
+</ul>
+<div class="callout callout-note no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Beispiele: Adoptions-Technologien</strong></p>
+</div>
+<div class="callout-content">
+<p>Learning Management Systems, Smart boards</p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<p><strong>Ankunftstechnologien</strong></p>
+<ul>
+<li>Spontane Nutzung</li>
+<li>Umgehung von Prozessen</li>
+<li>Keine Vorbereitung</li>
+<li>Benutzergeführte Einführung</li>
+<li>Reaktive Richtlinien</li>
+</ul>
+<div class="callout callout-note no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Beispiele: Ankunfts-Technologien</strong></p>
+</div>
+<div class="callout-content">
+<p>Smartphone, Wikipedia, YouTube, TikTok</p>
+</div>
+</div>
+</div>
+</div></div>
+<!-- 
+## Drei Möglichkeiten der Ankunft {.smaller}
+
+
+1. **Von Studierenden angeführt**
+   - Spontane Nutzung in Aufgaben
+   - Übernahme von KI-gestützten Tools
+   - Kreative Anwendungen
+
+2. **Von Mitarbeitenden angeführt**
+   - Entdeckung von KI-Tools
+   - Informelle Übernahme
+   - Peer-to-Peer-Austausch
+
+
+3. **Systemgeführt**
+   - KI-Funktionen in bestehender Software
+   - Integration in gängige Tools
+   - Plattform-Updates -->
+<!-- ----------------------- -->
+</section>
+<section id="chatgpt" class="slide level2">
+<h2>ChatGPT</h2>
+
+<img data-src="../../assets/images/chatgpt.png" class="r-stretch"></section>
+<section id="fragen-beantworten" class="slide level2">
+<h2>Fragen beantworten</h2>
+
+<img data-src="../../assets/images/fragen-beantworten.png" class="r-stretch"></section>
+<section id="bilder-analysieren" class="slide level2">
+<h2>Bilder analysieren</h2>
+
+<img data-src="../../assets/images/bilder-analysieren.png" class="r-stretch"></section>
+<section id="dokumente-zusammenfassen" class="slide level2">
+<h2>Dokumente zusammenfassen</h2>
+
+<img data-src="../../assets/images/dokumente-zusammenfassen.png" class="r-stretch"></section>
+<section id="output-strukturieren" class="slide level2">
+<h2>Output strukturieren</h2>
+
+<img data-src="../../assets/images/output-strukturieren.png" class="r-stretch"></section>
+<section id="websuche" class="slide level2">
+<h2>Websuche</h2>
+
+<img data-src="../../assets/images/websuche.png" class="r-stretch"></section>
+<section id="datenanalyse" class="slide level2">
+<h2>Datenanalyse</h2>
+
+<img data-src="../../assets/images/datenanalyse.png" class="r-stretch"></section>
+<section id="custom-gpts" class="slide level2">
+<h2>Custom GPTs</h2>
+
+<img data-src="../../assets/images/gpts.png" class="r-stretch"></section>
+<section id="rechtliche-aspekte" class="slide level2">
+<h2>Rechtliche Aspekte</h2>
+<p>Zwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:</p>
+<p><br> <br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Rechtliche Aspekte <i class="bi-c-circle " style="" role="img" aria-hidden="true"></i></strong></p>
+<ul>
+<li>Wer besitzt die Rechte an den von LLMs generierten Inhalten?</li>
+<li>Risiko von Plagiaten und Urheberrechtsverletzungen</li>
+<li>Richtlinien für den Umgang mit generierten Inhalten</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Datenschutz <i class="bi-shield-lock " style="" role="img" aria-hidden="true"></i></strong></p>
+<ul>
+<li>Schutz personenbezogener Daten</li>
+<li>Einhaltung von Datenschutzbestimmungen</li>
+</ul>
+</div></div>
+</section>
+<section id="rechtliche-aspekte-1" class="slide level2">
+<h2>Rechtliche Aspekte</h2>
+<ul>
+<li><p>KI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben—dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.</p></li>
+<li><p>Der Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.</p></li>
+<li><p>Der von der KI generierte Output kann zufällig geschützte Inhalte Dritter enthalten.</p></li>
+</ul>
+</section>
+<section id="rechtliche-aspekte-2" class="slide level2">
+<h2>Rechtliche Aspekte</h2>
+<ul>
+<li><p>Anbieter von KI-Plattformen können sich Rechte an generierten Inhalten vorbehalten, was ebenfalls rechtliche Herausforderungen mit sich bringen kann.</p></li>
+<li><p>OpenAI-Nutzungsbedingungen: die Rechte an generierten Inhalten abgetreten, OpenAI behält sich aber Nutzungsrechte vor.</p></li>
+<li><p>Nutzende/r ist in der Verantwortung, die rechtlichen Anforderungen einzuhalten.</p></li>
+</ul>
+</section>
+<section id="empfehlung" class="slide level2">
+<h2>Empfehlung</h2>
+<p>KI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann:</p>
+<div title="Deklaration">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Deklaration</strong></p>
+</div>
+<div class="callout-content">
+<p>Der/die Autor*in hat diesen Text teilweise mit <code>[[Modell]]</code> erstellt. Nach der Erstellung des Entwurfs hat der/die Autor*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.</p>
+</div>
+</div>
+</div>
+</div>
+<p>Zitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden.</p>
+</section>
+<section id="datenschutz" class="slide level2 smaller">
+<h2>Datenschutz</h2>
+<p>Datenschutz allgemein bedeutet:</p>
+<ul>
+<li><p>sicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.</p></li>
+<li><p>Transparenz darüber, welche Daten erhoben und wie sie verwendet werden.</p></li>
+<li><p>sicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden</p></li>
+<li><p>Recht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch</p></li>
+<li><p>Einhaltung von Datenschutzgesetzen und -vorschriften</p></li>
+</ul>
+<div class="callout callout-caution no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<p>Lehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="datensicherheit" class="slide level2">
+<h2>Datensicherheit</h2>
+<p>Dies bedeutet:</p>
+<ul>
+<li>Daten so zu speichern, dass sie nicht verloren gehen</li>
+<li>Daten nicht manipuliert werden können</li>
+<li>Technische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten</li>
+</ul>
+</section>
+<section id="schutzmassnahmen" class="slide level2">
+<h2>Schutzmassnahmen</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Keine persönlichen Daten in die Eingabe von ChatGPT einfliessen lassen (nur anonymisierte Informationen)</p></li>
+<li><p>Keine Eingabe von sensiblen oder vertraulichen Informationen (Informationen über gesundheitliche, finanzielle oder private Angelegenheiten)</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p>Einstellungen im Konto für Datenkontrolle:</p>
+<p><img data-src="../../assets/images/schutzmassnahmen.png" style="width:80.0%"></p>
+</div></div>
+</section>
+<section id="copilot-verwenden" class="slide level2">
+<h2>Copilot verwenden</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><a href="https://copilot.microsoft.com/">Microsoft Copilot</a> garantiert BFH-Mitarbeitenden, dass Benutzerdaten gesichert sind:</p>
+<p><i class="bi-link " style="" role="img" aria-hidden="true"></i> <a href="https://learn.microsoft.com/de-ch/copilot/microsoft-365/enterprise-data-protection">Schutz von Unternehmensdaten</a></p>
+<ul>
+<li>Benutzerdaten sind durch Verschlüsselung, Sicherheitskontrollen und Datenisolation (gleich wie bei E-Mails in Exchange und Dateien in SharePoint) geschützt.</li>
+<li>Microsoft verwendet Daten nicht ohne Anweisung des Benutzers.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../../assets/images/copilot.png"></p>
+</div></div>
+</section>
+<section id="api-oder-lokale-ki-modelle-verwenden" class="slide level2">
+<h2>API oder lokale KI-Modelle verwenden</h2>
+<div class="columns">
+<div class="column" style="width:47%;">
+<p><a href="https://jan.ai/">jan.ai</a>: Eine Open-Source ChatGPT-Alternative</p>
+<iframe width="600" height="500" src="https://jan.ai/" title="jan.ai"></iframe>
+</div><div class="column" style="width:6%;">
+
+</div><div class="column" style="width:47%;">
+<p><a href="https://lmstudio.ai/">lmstudio.ai</a>: Lokale LLMs installieren</p>
+<iframe width="600" height="500" src="https://lmstudio.ai/" title="lmstudio.ai"></iframe>
+</div></div>
+</section>
+<section id="detektion-von-ki-generiertem-inhalt" class="slide level2">
+<h2>Detektion von KI-generiertem Inhalt</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Heuristiken</strong>:</p>
+<ul>
+<li><p>Durch Verwendung spezifischer Vokabeln und Phrasen: “delve”, “vibrant”, “embark”, “it’s important to note”, “based on the data provided”.</p></li>
+<li><p>Durch Verwendung des in der Schweiz unüblichen <em>scharfen S</em> (ß).</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Detektion anhand vom Schreibstil und Inhalt</strong>:</p>
+<ul>
+<li><p>Erkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.</p></li>
+<li><p>Erkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten <span class="citation" data-cites="fleckensteinTeachersSpotAI2024">(<a href="#/references" role="doc-biblioref" onclick=""><strong>fleckensteinTeachersSpotAI2024?</strong></a>)</span>.</p></li>
+</ul>
+</div></div>
+</section>
+<section id="fragen" class="slide level2" data-background-color="#708090">
+<h2>Fragen</h2>
+<div class="r-fit-text">
+<p>?</p>
+</div>
+</section>
+<section id="references" class="slide level2 smaller scrollable" data-background-color="#D8DEE9">
+<h2>References</h2>
+<div id="refs" role="list">
+
+</div>
+
+
+</section>
 
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

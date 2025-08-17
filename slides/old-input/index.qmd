@@ -1,0 +1,752 @@
+---
+title: "Künstliche Intelligenz in der Lehre: erste Schritte"
+---
+
+## Künstliche Intelligenz
+
+
+<!-- ::: {.r-fit-text}
+Big Text
+::: -->
+
+
+:::: {.columns}
+::: {.column width="50%"}
+ 
+:::
+::: {.column width="50%"}
+Entwicklung von Computersystemen, welche Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern.
+:::
+::::
+
+
+## Beispiel: AlphaFold
+<!-- {{< html file="https://alphafold.ebi.ac.uk/" height="500px">}} -->
+
+:::: {.columns}
+::: {.column width="40%"}
+[AlphaFold](https://alphafold.com/) ist ein von [Google DeepMind](https://deepmind.google/) entwickeltes KI-System, das die 3D-Struktur eines Proteins aus seiner Aminosäuresequenz vorhersagt.
+:::
+::: {.column width="60%"}
+![](../../assets/images/protein.png)
+:::
+::::
+
+
+
+:::{.attribution}
+Quelle: [AlphaFold](https://alphafold.com/)
+:::
+
+
+<!-- ## Künstliche Intelligenz
+
+- KI-Systeme können **trainiert** werden, um aus Daten zu lernen und Muster zu erkennen.
+
+- Mögliche Einsatzbereiche:
+  
+    - Personalisierte Empfehlungen
+    - Selbstfahrende Autos
+    - Vorhersage von Proteinfaltungen
+    - Erstellung von Musik/Bildern/Texten -->
+
+## Künstliche Intelligenz
+
+:::: {.columns}
+::: {.column width="60%"}
+<!-- Maschinelles Lernen: 
+
+Modelle, die ohne explizite Programmierung Muster aus Daten erlernen, um Vorhersagen oder Entscheidungen zu treffen. -->
+![](../../assets/images/what-is-AI.svg){width=80%}
+
+
+:::
+::: {.column width="40%"}
+<!-- Large Language Model: -->
+
+<!-- Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach einem Eingabetext (Prompt) vorherzusagen. -->
+
+<!-- ![](../../assets/images/LLM.svg) -->
+
+:::
+::::
+
+## Künstliche Intelligenz
+
+:::: {.columns}
+::: {.column width="60%"}
+<!-- Maschinelles Lernen: 
+
+Modelle, die ohne explizite Programmierung Muster aus Daten erlernen, um Vorhersagen oder Entscheidungen zu treffen. -->
+![](../../assets/images/what-is-AI.svg){width=80%}
+
+
+:::
+::: {.column width="40%"}
+<!-- Large Language Model: -->
+
+<!-- Ein maschinelles Lernmodell, das darauf trainiert wird, das nächste Wort nach einem Eingabetext (Prompt) vorherzusagen. -->
+
+![](../../assets/images/LLM.svg)
+
+:::
+::::
+
+## Symbolische KI / Maschinelles Lernen
+
+:::: {.columns} 
+::: {.column width="50%"}
+**Symbolische KI:**
+
+- Verwendet explizite Regeln und Logik, programmiert von Menschen
+- Basiert auf Wenn-Dann-Anweisungen und vordefiniertem Wissen
+- Folgt klaren, erklärbaren Schritten
+- Gut für Probleme mit eindeutigen Regeln
+- Weniger anpassungsfähig an neue Situationen
+:::
+::: {.column width="50%"}
+**Machine Learning/Deep Learning:**
+
+- Lernt automatisch statistische Muster und Beziehungen aus Daten
+- Funktioniert wie eine "Black Box" - Entscheidungen schwerer zu erklären
+- Gut für komplexe Muster und unklare Regeln
+- Kann sich durch Training an neue Situationen anpassen
+:::
+::::
+
+
+
+
+## Beispiel: Klassifikation von Katzen und Hunden
+
+::::{.columns}
+:::{.column width="40%"}
+Anhand welcher Merkmale kann man Katzen und Hunden unterscheiden?
+:::
+:::{.column width="60%"}
+![](../../assets/images/cats-vs-dogs.png)
+:::
+::::
+
+
+
+
+## Mit Symbolischer KI
+
+:::: {.columns}
+:::{.column width="60%"}
+
+:::
+
+
+:::{.column width="40%"}
+![](../../assets/images/cat.png)
+:::
+::::
+
+:::{.r-fit-text}
+```
+IF has_whiskers = true
+AND has_pointed_ears = true
+AND has_fur = true
+AND has_tail = true
+THEN is_cat = true
+```
+:::
+
+## Mit Maschinellen Lernen
+
+:::: {.columns}
+:::{.column width="40%"}
+-   System lernt automatisch Muster (Formen, Farben, Texturen) aus tausenden Bildern.
+- Kann Katzen in neuen Bildern erkennen, auch in ungewöhnlichen Positionen oder Beleuchtungen.
+- Braucht keine expliziten Regeln.
+
+:::
+:::{.column width="60%"}
+![](../../assets/images/cat-features.png)
+
+:::
+::::
+
+
+
+
+## Sprache
+
+:::{.r-fit-text}
+fruit `flies` like a banana
+:::
+
+
+ Ist `flies` ein 
+
+ - Verb (bezieht sich auf Früchte, die durch die Luft fliegen) 
+
+ oder ein 
+
+ - Nomen (bezieht sich auf Bananenliebende Insekten)?
+
+
+## Was sind Large Language Models (LLMs)?
+
+
+Das Wichtigste ist zu verstehen, dass ChatGPT grundsätzlich immer versucht, eine **vernünftige Fortsetzung** des bisherigen Textes zu produzieren. 
+
+
+Mit "vernünftig" meinen wir: "Was ist die wahrscheinlichste Fortsetzung eines Textanfangs, wenn man alle möglichen Texte berücksichtigt?"
+
+
+## Was sind Large language models (LLMs)?
+
+::: {.r-fit-text}
+<!-- Um die angekommene Technologie einordnen zu können, ist eine **Entmystifizierung** notwendig: -->
+- Statistische Modelle, die Text analysieren, um das nächste Wort vorherzusagen.
+- Diese Vorhersage geschieht **Wort für Wort**.
+- Jede Vorhersage basiert auf 
+  + der Eingabe (Prompt)
+  + den zuvor generierten Wörtern
+  + der internen Struktur des Modells
+
+::: {.hidden}
+$$
+\newcommand{\purple}[1]{\color{purple}{#1}}
+\newcommand{\red}[1]{\color{red}{#1}}
+\newcommand{\blue}[1]{\color{blue}{#1}}
+$$
+:::
+
+$$\purple{P(\text{Wort}_{i+1}} \mid \blue{\text{Kontext}}, \red{\text{Modell}})$$
+
+<!-- $$P(x_{i+1} \mid \text{Context}, \text{Model})$$ -->
+
+
+Das $\purple{\text{nächste Wort}}$ wird vorhergesagt, in Abhängigkeit von $\blue{\text{Inputsequenz}}$ und $\red{\text{Modell}}$.
+
+
+
+:::
+
+
+## Vorhersage
+
+Nicht alle Teile des Kontexts sind gleich wichtig:
+
+<br> <br>
+
+<!-- :::{.callout-note appearance="minimal"}-->
+:::{.r-fit-text}
+_"Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___"_
+::: 
+
+:::{.attribution}
+Nach Thomas Mann, *Buddenbrooks*
+:::
+
+<br> <br>
+
+Welche Wörter sind besonders wichtig, um 
+
+- die Bedeutung des Satzes zu erfassen?
+- das nächste Wort vorherzusagen?
+
+
+## Kontext verstehen {.smaller}
+
+:::{.callout-note appearance="minimal"}
+"Die Familie, die sehr wohlhabend war, lebte in einem grossen Haus. Das Haus stand inmitten eines weitläufigen Gartens. Es war bekannt für seine prächtige Fassade und die grosszügigen ___"
+:::
+
+**Syntaktische Struktur (Grammatik und Struktur des Satzes):**
+
+- Das Wort "grosszügigen" ist ein Adjektiv, das wahrscheinlich ein Nomen---im Plural---beschreibt (Dativ oder Akkusativ wegen der Endung "-en").
+- Der Satz bezieht sich auf das Haus und den Garten, daher liegt der Fokus vermutlich auf deren Eigenschaften.
+
+**Semantischer Kontext (Bedeutung):**
+
+Die Beschreibung hebt Wohlstand hervor. Das nächste Wort beschreibt vermutlich etwas Luxuriöses oder Weitläufiges.
+
+**Lexikalische Kohärenz (Wörter und deren Bedeutungen im Kontext):**
+
+Nach "grosszügigen" folgen häufig Nomen, die Räume, Flächen oder architektonische Elemente beschreiben, z. B. "Räume", "Gärten", "Fenster".
+
+
+## Was sind LLMs?
+
+:::: {.columns}
+::: {.column width="50%"}
+Ein LLM kann man sich wie einen ausgefeilten Autocomplete-Mechanismus vorstellen.
+:::
+::: {.column width="50%"}
+![](../../assets/images/predictive-text.png)
+:::
+::::
+
+:::{.attribution}
+Bildquelle: [www.apple.com](https://www.apple.com)
+:::
+
+
+## Wie generieren LLMs Text?
+
+<br> <br>
+
+![](../../assets/images/wort-fuer-wort.png)
+
+
+<!-- ## Wie können LLMs Text vorhersagen? {.smaller}
+
+Sie werden trainiert, das nächste Wort in einer gegebenen Wortsequenz zu erraten.
+
+:::: {.columns}
+::: {.column width="50%"}
+Ein LLM wird in drei Schritten aufgebaut:
+
+1. Sammeln eines grossen Text-Korpus.
+2. Basierend auf diesem Text, muss das Modell das nächste Wort in einer gegebenen Wortsequenz vorherzusagen lernen.
+3. Das Sprachmodell wird feiner abgestimmt, um das gewünschte Verhalten zu erreichen.
+
+:::
+::: {.column width="50%"}
+![](../../assets/images/LLM-Bookshelf.png)
+:::
+:::: -->
+
+
+## Wie werden LLMs trainiert?
+
+![](../../assets/images/llm-training.png)
+
+
+## Gefahren und Herausforderungen
+
+:::: {.columns}
+::: {.column width="50%"}
+:::{.r-fit-text}
+Die verschiedenen Stufen des Trainings sind mit verschiedenen Arten von Bedenken verbunden:
+
+- **Urheberrecht**: Die trainierten Modelle werden mit Texten trainiert, die möglicherweise Urheberrechtlich geschützt sind.
+- **Bias**: Die trainierten Modelle können bestehende Vorurteile aus den Trainingsdaten lernen.
+- **Energieverbrauch**: Das Training der Modelle verbraucht viel Energie und ist damit umweltbelastend.
+:::
+
+:::
+::: {.column width="50%"}
+![](../../assets/images/Pothole.png)
+:::
+::::
+
+## Gefahren und Herausforderungen
+
+:::: {.columns}
+::: {.column width="50%"}
+:::{.r-fit-text}
+- Obschon sich LLMs viel Wissen aneignen[^1], werden sie nicht trainiert, faktisch korrekte Aussagen zu machen.
+- Dies bedeutet, dass wir alle Aussagen, die LLMs uns präsentieren, immer kritisch hinterfragen müssen.
+- LLMs sind **keine Wissensdatenbanken**. Informationen immer anhand externer Quellen überprüfen.
+:::
+:::
+::: {.column width="50%"}
+![](../../assets/images/KnowledgeBase.png)
+:::
+::::
+
+[^1]: Das ganze Wissen, welches nötig ist, um Texte Wort für Wort vorherzusagen.
+
+## Wie sieht das für Musik aus?
+
+![](../../assets/images/mozarthornkonzertkv495-2.png)
+
+{{< audio file="../../assets/audio/mozarthornkonzertkv495-2.mp3" caption="WA Mozart: Horn Concerto KV 495, Romanza (Christian Holenstein)" >}}
+
+:::{.attribution}
+Quelle: [www.christian-holenstein.ch/sounds](https://www.christian-holenstein.ch/sounds)
+:::
+
+## Style transfer
+
+:::: {.columns}
+::: {.column width="50%"}
+[Voicebox](https://voicebox.metademolab.com/) ist ein KI-System, das hochwertige Audioclips in verschiedenen Stilen erzeugen kann. Es beherrscht Sprachsynthese in sechs Sprachen und kann bestehende Aufnahmen bearbeiten oder neue erstellen.
+:::
+::: {.column width="50%"}
+```{=html}
+<iframe width="800" height="600" src="https://voicebox.metademolab.com/" title="Viocebox"></iframe>
+```
+
+:::
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------- -->
+## KI verrichtet geistige Arbeit {.smaller}
+
+- **Kognitive Arbeit und KI**: KI hat das Potential zu verändern, wie *geistige* Arbeit verrichtet wird.
+
+- **Wichtige Erkenntnisse aus der Forschung**:
+  - @dellacquaNavigatingJaggedTechnological2023 erforschen die Möglichkeiten, mit KI-Unterstützung kognitive Aufgaben zu verbessern. Fazit: KI kann Produktivität und Qualität steigern, aber auch neue Herausforderungen ergeben.
+  - @toner-rodgersArtificialIntelligenceScientific diskutiert die Implikationen von KI für die Forschung und betont die Balance zwischen menschlicher und maschineller Intelligenz.
+  - @cuiEffectsGenerativeAI2024a analysieren die Auswirkungen von generativer KI auf Software Engineering und hebt sowohl Chancen als auch Herausforderungen hervor.
+
+- **Erkenntnisse**:
+  - Automatisierung von routinemässigen kognitiven Aufgaben ist möglich
+  - Unterstützung kreativer Arbeit ist möglich
+  - Deskilling: Gefahr, bei ständiger KI-Unterstützung eigene Fähigkeiten zu verlieren
+  - Ohne Training: KI-Tools werden oft für ungeeignete Aufgaben eingesetzt
+
+
+<!-- [@dellacquaNavigatingJaggedTechnological2023; @toner-rodgersArtificialIntelligenceScientific; @cuiEffectsGenerativeAI2024a] -->
+
+## Körperliche Arbeit
+
+
+:::: {.columns}
+::: {.column width="50%"}
+**19. Jahrhundert**
+
+![](../../assets/images/koerperlich.png)
+:::
+::: {.column width="50%"}
+**20. Jahrhundert**
+
+![](../../assets/images/maschinell.png)
+:::
+::::
+
+:::{.attribution}
+Bildquelle: Erstellt mit DALL-E 3
+:::
+
+## Wie sieht das für die kognitive Arbeit aus?
+
+:::: {.columns}
+::: {.column width="50%"}
+**1960**
+
+![](../../assets/images/human-cognitive-work.png)
+  
+:::
+::: {.column width="50%"}
+**2030**
+![](../../assets/images/human-ai-fusion.png)
+
+<!-- {{< bi question-circle >}} -->
+:::
+::::
+
+:::{.attribution}
+Bildquelle: Erstellt mit DALL-E 3
+:::
+
+## Ankunftstechnologien
+
+:::: {.columns}
+::: {.column width="50%"}
+Schulen und Hochschulen stehen vor Herausforderungen mit Technologien wie ChatGPT, weil sie:
+
+- Traditionelle Technologie-Evaluierungsprozesse umgehen
+- Durch **spontane Adoption** eingeführt werden
+- Reaktive statt proaktive Richtlinien erfordern
+:::
+
+::: {.column width="50%"}
+![](../../assets/images/arrival.png)
+
+:::
+::::
+
+:::{.attribution}
+Bildquelle: Erstellt mit DALL-E 3 ("ChatGPT arriving at a university in the style of a 14th century painting.")
+:::
+
+
+## Adoptions- vs. Ankunfts-Technologien
+
+[@reichNewTheoryArrival2024]
+
+:::: {.columns}
+::: {.column width="50%"}
+**Traditionelle Einführung**
+
+- Sorgfältige Bewertung
+- Pilotversuche
+- Mitarbeiterschulung
+- Klare Zeitpläne
+- Etablierte Richtlinien
+
+:::{.callout-note appearance="minimal"}
+## Beispiele: Adoptions-Technologien
+Learning Management Systems, Smart boards
+:::
+
+:::
+
+::: {.column width="50%"}
+**Ankunftstechnologien**
+
+- Spontane Nutzung
+- Umgehung von Prozessen
+- Keine Vorbereitung
+- Benutzergeführte Einführung
+- Reaktive Richtlinien
+
+:::{.callout-note appearance="minimal"}
+## Beispiele: Ankunfts-Technologien
+Smartphone, Wikipedia, YouTube, TikTok 
+:::
+:::
+
+::::
+
+
+
+<!-- 
+## Drei Möglichkeiten der Ankunft {.smaller}
+
+
+1. **Von Studierenden angeführt**
+   - Spontane Nutzung in Aufgaben
+   - Übernahme von KI-gestützten Tools
+   - Kreative Anwendungen
+
+2. **Von Mitarbeitenden angeführt**
+   - Entdeckung von KI-Tools
+   - Informelle Übernahme
+   - Peer-to-Peer-Austausch
+
+
+3. **Systemgeführt**
+   - KI-Funktionen in bestehender Software
+   - Integration in gängige Tools
+   - Plattform-Updates -->
+
+
+<!-- ----------------------- -->
+
+
+## ChatGPT
+
+
+![](../../assets/images/chatgpt.png)
+
+
+
+## Fragen beantworten
+
+![](../../assets/images/fragen-beantworten.png)
+
+
+## Bilder analysieren
+
+![](../../assets/images/bilder-analysieren.png)
+
+## Dokumente zusammenfassen
+
+![](../../assets/images/dokumente-zusammenfassen.png)
+
+## Output strukturieren
+
+![](../../assets/images/output-strukturieren.png)
+
+## Websuche
+
+![](../../assets/images/websuche.png)
+
+## Datenanalyse
+
+![](../../assets/images/datenanalyse.png)
+
+
+## Custom GPTs
+
+![](../../assets/images/gpts.png)
+
+
+
+
+## Rechtliche Aspekte
+
+Zwei wichtige Aspekte, welche bei der Benutzung von LLMs beachtet werden müssen:
+
+
+<br> <br>
+
+:::: {.columns}
+::: {.column width="50%"}
+**Rechtliche Aspekte {{< bi c-circle >}}**
+
+- Wer besitzt die Rechte an den von LLMs generierten Inhalten?
+- Risiko von Plagiaten und Urheberrechtsverletzungen
+- Richtlinien für den Umgang mit generierten Inhalten
+
+
+:::
+::: {.column width="50%"}
+**Datenschutz {{< bi shield-lock >}}**
+
+- Schutz personenbezogener Daten
+- Einhaltung von Datenschutzbestimmungen
+:::
+::::
+
+
+## Rechtliche Aspekte 
+
+- KI-Modelle können mit Inhalten trainiert sein, an denen Dritte Urheberrechte haben---dies kann bei der Verwendung der Modelle zu Urheberrechtsverletzungen führen.
+
+- Der Input (Prompt) kann geschützte Inhalte Dritter enthalten, deren Nutzung ohne rechtliche Grundlage Urheberrechte verletzt.
+
+- Der von der KI generierte Output kann zufällig geschützte Inhalte Dritter enthalten.
+
+
+## Rechtliche Aspekte 
+
+- Anbieter von KI-Plattformen können sich Rechte an generierten Inhalten vorbehalten, was ebenfalls rechtliche Herausforderungen mit sich bringen kann.
+
+- OpenAI-Nutzungsbedingungen: die Rechte an generierten Inhalten abgetreten, OpenAI behält sich aber Nutzungsrechte vor.
+
+- Nutzende/r ist in der Verantwortung, die rechtlichen Anforderungen einzuhalten.
+
+## Empfehlung
+
+KI-Policy: Geben Sie deutlich an, dass der Inhalt von einer KI erstellt wurde, sodass kein Nutzer dies übersehen oder missverstehen kann: 
+
+:::{.callout-tip title="Deklaration"}
+Der/die Autor\*in hat diesen Text teilweise mit `[[Modell]]` erstellt. Nach der Erstellung des Entwurfs hat der/die Autor\*in den Text überprüft, bearbeitet und nach eigenem Ermessen angepasst und übernimmt die volle Verantwortung für den Inhalt dieser Veröffentlichung.
+:::
+
+Zitieren Sie das verwendete Modell in ähnlicher Weise, wie Sie Software zitieren würden.
+
+## Datenschutz {.smaller}
+
+Datenschutz allgemein bedeutet:
+
+- sicherzustellen, dass keine persönlichen Daten der Lehrenden oder Lernenden ohne deren Zustimmung gesammelt, gespeichert oder weiterverarbeitet werden, um ihre Privatsphäre und Sicherheit zu gewährleisten.
+
+- Transparenz darüber, welche Daten erhoben und wie sie verwendet werden.
+- sicherzustellen, dass Daten nicht für andere Zwecke als die ursprünglich angegebenen verwendet werden
+- Recht der Betroffenen auf Auskunft, Berichtigung, Löschung und Widerspruch
+- Einhaltung von Datenschutzgesetzen und -vorschriften
+
+:::{.callout-caution appearance="minimal"}
+Lehrpersonen müssen Datenschutz beim Einsatz von (digitalen) Tools immer beachten.
+:::
+
+## Datensicherheit
+
+Dies bedeutet:
+
+- Daten so zu speichern, dass sie nicht verloren gehen
+- Daten nicht manipuliert werden können
+- Technische und organisatorische Massnahmen zum Schutz vor unbefugtem Zugriff auf Daten
+
+## Schutzmassnahmen
+
+:::: {.columns}   
+::: {.column width="50%"}
+- Keine persönlichen Daten in die Eingabe von ChatGPT einfliessen lassen (nur anonymisierte Informationen)
+
+- Keine Eingabe von sensiblen oder vertraulichen Informationen (Informationen über gesundheitliche, finanzielle oder private Angelegenheiten)
+
+:::
+
+::: {.column width="50%"}
+Einstellungen im Konto für Datenkontrolle:
+
+![](../../assets/images/schutzmassnahmen.png){width=80%}
+:::
+::::
+
+## Copilot verwenden
+
+
+:::: {.columns}
+::: {.column width="50%"}
+[Microsoft Copilot](https://copilot.microsoft.com/) garantiert BFH-Mitarbeitenden, dass Benutzerdaten gesichert sind: 
+
+{{< bi link >}} [Schutz von Unternehmensdaten](https://learn.microsoft.com/de-ch/copilot/microsoft-365/enterprise-data-protection)
+
+- Benutzerdaten sind durch Verschlüsselung, Sicherheitskontrollen und Datenisolation (gleich wie bei E-Mails in Exchange und Dateien in SharePoint) geschützt.
+- Microsoft verwendet Daten nicht ohne Anweisung des Benutzers.
+
+:::
+::: {.column width="50%"}
+![](../../assets/images/copilot.png)
+:::
+::::
+
+## API oder lokale KI-Modelle verwenden
+
+:::: {.columns}
+::: {.column width="47%"}
+[jan.ai](https://jan.ai/): Eine Open-Source ChatGPT-Alternative
+
+
+
+```{=html}
+<iframe width="600" height="500" src="https://jan.ai/" title="jan.ai"></iframe>
+```
+
+:::
+
+:::{.column width="6%"}
+:::
+
+::: {.column width="47%"}
+[lmstudio.ai](https://lmstudio.ai/): Lokale LLMs installieren
+
+
+
+```{=html}
+<iframe width="600" height="500" src="https://lmstudio.ai/" title="lmstudio.ai"></iframe>
+```
+:::
+::::
+
+
+## Detektion von KI-generiertem Inhalt
+
+:::: {.columns}
+::: {.column width="50%"}
+**Heuristiken**:
+
+- Durch Verwendung spezifischer Vokabeln und Phrasen: "delve", "vibrant", "embark", "it’s important to note", "based on the data provided".
+
+- Durch Verwendung des in der Schweiz unüblichen *scharfen S* (ß).
+:::
+::: {.column width="50%"}
+
+**Detektion anhand vom Schreibstil und Inhalt**:
+
+- Erkennungswerkzeuge sind nicht sehr nützlich und können leicht umgangen werden.
+
+- Erkennungs-Illusion: Lehrkräfte überschätzen ihre Erkennungsfähigkeiten [@fleckensteinTeachersSpotAI2024].
+:::
+::::
+
+
+
+
+## Fragen {background-color="#708090"}
+
+:::{.r-fit-text}
+?
+:::
+
+## References {background-color="#D8DEE9"}
+
+::: {#refs}
+:::
