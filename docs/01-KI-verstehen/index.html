@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ablauf – CAS Hochschuldidaktik</title>
+<title>KI verstehen – CAS Hochschuldidaktik</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,6 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../02-wie-menschen-lernen/index.html" rel="next">
+<link href="../workshop/einstieg/index.html" rel="prev">
 <link href="..//assets/robot.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -40,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-daecaad92b6cead24fffa8bec68d087f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a4d2e8a7fb8fd9f1eb00dd96e7fb4eca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
@@ -95,13 +117,22 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   background-image: none;
 }
 </style>
+ 
+  <style>
+  .slide-deck {
+      border: 3px solid #dee2e6;
+      width: 100%;
+  }
+  </style>
+  
 
 
-<meta property="og:title" content="Ablauf – CAS Hochschuldidaktik">
+<meta property="og:title" content="KI verstehen – CAS Hochschuldidaktik">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="CAS Hochschuldidaktik">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,12 +150,12 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../workshop/index.html"> <i class="bi bi-card-list" role="img">
+    <a class="nav-link active" href="../workshop/index.html" aria-current="page"> <i class="bi bi-card-list" role="img">
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../01-KI-verstehen/index.qmd"> <i class="bi bi-motherboard" role="img">
+    <a class="nav-link" href="../01-ki-verstehen/index.html"> <i class="bi bi-motherboard" role="img">
 </i> 
 <span class="menu-text">1: KI verstehen</span></a>
   </li>  
@@ -172,20 +203,87 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../01-ki-verstehen/index.html">KI verstehen</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshop/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ablauf</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshop/einstieg/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Begrüssungsaufgabe</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../01-ki-verstehen/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">KI verstehen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-wie-menschen-lernen/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ablauf</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-lernumgebungen/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ablauf</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshop/diskussion/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Offene Diskussion</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#presentation" id="toc-presentation" class="nav-link active" data-scroll-target="#presentation"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Presentation</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ablauf</h1>
+<h1 class="title">KI verstehen</h1>
 </div>
 
 
@@ -202,36 +300,29 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </header>
 
 
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><i class="bi-collection " style="" role="img" aria-hidden="true"></i> Thema</th>
-<th><i class="bi-clock " style="" role="img" aria-hidden="true"></i> Dauer</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="umfrage/index.qmd">Auswertung der Umfrage</a></td>
-<td>10 min</td>
-</tr>
-<tr class="even">
-<td><a href="ki-lehrassistent/index.qmd">Input: KI als Lehrassistent</a></td>
-<td>25 min (15’ Input + 10’ Q&amp;A)</td>
-</tr>
-<tr class="odd">
-<td><a href="studis-und-ki/index.qmd">Input: Studierende &amp; KI</a></td>
-<td>20 min (10’ Input + 10’ Q&amp;A)</td>
-</tr>
-<tr class="even">
-<td><a href="ki-unterricht/index.qmd">Input: KI im Unterricht</a></td>
-<td>15 min (5’ Input + 10’ Q&amp;A)</td>
-</tr>
-</tbody>
-</table>
+<p>This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R <span class="citation" data-cites="andersonAdaptiveCharacterThought2013 andersonHowCanHuman2007">(<a href="#ref-andersonAdaptiveCharacterThought2013" role="doc-biblioref">Anderson 2013</a>, <a href="#ref-andersonHowCanHuman2007" role="doc-biblioref">2007</a>)</span> theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.</p>
+<p><strong>The key takeaway:</strong> Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.</p>
+<section id="presentation" class="level2">
+<h2 class="anchored" data-anchor-id="presentation"><i class="bi-file-slides " style="" role="img" aria-hidden="true"></i> Presentation</h2>
+    <p><a href="../../slides/ki-verstehen/index.html" target="_blank">View slides in full screen</a></p>
+       <div class="ratio ratio-16x9">
+      <iframe class="slide-deck" src="../../slides/ki-verstehen/index.html" height="500px"></iframe>
+    </div>
+  
+<p><br> <br></p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-andersonHowCanHuman2007" class="csl-entry" role="listitem">
+Anderson, John R. 2007. <em>How <span>Can</span> the <span>Human Mind Occur</span> in the <span>Physical Universe</span>?</em> Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780195324259.001.0001">https://doi.org/10.1093/acprof:oso/9780195324259.001.0001</a>.
+</div>
+<div id="ref-andersonAdaptiveCharacterThought2013" class="csl-entry" role="listitem">
+———. 2013. <em>The <span>Adaptive Character</span> of <span>Thought</span></em>. New York: Psychology Press. <a href="https://doi.org/10.4324/9780203771730">https://doi.org/10.4324/9780203771730</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -638,6 +729,18 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../workshop/einstieg/index.html" class="pagination-link" aria-label="Begrüssungsaufgabe">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Begrüssungsaufgabe</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../02-wie-menschen-lernen/index.html" class="pagination-link" aria-label="Ablauf">
+        <span class="nav-page-text">Ablauf</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

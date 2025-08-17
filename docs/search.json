@@ -223,7 +223,11 @@
     "href": "workshop/diskussion/index.html",
     "title": "Offene Diskussion",
     "section": "",
-    "text": "Jetzt möchten wir eine offene Diskussion führen. Bitte teile deine Gedanken zu folgenden Fragen:\n\nWas war die wichtigste Erkenntnis, die du aus diesem Workshop mitgenommen hast?\nGab es Aspekte, die dir besonders schwierig oder verwirrend erschienen sind?\nWie planst du, das Gelernte in deiner Praxis oder Lehre anzuwenden?\nWelche Themen oder Fragestellungen würdest du gerne in zukünftigen Workshops vertiefen?\nGibt es weitere Fragen oder Anmerkungen?\n\nWir freuen uns auf deine Beiträge und eine interessante Diskussion!"
+    "text": "Jetzt möchten wir eine offene Diskussion führen. Bitte teile deine Gedanken zu folgenden Fragen:\n\nWas war die wichtigste Erkenntnis, die du aus diesem Workshop mitgenommen hast?\nGab es Aspekte, die dir besonders schwierig oder verwirrend erschienen sind?\nWie planst du, das Gelernte in deiner Praxis oder Lehre anzuwenden?\nWelche Themen oder Fragestellungen würdest du gerne in zukünftigen Workshops vertiefen?\nGibt es weitere Fragen oder Anmerkungen?\n\nWir freuen uns auf deine Beiträge und eine interessante Diskussion!\n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Offene Diskussion"
+    ]
   },
   {
     "objectID": "workshop/diskussion/index.html#offene-diskussion",
@@ -237,7 +241,11 @@
     "href": "workshop/einstieg/index.html",
     "title": "Begrüssungsaufgabe",
     "section": "",
-    "text": "Stelle dich kurz vor:\n\nName\nInstitut & Lehrfächer\nSubjektives Erfahrungslevel mit KI (Skala von 0-10)\nBeschreibe kurz: Welche KI-Tools hast du schon genutzt und wofür? (2-3 Sätze)\nKannst du dich an einen Moment erinnern, in dem du das Gefühl hattest, etwas wirklich verstanden zu haben? Was hat dazu geführt? (2-3 Sätze)\nWas erwartest du von diesem Kurs? (2-3 Sätze)\n\n\n\n\n Back to topReuseCC BY 4.0"
+    "text": "Stelle dich kurz vor:\n\nName\nInstitut & Lehrfächer\nSubjektives Erfahrungslevel mit KI (Skala von 0-10)\nBeschreibe kurz: Welche KI-Tools hast du schon genutzt und wofür? (2-3 Sätze)\nKannst du dich an einen Moment erinnern, in dem du das Gefühl hattest, etwas wirklich verstanden zu haben? Was hat dazu geführt? (2-3 Sätze)\nWas erwartest du von diesem Kurs? (2-3 Sätze)\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Begrüssungsaufgabe"
+    ]
   },
   {
     "objectID": "resources/kompetenz-erwerben/index.html",
@@ -559,21 +567,33 @@
     "href": "02-wie-menschen-lernen/index.html",
     "title": "Ablauf",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nAuswertung der Umfrage\n10 min\n\n\nInput: KI als Lehrassistent\n25 min (15’ Input + 10’ Q&A)\n\n\nInput: Studierende & KI\n20 min (10’ Input + 10’ Q&A)\n\n\nInput: KI im Unterricht\n15 min (5’ Input + 10’ Q&A)\n\n\n\n\n\n\n Back to topReuseCC BY 4.0"
+    "text": "Thema\n Dauer\n\n\n\n\nAuswertung der Umfrage\n10 min\n\n\nInput: KI als Lehrassistent\n25 min (15’ Input + 10’ Q&A)\n\n\nInput: Studierende & KI\n20 min (10’ Input + 10’ Q&A)\n\n\nInput: KI im Unterricht\n15 min (5’ Input + 10’ Q&A)\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
   },
   {
     "objectID": "03-lernumgebungen/index.html",
     "href": "03-lernumgebungen/index.html",
     "title": "Ablauf",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nAuswertung der Umfrage\n10 min\n\n\nInput: KI als Lehrassistent\n25 min (15’ Input + 10’ Q&A)\n\n\nInput: Studierende & KI\n20 min (10’ Input + 10’ Q&A)\n\n\nInput: KI im Unterricht\n15 min (5’ Input + 10’ Q&A)\n\n\n\n\n\n\n Back to topReuseCC BY 4.0"
+    "text": "Thema\n Dauer\n\n\n\n\nAuswertung der Umfrage\n10 min\n\n\nInput: KI als Lehrassistent\n25 min (15’ Input + 10’ Q&A)\n\n\nInput: Studierende & KI\n20 min (10’ Input + 10’ Q&A)\n\n\nInput: KI im Unterricht\n15 min (5’ Input + 10’ Q&A)\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
   },
   {
     "objectID": "01-ki-verstehen/index.html",
     "href": "01-ki-verstehen/index.html",
-    "title": "Ablauf",
+    "title": "KI verstehen",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nAuswertung der Umfrage\n10 min\n\n\nInput: KI als Lehrassistent\n25 min (15’ Input + 10’ Q&A)\n\n\nInput: Studierende & KI\n20 min (10’ Input + 10’ Q&A)\n\n\nInput: KI im Unterricht\n15 min (5’ Input + 10’ Q&A)\n\n\n\n\n\n\n Back to topReuseCC BY 4.0"
+    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.",
+    "crumbs": [
+      "Workshop",
+      "KI verstehen"
+    ]
   },
   {
     "objectID": "workshop/index.html#teil-1",
@@ -662,5 +682,142 @@
       "Workshop",
       "Ablauf"
     ]
+  },
+  {
+    "objectID": "01-ki-verstehen/index.html#presentation",
+    "href": "01-ki-verstehen/index.html#presentation",
+    "title": "KI verstehen",
+    "section": " Presentation",
+    "text": "Presentation\n    View slides in full screen",
+    "crumbs": [
+      "Workshop",
+      "KI verstehen"
+    ]
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#what-you-just-experienced",
+    "href": "slides/how-humans-learn/index.html#what-you-just-experienced",
+    "title": "How Humans Learn",
+    "section": "What You Just Experienced",
+    "text": "What You Just Experienced\nYour Three Research Modes:\n\n\n\n\n\n\n\n\nResearch Mode\nDescription\nHow did it feel?\n\n\n\n\nWithout AI\nClassical sources\nSlower, effortful, uncertain\n\n\nSingle AI Prompt\nOne question\nFast, confident, comprehensive\n\n\nCollaborative AI\nIterative questions\nEngaging, interactive, refined\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember and transfer a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#why-schools-exist-the-knowledge-divide",
+    "href": "slides/how-humans-learn/index.html#why-schools-exist-the-knowledge-divide",
+    "title": "How Humans Learn",
+    "section": "Why Schools Exist: The Knowledge Divide",
+    "text": "Why Schools Exist: The Knowledge Divide\n\n\nBiologically Primary\nWe evolved to learn:\n\nSpeaking & understanding\nRecognizing faces\n\nReading social cues\nBasic problem solving\n\nNatural discovery works!\n\n\n\nBiologically Secondary\nWe didn’t evolve to learn:\n\nReading & writing\nMathematics & algebra\nProgramming & analysis\nScientific reasoning\n\nNeeds explicit teaching & struggle!\n\n\n\n\nPrimary knowledge can be learned through natural discovery, while academic skills require explicit instruction and structured practice.\n\n\n\n\nTo understand why AI disrupts learning so profoundly, we need to understand why schools exist in the first place."
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#how-expertise-actually-develops",
+    "href": "slides/how-humans-learn/index.html#how-expertise-actually-develops",
+    "title": "How Humans Learn",
+    "section": "How Expertise Actually Develops",
+    "text": "How Expertise Actually Develops\nThe Brain’s Learning System:\n\n\n\n\n\n\n\n\n\nMemory Type\nDescription\nCharacteristics\nExample\n\n\n\n\nDeclarative Memory\n“Knowing That”\n• Facts and rules you hold consciously• Slow, effortful retrieval\n“To solve  \\(3x + 5 = 20\\),  subtract \\(5\\) from both sides”\n\n\nProcedural Memory\n“Knowing How”\n• Automatic “atomic thinking steps”• Fast, effortless execution\nSee \\(3x + 5 = 20\\) → instantly know \\(x = 5\\)\n\n\n\n\n\n\nThe journey: Facts → Thousands of practice cycles → Automatic procedures → Expertise\nWhy struggle matters: Each practice attempt strengthens the neural pathways that create expertise\n\n\n\n\nFigure courtesy of Scott H Young"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#the-weak-to-strong-methods-journey",
+    "href": "slides/how-humans-learn/index.html#the-weak-to-strong-methods-journey",
+    "title": "How Humans Learn",
+    "section": "The Weak-to-Strong Methods Journey",
+    "text": "The Weak-to-Strong Methods Journey\nHow novices become experts through progressive skill building:\n\n\n\n\n\n\n\n\n\nStage\nDescription\nMethods/Characteristics\nNature\n\n\n\n\nWeak Methods (Novice)\nGeneral strategies when lacking knowledge\n• Means-end analysis• Working backward• Trial and error• Surface analogies• Hill climbing\nSlow, effortful, but essential for learning\n\n\nProceduralization\nPatterns become procedures\n• Repeated sequences chunk together• Still conscious but more fluid• Reduced cognitive load• Faster with fewer errors\nThe critical transition phase\n\n\nStrong Methods (Expert)\nDomain-specific automaticity\n• Pattern recognition• Forward chaining• Compiled procedures• Deep structural understanding\nFast, accurate, unconscious\n\n\n\n\n\n\nWhy This Matters for AI Use\n\n\nAI provides expert-level answers (strong methods) to novices who haven’t developed through weak methods first. This skips the essential struggle phase where real learning occurs.\nWhen novices use expert tools, they miss building the foundational procedures that enable true understanding."
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#productions-your-brains-atomic-thinking-steps",
+    "href": "slides/how-humans-learn/index.html#productions-your-brains-atomic-thinking-steps",
+    "title": "How Humans Learn",
+    "section": "Productions: Your Brain’s Atomic Thinking Steps",
+    "text": "Productions: Your Brain’s Atomic Thinking Steps\nHow Complex Skills Are Built:\n\n\nProductions = IF-THEN Rules\n\nIF see \\(3x + 5 = 20\\) THEN subtract 5 from both sides\nIF stuck on code THEN check syntax first\nIF need to remember phone number THEN repeat internally\n\nEach one is an “atomic thinking step”\n\n\n\nProduction Competition\nWhen you see \\(3x + 5 = 20\\):\n\nProduction A: “Guess and check” (weak)\nProduction B: “Subtract 5” (strong)\nWinner: Strongest fires automatically\n\nPractice strengthens winning productions\n\n\n\n\n\n\nWhy this matters:  Complex expertise = thousands of these atomic steps compiled together. Offloading provides final answers without building the atomic steps.\n\n\n\n\n\n\n\nFigure courtesy of Scott H Young"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#the-ai-bypass-problem",
+    "href": "slides/how-humans-learn/index.html#the-ai-bypass-problem",
+    "title": "How Humans Learn",
+    "section": "The AI Bypass Problem",
+    "text": "The AI Bypass Problem\nThree Ways Learning Is Disrupted:\n\n\n\n\n\n\n\n\nIssue\nProblem\nConsequence of offloading to AI\n\n\n\n\nNo Prediction Errors\nBrain learns from gaps between “what I expect” and “what happens”\nEliminates this entirely\n\n\nNo Memory Formation\nInformation that isn’t actively processed isn’t stored\nProvides answers without processing\n\n\nNo Procedural Development\nExpertise requires thousands of “atomic thinking steps”\nSkips this building process\n\n\n\n \n\n\n\nResult: Offloading cognitive processes can lead to surface fluency without deep understanding and complete dependency on tools."
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#the-research-reality",
+    "href": "slides/how-humans-learn/index.html#the-research-reality",
+    "title": "How Humans Learn",
+    "section": "The Research Reality",
+    "text": "The Research Reality\nWhat Studies Show About AI Use in Learning:\n\n\n68% reduction in critical thinking among high AI users\nSurface learning only in programming students using ChatGPT\n\nFlynn Effect reversal: IQ scores declining since we stopped memorizing\nStudents can’t solve basic problems without AI after repeated AI-assisted attempts \n\n\n\n\nWe abandoned proven learning methods just as neuroscience proved why they work!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#evidence-based-guidelines",
+    "href": "slides/how-humans-learn/index.html#evidence-based-guidelines",
+    "title": "How Humans Learn",
+    "section": "Evidence-Based Guidelines",
+    "text": "Evidence-Based Guidelines\n\n\n\n\n\n\nEmbrace the Struggle\n\nConfusion is a necessary stage of learning\nErrors provide valuable prediction error signals\nDifficulty signals brain growth\n\n\n\n\n\n\n\n\n\nPractice Retrieval\n\nTest yourself before checking answers\nExplain concepts without notes\nTeach others what you’re learning\n\n\n\n\n\n\n\n\n\nSpace Your Learning\n\nReturn to concepts over days/weeks\nAllow forgetting between sessions\nRelearn in different contexts\n\n\n\n\n\n\n\n\n\n\nVary Your Practice\n\nMix problem types\nChange contexts\nSeek novel applications\n\n\n\n\n\n\n\n\n\nProtect Your Prediction Errors\n\nMake attempts before seeking help\nNotice when your expectations are wrong\nUse errors as learning opportunities, not failures"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#teaching-that-matches-how-brains-learn",
+    "href": "slides/how-humans-learn/index.html#teaching-that-matches-how-brains-learn",
+    "title": "How Humans Learn",
+    "section": "Teaching That Matches How Brains Learn",
+    "text": "Teaching That Matches How Brains Learn\n\n\n\n\n\n1. Respect the Developmental Sequence\n\n\n\nWeak methods must come first—they’re not a bug, they’re a feature\nProceduralization requires extensive practice with deliberative processes\nCompilation happens automatically after sufficient repetition\n\n\n\n\n\n\n\n2. Calibrate Cognitive Load\n\n\n\nNovices need simplified, sequential presentation\nExperts can handle complex, parallel processing\nThe same material must be presented differently based on expertise level\n\n\n\n\n\n\n\n\n3. Protect the Struggle Window\n\n\n\nAllow sufficient time for independent struggle before AI consultation\nDocument thinking process before seeking external help\nMultiple attempts required before accessing solutions\n\n\n\n\n\n\n\n4. Scaffold, Don’t Substitute\n\n\n\nUse AI to reduce irrelevant cognitive load, not eliminate all effort\nProvide worked examples that show the process, not just answers\nGradually fade support as competence develops\n\n\n\n\n\n\n\n\nThe Key Insight:\n\n\nAI is an expert-level tool. Using it before building foundational skills through weak methods isn’t just ineffective—it actively prevents the very processes that create expertise.\nDesign learning experiences that match how brains actually develop competence."
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#what-you-just-experienced",
+    "href": "slides/ki-verstehen/index.html#what-you-just-experienced",
+    "title": "How Humans Learn",
+    "section": "What You Just Experienced",
+    "text": "What You Just Experienced\nYour Three Research Modes:\n\n\n\n\n\n\n\n\nResearch Mode\nDescription\nHow did it feel?\n\n\n\n\nWithout AI\nClassical sources\nSlower, effortful, uncertain\n\n\nSingle AI Prompt\nOne question\nFast, confident, comprehensive\n\n\nCollaborative AI\nIterative questions\nEngaging, interactive, refined\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember and transfer a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#why-schools-exist-the-knowledge-divide",
+    "href": "slides/ki-verstehen/index.html#why-schools-exist-the-knowledge-divide",
+    "title": "How Humans Learn",
+    "section": "Why Schools Exist: The Knowledge Divide",
+    "text": "Why Schools Exist: The Knowledge Divide\n\n\nBiologically Primary\nWe evolved to learn:\n\nSpeaking & understanding\nRecognizing faces\n\nReading social cues\nBasic problem solving\n\nNatural discovery works!\n\n\n\nBiologically Secondary\nWe didn’t evolve to learn:\n\nReading & writing\nMathematics & algebra\nProgramming & analysis\nScientific reasoning\n\nNeeds explicit teaching & struggle!\n\n\n\n\nPrimary knowledge can be learned through natural discovery, while academic skills require explicit instruction and structured practice.\n\n\n\n\nTo understand why AI disrupts learning so profoundly, we need to understand why schools exist in the first place."
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#how-expertise-actually-develops",
+    "href": "slides/ki-verstehen/index.html#how-expertise-actually-develops",
+    "title": "How Humans Learn",
+    "section": "How Expertise Actually Develops",
+    "text": "How Expertise Actually Develops\nThe Brain’s Learning System:\n\n\n\n\n\n\n\n\n\nMemory Type\nDescription\nCharacteristics\nExample\n\n\n\n\nDeclarative Memory\n“Knowing That”\n• Facts and rules you hold consciously• Slow, effortful retrieval\n“To solve  \\(3x + 5 = 20\\),  subtract \\(5\\) from both sides”\n\n\nProcedural Memory\n“Knowing How”\n• Automatic “atomic thinking steps”• Fast, effortless execution\nSee \\(3x + 5 = 20\\) → instantly know \\(x = 5\\)\n\n\n\n\n\n\nThe journey: Facts → Thousands of practice cycles → Automatic procedures → Expertise\nWhy struggle matters: Each practice attempt strengthens the neural pathways that create expertise\n\n\n\n\nFigure courtesy of Scott H Young"
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#the-weak-to-strong-methods-journey",
+    "href": "slides/ki-verstehen/index.html#the-weak-to-strong-methods-journey",
+    "title": "How Humans Learn",
+    "section": "The Weak-to-Strong Methods Journey",
+    "text": "The Weak-to-Strong Methods Journey\nHow novices become experts through progressive skill building:\n\n\n\n\n\n\n\n\n\nStage\nDescription\nMethods/Characteristics\nNature\n\n\n\n\nWeak Methods (Novice)\nGeneral strategies when lacking knowledge\n• Means-end analysis• Working backward• Trial and error• Surface analogies• Hill climbing\nSlow, effortful, but essential for learning\n\n\nProceduralization\nPatterns become procedures\n• Repeated sequences chunk together• Still conscious but more fluid• Reduced cognitive load• Faster with fewer errors\nThe critical transition phase\n\n\nStrong Methods (Expert)\nDomain-specific automaticity\n• Pattern recognition• Forward chaining• Compiled procedures• Deep structural understanding\nFast, accurate, unconscious\n\n\n\n\n\n\nWhy This Matters for AI Use\n\n\nAI provides expert-level answers (strong methods) to novices who haven’t developed through weak methods first. This skips the essential struggle phase where real learning occurs.\nWhen novices use expert tools, they miss building the foundational procedures that enable true understanding."
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#productions-your-brains-atomic-thinking-steps",
+    "href": "slides/ki-verstehen/index.html#productions-your-brains-atomic-thinking-steps",
+    "title": "How Humans Learn",
+    "section": "Productions: Your Brain’s Atomic Thinking Steps",
+    "text": "Productions: Your Brain’s Atomic Thinking Steps\nHow Complex Skills Are Built:\n\n\nProductions = IF-THEN Rules\n\nIF see \\(3x + 5 = 20\\) THEN subtract 5 from both sides\nIF stuck on code THEN check syntax first\nIF need to remember phone number THEN repeat internally\n\nEach one is an “atomic thinking step”\n\n\n\nProduction Competition\nWhen you see \\(3x + 5 = 20\\):\n\nProduction A: “Guess and check” (weak)\nProduction B: “Subtract 5” (strong)\nWinner: Strongest fires automatically\n\nPractice strengthens winning productions\n\n\n\n\n\n\nWhy this matters:  Complex expertise = thousands of these atomic steps compiled together. Offloading provides final answers without building the atomic steps.\n\n\n\n\n\n\n\nFigure courtesy of Scott H Young"
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#the-ai-bypass-problem",
+    "href": "slides/ki-verstehen/index.html#the-ai-bypass-problem",
+    "title": "How Humans Learn",
+    "section": "The AI Bypass Problem",
+    "text": "The AI Bypass Problem\nThree Ways Learning Is Disrupted:\n\n\n\n\n\n\n\n\nIssue\nProblem\nConsequence of offloading to AI\n\n\n\n\nNo Prediction Errors\nBrain learns from gaps between “what I expect” and “what happens”\nEliminates this entirely\n\n\nNo Memory Formation\nInformation that isn’t actively processed isn’t stored\nProvides answers without processing\n\n\nNo Procedural Development\nExpertise requires thousands of “atomic thinking steps”\nSkips this building process\n\n\n\n \n\n\n\nResult: Offloading cognitive processes can lead to surface fluency without deep understanding and complete dependency on tools."
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#the-research-reality",
+    "href": "slides/ki-verstehen/index.html#the-research-reality",
+    "title": "How Humans Learn",
+    "section": "The Research Reality",
+    "text": "The Research Reality\nWhat Studies Show About AI Use in Learning:\n\n\n68% reduction in critical thinking among high AI users\nSurface learning only in programming students using ChatGPT\n\nFlynn Effect reversal: IQ scores declining since we stopped memorizing\nStudents can’t solve basic problems without AI after repeated AI-assisted attempts \n\n\n\n\nWe abandoned proven learning methods just as neuroscience proved why they work!"
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#evidence-based-guidelines",
+    "href": "slides/ki-verstehen/index.html#evidence-based-guidelines",
+    "title": "How Humans Learn",
+    "section": "Evidence-Based Guidelines",
+    "text": "Evidence-Based Guidelines\n\n\n\n\n\n\nEmbrace the Struggle\n\nConfusion is a necessary stage of learning\nErrors provide valuable prediction error signals\nDifficulty signals brain growth\n\n\n\n\n\n\n\n\n\nPractice Retrieval\n\nTest yourself before checking answers\nExplain concepts without notes\nTeach others what you’re learning\n\n\n\n\n\n\n\n\n\nSpace Your Learning\n\nReturn to concepts over days/weeks\nAllow forgetting between sessions\nRelearn in different contexts\n\n\n\n\n\n\n\n\n\n\nVary Your Practice\n\nMix problem types\nChange contexts\nSeek novel applications\n\n\n\n\n\n\n\n\n\nProtect Your Prediction Errors\n\nMake attempts before seeking help\nNotice when your expectations are wrong\nUse errors as learning opportunities, not failures"
+  },
+  {
+    "objectID": "slides/ki-verstehen/index.html#teaching-that-matches-how-brains-learn",
+    "href": "slides/ki-verstehen/index.html#teaching-that-matches-how-brains-learn",
+    "title": "How Humans Learn",
+    "section": "Teaching That Matches How Brains Learn",
+    "text": "Teaching That Matches How Brains Learn\n\n\n\n\n\n1. Respect the Developmental Sequence\n\n\n\nWeak methods must come first—they’re not a bug, they’re a feature\nProceduralization requires extensive practice with deliberative processes\nCompilation happens automatically after sufficient repetition\n\n\n\n\n\n\n\n2. Calibrate Cognitive Load\n\n\n\nNovices need simplified, sequential presentation\nExperts can handle complex, parallel processing\nThe same material must be presented differently based on expertise level\n\n\n\n\n\n\n\n\n3. Protect the Struggle Window\n\n\n\nAllow sufficient time for independent struggle before AI consultation\nDocument thinking process before seeking external help\nMultiple attempts required before accessing solutions\n\n\n\n\n\n\n\n4. Scaffold, Don’t Substitute\n\n\n\nUse AI to reduce irrelevant cognitive load, not eliminate all effort\nProvide worked examples that show the process, not just answers\nGradually fade support as competence develops\n\n\n\n\n\n\n\n\nThe Key Insight:\n\n\nAI is an expert-level tool. Using it before building foundational skills through weak methods isn’t just ineffective—it actively prevents the very processes that create expertise.\nDesign learning experiences that match how brains actually develop competence."
   }
 ]

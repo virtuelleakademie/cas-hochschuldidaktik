@@ -1,5 +1,0 @@
----
-title: "Auswertung der Umfrage"
----
- 
-Wir werten die Umfrage mithilfe von ChatGPT aus.

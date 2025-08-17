@@ -15,6 +15,7 @@ project:
     - 02-wie-menschen-lernen/**/*.qmd
     - 03-lernumgebungen/**/*.qmd
     - resources/**/*.qmd
+    - slides/**/*.qmd
 
 website:
   title: "CAS Hochschuldidaktik"
@@ -79,12 +80,30 @@ website:
       background: light
       contents:
         - workshop/index.qmd
-        - workshop/umfrage/index.qmd
-        - workshop/ki-lehrassistent/index.qmd
-        - workshop/studis-und-ki/index.qmd
-        - workshop/ki-unterricht/index.qmd
+        - workshop/einstieg/index.qmd
+        - 01-ki-verstehen/index.qmd
+        - 02-wie-menschen-lernen/index.qmd
+        - 03-lernumgebungen/index.qmd
+        - workshop/diskussion/index.qmd
 
-
+    - title: "Teil 1: KI verstehen"
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - 01-ki-verstehen/index.qmd
+    - title: "Teil 2: Wie Menschen lernen "
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - 02-wie-menschen-lernen/index.qmd
+    - title: "Teil 3: Lernumgebungen"
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - 03-lernumgebungen/index.qmd
 
 page-footer:
     right:
