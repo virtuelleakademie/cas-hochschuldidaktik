@@ -56,7 +56,6 @@ Dieses Grundverständnis ist essentiell, um später informierte Entscheidungen �
 
 
 
-
 ## {{< bi book>}} Weiterführende Kurse
 
 - [KI in der Lehre: Einsteiger](https://virtuelleakademie.github.io/ki-lehre-beginner/workshop/)

@@ -3,44 +3,17 @@ title: "Ablauf"
 ---
 
 <!-- ## Einstieg -->
-| {{< bi collection-fill >}} Thema | {{< bi clock-fill >}} Dauer |
-| --------------------------- | ---------------------- |
-| {{< bi collection >}} Einstieg | |
-| [Begrüssungsaufgabe](einstieg/index.qmd)  | 15 min   |
-| {{< bi collection >}} Teil 1 | |
-| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
-| {{< bi collection >}} Teil 2 | |
-| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
-| {{< bi collection >}} Teil 3 | |
-| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
-| {{< bi collection >}} Diskussion | |
-| [Offene Diskussion](diskussion/index.qmd)     | 30 min          |
-
-
-<!-- <br> 
-
-## Teil 1: KI verstehen
-
-| {{< bi collection >}} Thema                         | {{< bi clock >}} Dauer        |
-|------------------------------------------------------|-------------------------------|
-| [Input: KI verstehen](../01-ki-verstehen/index.qmd)   | 20 min  |
-
-
-## Teil 2: Wie Menschen lernen  
-
-| {{< bi collection >}} Thema                             | {{< bi clock >}} Dauer        |
-|----------------------------------------------------------|-------------------------------|
-| [Input: Wie Menschen lernen](../02-wie-menschen-lernen/index.qmd) | 20 min  |
-
-## Teil 3: Lernumgebungen 
-
-| {{< bi collection >}} Thema                          | {{< bi clock >}} Dauer        |
-|-------------------------------------------------------|-------------------------------|
-| [Input: Lernumgebungen](../03-lernumgebungen/index.qmd) | 20 min  |
-
-
-## Offene Diskussion
-
-| {{< bi collection >}} Thema                          | {{< bi clock >}} Dauer        |
-|-------------------------------------------------------|-------------------------------|
-| [Offene Diskussion](diskussion/index.qmd)     | 30 min                        | -->
+| {{< bi collection-fill >}} Thema                                                             | {{< bi clock-fill >}} Dauer |
+| -------------------------------------------------------------------------------------------- | --------------------------- |
+| {{< bi collection >}} Einstieg                                                               |                             |
+| [Begrüssungsaufgabe](einstieg/index.qmd)                                                     | 15 min                      |
+| {{< bi collection >}} Teil 1                                                                 |                             |
+| [Input: KI verstehen](../01-ki-verstehen/index.qmd)                                          | 45 min                      |
+| {{< bi collection >}} Teil 2                                                                 |                             |
+| [Input: Wie Menschen lernen](../02-wie-menschen-lernen/index.qmd)                            | 10 min                      |
+| [Selbststudium: Wie Menschen lernen](../02-wie-menschen-lernen/kompetenz-erwerben/index.qmd) | 20 min                      |
+| [Aktive Verarbeitung: Reflexion](../02-wie-menschen-lernen/aktive-verarbeitung/index.qmd)    | 15 min                      |
+| {{< bi collection >}} Teil 3                                                                 |                             |
+| [Lernumgebungen gestalten](../03-lernumgebungen/index.qmd)                                   | 45 min                      |
+| {{< bi collection >}} Diskussion                                                             |                             |
+| [Offene Diskussion](diskussion/index.qmd)                                                    | 30 min                      |

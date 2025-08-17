@@ -1,5 +1,5 @@
 ---
-title: "Wie man Kompetenz erwirbt"
+title: "Wie man Kompetenzen erwirbt"
 subtitle: "Vom Novizen zum Exerten: Die Wissenschaft des Lernens"
 author: 
   - name: Andrew Ellis
@@ -14,7 +14,7 @@ citation: true
 
 1. **Expertise erfordert schrittweisen Kompetenzaufbau** durch schwache → starke Methoden
 2. **Kognitive Anstrengung ist kein Fehler, sondern die Funktion**, die Lernen durch Vorhersagefehler ermöglicht
-3. **KI umgeht genau die Anstrengungen**, die dauerhafte Fähigkeiten aufbauen
+3. **Offloading an KI umgeht genau die Anstrengungen**, die dauerhafte Fähigkeiten aufbauen
 4. **Expertenmethoden schaden Anfängern aktiv**, indem sie kognitive Überlastung und Abhängigkeit erzeugen
 5. **Echtes Verständnis entsteht** durch tausende anstrengende Übungszyklen mit Vorhersagefehlern
 6. **Wähle deine Werkzeuge mit Bedacht**: Nutze KI, um irrelevante kognitive Belastung zu reduzieren, nicht um essentielles Lernen zu überspringen
@@ -99,7 +99,7 @@ Wenn nach Erklärung gefragt:
 
 Das menschliche Gehirn lernt durch ein ausgefeiltes Vorhersagefehler-System, das leicht umgangen werden kann, wenn die kognitive Verarbeitung ausgelagert wird. Diese biologische Realität erklärt, warum Anstrengung für das Lernen unerlässlich ist.
 
-## Kognitive Belastungstheorie verstehen
+## Cognitive Load Theory verstehen
 
 ### Die evolutionäre Grundlage des Lernens
 
@@ -156,6 +156,7 @@ Sobald Information durch einen der beiden Wege erworben wurde, muss sie verarbei
 Betrachte das Lösen: $(x + 3)(x - 2) = 0$
 
 **Für einen Anfänger** muss jedes Element im Arbeitsgedächtnis gehalten werden:
+
 - Was $x$ bedeutet
 - Die Bedeutung der Klammern
 - Additions- und Subtraktionsoperationen
@@ -178,7 +179,7 @@ Betrachte das Lösen: $(x + 3)(x - 2) = 0$
 
 ### Wie Expertise wirklich entsteht
 
-Wie De Groot 1965 erstmals zeigte [@grootThoughtChoiceChess1978; @swellerCognitiveLoadTheory2024], ist Expertise **fächerspezifisch** und resultiert aus **riesigen Mengen fachspezifischer Informationen im Langzeitgedächtnis**. Das ist nicht einfach „mehr Fakten wissen“ – sondern organisierte Wissensstrukturen (Schemata), die Experten ermöglichen:
+Wie De Groot 1965 erstmals zeigte [@grootThoughtChoiceChess1978; @swellerCognitiveLoadTheory2024], ist Expertise **fächerspezifisch** und resultiert aus **riesigen Mengen fachspezifischer Informationen im Langzeitgedächtnis**. Das ist nicht einfach "mehr Fakten wissen", sondern organisierte Wissensstrukturen (Schemata), die Experten ermöglichen:
 
 - **Mehrere Elemente zu Chunks bündeln**
 - **Muster automatisch erkennen**
@@ -226,7 +227,7 @@ Der gefährlichste Fehler in der Bildung ist anzunehmen, dass Anfänger so lerne
 
 Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv – es ist **aktiv schädlich** für das Lernen:
 
-#### 1. **Mismatch der kognitiven Belastung**
+#### 1. **Mismatch der kognitiven Belastung (cognitive load)**
 
 - **Experten** können viele Elemente verarbeiten, weil sie diese zu Mustern gebündelt haben
 - **Anfänger** werden mit derselben Komplexität überfordert
@@ -356,9 +357,9 @@ Das Gehirn nutzt diese Fehler zur Anpassung des Wissens:
 
 Das erklärt, warum Lernende hunderte Beispiele anschauen oder tausende korrekte KI-Antworten bekommen und trotzdem nicht lernen. **Lernen braucht Fehler, nicht Perfektion.**
 
-### Das Prinzip der wünschenswerten Schwierigkeiten
+### Das Prinzip der "Desirable Difficulties"
 
-Lernen erfordert sogenannte „wünschenswerte Schwierigkeiten“ [@bjorkMakingThingsHard2011] – Herausforderungen, die sich schwierig anfühlen, aber das langfristige Behalten fördern:
+Lernen erfordert sogenannte "desirable difficulties" [@bjorkMakingThingsHard2011] – Herausforderungen, die sich schwierig anfühlen, aber das langfristige Behalten fördern:
 
 1. **Abrufübung**: Abrufen aus dem Gedächtnis stärkt es
 2. **Verteiltes Wiederholen**: Vergessen und erneutes Lernen schafft dauerhaftes Wissen
@@ -424,6 +425,7 @@ Lernen ist nicht nur ein kognitiver, sondern ein biologischer Prozess, der das G
 ### Schlafkonsolidierung ist essenziell
 
 Lernen endet nicht mit dem Üben:
+
 - **Sharp wave ripples** im Schlaf spielen Erlebtes erneut ab
 - Das Gehirn entscheidet, was bleibt und was gelöscht wird
 - Erinnerungen wandern vom Hippocampus in den Kortex
@@ -434,6 +436,7 @@ Lernen endet nicht mit dem Üben:
 ### Das „Grokking“-Phänomen
 
 Sogar maschinelle Lernmodelle zeigen dieses Muster:
+
 - Lange Plateauphase ohne sichtbaren Fortschritt
 - Plötzlicher Sprung zur Generalisierung
 - Früher als „Überanpassung“ missverstanden
@@ -444,9 +447,10 @@ Sogar maschinelle Lernmodelle zeigen dieses Muster:
 ::: {.callout-warning}
 ## Umkehrung des Flynn-Effekts
 
-Seit den 1970er/80er Jahren, als Bildung das Auswendiglernen verließ:
+Seit den 1970er/80er Jahren, als Bildung sich vom Auswendiglernen abkehrte:
+
 - IQ-Werte sanken erstmals in der Geschichte
-- „Warum auswendig lernen, wenn man nachschlagen kann?“ wurde zum Mantra
+- "Warum auswendig lernen, wenn man nachschlagen kann?"
 - Genau zu dem Zeitpunkt, als Neurowissenschaften bewiesen, dass Auswendiglernen kritisches Denken fördert
 - Wir verwarfen bewährte Methoden, gerade als wir ihren Nutzen verstanden [@oakleyMemoryParadoxWhy2025]
 :::
@@ -482,22 +486,14 @@ Seit den 1970er/80er Jahren, als Bildung das Auswendiglernen verließ:
    - Fehler als Lernchancen, nicht als Scheitern sehen
 :::
 
-## Verbindung zu unserer Übung
 
-Die Übung, die du gerade abgeschlossen hast, hat diese Prinzipien demonstriert:
 
-- **Ohne KI**: Du hast dich auf anstrengendes Abrufen und Denken eingelassen, Vorhersagefehler erzeugt
-- **Mit KI (einzelner Prompt)**: Du hast Prompt-Engineering geübt, aber tiefes Nachdenken übersprungen
-- **Mit KI (iterativ)**: Du hast durch Fragen einen Teil des kognitiven Engagements beibehalten
-
-Merkst du, wie sich dein Verständnis je nach Modus unterschieden hat? Das ist der Kompilierungsprozess (oder dessen Fehlen) in Aktion.
-
-## Reflexionsfragen
+<!-- ## Reflexionsfragen
 
 - Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?
 - Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden?
 - Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?
-- Wie kannst du den Vorhersagefehler-Zyklus in deinem eigenen Lernen schützen?
+- Wie kannst du den Vorhersagefehler-Zyklus in deinem eigenen Lernen schützen? -->
 
 ---
 
