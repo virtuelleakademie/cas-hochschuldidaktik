@@ -1,285 +1,195 @@
- ---
-title: "How Humans Learn"
-subtitle: "Cognitive effort is not a bug---it's the feature"
+---
+title: "Prompting: Eine Einführung"
+callout-appearance: minimal
 ---
 
-## What You Just Experienced {.transition}
+## Was ist ein Prompt?
 
-Your Three Research Modes:
+<br> <br>
+![](../../assets/images/unlock-llm.png)
 
-| Research Mode | Description | How did it feel? |
-|---------------|-------------|------------|
-| **Without AI** | *Classical sources* | Slower, effortful, uncertain |
-| **Single AI Prompt** | *One question* | Fast, confident, comprehensive |
-| **Collaborative AI** | *Iterative questions* |Engaging, interactive, refined |
+- Ein Prompt ist ein Text (Anweisung), das einem generativen KI-Modell gegeben wird, um bestimmte Informationen zu generieren oder zu verstehen.
+- Prompts dienen als Startpunkt beispielsweise für die Generierung von Ideen, Texten, Übersetzungen und Antworten auf Fragen. 
 
 
 
-::: {.callout-important}
-### The Critical Question:
-**Which mode will you remember and transfer a week from now?**
+## Wie wird Text (Output) erzeugt?
 
-*The immediate "feel" doesn't predict long-term learning...*
+<br> <br>
+![](../../assets/images/once-upon-a-time.png)
+
+
+
+## Wie kann ich den Output beeinflussen?
+
+
+![](../../assets/images/output-beeinflussen.png)
+
+
+
+
+## Prompting: Grundlagen
+
+1. Sei klar und präzise
+2. Fange einfach an und verbessere
+3. Verwende Beispiele und Kontext
+4. Leite den Denkprozess
+5. Nutze ChatGPT/Copilots "Wissen"
+6. Verwende Rollenspieltechniken
+
+
+
+## 1. Sei klar und präzise
+
+
+- Formuliere deine Aufgabe oder Frage präzise
+- Gib relevanten Kontext und Details an
+- Unterteile komplexe Aufgaben in kleinere Schritte
+
+::: {.callout-tip title="❌"}
+Beschreibe, wie KI in der Musikproduktion eingesetzt wird.
+:::
+::: {.callout-tip title="✅"}
+Beschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum Arrangement von Jazz-Kompositionen verwendet werden kann. Gib konkrete Beispiele für Algorithmen oder Werkzeuge an, die in der Musikproduktion genutzt werden, um Muster zu erkennen und Vorschläge für Harmonievariationen zu generieren.
 :::
 
----
 
-## Why Schools Exist: The Knowledge Divide
 
-::: {.columns}
-::: {.column width="45%"}
-### Biologically Primary
-**We evolved to learn:**
+## 2. Fange einfach an und verbessere {.smaller}
 
-- Speaking & understanding
-- Recognizing faces  
-- Reading social cues
-- Basic problem solving
+Beispiel 1:
 
-*Natural discovery works!*
+::: {.callout-tip title="❌"}
+Entwickle ein vollständiges Regiekonzept für eine moderne Adaption von Shakespeares Hamlet, einschliesslich Bühnenbild, Kostümgestaltung, Lichtdesign und einer Analyse der Charaktere.
 :::
 
-::: {.column width="10%"}
+::: {.callout-tip title="✅"}
+Erstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenbild und Kostüme visuell vermittelt werden könnte.
 :::
 
-::: {.column width="45%"}
-### Biologically Secondary  
-**We didn't evolve to learn:**
-
-- Reading & writing
-- Mathematics & algebra
-- Programming & analysis
-- Scientific reasoning
-
-*Needs explicit teaching & struggle!*
-:::
-:::
+- Wichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:
+  + "Kannst du ein Beispiel für ein spezifisches Kostümdetail geben, das moderne Elemente einbezieht?"
+  + "Wie könnte das Bühnenbild die Stimmung oder den inneren Konflikt der Charaktere widerspiegeln?"
 
 
+## 2. Fange einfach an und verbessere {.smaller}
 
-::: {.callout-important}
-**Primary knowledge can be learned through natural discovery, while academic skills require explicit instruction and structured practice.**
+Beispiel 2:
+
+
+::: {.callout-tip title="❌"}
+Erstelle einen umfassenden, mehrstufigen Behandlungsplan für einen Patienten mit chronischer Hypertonie, einschließlich Medikamentenregime, Lebensstiländerungen, Nachsorgezeitplan und möglichen Komplikationen.
 :::
 
-::: {.notes}
-To understand why AI disrupts learning so profoundly, we need to understand why schools exist in the first place.
-:::
----
-
-## How Expertise Actually Develops {.smaller}
-
-The Brain's Learning System:
-
-
-| Memory Type                | Description        | Characteristics                                                       | Example                                                |
-| -------------------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Declarative Memory** | **"Knowing That"** | • Facts and rules you hold consciously<br>• Slow, effortful retrieval | "To solve <br> $3x + 5 = 20$, <br> subtract $5$ from both sides" |
-| **Procedural Memory**   | **"Knowing How"**  | • Automatic "atomic thinking steps"<br>• Fast, effortless execution   | See <br>$3x + 5 = 20$ <br>→ instantly know $x = 5$               |
-
-
-:::: {.columns}
-::: {.column width="40%"}
-<br>
-
-**The journey**: Facts → Thousands of practice cycles → Automatic procedures → Expertise
-
-**Why struggle matters**: Each practice attempt strengthens the neural pathways that create expertise
+::: {.callout-tip title="✅"}
+Schlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem kürzlich eine leichte Hypertonie diagnostiziert wurde.
 :::
 
-::: {.column width="60%"}
-![](../../assets/img/ACTR3.jpg)
+- Wichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:
+  + "Kannst du mehr Details zu einer dieser Änderungen geben?"
+  + "Welche Auswirkungen hätte jede dieser Änderungen auf den Blutdruck?"
+  + "Gibt es mögliche Herausforderungen bei der Umsetzung dieser Änderungen?"
 
-:::
-::::
 
-::: {.attribution}
-Figure courtesy of [Scott H Young](https://www.scotthyoung.com/blog/2022/02/15/act-r/)
-:::
 
----
+## 3. Verwende Beispiele und Kontext
 
-## The Weak-to-Strong Methods Journey {.smaller}
+Beschreibe, welche Art von Output du erwartest
+Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst
 
-How novices become experts through progressive skill building:
-
-| Stage | Description | Methods/Characteristics | Nature |
-|-------|-------------|------------------------|---------|
-| **Weak Methods (Novice)** | General strategies when lacking knowledge | • Means-end analysis<br>• Working backward<br>• Trial and error<br>• Surface analogies<br>• Hill climbing | *Slow, effortful, but essential for learning* |
-| **Proceduralization** | Patterns become procedures | • Repeated sequences chunk together<br>• Still conscious but more fluid<br>• Reduced cognitive load<br>• Faster with fewer errors | *The critical transition phase* |
-| **Strong Methods (Expert)** | Domain-specific automaticity | • Pattern recognition<br>• Forward chaining<br>• Compiled procedures<br>• Deep structural understanding | *Fast, accurate, unconscious* |
-
-::: {.callout-warning}
-## Why This Matters for AI Use
-**AI provides expert-level answers (strong methods) to novices who haven't developed through weak methods first.** This skips the essential struggle phase where real learning occurs.
-
-When novices use expert tools, they miss building the foundational procedures that enable true understanding.
+::: {.callout-tip title="❌"}
+Erkläre, wie man eine Skulptur restauriert.
 :::
 
----
+::: {.callout-tip title="✅"}
+Erkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berücksichtige dabei Schritte wie:
 
-## Productions: Your Brain's Atomic Thinking Steps {.smaller}
+  + Sichtung und Dokumentation des Schadens
+  + Auswahl und Testen geeigneter Materialien zur Rissfüllung
+  + Anwendung und Glättung des Füllmaterials
 
-How Complex Skills Are Built:
-
-::: {.columns}
-::: {.column width="45%"}
-**Productions = `IF-THEN` Rules**
-
-- IF see $3x + 5 = 20$ THEN subtract 5 from both sides
-- IF stuck on code THEN check syntax first
-- IF need to remember phone number THEN repeat internally
-
-*Each one is an "atomic thinking step"*
+Gib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schritt notwendig sind.
 :::
 
-::: {.column width="10%"}
+## 4. Leite den Denkprozess {.smaller}
+
+Bitte ChatGPT/Copilot, "Schritt für Schritt" zu denken oder seine Überlegungen zu erklären. Dies führt oft zu genaueren und detaillierteren Antworten.
+
+
+::: {.callout-tip title="❌"}
+Restauriere ein beschädigtes Ölgemälde mit mehreren Rissen und Farbverlusten.
 :::
 
-::: {.column width="45%"}
-**Production Competition**
+::: {.callout-tip title="✅"}
+Lass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbverlust Schritt für Schritt angehen:
 
-When you see $3x + 5 = 20$:
+  1. Zuerst beschreibe die Art und das Ausmass der Schäden.
+  2. Welche Faktoren könnten für die Schäden verantwortlich sein (z.B. Alterung, Lagerungsbedingungen)?
+  3. Welche Materialien und Techniken könnten zur Stabilisierung der Risse verwendet werden?
+  4. Welche Farbpigmente und Fixiermittel könnten zur Ausbesserung des Farbverlustes geeignet sein?
+  5. Welche Tests könnten vorher an kleinen Stellen des Gemäldes durchgeführt werden, um die Wirkung der Materialien zu prüfen?
 
-- Production A: "Guess and check" (weak)
-- Production B: "Subtract 5" (strong)
-- **Winner**: Strongest fires automatically
-
-*Practice strengthens winning productions*
+  Beginne mit Schritt 1.
 :::
+
+## 5. Nutze ChatGPT/Copilots "Wissen" {.smaller}
+
+- LLMs verfügen über breites Wissen
+- Frage nach Erklärungen oder Hintergrundinformationen
+- Gib relevanten Kontext an, damit ChatGPT/Copilot gezielter antworten kann
+
+::: {.callout-tip title="❌"}
+Erkläre, wie ein Orchester funktioniert.
 :::
 
-:::: {.columns}
-::: {.column width="40%"}
-::: {.callout-note}
-**Why this matters**: <br>
-Complex expertise = thousands of these atomic steps compiled together. **Offloading provides final answers without building the atomic steps.**
+::: {.callout-tip title="✅"}
+Erkläre, wie ein Sinfonieorchester funktioniert, als würdest du Musikstudierenden im ersten Semester eine Einführung geben. 
+
+Vergleiche dabei die Struktur eines Orchesters mit einem gut koordinierten Team, bei dem jede Gruppe eine spezifische Aufgabe übernimmt. 
+
+Erkläre die Rolle der verschiedenen Instrumentengruppen (Streicher, Bläser, Schlagwerk) und die des Dirigenten und zeige, wie sie zusammenarbeiten, um ein harmonisches Ganzes zu erzeugen.
 :::
-:::
-::: {.column width="60%"}
-![](../../assets/img/ACTR5.jpg)
-:::
-::::
 
-::: {.attribution}
-Figure courtesy of [Scott H Young](https://www.scotthyoung.com/blog/2022/02/15/act-r/)
-:::
----
-
-## The AI Bypass Problem {.smaller}
-
-Three Ways Learning Is Disrupted:
-
-| Issue | Problem | Consequence of offloading to AI|
-|-------|---------|-------------|
-| **No Prediction Errors** | Brain learns from gaps between "what I expect" and "what happens" | Eliminates this entirely |
-| **No Memory Formation** | Information that isn't actively processed isn't stored | Provides answers without processing |
-| **No Procedural Development** | Expertise requires thousands of "atomic thinking steps" | Skips this building process |
-
+## 5. Nutze ChatGPT/Copilots "Wissen"
 
 <br> <br>
 
-::: {.callout-warning}
-**Result**: Offloading cognitive processes can lead to surface fluency without deep understanding and complete dependency on tools.
+::: {.callout-caution title="Achtung" appearance="default"}
+Immer den Output eines LLM anhand externer Quellen überprüfen. **Sprachmodelle sind keine Nachschlagewerke**.
 :::
 
----
-
-## The Research Reality
-
-### What Studies Show About AI Use in Learning:
-
-<!-- ::: {.incremental} -->
-- **68% reduction in critical thinking** among high AI users
-- **Surface learning only** in programming students using ChatGPT  
-- **Flynn Effect reversal**: IQ scores declining since we stopped memorizing
-- Students can't solve basic problems without AI after repeated AI-assisted attempts
-<!-- ::: -->
+## 6. Verwende Rollenspieltechniken {.smaller}
 
 
-::: {.callout-warning}
-**We abandoned proven learning methods just as neuroscience proved why they work!**
+- Bitte ChatGPT/Copilot, eine bestimmte Rolle oder Perspektive einzunehmen
+- Dies kann zu spezifischeren und relevanteren Antworten führen
+
+::: {.callout-tip title="❌"}
+Gib Tipps zur Verbesserung der Bühnenpräsenz.
 :::
 
----
+::: {.callout-tip title="✅"}
+Du bist eine erfahrene Theaterregisseurin, die seit über 15 Jahren mit Schauspielstudierenden arbeitet. 
 
-## Evidence-Based Guidelines
+Was sind deine drei wichtigsten Tipps für junge Schauspieler, um ihre Bühnenpräsenz zu stärken? 
 
-:::: {.columns}
-::: {.column width="50%"}
-
-::: {.callout-note}
-1. **Embrace the Struggle**
-   - Confusion is a necessary stage of learning
-   - Errors provide valuable prediction error signals
-   - Difficulty signals brain growth
-:::
-::: {.callout-note}
-2. **Practice Retrieval**
-   - Test yourself before checking answers
-   - Explain concepts without notes
-   - Teach others what you're learning
-:::
-::: {.callout-note}
-3. **Space Your Learning**
-   - Return to concepts over days/weeks
-   - Allow forgetting between sessions
-   - Relearn in different contexts
-:::
-:::
-::: {.column width="50%"}
-::: {.callout-note}
-4. **Vary Your Practice**
-   - Mix problem types
-   - Change contexts
-   - Seek novel applications
-:::
-::: {.callout-note}
-5. **Protect Your Prediction Errors**
-   - Make attempts before seeking help
-   - Notice when your expectations are wrong
-   - Use errors as learning opportunities, not failures
-:::
-:::
-::::
-
----
-
-## Teaching That Matches How Brains Learn {.smaller}
-
-::: {.columns}
-::: {.column width="50%"}
-::: {.callout-important}
-## 1. Respect the Developmental Sequence
-- Weak methods must come first—they're not a bug, they're a feature
-- Proceduralization requires extensive practice with deliberative processes
-- Compilation happens automatically after sufficient repetition
-:::
-::: {.callout-important}
-## 2. Calibrate Cognitive Load
-- Novices need simplified, sequential presentation
-- Experts can handle complex, parallel processing
-- The same material must be presented differently based on expertise level
-:::
-:::
-::: {.column width="50%"}
-::: {.callout-important}
-## 3. Protect the Struggle Window
-- Allow sufficient time for independent struggle before AI consultation
-- Document thinking process before seeking external help
-- Multiple attempts required before accessing solutions
-:::
-::: {.callout-important}
-## 4. Scaffold, Don't Substitute
-- Use AI to reduce irrelevant cognitive load, not eliminate all effort
-- Provide worked examples that show the process, not just answers
-- Gradually fade support as competence develops
-:::
-:::
+Berücksichtige dabei Aspekte wie Körperhaltung, Stimme und Interaktion mit dem Publikum und gib konkrete Übungen oder Techniken an, die die Schauspieler ausprobieren können.
 :::
 
-::: {.callout-important}
-## The Key Insight:
-**AI is an expert-level tool**. Using it before building foundational skills through weak methods isn't just ineffective---it actively prevents the very processes that create expertise.
+## Bonustips
+<br> <br>
 
-**Design learning experiences that match how brains actually develop competence.**
+::: {.callout-tip}
+- **Mentales Modell**: Ein LLM wie einen "Junior Assistant" behandeln.
+- **Struktierten Output** verlangen (Tabellen, Listen, etc.)
+- **Input strukturieren** (LLMs können diesen besser "verstehen")
+- Ein **LLM (z.B. ChatGPT/Copilot) nach Prompting Tips fragen**. LLMs sind nicht auf dem neuesten Stand, aber haben sehr wahrscheinlich die bis vor kurzem aktuelle Literatur "gelesen".
+- **ChatGPT Tip**: Anweisen, **Python** zu benutzen. Python ist eine Programmiersprache, die ChatGPT sehr gut beherrscht. Mit Python kann ChatGPT Daten analysieren, Grafiken erstellen, Word/Excel/Powerpoint Dateien erstellen.
 :::
+
+<!-- ## Questions / Discussion {{< bi chat-dots >}} -->
+<!-- 
+## References {background-color="#D8DEE9"}
+
+::: {#refs}
+::: -->

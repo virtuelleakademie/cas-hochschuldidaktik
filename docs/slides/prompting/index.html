@@ -9,11 +9,12 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
   <meta name="author" content="Andrew Ellis">
-  <title>CAS Hochschuldidaktik – index</title>
+  <title>CAS Hochschuldidaktik – Prompting: Eine Einführung</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -151,7 +152,7 @@
     background-image: none;
   }
   </style>
-<meta property="og:title" content="CAS Hochschuldidaktik">
+<meta property="og:title" content="Prompting: Eine Einführung – CAS Hochschuldidaktik">
 <meta property="og:site_name" content="CAS Hochschuldidaktik">
 </head>
 <body class="quarto-light">
@@ -159,8 +160,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
-  <h1 class="title">How Humans Learn</h1>
-  <p class="subtitle">Cognitive effort is not a bug—it’s the feature</p>
+  <h1 class="title">Prompting: Eine Einführung</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -172,448 +172,314 @@ Andrew Ellis
 
   <p class="date">18 August, 2025</p>
 </section>
-<section id="what-you-just-experienced" class="slide level2 transition">
-<h2>What You Just Experienced</h2>
-<p>Your Three Research Modes:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 37%">
-<col style="width: 32%">
-<col style="width: 30%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Research Mode</th>
-<th>Description</th>
-<th>How did it feel?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Without AI</strong></td>
-<td><em>Classical sources</em></td>
-<td>Slower, effortful, uncertain</td>
-</tr>
-<tr class="even">
-<td><strong>Single AI Prompt</strong></td>
-<td><em>One question</em></td>
-<td>Fast, confident, comprehensive</td>
-</tr>
-<tr class="odd">
-<td><strong>Collaborative AI</strong></td>
-<td><em>Iterative questions</em></td>
-<td>Engaging, interactive, refined</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-important no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>The Critical Question:</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>Which mode will you remember and transfer a week from now?</strong></p>
-<p><em>The immediate “feel” doesn’t predict long-term learning…</em></p>
-</div>
-</div>
-</div>
-</section>
-<section id="why-schools-exist-the-knowledge-divide" class="slide level2">
-<h2>Why Schools Exist: The Knowledge Divide</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<h3 id="biologically-primary">Biologically Primary</h3>
-<p><strong>We evolved to learn:</strong></p>
+<section id="was-ist-ein-prompt" class="slide level2">
+<h2>Was ist ein Prompt?</h2>
+<p><br> <br> <img data-src="../../assets/images/unlock-llm.png"></p>
 <ul>
-<li>Speaking &amp; understanding</li>
-<li>Recognizing faces<br>
-</li>
-<li>Reading social cues</li>
-<li>Basic problem solving</li>
+<li>Ein Prompt ist ein Text (Anweisung), das einem generativen KI-Modell gegeben wird, um bestimmte Informationen zu generieren oder zu verstehen.</li>
+<li>Prompts dienen als Startpunkt beispielsweise für die Generierung von Ideen, Texten, Übersetzungen und Antworten auf Fragen.</li>
 </ul>
-<p><em>Natural discovery works!</em></p>
-</div><div class="column" style="width:10%;">
+</section>
+<section id="wie-wird-text-output-erzeugt" class="slide level2">
+<h2>Wie wird Text (Output) erzeugt?</h2>
+<p><br> <br> <img data-src="../../assets/images/once-upon-a-time.png"></p>
+</section>
+<section id="wie-kann-ich-den-output-beeinflussen" class="slide level2">
+<h2>Wie kann ich den Output beeinflussen?</h2>
 
-</div><div class="column" style="width:45%;">
-<h3 id="biologically-secondary">Biologically Secondary</h3>
-<p><strong>We didn’t evolve to learn:</strong></p>
-<ul>
-<li>Reading &amp; writing</li>
-<li>Mathematics &amp; algebra</li>
-<li>Programming &amp; analysis</li>
-<li>Scientific reasoning</li>
-</ul>
-<p><em>Needs explicit teaching &amp; struggle!</em></p>
-</div></div>
-<div class="callout callout-important no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p><strong>Primary knowledge can be learned through natural discovery, while academic skills require explicit instruction and structured practice.</strong></p>
-</div>
-</div>
-</div>
-<aside class="notes">
-<p>To understand why AI disrupts learning so profoundly, we need to understand why schools exist in the first place.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="how-expertise-actually-develops" class="slide level2 smaller">
-<h2>How Expertise Actually Develops</h2>
-<p>The Brain’s Learning System:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 10%">
-<col style="width: 41%">
-<col style="width: 32%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Memory Type</th>
-<th>Description</th>
-<th>Characteristics</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Declarative Memory</strong></td>
-<td><strong>“Knowing That”</strong></td>
-<td>• Facts and rules you hold consciously<br>• Slow, effortful retrieval</td>
-<td>“To solve <br> <span class="math inline">\(3x + 5 = 20\)</span>, <br> subtract <span class="math inline">\(5\)</span> from both sides”</td>
-</tr>
-<tr class="even">
-<td><strong>Procedural Memory</strong></td>
-<td><strong>“Knowing How”</strong></td>
-<td>• Automatic “atomic thinking steps”<br>• Fast, effortless execution</td>
-<td>See <br><span class="math inline">\(3x + 5 = 20\)</span> <br>→ instantly know <span class="math inline">\(x = 5\)</span></td>
-</tr>
-</tbody>
-</table>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><br></p>
-<p><strong>The journey</strong>: Facts → Thousands of practice cycles → Automatic procedures → Expertise</p>
-<p><strong>Why struggle matters</strong>: Each practice attempt strengthens the neural pathways that create expertise</p>
-</div><div class="column" style="width:60%;">
-<p><img data-src="../../assets/img/ACTR3.jpg"></p>
-</div></div>
-<div class="attribution">
-<p>Figure courtesy of <a href="https://www.scotthyoung.com/blog/2022/02/15/act-r/">Scott H Young</a></p>
-</div>
-</section>
-<section id="the-weak-to-strong-methods-journey" class="slide level2 smaller">
-<h2>The Weak-to-Strong Methods Journey</h2>
-<p>How novices become experts through progressive skill building:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 13%">
-<col style="width: 24%">
-<col style="width: 45%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Stage</th>
-<th>Description</th>
-<th>Methods/Characteristics</th>
-<th>Nature</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Weak Methods (Novice)</strong></td>
-<td>General strategies when lacking knowledge</td>
-<td>• Means-end analysis<br>• Working backward<br>• Trial and error<br>• Surface analogies<br>• Hill climbing</td>
-<td><em>Slow, effortful, but essential for learning</em></td>
-</tr>
-<tr class="even">
-<td><strong>Proceduralization</strong></td>
-<td>Patterns become procedures</td>
-<td>• Repeated sequences chunk together<br>• Still conscious but more fluid<br>• Reduced cognitive load<br>• Faster with fewer errors</td>
-<td><em>The critical transition phase</em></td>
-</tr>
-<tr class="odd">
-<td><strong>Strong Methods (Expert)</strong></td>
-<td>Domain-specific automaticity</td>
-<td>• Pattern recognition<br>• Forward chaining<br>• Compiled procedures<br>• Deep structural understanding</td>
-<td><em>Fast, accurate, unconscious</em></td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-warning no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Why This Matters for AI Use</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>AI provides expert-level answers (strong methods) to novices who haven’t developed through weak methods first.</strong> This skips the essential struggle phase where real learning occurs.</p>
-<p>When novices use expert tools, they miss building the foundational procedures that enable true understanding.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="productions-your-brains-atomic-thinking-steps" class="slide level2 smaller">
-<h2>Productions: Your Brain’s Atomic Thinking Steps</h2>
-<p>How Complex Skills Are Built:</p>
-<div class="columns">
-<div class="column" style="width:45%;">
-<p><strong>Productions = <code>IF-THEN</code> Rules</strong></p>
-<ul>
-<li>IF see <span class="math inline">\(3x + 5 = 20\)</span> THEN subtract 5 from both sides</li>
-<li>IF stuck on code THEN check syntax first</li>
-<li>IF need to remember phone number THEN repeat internally</li>
-</ul>
-<p><em>Each one is an “atomic thinking step”</em></p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:45%;">
-<p><strong>Production Competition</strong></p>
-<p>When you see <span class="math inline">\(3x + 5 = 20\)</span>:</p>
-<ul>
-<li>Production A: “Guess and check” (weak)</li>
-<li>Production B: “Subtract 5” (strong)</li>
-<li><strong>Winner</strong>: Strongest fires automatically</li>
-</ul>
-<p><em>Practice strengthens winning productions</em></p>
-</div></div>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p><strong>Why this matters</strong>: <br> Complex expertise = thousands of these atomic steps compiled together. <strong>Offloading provides final answers without building the atomic steps.</strong></p>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:60%;">
-<p><img data-src="../../assets/img/ACTR5.jpg"></p>
-</div></div>
-<div class="attribution">
-<p>Figure courtesy of <a href="https://www.scotthyoung.com/blog/2022/02/15/act-r/">Scott H Young</a></p>
-</div>
-</section>
-<section id="the-ai-bypass-problem" class="slide level2 smaller">
-<h2>The AI Bypass Problem</h2>
-<p>Three Ways Learning Is Disrupted:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 24%">
-<col style="width: 31%">
-<col style="width: 44%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Issue</th>
-<th>Problem</th>
-<th>Consequence of offloading to AI</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>No Prediction Errors</strong></td>
-<td>Brain learns from gaps between “what I expect” and “what happens”</td>
-<td>Eliminates this entirely</td>
-</tr>
-<tr class="even">
-<td><strong>No Memory Formation</strong></td>
-<td>Information that isn’t actively processed isn’t stored</td>
-<td>Provides answers without processing</td>
-</tr>
-<tr class="odd">
-<td><strong>No Procedural Development</strong></td>
-<td>Expertise requires thousands of “atomic thinking steps”</td>
-<td>Skips this building process</td>
-</tr>
-</tbody>
-</table>
-<p><br> <br></p>
-<div class="callout callout-warning no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p><strong>Result</strong>: Offloading cognitive processes can lead to surface fluency without deep understanding and complete dependency on tools.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="the-research-reality" class="slide level2">
-<h2>The Research Reality</h2>
-<h3 id="what-studies-show-about-ai-use-in-learning">What Studies Show About AI Use in Learning:</h3>
-<!-- ::: {.incremental} -->
-<ul>
-<li><strong>68% reduction in critical thinking</strong> among high AI users</li>
-<li><strong>Surface learning only</strong> in programming students using ChatGPT<br>
-</li>
-<li><strong>Flynn Effect reversal</strong>: IQ scores declining since we stopped memorizing</li>
-<li>Students can’t solve basic problems without AI after repeated AI-assisted attempts <!-- ::: --></li>
-</ul>
-<div class="callout callout-warning no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<p><strong>We abandoned proven learning methods just as neuroscience proved why they work!</strong></p>
-</div>
-</div>
-</div>
-</section>
-<section id="evidence-based-guidelines" class="slide level2">
-<h2>Evidence-Based Guidelines</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
+<img data-src="../../assets/images/output-beeinflussen.png" class="r-stretch"></section>
+<section id="prompting-grundlagen" class="slide level2">
+<h2>Prompting: Grundlagen</h2>
 <ol type="1">
-<li><strong>Embrace the Struggle</strong>
-<ul>
-<li>Confusion is a necessary stage of learning</li>
-<li>Errors provide valuable prediction error signals</li>
-<li>Difficulty signals brain growth</li>
-</ul></li>
+<li>Sei klar und präzise</li>
+<li>Fange einfach an und verbessere</li>
+<li>Verwende Beispiele und Kontext</li>
+<li>Leite den Denkprozess</li>
+<li>Nutze ChatGPT/Copilots “Wissen”</li>
+<li>Verwende Rollenspieltechniken</li>
 </ol>
-</div>
-</div>
-</div>
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<ol start="2" type="1">
-<li><strong>Practice Retrieval</strong>
-<ul>
-<li>Test yourself before checking answers</li>
-<li>Explain concepts without notes</li>
-<li>Teach others what you’re learning</li>
-</ul></li>
-</ol>
-</div>
-</div>
-</div>
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<ol start="3" type="1">
-<li><strong>Space Your Learning</strong>
-<ul>
-<li>Return to concepts over days/weeks</li>
-<li>Allow forgetting between sessions</li>
-<li>Relearn in different contexts</li>
-</ul></li>
-</ol>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<ol start="4" type="1">
-<li><strong>Vary Your Practice</strong>
-<ul>
-<li>Mix problem types</li>
-<li>Change contexts</li>
-<li>Seek novel applications</li>
-</ul></li>
-</ol>
-</div>
-</div>
-</div>
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
-<ol start="5" type="1">
-<li><strong>Protect Your Prediction Errors</strong>
-<ul>
-<li>Make attempts before seeking help</li>
-<li>Notice when your expectations are wrong</li>
-<li>Use errors as learning opportunities, not failures</li>
-</ul></li>
-</ol>
-</div>
-</div>
-</div>
-</div></div>
 </section>
-<section id="teaching-that-matches-how-brains-learn" class="slide level2 smaller">
-<h2>Teaching That Matches How Brains Learn</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="callout callout-important no-icon callout-titled callout-style-simple">
+<section id="sei-klar-und-präzise" class="slide level2">
+<h2>1. Sei klar und präzise</h2>
+<ul>
+<li>Formuliere deine Aufgabe oder Frage präzise</li>
+<li>Gib relevanten Kontext und Details an</li>
+<li>Unterteile komplexe Aufgaben in kleinere Schritte</li>
+</ul>
+<div title="❌">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
 <div class="callout-body">
 <div class="callout-title">
-<p><strong>1. Respect the Developmental Sequence</strong></p>
+<p><strong>❌</strong></p>
 </div>
 <div class="callout-content">
+<p>Beschreibe, wie KI in der Musikproduktion eingesetzt wird.</p>
+</div>
+</div>
+</div>
+</div>
+<div title="✅">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>✅</strong></p>
+</div>
+<div class="callout-content">
+<p>Beschreibe in etwa 200 Wörter, wie Künstliche Intelligenz zur Analyse und zum Arrangement von Jazz-Kompositionen verwendet werden kann. Gib konkrete Beispiele für Algorithmen oder Werkzeuge an, die in der Musikproduktion genutzt werden, um Muster zu erkennen und Vorschläge für Harmonievariationen zu generieren.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="fange-einfach-an-und-verbessere" class="slide level2 smaller">
+<h2>2. Fange einfach an und verbessere</h2>
+<p>Beispiel 1:</p>
+<div title="❌">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>❌</strong></p>
+</div>
+<div class="callout-content">
+<p>Entwickle ein vollständiges Regiekonzept für eine moderne Adaption von Shakespeares Hamlet, einschliesslich Bühnenbild, Kostümgestaltung, Lichtdesign und einer Analyse der Charaktere.</p>
+</div>
+</div>
+</div>
+</div>
+<div title="✅">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>✅</strong></p>
+</div>
+<div class="callout-content">
+<p>Erstelle drei zentrale Ideen, wie eine moderne Version von Hamlet durch Bühnenbild und Kostüme visuell vermittelt werden könnte.</p>
+</div>
+</div>
+</div>
+</div>
 <ul>
-<li>Weak methods must come first—they’re not a bug, they’re a feature</li>
-<li>Proceduralization requires extensive practice with deliberative processes</li>
-<li>Compilation happens automatically after sufficient repetition</li>
+<li>Wichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:
+<ul>
+<li>“Kannst du ein Beispiel für ein spezifisches Kostümdetail geben, das moderne Elemente einbezieht?”</li>
+<li>“Wie könnte das Bühnenbild die Stimmung oder den inneren Konflikt der Charaktere widerspiegeln?”</li>
+</ul></li>
+</ul>
+</section>
+<section id="fange-einfach-an-und-verbessere-1" class="slide level2 smaller">
+<h2>2. Fange einfach an und verbessere</h2>
+<p>Beispiel 2:</p>
+<div title="❌">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>❌</strong></p>
+</div>
+<div class="callout-content">
+<p>Erstelle einen umfassenden, mehrstufigen Behandlungsplan für einen Patienten mit chronischer Hypertonie, einschließlich Medikamentenregime, Lebensstiländerungen, Nachsorgezeitplan und möglichen Komplikationen.</p>
+</div>
+</div>
+</div>
+</div>
+<div title="✅">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>✅</strong></p>
+</div>
+<div class="callout-content">
+<p>Schlage drei wichtige Lebensstiländerungen für einen Patienten vor, bei dem kürzlich eine leichte Hypertonie diagnostiziert wurde.</p>
+</div>
+</div>
+</div>
+</div>
+<ul>
+<li>Wichtig: Dies ist nur der Ausgangspunkt. Basierend auf der Antwort solltest du weitere Fragen stellen oder um Erklärungen bitten. Zum Beispiel:
+<ul>
+<li>“Kannst du mehr Details zu einer dieser Änderungen geben?”</li>
+<li>“Welche Auswirkungen hätte jede dieser Änderungen auf den Blutdruck?”</li>
+<li>“Gibt es mögliche Herausforderungen bei der Umsetzung dieser Änderungen?”</li>
+</ul></li>
+</ul>
+</section>
+<section id="verwende-beispiele-und-kontext" class="slide level2">
+<h2>3. Verwende Beispiele und Kontext</h2>
+<p>Beschreibe, welche Art von Output du erwartest Gib ein Muster vor, wenn du ein bestimmtes Format oder einen Stil wünschst</p>
+<div title="❌">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>❌</strong></p>
+</div>
+<div class="callout-content">
+<p>Erkläre, wie man eine Skulptur restauriert.</p>
+</div>
+</div>
+</div>
+</div>
+<div title="✅">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>✅</strong></p>
+</div>
+<div class="callout-content">
+<p>Erkläre, wie man eine Marmorskulptur mit sichtbaren Rissen restauriert. Berücksichtige dabei Schritte wie:</p>
+<ul>
+<li>Sichtung und Dokumentation des Schadens</li>
+<li>Auswahl und Testen geeigneter Materialien zur Rissfüllung</li>
+<li>Anwendung und Glättung des Füllmaterials</li>
+</ul>
+<p>Gib Details zu den Werkzeugen, Materialien und Techniken an, die für jeden Schritt notwendig sind.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="leite-den-denkprozess" class="slide level2 smaller">
+<h2>4. Leite den Denkprozess</h2>
+<p>Bitte ChatGPT/Copilot, “Schritt für Schritt” zu denken oder seine Überlegungen zu erklären. Dies führt oft zu genaueren und detaillierteren Antworten.</p>
+<div title="❌">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>❌</strong></p>
+</div>
+<div class="callout-content">
+<p>Restauriere ein beschädigtes Ölgemälde mit mehreren Rissen und Farbverlusten.</p>
+</div>
+</div>
+</div>
+</div>
+<div title="✅">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>✅</strong></p>
+</div>
+<div class="callout-content">
+<p>Lass uns die Restaurierung eines beschädigten Ölgemäldes mit Rissen und Farbverlust Schritt für Schritt angehen:</p>
+<ol type="1">
+<li>Zuerst beschreibe die Art und das Ausmass der Schäden.</li>
+<li>Welche Faktoren könnten für die Schäden verantwortlich sein (z.B. Alterung, Lagerungsbedingungen)?</li>
+<li>Welche Materialien und Techniken könnten zur Stabilisierung der Risse verwendet werden?</li>
+<li>Welche Farbpigmente und Fixiermittel könnten zur Ausbesserung des Farbverlustes geeignet sein?</li>
+<li>Welche Tests könnten vorher an kleinen Stellen des Gemäldes durchgeführt werden, um die Wirkung der Materialien zu prüfen?</li>
+</ol>
+<p>Beginne mit Schritt 1.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="nutze-chatgptcopilots-wissen" class="slide level2 smaller">
+<h2>5. Nutze ChatGPT/Copilots “Wissen”</h2>
+<ul>
+<li>LLMs verfügen über breites Wissen</li>
+<li>Frage nach Erklärungen oder Hintergrundinformationen</li>
+<li>Gib relevanten Kontext an, damit ChatGPT/Copilot gezielter antworten kann</li>
+</ul>
+<div title="❌">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>❌</strong></p>
+</div>
+<div class="callout-content">
+<p>Erkläre, wie ein Orchester funktioniert.</p>
+</div>
+</div>
+</div>
+</div>
+<div title="✅">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>✅</strong></p>
+</div>
+<div class="callout-content">
+<p>Erkläre, wie ein Sinfonieorchester funktioniert, als würdest du Musikstudierenden im ersten Semester eine Einführung geben.</p>
+<p>Vergleiche dabei die Struktur eines Orchesters mit einem gut koordinierten Team, bei dem jede Gruppe eine spezifische Aufgabe übernimmt.</p>
+<p>Erkläre die Rolle der verschiedenen Instrumentengruppen (Streicher, Bläser, Schlagwerk) und die des Dirigenten und zeige, wie sie zusammenarbeiten, um ein harmonisches Ganzes zu erzeugen.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="nutze-chatgptcopilots-wissen-1" class="slide level2">
+<h2>5. Nutze ChatGPT/Copilots “Wissen”</h2>
+<p><br> <br></p>
+<div title="Achtung">
+<div class="callout callout-caution callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Achtung</strong></p>
+</div>
+<div class="callout-content">
+<p>Immer den Output eines LLM anhand externer Quellen überprüfen. <strong>Sprachmodelle sind keine Nachschlagewerke</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="verwende-rollenspieltechniken" class="slide level2 smaller">
+<h2>6. Verwende Rollenspieltechniken</h2>
+<ul>
+<li>Bitte ChatGPT/Copilot, eine bestimmte Rolle oder Perspektive einzunehmen</li>
+<li>Dies kann zu spezifischeren und relevanteren Antworten führen</li>
+</ul>
+<div title="❌">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>❌</strong></p>
+</div>
+<div class="callout-content">
+<p>Gib Tipps zur Verbesserung der Bühnenpräsenz.</p>
+</div>
+</div>
+</div>
+</div>
+<div title="✅">
+<div class="callout callout-tip no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>✅</strong></p>
+</div>
+<div class="callout-content">
+<p>Du bist eine erfahrene Theaterregisseurin, die seit über 15 Jahren mit Schauspielstudierenden arbeitet.</p>
+<p>Was sind deine drei wichtigsten Tipps für junge Schauspieler, um ihre Bühnenpräsenz zu stärken?</p>
+<p>Berücksichtige dabei Aspekte wie Körperhaltung, Stimme und Interaktion mit dem Publikum und gib konkrete Übungen oder Techniken an, die die Schauspieler ausprobieren können.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="bonustips" class="slide level2">
+<h2>Bonustips</h2>
+<p><br> <br></p>
+<div class="callout callout-tip no-icon callout-style-simple">
+<div class="callout-body">
+<div class="callout-content">
+<ul>
+<li><strong>Mentales Modell</strong>: Ein LLM wie einen “Junior Assistant” behandeln.</li>
+<li><strong>Struktierten Output</strong> verlangen (Tabellen, Listen, etc.)</li>
+<li><strong>Input strukturieren</strong> (LLMs können diesen besser “verstehen”)</li>
+<li>Ein <strong>LLM (z.B. ChatGPT/Copilot) nach Prompting Tips fragen</strong>. LLMs sind nicht auf dem neuesten Stand, aber haben sehr wahrscheinlich die bis vor kurzem aktuelle Literatur “gelesen”.</li>
+<li><strong>ChatGPT Tip</strong>: Anweisen, <strong>Python</strong> zu benutzen. Python ist eine Programmiersprache, die ChatGPT sehr gut beherrscht. Mit Python kann ChatGPT Daten analysieren, Grafiken erstellen, Word/Excel/Powerpoint Dateien erstellen.</li>
 </ul>
 </div>
 </div>
 </div>
-<div class="callout callout-important no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>2. Calibrate Cognitive Load</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>Novices need simplified, sequential presentation</li>
-<li>Experts can handle complex, parallel processing</li>
-<li>The same material must be presented differently based on expertise level</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="callout callout-important no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>3. Protect the Struggle Window</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>Allow sufficient time for independent struggle before AI consultation</li>
-<li>Document thinking process before seeking external help</li>
-<li>Multiple attempts required before accessing solutions</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-important no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>4. Scaffold, Don’t Substitute</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>Use AI to reduce irrelevant cognitive load, not eliminate all effort</li>
-<li>Provide worked examples that show the process, not just answers</li>
-<li>Gradually fade support as competence develops</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div>
-<div class="callout callout-important no-icon callout-titled callout-style-simple">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>The Key Insight:</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>AI is an expert-level tool</strong>. Using it before building foundational skills through weak methods isn’t just ineffective—it actively prevents the very processes that create expertise.</p>
-<p><strong>Design learning experiences that match how brains actually develop competence.</strong></p>
-</div>
-</div>
-</div>
+<!-- ## Questions / Discussion  -->
+<!-- 
+## References {background-color="#D8DEE9"}
+
+::: {#refs}
+::: -->
 
 
 </section>

@@ -20,10 +20,6 @@ This presentation reveals why offloading cognitive processing to AI can undermin
 {{< revealjs file="../slides/was-sind-chatbots/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
-## {{< bi file-slides >}} Möglichkeiten und Grenzen
-
-{{< revealjs file="../slides/möglichkeiten-grenzen/index.html" height="500px" class="ratio ratio-16x9" >}}
-
 ## {{< bi file-slides >}} Prompting Tipps
 
 {{< revealjs file="../slides/prompting/index.html" height="500px" class="ratio ratio-16x9" >}}
