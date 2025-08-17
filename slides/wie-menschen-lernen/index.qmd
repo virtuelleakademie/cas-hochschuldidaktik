@@ -119,10 +119,10 @@ Drei Wege, wie Lernen gestört wird:
 <br> <br>
 
 ::: {.callout-warning}
-**Ergebnis**: Die Auslagerung kognitiver Prozesse kann zu oberflächlicher Gewandtheit ohne tiefes Verständnis und vollständiger von Tools führen.
+**Ergebnis**: Die Auslagerung kognitiver Prozesse (*cognitive offloading*) kann zu oberflächlicher Verarbeitung ohne tiefes Verständnis und Abhängigkeit von Tools führen.
 :::
 
-## Das LERNE-Protokoll {.smaller}
+## Das LERN-Protokoll {.smaller}
 
 | | 🎯 Aktion | ⚡ Warum | 🚫 Nicht |
 |---|-----------|----------|----------|
@@ -130,7 +130,6 @@ Drei Wege, wie Lernen gestört wird:
 | **E**rlaube Fehler | Erst raten, dann prüfen | Vorhersagefehler = Lernsignal | Fehler vermeiden |
 | **R**ufe aktiv ab | Ohne Notizen erklären | Generierung > Erkennung | Passiv lesen |
 | **N**utze Abstände | Nach Tagen wiederholen | Vergessen + Neulernen = Behalten | Massiert üben |
-| **E**rkunde selbst | Erst versuchen, dann KI | Eigene Wege = Verständnis | Denken auslagern |
 
 :::{.callout-tip}
 ## Die 85%-Regel

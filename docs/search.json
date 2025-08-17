@@ -39,7 +39,7 @@
     "href": "slides/wie-menschen-lernen/index.html#das-problem-der-kognitiven-auslagerung",
     "title": "Wie Menschen lernen",
     "section": "Das Problem der kognitiven Auslagerung",
-    "text": "Das Problem der kognitiven Auslagerung\nDrei Wege, wie Lernen gestört wird:\n\n\n\n\n\n\n\n\nProblem\nMechanismus\nKonsequenz der Auslagerung an KI\n\n\n\n\nKeine Vorhersagefehler\nGehirn lernt aus Lücken zwischen “was ich erwarte” und “was passiert”\nEliminiert dies vollständig\n\n\nKeine Gedächtnisbildung\nInformation, die nicht aktiv verarbeitet wird, wird nicht gespeichert\nLiefert Antworten ohne Verarbeitung\n\n\nKeine prozedurale Entwicklung\nExpertise erfordert tausende “atomare Denkschritte”\nÜberspringt diesen Aufbauprozess\n\n\n\n \n\n\n\nErgebnis: Die Auslagerung kognitiver Prozesse kann zu oberflächlicher Gewandtheit ohne tiefes Verständnis und vollständiger von Tools führen."
+    "text": "Das Problem der kognitiven Auslagerung\nDrei Wege, wie Lernen gestört wird:\n\n\n\n\n\n\n\n\nProblem\nMechanismus\nKonsequenz der Auslagerung an KI\n\n\n\n\nKeine Vorhersagefehler\nGehirn lernt aus Lücken zwischen “was ich erwarte” und “was passiert”\nEliminiert dies vollständig\n\n\nKeine Gedächtnisbildung\nInformation, die nicht aktiv verarbeitet wird, wird nicht gespeichert\nLiefert Antworten ohne Verarbeitung\n\n\nKeine prozedurale Entwicklung\nExpertise erfordert tausende “atomare Denkschritte”\nÜberspringt diesen Aufbauprozess\n\n\n\n \n\n\n\nErgebnis: Die Auslagerung kognitiver Prozesse (cognitive offloading) kann zu oberflächlicher Verarbeitung ohne tiefes Verständnis und Abhängigkeit von Tools führen."
   },
   {
     "objectID": "slides/wie-menschen-lernen/index.html#das-lerne-protokoll",
@@ -1121,5 +1121,12 @@
     "title": "Wie funktionieren Chatbots?",
     "section": "Custom GPTs",
     "text": "Custom GPTs"
+  },
+  {
+    "objectID": "slides/wie-menschen-lernen/index.html#das-lern-protokoll",
+    "href": "slides/wie-menschen-lernen/index.html#das-lern-protokoll",
+    "title": "Wie Menschen lernen",
+    "section": "Das LERN-Protokoll",
+    "text": "Das LERN-Protokoll\n\n\n\n\n\n\n\n\n\n\n🎯 Aktion\n⚡ Warum\n🚫 Nicht\n\n\n\n\nLass Schwierigkeit zu\nVerwirrung aushalten\nAnstrengung = neuronale Bahnen\nLösungen nachschlagen\n\n\nErlaube Fehler\nErst raten, dann prüfen\nVorhersagefehler = Lernsignal\nFehler vermeiden\n\n\nRufe aktiv ab\nOhne Notizen erklären\nGenerierung &gt; Erkennung\nPassiv lesen\n\n\nNutze Abstände\nNach Tagen wiederholen\nVergessen + Neulernen = Behalten\nMassiert üben\n\n\n\n\n\n\nDie 85%-Regel\n\n\nZiel: ~85% Erfolg (nicht 95%+ oder &lt;70%)\n\n\n\n\nJeder leichte Weg = eine verpasste Lernchance\n\n\nVon Claude generiert."
   }
 ]
