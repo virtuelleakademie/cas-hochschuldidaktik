@@ -6,7 +6,7 @@ Diese Präsentation basiert auf den Erkenntnissen der kognitiven Psychologie und
 
 ## {{< bi file-slides >}} Input: Vom Anfänger zum Experten
 
-{{< revealjs file="../../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
+{{< revealjs file="../slides/wie-menschen-lernen/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
 
