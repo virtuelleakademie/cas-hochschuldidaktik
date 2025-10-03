@@ -60,6 +60,8 @@ website:
             file: resources/resources.qmd
           - text: "Begleitdokument: Orientierungshilfe (PDF)"
             file: assets/pdfs/Orientierungshilfe.pdf
+          - text: "KI-gestützte Reflexion"
+            href: resources/reflection/index.qmd
 
     tools:
       - icon: lightbulb-fill

@@ -32,13 +32,15 @@ about:
 
 <!-- {{< bi map >}} H55, Grosser Konzertsaal, Papiermühlestrasse 13d, 3014 Bern -->
 
-## Dozenten
+<br>
 
-<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
+## Dozent
 
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
-Gemeinsam erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. -->
+
+[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
+Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+
 
 ## Website
 
@@ -47,7 +49,3 @@ Gemeinsam erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkun
 <br>
 <!-- ## QR Code -->
 <!-- {{< qrcode https://virtuelleakademie.github.io/cas-hochschuldidaktik width=400 height=400 colorDark='#000000' >}} -->
-
-
-
-
