@@ -38,6 +38,7 @@ title: "KI-gestützte Reflexion"
 
 Custom GPT ausprobieren: [Reflection Guide](https://chatgpt.com/g/g-68df9b2d5ee0819185f9a3226559c9a7-reflection-guide).
 
+Copilot Agent ausprobieren: [Reflection Guide Agent](https://m365.cloud.microsoft:443/chat/?titleId=T_8121a55f-600a-b33e-f911-27b8064f8e04&source=embedded-builder).
 
 ::: {.prompt-template}
 ## Custom GPT Prompt-Vorlage: Reflection Guide
