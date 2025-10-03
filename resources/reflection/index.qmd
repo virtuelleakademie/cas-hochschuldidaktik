@@ -245,9 +245,9 @@ TON: Unterstützend, fragend, konkret
 
 **Prompting-Guides:**
 
-- **OpenAI Prompt Engineering:** https://platform.openai.com/docs/guides/prompt-engineering
-- **Anthropic Prompts Library:** https://docs.anthropic.com/prompts
-- **Learn Prompting:** https://learnprompting.org
+- [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Anthropic Prompts Library](https://docs.anthropic.com/prompts)
+- [Learn Prompting](https://learnprompting.org)
 
 **Reflexions-Frameworks:**
 
