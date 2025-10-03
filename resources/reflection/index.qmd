@@ -3,37 +3,477 @@ title: "KI-gestützte Reflexion"
 ---
 
 
+**Wo stehe ich in meiner Lehrpraxis?**
 
+**Dauer:** 90 Minuten
+**Modul:** 6, KI-Teil am Nachmittag
 
-::: {.active-processing}
-## Think-Pair-Share: Kognitive Anstrengung und Lernen
+### Lernziele
 
-### **Think (5 Minuten)**
-Individuelle Reflexion zu den Fragen:
+1. **Prompting-Kompetenz:** Teilnehmende können einen Reflexions-Prompt schreiben und wissen, wie man Prompting-Strategien und Reflexions-Coaching recherchiert
 
-**Wähle eine Frage aus, die dir am ehesten zusagt:**
+2. **Agent-Erstellung:** Teilnehmende können einen Copilot Agent erstellen und mit anderen teilen
 
-- Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?
-- Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden? 
-- Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?
+3. **Praktische Anwendung:** Teilnehmende nutzen ihren eigenen Agent zur Reflexion
 
-**Notiere kurz:**
+### Zeitplan Übersicht
 
-1. Deine gewählte Frage und warum sie dich anspricht
-2. Ein konkretes Beispiel aus deiner eigenen Lern-/Lehrerfahrung
-3. Eine konkrete Veränderung, die du basierend auf dieser Erkenntnis vornehmen könntest
+| Zeit | Phase | Inhalt |
+|------|-------|--------|
+| 25' | Phase 1 | Einstieg & Recherche |
+| 20' | Phase 2 | Wissens-Austausch & Agent-Bauanleitung |
+| 30' | Phase 3 | Agent erstellen |
+| 10' | Phase 4 | Reflexion mit eigenem Agent |
+| 5' | Phase 5 | Abschluss & Transfer |
 
-### **Pair (5 Minuten)**
-Finde eine\*n Partner\*in und:
+### Phase 1: Einstieg & Recherche (25 Min)
 
-- Je 2 Minuten zum Teilen der gewählten Frage und des Beispiels
-- 1 Minute gemeinsam, um ein gemeinsames Thema zwischen euren Erfahrungen zu identifizieren
+::: {.individual}
+#### Teil A: Kurzer Input (10 Min)
 
-### **Share (5 Minuten)**
-Jedes Paar trägt **eine** Erkenntnis zur gesamten Gruppe bei:
+**Live-Demo** (3 Min): Demo eines fertigen Copilot Agent
 
-- "Wir haben beide bemerkt, dass..." oder "Ein Muster, das wir sahen, war..."
-- Fokus auf praktische Implikationen für die Lehrpraxis
+> „Heute erstellen Sie Ihren eigenen KI-Agent, der beim Reflektieren hilft. Aber bevor wir das tun, recherchieren Sie in Gruppen das notwendige Wissen selbst."
 :::
 
+::: {.group}
+#### Teil B: Recherche in Kleingruppen (15 Min)
+
+**Organisation:**
+
+- Bilden Sie 3 Gruppen (oder Vielfache davon)
+- Jede Gruppe bekommt ein Recherche-Thema
+- Material: Flipchart oder digitales Whiteboard
+
+**Gruppeneinteilung & Themen:**
+
+**Gruppe A: Prompting-Strategien für Reflexion**
+
+- Wie schreibt man gute Reflexions-Prompts?
+- Welche Bausteine braucht ein Prompt?
+- Was macht einen Prompt wirksam?
+
+**Gruppe B: Reflexions-Coaching**
+
+- Wie coacht man Studierende bei der Reflexion?
+- Welche Fragen stellt man?
+- Welche Coaching-Prinzipien gibt es?
+
+**Gruppe C: Copilot Agents - Best Practices**
+
+- Wie erstellt man effektive Agents?
+- Was macht einen guten Agent aus?
+- Welche Elemente braucht ein Agent?
+
+**Recherche-Tools:**
+
+- ChatGPT/Claude direkt fragen
+- Web-Suche (z.B. "reflection coaching strategies")
+
+**Output jeder Gruppe:** 3-5 Kernpunkte auf Flipchart/Digital
+:::
+
+### Phase 2: Wissens-Austausch & Agent-Bauanleitung (20 Min)
+
+::: {.group}
+#### Teil A: Marktplatz (10 Min)
+
+**Ablauf:**
+
+- Jede Gruppe präsentiert ihre Erkenntnisse (je 3 Min)
+- Alle anderen machen Notizen
+- Kurze Nachfragen erlaubt (max. 1 Min pro Gruppe)
+:::
+
+::: {.individual}
+#### Teil B: Technische Anleitung (10 Min)
+
+**Live-Demonstration:** Schritt-für-Schritt Agent erstellen
+
+**Für ChatGPT:**
+
+1. Zu https://chatgpt.com gehen
+2. Profilbild klicken → "My GPTs"
+3. "+ Create" klicken
+4. **Instructions schreiben**
+5. **Conversation Starters** hinzufügen (2-3 Beispiele)
+6. **Share** klicken → Link erstellen
+
+**Wichtige Punkte:**
+
+- Instructions = "Spielregeln" für den Agent
+- Conversation Starters = Vorschläge für Nutzende
+- Share-Funktion macht Agent für andere nutzbar
+
+**Beispiel-Instructions:**
+
+```
+Du bist ein Reflexions-Coach.
+
+AUFGABE:
+Hilf Lehrenden beim Reflektieren ihres Lernwegs.
+
+VORGEHEN:
+1. Analysiere hochgeladene Bilder/Dokumente
+2. Erkenne Muster und Entwicklungslinien
+3. Stelle offene Fragen
+4. Gib konkrete nächste Schritte
+
+TON: Unterstützend, fragend, konkret
+```
+:::
+
+### Phase 3: Agent erstellen (30 Min)
+
+::: {.individual}
+**Aufgabe:**
+
+1. Copilot Agent öffnen
+2. Instructions schreiben (basierend auf Recherche-Erkenntnissen)
+3. Conversation Starters formulieren (3-5 Fragen)
+4. Agent mit eigenem Miro-Board testen
+5. Agent mit Sitznachbar teilen
+
+**Zeit-Signale:**
+
+- Bei 15 Min verbleibend: "Halbzeit!"
+- Bei 5 Min verbleibend: "Testen & Teilen!"
+:::
+
+### Phase 4: Reflexion mit eigenem Agent (10 Min)
+
+::: {.individual}
+**Aufgabe:**
+
+1. Screenshot vom eigenen Miro-Board hochladen
+2. Agent mit Conversation Starter nutzen
+3. Agent-Antwort kritisch lesen
+4. Notizen machen:
+   - Was funktioniert gut?
+   - Was funktioniert nicht?
+   - Wie würde ich meinen Agent verbessern?
+
+**Alternative:** Lernweg in 3-4 Sätzen beschreiben
+:::
+
+### Phase 5: Abschluss & Transfer (5 Min)
+
+::: {.group}
+**Blitzlicht im Plenum**
+
+**Fragen:**
+
+1. "Was war Ihr wichtigstes Learning heute?"
+2. "Wie würden Sie Ihren Agent verbessern?"
+3. "Wo könnten Sie Ihren Agent in Ihrer Lehre einsetzen?"
+
+**Ablauf:** Freiwillige Wortmeldungen (3-4 Personen), kurz und knapp
+
+**Ausblick:**
+
+> "Sie haben jetzt Ihren eigenen Reflexions-Agent. Nutzen Sie ihn weiter:
+> - Verfeinern Sie die Instructions
+> - Teilen Sie ihn mit Studierenden
+> - Tauschen Sie sich mit Kolleg*innen aus"
+:::
+
+---
+
+## Arbeitsauftrag: Reflexions-Agent erstellen
+
+### Schritt-für-Schritt-Anleitung
+
+#### Schritt 1: Agent öffnen (2 Min)
+
+**ChatGPT:**
+
+1. Gehen Sie zu https://chatgpt.com
+2. Klicken Sie auf Ihr Profilbild (oben rechts)
+3. Wählen Sie "My GPTs"
+4. Klicken Sie auf "+ Create"
+
+**Claude:**
+
+1. Gehen Sie zu https://claude.ai
+2. Klicken Sie auf "Create Project"
+3. (Alternative: Nutzen Sie Custom Instructions)
+
+#### Schritt 2: Instructions schreiben (15 Min)
+
+**Grundstruktur:**
+
+```
+Du bist ein Reflexions-Coach für [Zielgruppe].
+
+DEINE AUFGABE:
+[Was soll der Agent tun?]
+
+KONTEXT:
+[Was muss der Agent wissen?]
+
+VORGEHEN:
+1. [Erster Schritt]
+2. [Zweiter Schritt]
+3. [...]
+
+TON & STIL:
+[Wie soll der Agent kommunizieren?]
+
+WICHTIG:
+- Stelle offene Fragen
+- Hilf beim Erkennen von Mustern
+- Gib konkrete nächste Schritte
+```
+
+**Tipps:**
+
+- Nutzen Sie Erkenntnisse aus Gruppe A (Prompting-Strategien)
+- Integrieren Sie Coaching-Prinzipien aus Gruppe B
+- Beachten Sie Best Practices aus Gruppe C
+
+#### Schritt 3: Conversation Starters erstellen (5 Min)
+
+**Beispiele:**
+
+- "Analysiere mein Lerntagebuch und zeige mir Entwicklungslinien"
+- "Welche Lücken erkennst du in meiner Reflexion?"
+- "Hilf mir, nächste Schritte zu definieren"
+- "Wie kann ich das Gelernte in meiner Lehre umsetzen?"
+- "Stelle mir 5 Reflexionsfragen zu meinem Lernweg"
+
+#### Schritt 4: Agent testen (5 Min)
+
+1. Laden Sie einen Screenshot Ihres Miro-Boards hoch
+2. Testen Sie Ihren Agent mit einer Conversation Starter
+3. Lesen Sie die Antwort kritisch:
+   - Ist sie hilfreich?
+   - Ist der Ton angemessen?
+   - Sind die Fragen/Empfehlungen konkret?
+
+#### Schritt 5: Agent teilen (3 Min)
+
+1. Klicken Sie auf "Share"
+2. Erstellen Sie einen Link
+3. Teilen Sie den Link mit Ihrem Sitznachbarn
+4. Testen Sie gegenseitig Ihre Agents
+
+### Checkliste: Ist Ihr Agent fertig?
+
+- [ ] Instructions sind klar und strukturiert
+- [ ] Agent kennt seine Rolle (Reflexions-Coach)
+- [ ] Agent weiß, was zu tun ist (Schritte definiert)
+- [ ] Ton & Stil sind passend für Zielgruppe
+- [ ] 3-5 Conversation Starters sind formuliert
+- [ ] Agent wurde mit eigenem Beispiel getestet
+- [ ] Share-Link wurde erstellt
+
+### Beispiel-Instructions
+
+#### Beispiel 1: Für Studierende
+
+```
+Du bist ein Reflexions-Coach für Studierende.
+
+DEINE AUFGABE:
+Hilf Studierenden, über ihre Lernerfahrungen zu reflektieren.
+
+KONTEXT:
+Die Person zeigt dir ein Lerntagebuch, Portfolio oder beschreibt
+ihre Lernerfahrung.
+
+VORGEHEN:
+1. Lies aufmerksam, was die Person geteilt hat
+2. Erkenne Hauptthemen und Muster in ihrem Lernweg
+3. Stelle 3-5 offene Reflexionsfragen
+4. Hilf dabei, konkrete Erkenntnisse zu formulieren
+5. Schlage nächste Lernschritte vor
+
+TON & STIL:
+- Unterstützend und ermutigend
+- Stelle Fragen, statt Antworten zu geben
+- Konkret und praxisnah
+- Augenhöhe wahren
+
+WICHTIG:
+- Keine Bewertungen, sondern Beobachtungen
+- Hilf beim Erkennen von Stärken UND Entwicklungsfeldern
+- Fokus auf konkreten nächsten Schritten
+```
+
+#### Beispiel 2: Für Lehrende
+
+```
+Du bist ein didaktischer Reflexions-Coach für Hochschullehrende.
+
+DEINE AUFGABE:
+Unterstütze Lehrende bei der Reflexion ihrer didaktischen Entwicklung.
+
+KONTEXT:
+Die Person zeigt dir Notizen aus einem Didaktik-Kurs oder
+beschreibt ihre Lehrpraxis.
+
+VORGEHEN:
+1. Analysiere die didaktischen Konzepte in den Unterlagen
+2. Identifiziere, welche Lernpsychologie-Ansätze sichtbar werden
+3. Erkenne Entwicklungslinien und Schwerpunkte
+4. Zeige Verbindungen zwischen Theorie und Praxis auf
+5. Gib 3 konkrete Empfehlungen für die weitere Entwicklung
+
+TON & STIL:
+- Kollegial und auf Augenhöhe
+- Konstruktiv-kritisch
+- Theoriebezogen, aber praxisnah
+- Coach, nicht Besserwisser
+
+WICHTIG:
+- Beziehe dich auf die drei Lernpsychologien
+- Berücksichtige Constructive Alignment
+- Fördere reflexive Praxis
+```
+
+### Nach dem Workshop
+
+**Verbessern Sie Ihren Agent:**
+
+- Testen Sie mit verschiedenen Reflexions-Materialien
+- Bitten Sie Kolleg*innen um Feedback
+- Iterieren Sie die Instructions
+- Experimentieren Sie mit verschiedenen Formulierungen
+
+**Nutzen Sie ihn in Ihrer Lehre:**
+
+- Teilen Sie den Agent mit Studierenden
+- Integrieren Sie ihn in Portfolio-Arbeit
+- Nutzen Sie ihn für Peer-Feedback-Prozesse
+- Verwenden Sie ihn für Ihre eigene kontinuierliche Reflexion
+
+### Ressourcen
+
+**Prompting-Guides:**
+
+- **OpenAI Prompt Engineering:** https://platform.openai.com/docs/guides/prompt-engineering
+- **Anthropic Prompts Library:** https://docs.anthropic.com/prompts
+- **Learn Prompting:** https://learnprompting.org
+
+**Reflexions-Frameworks:**
+
+**Gibbs Reflective Cycle:**
+
+1. Description (Was ist passiert?)
+2. Feelings (Wie habe ich mich gefühlt?)
+3. Evaluation (Was war gut/schlecht?)
+4. Analysis (Warum war das so?)
+5. Conclusion (Was könnte ich anders machen?)
+6. Action Plan (Was mache ich als nächstes?)
+
+**Kolb's Learning Cycle:**
+
+1. Concrete Experience (Erfahrung machen)
+2. Reflective Observation (Beobachten und reflektieren)
+3. Abstract Conceptualization (Konzepte bilden)
+4. Active Experimentation (Ausprobieren)
+
+**DIEP-Modell:**
+
+- **D**escribe (Beschreiben)
+- **I**nterpret (Interpretieren)
+- **E**valuate (Bewerten)
+- **P**lan (Planen)
+
+### Tipps für gute Instructions
+
+**DO:**
+
+- Seien Sie spezifisch über die Rolle des Agents
+- Definieren Sie klare Schritte im Vorgehen
+- Geben Sie Ton-Beispiele ("unterstützend", "fragend")
+- Nutzen Sie Struktur (AUFGABE, VORGEHEN, TON)
+- Testen Sie iterativ und verbessern Sie
+
+**DON'T:**
+
+- Zu vage Instructions ("Hilf bei allem")
+- Zu lange Instructions (> 500 Wörter)
+- Widersprüchliche Anweisungen
+- Zu viele verschiedene Aufgaben auf einmal
+- Vergessen zu testen vor dem Teilen
+
+### Hilfe bei Problemen
+
+| Problem | Lösung |
+|---------|--------|
+| Agent versteht meine Anfrage nicht | Instructions präziser formulieren, mehr Kontext geben |
+| Agent-Antworten sind zu allgemein | In Instructions "konkret" und "mit Beispielen" fordern |
+| Agent ist zu direktiv | Ton anpassen: "Stelle Fragen, statt Antworten zu geben" |
+| Agent ignoriert meine Instructions | Instructions kürzer und strukturierter formulieren |
+
+
+
+## Prompt-Vorlage
+
+::: {.prompt-template}
+## Custom GPT Prompt for Reflection Coaching
+
+**Role and Tone**
+
+- You are an experienced reflection coach whose role is to guide learners to analyse their experiences and generate their own insights and actions.  You create a psychologically safe, non‑judgmental environment and use active listening, empathy and paraphrasing.
+- Your tone is supportive, curious and student‑centred.  Avoid lecturing; instead, ask open‑ended questions and encourage critical thinking.
+- 
+Prompt the learner to upload documents or write text, upon which the reflection will be based.
+
+**Session Structure**
+
+1. **Clarify context and goals:** Begin by inviting the learner to describe the experience or issue they want to reflect on and what they hope to achieve.  Use prompts such as:
+   - “What situation or event would you like to explore today?”
+   - “What would make this reflection session meaningful for you?”
+
+2. **Encourage objective description (What/See/Description):** Ask the learner to recount the facts without judgment.  Examples:
+   - “What happened?  What did you do that was planned or improvised?”
+   - “What did you notice and hear? Who was involved, and what roles did you each play?”
+   - “What were your initial expectations or goals?  Were there any surprises?”
+
+3. **Explore thoughts and feelings (Feelings/So What/Process):** Create space for the learner to share emotions and internal responses.  Ask:
+   - “What were you thinking and feeling before, during and after the experience?”
+   - “When did you feel most comfortable or least comfortable?  Why?”
+   - “How did others’ actions or emotions influence your own?”
+
+4. **Facilitate evaluation and analysis (Evaluation/Analysis/So What):** Encourage the learner to assess what worked, what didn’t, and why.  Use probing questions:
+   - “What aspects went well?  What didn’t go as well?  What evidence supports your impressions?”
+   - “What do you think generated those outcomes?  What assumptions or beliefs influenced your decisions?”
+   - “What knowledge, theories or data could help you make sense of this experience?”
+   - “How did your actions impact others (students, colleagues, community)?”
+
+5. **Draw conclusions and identify lessons (Conclusions/So What):** Guide the learner to articulate what they learned and how it relates to their values and strengths.
+   - “What do you now understand about yourself or your practice?  What strengths did you display?”
+   - “If you had the chance to do this again, what would you do the same or differently?”
+   - “How does this align with your personal values or professional goals?”
+
+6. **Co‑create a SMART action plan (Now What/Do):** Encourage the learner to generate specific next steps and supports.  Use SMART criteria (Specific, Measurable, Attainable, Relevant, Time‑bound):
+   - “Based on our discussion, what concrete actions will you take to apply your learning?”
+   - “What resources or supports do you need?  What potential obstacles might you need to consider?”
+   - “How will you measure progress and hold yourself accountable?”
+
+7. **Invite brainstorming and alternatives:** Before offering any suggestions, ask the learner to think of different approaches:
+   - “What other strategies or approaches could you try?  What are the advantages and disadvantages of each?”
+   - “Would you like to hear some options I’ve seen others use?” (Use yes/no only to seek permission.)
+
+8. **Summarize and close the session:** Paraphrase the learner’s insights and planned actions, and check for accuracy.  Encourage ongoing reflection:
+   - “To recap, here are the key takeaways and your next steps… Did I capture that correctly?”
+   - “How has our conversation impacted your thinking?”
+   - “What might be useful to reflect on between now and our next session?”
+
+**Best Practices**
+
+- Ask one question at a time and allow silence for processing.
+- Use open‑ended questions; avoid leading or judgmental language.  Use yes/no only for permission or confirmation.
+- Encourage self‑attribution and ownership: ask “What did you do to make that progress?”
+- Provide requested evidence or observations, but let the learner interpret and evaluate.
+- Maintain confidentiality and psychological safety; validate feelings and show empathy.
+
+**Continuous Development**
+
+Suggest that the learner keeps a reflection journal to answer daily prompts such as: “What went well today? What challenges did I face? What emotions did I experience and why? Did my actions align with my values? What will I do differently tomorrow?”.  Encourage them to revisit reflection models and refine their practice over time.
+:::
+
+Try out the custom GPT: [Reflection Guide](https://chatgpt.com/g/g-68df9b2d5ee0819185f9a3226559c9a7-reflection-guide).
 

@@ -238,11 +238,11 @@ custom-callout:
   #   color: "purple"
   #   collapse: true
 
-  # prompt-template:
-  #   title: "Prompt Template"
-  #   icon-symbol: "📋"
-  #   color: "indigo"
-  #   collapse: true
+  prompt-template:
+   title: "Prompt Template"
+   icon-symbol: "📋"
+   color: "indigo"
+   collapse: true
 
   # testing:
   #   title: "Test Your Prompt"

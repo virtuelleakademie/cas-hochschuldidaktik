@@ -98,10 +98,22 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
   content: '📝';
   background-image: none;
 }
+div.callout-prompt-template.callout {
+  border-left-color: indigo;
+}
+div.callout-prompt-template.callout-style-default > .callout-header {
+  background-color: rgb(from indigo r g b / 13%);
+}
+div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
 </style>
 
 
 <meta property="og:title" content="KI-gestützte Reflexion – CAS Hochschuldidaktik">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="CAS Hochschuldidaktik">
 </head>
 
@@ -187,8 +199,31 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lernziele" id="toc-lernziele" class="nav-link active" data-scroll-target="#lernziele">🎯 Lernziele</a></li>
+  <li><a href="#zeitplan-übersicht" id="toc-zeitplan-übersicht" class="nav-link" data-scroll-target="#zeitplan-übersicht">⏱️ Zeitplan Übersicht</a></li>
+  <li><a href="#phase-1-einstieg-recherche-25-min" id="toc-phase-1-einstieg-recherche-25-min" class="nav-link" data-scroll-target="#phase-1-einstieg-recherche-25-min">📋 Phase 1: Einstieg &amp; Recherche (25 Min)</a></li>
+  <li><a href="#phase-2-wissens-austausch-agent-bauanleitung-20-min" id="toc-phase-2-wissens-austausch-agent-bauanleitung-20-min" class="nav-link" data-scroll-target="#phase-2-wissens-austausch-agent-bauanleitung-20-min">📋 Phase 2: Wissens-Austausch &amp; Agent-Bauanleitung (20 Min)</a></li>
+  <li><a href="#phase-3-agent-erstellen-30-min" id="toc-phase-3-agent-erstellen-30-min" class="nav-link" data-scroll-target="#phase-3-agent-erstellen-30-min">📋 Phase 3: Agent erstellen (30 Min)</a></li>
+  <li><a href="#phase-4-reflexion-mit-eigenem-agent-10-min" id="toc-phase-4-reflexion-mit-eigenem-agent-10-min" class="nav-link" data-scroll-target="#phase-4-reflexion-mit-eigenem-agent-10-min">📋 Phase 4: Reflexion mit eigenem Agent (10 Min)</a></li>
+  <li><a href="#phase-5-abschluss-transfer-5-min" id="toc-phase-5-abschluss-transfer-5-min" class="nav-link" data-scroll-target="#phase-5-abschluss-transfer-5-min">📋 Phase 5: Abschluss &amp; Transfer (5 Min)</a></li>
+  <li><a href="#arbeitsauftrag-reflexions-agent-erstellen" id="toc-arbeitsauftrag-reflexions-agent-erstellen" class="nav-link" data-scroll-target="#arbeitsauftrag-reflexions-agent-erstellen">📝 Arbeitsauftrag: Reflexions-Agent erstellen</a>
+  <ul class="collapse">
+  <li><a href="#schritt-für-schritt-anleitung" id="toc-schritt-für-schritt-anleitung" class="nav-link" data-scroll-target="#schritt-für-schritt-anleitung">Schritt-für-Schritt-Anleitung</a></li>
+  <li><a href="#checkliste-ist-ihr-agent-fertig" id="toc-checkliste-ist-ihr-agent-fertig" class="nav-link" data-scroll-target="#checkliste-ist-ihr-agent-fertig">✅ Checkliste: Ist Ihr Agent fertig?</a></li>
+  <li><a href="#beispiel-instructions" id="toc-beispiel-instructions" class="nav-link" data-scroll-target="#beispiel-instructions">📋 Beispiel-Instructions</a></li>
+  <li><a href="#nach-dem-workshop" id="toc-nach-dem-workshop" class="nav-link" data-scroll-target="#nach-dem-workshop">🔄 Nach dem Workshop</a></li>
+  <li><a href="#ressourcen" id="toc-ressourcen" class="nav-link" data-scroll-target="#ressourcen">📚 Ressourcen</a></li>
+  <li><a href="#tipps-für-gute-instructions" id="toc-tipps-für-gute-instructions" class="nav-link" data-scroll-target="#tipps-für-gute-instructions">💡 Tipps für gute Instructions</a></li>
+  <li><a href="#hilfe-bei-problemen" id="toc-hilfe-bei-problemen" class="nav-link" data-scroll-target="#hilfe-bei-problemen">🆘 Hilfe bei Problemen</a></li>
+  </ul></li>
+  <li><a href="#prompt-vorlage" id="toc-prompt-vorlage" class="nav-link" data-scroll-target="#prompt-vorlage">Prompt-Vorlage</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -212,52 +247,544 @@ div.callout-active-processing.callout-style-default .callout-icon::before, div.c
 </header>
 
 
-<div class="callout callout-style-default callout-active-processing callout-titled">
-<div class="callout-header d-flex align-content-center">
+<p><strong>Wo stehe ich in meiner Lehrpraxis?</strong></p>
+<p><strong>Dauer:</strong> 90 Minuten <strong>Modul:</strong> 6, KI-Teil am Nachmittag</p>
+<section id="lernziele" class="level3">
+<h3 class="anchored" data-anchor-id="lernziele">🎯 Lernziele</h3>
+<ol type="1">
+<li><p><strong>Prompting-Kompetenz:</strong> Teilnehmende können einen Reflexions-Prompt schreiben und wissen, wie man Prompting-Strategien und Reflexions-Coaching recherchiert</p></li>
+<li><p><strong>Agent-Erstellung:</strong> Teilnehmende können einen Copilot Agent erstellen und mit anderen teilen</p></li>
+<li><p><strong>Praktische Anwendung:</strong> Teilnehmende nutzen ihren eigenen Agent zur Reflexion</p></li>
+</ol>
+</section>
+<section id="zeitplan-übersicht" class="level3">
+<h3 class="anchored" data-anchor-id="zeitplan-übersicht">⏱️ Zeitplan Übersicht</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Zeit</th>
+<th>Phase</th>
+<th>Inhalt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>25’</td>
+<td>Phase 1</td>
+<td>Einstieg &amp; Recherche</td>
+</tr>
+<tr class="even">
+<td>20’</td>
+<td>Phase 2</td>
+<td>Wissens-Austausch &amp; Agent-Bauanleitung</td>
+</tr>
+<tr class="odd">
+<td>30’</td>
+<td>Phase 3</td>
+<td>Agent erstellen</td>
+</tr>
+<tr class="even">
+<td>10’</td>
+<td>Phase 4</td>
+<td>Reflexion mit eigenem Agent</td>
+</tr>
+<tr class="odd">
+<td>5’</td>
+<td>Phase 5</td>
+<td>Abschluss &amp; Transfer</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="phase-1-einstieg-recherche-25-min" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1-einstieg-recherche-25-min">📋 Phase 1: Einstieg &amp; Recherche (25 Min)</h3>
+<section id="teil-a-kurzer-input-10-min" class="level4 individual">
+<h4 class="anchored" data-anchor-id="teil-a-kurzer-input-10-min">Teil A: Kurzer Input (10 Min)</h4>
+<p><strong>Live-Demo</strong> (3 Min): Demo eines fertigen Copilot Agent</p>
+<blockquote class="blockquote">
+<p>„Heute erstellen Sie Ihren eigenen KI-Agent, der beim Reflektieren hilft. Aber bevor wir das tun, recherchieren Sie in Gruppen das notwendige Wissen selbst.”</p>
+</blockquote>
+</section>
+<section id="teil-b-recherche-in-kleingruppen-15-min" class="level4 group">
+<h4 class="anchored" data-anchor-id="teil-b-recherche-in-kleingruppen-15-min">Teil B: Recherche in Kleingruppen (15 Min)</h4>
+<p><strong>Organisation:</strong></p>
+<ul>
+<li>Bilden Sie 3 Gruppen (oder Vielfache davon)</li>
+<li>Jede Gruppe bekommt ein Recherche-Thema</li>
+<li>Material: Flipchart oder digitales Whiteboard</li>
+</ul>
+<p><strong>Gruppeneinteilung &amp; Themen:</strong></p>
+<p><strong>Gruppe A: Prompting-Strategien für Reflexion</strong></p>
+<ul>
+<li>Wie schreibt man gute Reflexions-Prompts?</li>
+<li>Welche Bausteine braucht ein Prompt?</li>
+<li>Was macht einen Prompt wirksam?</li>
+</ul>
+<p><strong>Gruppe B: Reflexions-Coaching</strong></p>
+<ul>
+<li>Wie coacht man Studierende bei der Reflexion?</li>
+<li>Welche Fragen stellt man?</li>
+<li>Welche Coaching-Prinzipien gibt es?</li>
+</ul>
+<p><strong>Gruppe C: Copilot Agents - Best Practices</strong></p>
+<ul>
+<li>Wie erstellt man effektive Agents?</li>
+<li>Was macht einen guten Agent aus?</li>
+<li>Welche Elemente braucht ein Agent?</li>
+</ul>
+<p><strong>Recherche-Tools:</strong></p>
+<ul>
+<li>ChatGPT/Claude direkt fragen</li>
+<li>Web-Suche (z.B. “reflection coaching strategies”)</li>
+</ul>
+<p><strong>Output jeder Gruppe:</strong> 3-5 Kernpunkte auf Flipchart/Digital</p>
+</section>
+</section>
+<section id="phase-2-wissens-austausch-agent-bauanleitung-20-min" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2-wissens-austausch-agent-bauanleitung-20-min">📋 Phase 2: Wissens-Austausch &amp; Agent-Bauanleitung (20 Min)</h3>
+<section id="teil-a-marktplatz-10-min" class="level4 group">
+<h4 class="anchored" data-anchor-id="teil-a-marktplatz-10-min">Teil A: Marktplatz (10 Min)</h4>
+<p><strong>Ablauf:</strong></p>
+<ul>
+<li>Jede Gruppe präsentiert ihre Erkenntnisse (je 3 Min)</li>
+<li>Alle anderen machen Notizen</li>
+<li>Kurze Nachfragen erlaubt (max. 1 Min pro Gruppe)</li>
+</ul>
+</section>
+<section id="teil-b-technische-anleitung-10-min" class="level4 individual">
+<h4 class="anchored" data-anchor-id="teil-b-technische-anleitung-10-min">Teil B: Technische Anleitung (10 Min)</h4>
+<p><strong>Live-Demonstration:</strong> Schritt-für-Schritt Agent erstellen</p>
+<p><strong>Für ChatGPT:</strong></p>
+<ol type="1">
+<li>Zu https://chatgpt.com gehen</li>
+<li>Profilbild klicken → “My GPTs”</li>
+<li>“+ Create” klicken</li>
+<li><strong>Instructions schreiben</strong></li>
+<li><strong>Conversation Starters</strong> hinzufügen (2-3 Beispiele)</li>
+<li><strong>Share</strong> klicken → Link erstellen</li>
+</ol>
+<p><strong>Wichtige Punkte:</strong></p>
+<ul>
+<li>Instructions = “Spielregeln” für den Agent</li>
+<li>Conversation Starters = Vorschläge für Nutzende</li>
+<li>Share-Funktion macht Agent für andere nutzbar</li>
+</ul>
+<p><strong>Beispiel-Instructions:</strong></p>
+<pre><code>Du bist ein Reflexions-Coach.
+
+AUFGABE:
+Hilf Lehrenden beim Reflektieren ihres Lernwegs.
+
+VORGEHEN:
+1. Analysiere hochgeladene Bilder/Dokumente
+2. Erkenne Muster und Entwicklungslinien
+3. Stelle offene Fragen
+4. Gib konkrete nächste Schritte
+
+TON: Unterstützend, fragend, konkret</code></pre>
+</section>
+</section>
+<section id="phase-3-agent-erstellen-30-min" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3-agent-erstellen-30-min">📋 Phase 3: Agent erstellen (30 Min)</h3>
+<div class="individual">
+<p><strong>Aufgabe:</strong></p>
+<ol type="1">
+<li>Copilot Agent öffnen</li>
+<li>Instructions schreiben (basierend auf Recherche-Erkenntnissen)</li>
+<li>Conversation Starters formulieren (3-5 Fragen)</li>
+<li>Agent mit eigenem Miro-Board testen</li>
+<li>Agent mit Sitznachbar teilen</li>
+</ol>
+<p><strong>Zeit-Signale:</strong></p>
+<ul>
+<li>Bei 15 Min verbleibend: “Halbzeit!”</li>
+<li>Bei 5 Min verbleibend: “Testen &amp; Teilen!”</li>
+</ul>
+</div>
+</section>
+<section id="phase-4-reflexion-mit-eigenem-agent-10-min" class="level3">
+<h3 class="anchored" data-anchor-id="phase-4-reflexion-mit-eigenem-agent-10-min">📋 Phase 4: Reflexion mit eigenem Agent (10 Min)</h3>
+<div class="individual">
+<p><strong>Aufgabe:</strong></p>
+<ol type="1">
+<li>Screenshot vom eigenen Miro-Board hochladen</li>
+<li>Agent mit Conversation Starter nutzen</li>
+<li>Agent-Antwort kritisch lesen</li>
+<li>Notizen machen:
+<ul>
+<li>Was funktioniert gut?</li>
+<li>Was funktioniert nicht?</li>
+<li>Wie würde ich meinen Agent verbessern?</li>
+</ul></li>
+</ol>
+<p><strong>Alternative:</strong> Lernweg in 3-4 Sätzen beschreiben</p>
+</div>
+</section>
+<section id="phase-5-abschluss-transfer-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="phase-5-abschluss-transfer-5-min">📋 Phase 5: Abschluss &amp; Transfer (5 Min)</h3>
+<div class="group">
+<p><strong>Blitzlicht im Plenum</strong></p>
+<p><strong>Fragen:</strong></p>
+<ol type="1">
+<li>“Was war Ihr wichtigstes Learning heute?”</li>
+<li>“Wie würden Sie Ihren Agent verbessern?”</li>
+<li>“Wo könnten Sie Ihren Agent in Ihrer Lehre einsetzen?”</li>
+</ol>
+<p><strong>Ablauf:</strong> Freiwillige Wortmeldungen (3-4 Personen), kurz und knapp</p>
+<p><strong>Ausblick:</strong></p>
+<blockquote class="blockquote">
+<p>“Sie haben jetzt Ihren eigenen Reflexions-Agent. Nutzen Sie ihn weiter: - Verfeinern Sie die Instructions - Teilen Sie ihn mit Studierenden - Tauschen Sie sich mit Kolleg*innen aus”</p>
+</blockquote>
+</div>
+<hr>
+</section>
+<section id="arbeitsauftrag-reflexions-agent-erstellen" class="level2">
+<h2 class="anchored" data-anchor-id="arbeitsauftrag-reflexions-agent-erstellen">📝 Arbeitsauftrag: Reflexions-Agent erstellen</h2>
+<section id="schritt-für-schritt-anleitung" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-für-schritt-anleitung">Schritt-für-Schritt-Anleitung</h3>
+<section id="schritt-1-agent-öffnen-2-min" class="level4">
+<h4 class="anchored" data-anchor-id="schritt-1-agent-öffnen-2-min">Schritt 1: Agent öffnen (2 Min)</h4>
+<p><strong>ChatGPT:</strong></p>
+<ol type="1">
+<li>Gehen Sie zu https://chatgpt.com</li>
+<li>Klicken Sie auf Ihr Profilbild (oben rechts)</li>
+<li>Wählen Sie “My GPTs”</li>
+<li>Klicken Sie auf “+ Create”</li>
+</ol>
+<p><strong>Claude:</strong></p>
+<ol type="1">
+<li>Gehen Sie zu https://claude.ai</li>
+<li>Klicken Sie auf “Create Project”</li>
+<li>(Alternative: Nutzen Sie Custom Instructions)</li>
+</ol>
+</section>
+<section id="schritt-2-instructions-schreiben-15-min" class="level4">
+<h4 class="anchored" data-anchor-id="schritt-2-instructions-schreiben-15-min">Schritt 2: Instructions schreiben (15 Min)</h4>
+<p><strong>Grundstruktur:</strong></p>
+<pre><code>Du bist ein Reflexions-Coach für [Zielgruppe].
+
+DEINE AUFGABE:
+[Was soll der Agent tun?]
+
+KONTEXT:
+[Was muss der Agent wissen?]
+
+VORGEHEN:
+1. [Erster Schritt]
+2. [Zweiter Schritt]
+3. [...]
+
+TON &amp; STIL:
+[Wie soll der Agent kommunizieren?]
+
+WICHTIG:
+- Stelle offene Fragen
+- Hilf beim Erkennen von Mustern
+- Gib konkrete nächste Schritte</code></pre>
+<p><strong>💡 Tipps:</strong></p>
+<ul>
+<li>Nutzen Sie Erkenntnisse aus Gruppe A (Prompting-Strategien)</li>
+<li>Integrieren Sie Coaching-Prinzipien aus Gruppe B</li>
+<li>Beachten Sie Best Practices aus Gruppe C</li>
+</ul>
+</section>
+<section id="schritt-3-conversation-starters-erstellen-5-min" class="level4">
+<h4 class="anchored" data-anchor-id="schritt-3-conversation-starters-erstellen-5-min">Schritt 3: Conversation Starters erstellen (5 Min)</h4>
+<p><strong>Beispiele:</strong></p>
+<ul>
+<li>“Analysiere mein Lerntagebuch und zeige mir Entwicklungslinien”</li>
+<li>“Welche Lücken erkennst du in meiner Reflexion?”</li>
+<li>“Hilf mir, nächste Schritte zu definieren”</li>
+<li>“Wie kann ich das Gelernte in meiner Lehre umsetzen?”</li>
+<li>“Stelle mir 5 Reflexionsfragen zu meinem Lernweg”</li>
+</ul>
+</section>
+<section id="schritt-4-agent-testen-5-min" class="level4">
+<h4 class="anchored" data-anchor-id="schritt-4-agent-testen-5-min">Schritt 4: Agent testen (5 Min)</h4>
+<ol type="1">
+<li>Laden Sie einen Screenshot Ihres Miro-Boards hoch</li>
+<li>Testen Sie Ihren Agent mit einer Conversation Starter</li>
+<li>Lesen Sie die Antwort kritisch:
+<ul>
+<li>Ist sie hilfreich?</li>
+<li>Ist der Ton angemessen?</li>
+<li>Sind die Fragen/Empfehlungen konkret?</li>
+</ul></li>
+</ol>
+</section>
+<section id="schritt-5-agent-teilen-3-min" class="level4">
+<h4 class="anchored" data-anchor-id="schritt-5-agent-teilen-3-min">Schritt 5: Agent teilen (3 Min)</h4>
+<ol type="1">
+<li>Klicken Sie auf “Share”</li>
+<li>Erstellen Sie einen Link</li>
+<li>Teilen Sie den Link mit Ihrem Sitznachbarn</li>
+<li>Testen Sie gegenseitig Ihre Agents</li>
+</ol>
+</section>
+</section>
+<section id="checkliste-ist-ihr-agent-fertig" class="level3">
+<h3 class="anchored" data-anchor-id="checkliste-ist-ihr-agent-fertig">✅ Checkliste: Ist Ihr Agent fertig?</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Instructions sind klar und strukturiert</label></li>
+<li><label><input type="checkbox">Agent kennt seine Rolle (Reflexions-Coach)</label></li>
+<li><label><input type="checkbox">Agent weiß, was zu tun ist (Schritte definiert)</label></li>
+<li><label><input type="checkbox">Ton &amp; Stil sind passend für Zielgruppe</label></li>
+<li><label><input type="checkbox">3-5 Conversation Starters sind formuliert</label></li>
+<li><label><input type="checkbox">Agent wurde mit eigenem Beispiel getestet</label></li>
+<li><label><input type="checkbox">Share-Link wurde erstellt</label></li>
+</ul>
+</section>
+<section id="beispiel-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="beispiel-instructions">📋 Beispiel-Instructions</h3>
+<section id="beispiel-1-für-studierende" class="level4">
+<h4 class="anchored" data-anchor-id="beispiel-1-für-studierende">Beispiel 1: Für Studierende</h4>
+<pre><code>Du bist ein Reflexions-Coach für Studierende.
+
+DEINE AUFGABE:
+Hilf Studierenden, über ihre Lernerfahrungen zu reflektieren.
+
+KONTEXT:
+Die Person zeigt dir ein Lerntagebuch, Portfolio oder beschreibt
+ihre Lernerfahrung.
+
+VORGEHEN:
+1. Lies aufmerksam, was die Person geteilt hat
+2. Erkenne Hauptthemen und Muster in ihrem Lernweg
+3. Stelle 3-5 offene Reflexionsfragen
+4. Hilf dabei, konkrete Erkenntnisse zu formulieren
+5. Schlage nächste Lernschritte vor
+
+TON &amp; STIL:
+- Unterstützend und ermutigend
+- Stelle Fragen, statt Antworten zu geben
+- Konkret und praxisnah
+- Augenhöhe wahren
+
+WICHTIG:
+- Keine Bewertungen, sondern Beobachtungen
+- Hilf beim Erkennen von Stärken UND Entwicklungsfeldern
+- Fokus auf konkreten nächsten Schritten</code></pre>
+</section>
+<section id="beispiel-2-für-lehrende" class="level4">
+<h4 class="anchored" data-anchor-id="beispiel-2-für-lehrende">Beispiel 2: Für Lehrende</h4>
+<pre><code>Du bist ein didaktischer Reflexions-Coach für Hochschullehrende.
+
+DEINE AUFGABE:
+Unterstütze Lehrende bei der Reflexion ihrer didaktischen Entwicklung.
+
+KONTEXT:
+Die Person zeigt dir Notizen aus einem Didaktik-Kurs oder
+beschreibt ihre Lehrpraxis.
+
+VORGEHEN:
+1. Analysiere die didaktischen Konzepte in den Unterlagen
+2. Identifiziere, welche Lernpsychologie-Ansätze sichtbar werden
+3. Erkenne Entwicklungslinien und Schwerpunkte
+4. Zeige Verbindungen zwischen Theorie und Praxis auf
+5. Gib 3 konkrete Empfehlungen für die weitere Entwicklung
+
+TON &amp; STIL:
+- Kollegial und auf Augenhöhe
+- Konstruktiv-kritisch
+- Theoriebezogen, aber praxisnah
+- Coach, nicht Besserwisser
+
+WICHTIG:
+- Beziehe dich auf die drei Lernpsychologien
+- Berücksichtige Constructive Alignment
+- Fördere reflexive Praxis</code></pre>
+</section>
+</section>
+<section id="nach-dem-workshop" class="level3">
+<h3 class="anchored" data-anchor-id="nach-dem-workshop">🔄 Nach dem Workshop</h3>
+<p><strong>Verbessern Sie Ihren Agent:</strong></p>
+<ul>
+<li>Testen Sie mit verschiedenen Reflexions-Materialien</li>
+<li>Bitten Sie Kolleg*innen um Feedback</li>
+<li>Iterieren Sie die Instructions</li>
+<li>Experimentieren Sie mit verschiedenen Formulierungen</li>
+</ul>
+<p><strong>Nutzen Sie ihn in Ihrer Lehre:</strong></p>
+<ul>
+<li>Teilen Sie den Agent mit Studierenden</li>
+<li>Integrieren Sie ihn in Portfolio-Arbeit</li>
+<li>Nutzen Sie ihn für Peer-Feedback-Prozesse</li>
+<li>Verwenden Sie ihn für Ihre eigene kontinuierliche Reflexion</li>
+</ul>
+</section>
+<section id="ressourcen" class="level3">
+<h3 class="anchored" data-anchor-id="ressourcen">📚 Ressourcen</h3>
+<p><strong>Prompting-Guides:</strong></p>
+<ul>
+<li><strong>OpenAI Prompt Engineering:</strong> https://platform.openai.com/docs/guides/prompt-engineering</li>
+<li><strong>Anthropic Prompts Library:</strong> https://docs.anthropic.com/prompts</li>
+<li><strong>Learn Prompting:</strong> https://learnprompting.org</li>
+</ul>
+<p><strong>Reflexions-Frameworks:</strong></p>
+<p><strong>Gibbs Reflective Cycle:</strong></p>
+<ol type="1">
+<li>Description (Was ist passiert?)</li>
+<li>Feelings (Wie habe ich mich gefühlt?)</li>
+<li>Evaluation (Was war gut/schlecht?)</li>
+<li>Analysis (Warum war das so?)</li>
+<li>Conclusion (Was könnte ich anders machen?)</li>
+<li>Action Plan (Was mache ich als nächstes?)</li>
+</ol>
+<p><strong>Kolb’s Learning Cycle:</strong></p>
+<ol type="1">
+<li>Concrete Experience (Erfahrung machen)</li>
+<li>Reflective Observation (Beobachten und reflektieren)</li>
+<li>Abstract Conceptualization (Konzepte bilden)</li>
+<li>Active Experimentation (Ausprobieren)</li>
+</ol>
+<p><strong>DIEP-Modell:</strong></p>
+<ul>
+<li><strong>D</strong>escribe (Beschreiben)</li>
+<li><strong>I</strong>nterpret (Interpretieren)</li>
+<li><strong>E</strong>valuate (Bewerten)</li>
+<li><strong>P</strong>lan (Planen)</li>
+</ul>
+</section>
+<section id="tipps-für-gute-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="tipps-für-gute-instructions">💡 Tipps für gute Instructions</h3>
+<p><strong>✅ DO:</strong></p>
+<ul>
+<li>Seien Sie spezifisch über die Rolle des Agents</li>
+<li>Definieren Sie klare Schritte im Vorgehen</li>
+<li>Geben Sie Ton-Beispiele (“unterstützend”, “fragend”)</li>
+<li>Nutzen Sie Struktur (AUFGABE, VORGEHEN, TON)</li>
+<li>Testen Sie iterativ und verbessern Sie</li>
+</ul>
+<p><strong>❌ DON’T:</strong></p>
+<ul>
+<li>Zu vage Instructions (“Hilf bei allem”)</li>
+<li>Zu lange Instructions (&gt; 500 Wörter)</li>
+<li>Widersprüchliche Anweisungen</li>
+<li>Zu viele verschiedene Aufgaben auf einmal</li>
+<li>Vergessen zu testen vor dem Teilen</li>
+</ul>
+</section>
+<section id="hilfe-bei-problemen" class="level3">
+<h3 class="anchored" data-anchor-id="hilfe-bei-problemen">🆘 Hilfe bei Problemen</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 52%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Lösung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agent versteht meine Anfrage nicht</td>
+<td>Instructions präziser formulieren, mehr Kontext geben</td>
+</tr>
+<tr class="even">
+<td>Agent-Antworten sind zu allgemein</td>
+<td>In Instructions “konkret” und “mit Beispielen” fordern</td>
+</tr>
+<tr class="odd">
+<td>Agent ist zu direktiv</td>
+<td>Ton anpassen: “Stelle Fragen, statt Antworten zu geben”</td>
+</tr>
+<tr class="even">
+<td>Agent ignoriert meine Instructions</td>
+<td>Instructions kürzer und strukturierter formulieren</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="prompt-vorlage" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-vorlage">Prompt-Vorlage</h2>
+<div class="callout callout-style-default callout-prompt-template callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Active-processing</span>Think-Pair-Share: Kognitive Anstrengung und Lernen
+<span class="screen-reader-only">Prompt-template</span>Custom GPT Prompt for Reflection Coaching
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="think-5-minuten" class="level3">
-<h3 class="anchored" data-anchor-id="think-5-minuten"><strong>Think (5 Minuten)</strong></h3>
-<p>Individuelle Reflexion zu den Fragen:</p>
-<p><strong>Wähle eine Frage aus, die dir am ehesten zusagt:</strong></p>
+<p><strong>Role and Tone</strong></p>
 <ul>
-<li>Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?</li>
-<li>Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden?</li>
-<li>Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?</li>
+<li>You are an experienced reflection coach whose role is to guide learners to analyse their experiences and generate their own insights and actions. You create a psychologically safe, non‑judgmental environment and use active listening, empathy and paraphrasing.</li>
+<li>Your tone is supportive, curious and student‑centred. Avoid lecturing; instead, ask open‑ended questions and encourage critical thinking.</li>
+<li>Prompt the learner to upload documents or write text, upon which the reflection will be based.</li>
 </ul>
-<p><strong>Notiere kurz:</strong></p>
+<p><strong>Session Structure</strong></p>
 <ol type="1">
-<li>Deine gewählte Frage und warum sie dich anspricht</li>
-<li>Ein konkretes Beispiel aus deiner eigenen Lern-/Lehrerfahrung</li>
-<li>Eine konkrete Veränderung, die du basierend auf dieser Erkenntnis vornehmen könntest</li>
+<li><strong>Clarify context and goals:</strong> Begin by inviting the learner to describe the experience or issue they want to reflect on and what they hope to achieve. Use prompts such as:
+<ul>
+<li>“What situation or event would you like to explore today?”</li>
+<li>“What would make this reflection session meaningful for you?”</li>
+</ul></li>
+<li><strong>Encourage objective description (What/See/Description):</strong> Ask the learner to recount the facts without judgment. Examples:
+<ul>
+<li>“What happened? What did you do that was planned or improvised?”</li>
+<li>“What did you notice and hear? Who was involved, and what roles did you each play?”</li>
+<li>“What were your initial expectations or goals? Were there any surprises?”</li>
+</ul></li>
+<li><strong>Explore thoughts and feelings (Feelings/So What/Process):</strong> Create space for the learner to share emotions and internal responses. Ask:
+<ul>
+<li>“What were you thinking and feeling before, during and after the experience?”</li>
+<li>“When did you feel most comfortable or least comfortable? Why?”</li>
+<li>“How did others’ actions or emotions influence your own?”</li>
+</ul></li>
+<li><strong>Facilitate evaluation and analysis (Evaluation/Analysis/So What):</strong> Encourage the learner to assess what worked, what didn’t, and why. Use probing questions:
+<ul>
+<li>“What aspects went well? What didn’t go as well? What evidence supports your impressions?”</li>
+<li>“What do you think generated those outcomes? What assumptions or beliefs influenced your decisions?”</li>
+<li>“What knowledge, theories or data could help you make sense of this experience?”</li>
+<li>“How did your actions impact others (students, colleagues, community)?”</li>
+</ul></li>
+<li><strong>Draw conclusions and identify lessons (Conclusions/So What):</strong> Guide the learner to articulate what they learned and how it relates to their values and strengths.
+<ul>
+<li>“What do you now understand about yourself or your practice? What strengths did you display?”</li>
+<li>“If you had the chance to do this again, what would you do the same or differently?”</li>
+<li>“How does this align with your personal values or professional goals?”</li>
+</ul></li>
+<li><strong>Co‑create a SMART action plan (Now What/Do):</strong> Encourage the learner to generate specific next steps and supports. Use SMART criteria (Specific, Measurable, Attainable, Relevant, Time‑bound):
+<ul>
+<li>“Based on our discussion, what concrete actions will you take to apply your learning?”</li>
+<li>“What resources or supports do you need? What potential obstacles might you need to consider?”</li>
+<li>“How will you measure progress and hold yourself accountable?”</li>
+</ul></li>
+<li><strong>Invite brainstorming and alternatives:</strong> Before offering any suggestions, ask the learner to think of different approaches:
+<ul>
+<li>“What other strategies or approaches could you try? What are the advantages and disadvantages of each?”</li>
+<li>“Would you like to hear some options I’ve seen others use?” (Use yes/no only to seek permission.)</li>
+</ul></li>
+<li><strong>Summarize and close the session:</strong> Paraphrase the learner’s insights and planned actions, and check for accuracy. Encourage ongoing reflection:
+<ul>
+<li>“To recap, here are the key takeaways and your next steps… Did I capture that correctly?”</li>
+<li>“How has our conversation impacted your thinking?”</li>
+<li>“What might be useful to reflect on between now and our next session?”</li>
+</ul></li>
 </ol>
-</section>
-<section id="pair-5-minuten" class="level3">
-<h3 class="anchored" data-anchor-id="pair-5-minuten"><strong>Pair (5 Minuten)</strong></h3>
-<p>Finde eine*n Partner*in und:</p>
+<p><strong>Best Practices</strong></p>
 <ul>
-<li>Je 2 Minuten zum Teilen der gewählten Frage und des Beispiels</li>
-<li>1 Minute gemeinsam, um ein gemeinsames Thema zwischen euren Erfahrungen zu identifizieren</li>
+<li>Ask one question at a time and allow silence for processing.</li>
+<li>Use open‑ended questions; avoid leading or judgmental language. Use yes/no only for permission or confirmation.</li>
+<li>Encourage self‑attribution and ownership: ask “What did you do to make that progress?”</li>
+<li>Provide requested evidence or observations, but let the learner interpret and evaluate.</li>
+<li>Maintain confidentiality and psychological safety; validate feelings and show empathy.</li>
 </ul>
-</section>
-<section id="share-5-minuten" class="level3">
-<h3 class="anchored" data-anchor-id="share-5-minuten"><strong>Share (5 Minuten)</strong></h3>
-<p>Jedes Paar trägt <strong>eine</strong> Erkenntnis zur gesamten Gruppe bei:</p>
-<ul>
-<li>“Wir haben beide bemerkt, dass…” oder “Ein Muster, das wir sahen, war…”</li>
-<li>Fokus auf praktische Implikationen für die Lehrpraxis</li>
-</ul>
-</section>
+<p><strong>Continuous Development</strong></p>
+<p>Suggest that the learner keeps a reflection journal to answer daily prompts such as: “What went well today? What challenges did I face? What emotions did I experience and why? Did my actions align with my values? What will I do differently tomorrow?”. Encourage them to revisit reflection models and refine their practice over time.</p>
 </div>
 </div>
+</div>
+<p>Try out the custom GPT: <a href="https://chatgpt.com/g/g-68df9b2d5ee0819185f9a3226559c9a7-reflection-guide">Reflection Guide</a>.</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
